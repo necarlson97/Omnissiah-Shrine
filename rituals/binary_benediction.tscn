@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c61riv2sy78v2"]
+
+[ext_resource type="Script" path="res://rituals/binary_benediction.gd" id="1_qf34k"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_qf34k")
