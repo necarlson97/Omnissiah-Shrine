@@ -19,6 +19,10 @@ config/icon="res://icon.svg"
 
 general/text_to_speech=true
 
+[dotnet]
+
+project/assembly_name="Omnissiah Shrine"
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"

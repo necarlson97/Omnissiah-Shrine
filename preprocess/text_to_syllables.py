@@ -56,6 +56,8 @@ def generate_audio_with_espeak(ipa, output_path, pitch=50, speed=150):
 def get_syllables(word):
     dic = pyphen.Pyphen(lang='en')
     hyphenated = dic.inserted(word)
+    # remove any trailing punctuation characters
+    hyphenated = re.sub(r'[.,!?]+$', '', hyphenated)
     return {
         'hyphenated': hyphenated,
         'syllable_count': len(hyphenated.split('-')),

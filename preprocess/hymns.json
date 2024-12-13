@@ -23,7 +23,7 @@
                         "text": "divine,",
                         "ipa": "dɪvˈaɪn",
                         "espeak_phonemes": "dIv'aIn",
-                        "hyphenated": "di-vine,",
+                        "hyphenated": "di-vine",
                         "syllable_count": 2
                     },
                     {
@@ -44,7 +44,7 @@
                         "text": "flow,",
                         "ipa": "flˈəʊ",
                         "espeak_phonemes": "fl'oU",
-                        "hyphenated": "flow,",
+                        "hyphenated": "flow",
                         "syllable_count": 1
                     }
                 ]
@@ -70,7 +70,7 @@
                         "text": "light,",
                         "ipa": "lˈaɪt",
                         "espeak_phonemes": "l'aIt",
-                        "hyphenated": "light,",
+                        "hyphenated": "light",
                         "syllable_count": 1
                     },
                     {
@@ -91,7 +91,7 @@
                         "text": "bestow.",
                         "ipa": "bɪstˈəʊ",
                         "espeak_phonemes": "bIst'oU",
-                        "hyphenated": "be-stow.",
+                        "hyphenated": "be-stow",
                         "syllable_count": 2
                     }
                 ]
@@ -124,7 +124,7 @@
                         "text": "kneel,",
                         "ipa": "nˈiːl",
                         "espeak_phonemes": "n'i:l",
-                        "hyphenated": "kneel,",
+                        "hyphenated": "kneel",
                         "syllable_count": 1
                     },
                     {
@@ -145,7 +145,7 @@
                         "text": "obey,",
                         "ipa": "əʊbˈeɪ",
                         "espeak_phonemes": "oUb'eI",
-                        "hyphenated": "obey,",
+                        "hyphenated": "obey",
                         "syllable_count": 1
                     }
                 ]
@@ -164,7 +164,7 @@
                         "text": "thee,",
                         "ipa": "ðˈiː",
                         "espeak_phonemes": "D'i:",
-                        "hyphenated": "thee,",
+                        "hyphenated": "thee",
                         "syllable_count": 1
                     },
                     {
@@ -199,7 +199,7 @@
                         "text": "away.",
                         "ipa": "ɐwˈeɪ",
                         "espeak_phonemes": "w'eI",
-                        "hyphenated": "away.",
+                        "hyphenated": "away",
                         "syllable_count": 1
                     }
                 ]
@@ -244,7 +244,7 @@
                         "text": "flame,",
                         "ipa": "flˈeɪm",
                         "espeak_phonemes": "fl'eIm",
-                        "hyphenated": "flame,",
+                        "hyphenated": "flame",
                         "syllable_count": 1
                     }
                 ]
@@ -291,7 +291,7 @@
                         "text": "name.",
                         "ipa": "nˈeɪm",
                         "espeak_phonemes": "n'eIm",
-                        "hyphenated": "name.",
+                        "hyphenated": "name",
                         "syllable_count": 1
                     }
                 ]
@@ -317,7 +317,7 @@
                         "text": "placed,",
                         "ipa": "plˈeɪst",
                         "espeak_phonemes": "pl'eIst",
-                        "hyphenated": "placed,",
+                        "hyphenated": "placed",
                         "syllable_count": 1
                     },
                     {
@@ -338,7 +338,7 @@
                         "text": "aligned,",
                         "ipa": "ɐlˈaɪnd",
                         "espeak_phonemes": "l'aInd",
-                        "hyphenated": "aligned,",
+                        "hyphenated": "aligned",
                         "syllable_count": 1
                     }
                 ]
@@ -392,7 +392,7 @@
                         "text": "mind.",
                         "ipa": "mˈaɪnd",
                         "espeak_phonemes": "m'aInd",
-                        "hyphenated": "mind.",
+                        "hyphenated": "mind",
                         "syllable_count": 1
                     }
                 ]
@@ -423,7 +423,7 @@
                         "text": "zero,",
                         "ipa": "zˈiəɹəʊ",
                         "espeak_phonemes": "z'i:3oU",
-                        "hyphenated": "zer-o,",
+                        "hyphenated": "zer-o",
                         "syllable_count": 2
                     },
                     {
@@ -437,7 +437,7 @@
                         "text": "beat,",
                         "ipa": "bˈiːt",
                         "espeak_phonemes": "b'i:t",
-                        "hyphenated": "beat,",
+                        "hyphenated": "beat",
                         "syllable_count": 1
                     }
                 ]
@@ -463,7 +463,7 @@
                         "text": "binds,",
                         "ipa": "bˈaɪndz",
                         "espeak_phonemes": "b'aIndz",
-                        "hyphenated": "bind-s,",
+                        "hyphenated": "bind-s",
                         "syllable_count": 2
                     },
                     {
@@ -484,7 +484,7 @@
                         "text": "completes.",
                         "ipa": "kəmplˈiːts",
                         "espeak_phonemes": "k@mpl'i:ts",
-                        "hyphenated": "com-pletes.",
+                        "hyphenated": "com-pletes",
                         "syllable_count": 2
                     }
                 ]
@@ -517,7 +517,7 @@
                         "text": "turn,",
                         "ipa": "tˈɜːn",
                         "espeak_phonemes": "t'3:n",
-                        "hyphenated": "turn,",
+                        "hyphenated": "turn",
                         "syllable_count": 1
                     },
                     {
@@ -538,7 +538,7 @@
                         "text": "pure,",
                         "ipa": "pjˈʊə",
                         "espeak_phonemes": "pj'U@",
-                        "hyphenated": "pure,",
+                        "hyphenated": "pure",
                         "syllable_count": 1
                     }
                 ]
@@ -557,7 +557,7 @@
                         "text": "thee,",
                         "ipa": "ðˈiː",
                         "espeak_phonemes": "D'i:",
-                        "hyphenated": "thee,",
+                        "hyphenated": "thee",
                         "syllable_count": 1
                     },
                     {
@@ -578,7 +578,7 @@
                         "text": "endures.",
                         "ipa": "ɛndjˈʊəz",
                         "espeak_phonemes": "Endj'U@z",
-                        "hyphenated": "en-dures.",
+                        "hyphenated": "en-dures",
                         "syllable_count": 2
                     }
                 ]
@@ -602,7 +602,7 @@
                         "text": "Machine,",
                         "ipa": "məʃˈiːn",
                         "espeak_phonemes": "m@S'i:n",
-                        "hyphenated": "Ma-chine,",
+                        "hyphenated": "Ma-chine",
                         "syllable_count": 2
                     },
                     {
@@ -623,7 +623,7 @@
                         "text": "creed,",
                         "ipa": "kɹˈiːd",
                         "espeak_phonemes": "kr'i:d",
-                        "hyphenated": "creed,",
+                        "hyphenated": "creed",
                         "syllable_count": 1
                     }
                 ]
@@ -649,7 +649,7 @@
                         "text": "flock,",
                         "ipa": "flˈɒk",
                         "espeak_phonemes": "fl'0k",
-                        "hyphenated": "flock,",
+                        "hyphenated": "flock",
                         "syllable_count": 1
                     },
                     {
@@ -670,7 +670,7 @@
                         "text": "need.",
                         "ipa": "nˈiːd",
                         "espeak_phonemes": "n'i:d",
-                        "hyphenated": "need.",
+                        "hyphenated": "need",
                         "syllable_count": 1
                     }
                 ]
@@ -696,7 +696,7 @@
                         "text": "embrace,",
                         "ipa": "ɛmbɹˈeɪs",
                         "espeak_phonemes": "Embr'eIs",
-                        "hyphenated": "em-brace,",
+                        "hyphenated": "em-brace",
                         "syllable_count": 2
                     },
                     {
@@ -724,7 +724,7 @@
                         "text": "face,",
                         "ipa": "fˈeɪs",
                         "espeak_phonemes": "f'eIs",
-                        "hyphenated": "face,",
+                        "hyphenated": "face",
                         "syllable_count": 1
                     }
                 ]
@@ -757,7 +757,7 @@
                         "text": "thee,",
                         "ipa": "ðˈiː",
                         "espeak_phonemes": "D'i:",
-                        "hyphenated": "thee,",
+                        "hyphenated": "thee",
                         "syllable_count": 1
                     },
                     {
@@ -785,7 +785,7 @@
                         "text": "space.",
                         "ipa": "spˈeɪs",
                         "espeak_phonemes": "sp'eIs",
-                        "hyphenated": "space.",
+                        "hyphenated": "space",
                         "syllable_count": 1
                     }
                 ]
@@ -837,7 +837,7 @@
                         "text": "loom,",
                         "ipa": "lˈuːm",
                         "espeak_phonemes": "l'u:m",
-                        "hyphenated": "loom,",
+                        "hyphenated": "loom",
                         "syllable_count": 1
                     }
                 ]
@@ -863,7 +863,7 @@
                         "text": "renews,",
                         "ipa": "ɹɪnjˈuːz",
                         "espeak_phonemes": "rInj'u:z",
-                        "hyphenated": "re-news,",
+                        "hyphenated": "re-news",
                         "syllable_count": 2
                     },
                     {
@@ -884,7 +884,7 @@
                         "text": "consumes.",
                         "ipa": "kənsˈuːmz",
                         "espeak_phonemes": "k@ns'u:mz",
-                        "hyphenated": "con-sumes.",
+                        "hyphenated": "con-sumes",
                         "syllable_count": 2
                     }
                 ]
@@ -903,7 +903,7 @@
                         "text": "thee,",
                         "ipa": "ðˈiː",
                         "espeak_phonemes": "D'i:",
-                        "hyphenated": "thee,",
+                        "hyphenated": "thee",
                         "syllable_count": 1
                     },
                     {
@@ -938,7 +938,7 @@
                         "text": "anew,",
                         "ipa": "ɐnjˈuː",
                         "espeak_phonemes": "nj'u:",
-                        "hyphenated": "anew,",
+                        "hyphenated": "anew",
                         "syllable_count": 1
                     }
                 ]
@@ -957,7 +957,7 @@
                         "text": "frames,",
                         "ipa": "fɹˈeɪmz",
                         "espeak_phonemes": "fr'eImz",
-                        "hyphenated": "frames,",
+                        "hyphenated": "frames",
                         "syllable_count": 1
                     },
                     {
@@ -978,7 +978,7 @@
                         "text": "pursued.",
                         "ipa": "pəsjˈuːd",
                         "espeak_phonemes": "p@sj'u:d",
-                        "hyphenated": "pur-sued.",
+                        "hyphenated": "pur-sued",
                         "syllable_count": 2
                     }
                 ]
@@ -1009,7 +1009,7 @@
                         "text": "divine,",
                         "ipa": "dɪvˈaɪn",
                         "espeak_phonemes": "dIv'aIn",
-                        "hyphenated": "di-vine,",
+                        "hyphenated": "di-vine",
                         "syllable_count": 2
                     },
                     {
@@ -1030,7 +1030,7 @@
                         "text": "breathes,",
                         "ipa": "bɹˈiːðz",
                         "espeak_phonemes": "br'i:Dz",
-                        "hyphenated": "breathes,",
+                        "hyphenated": "breathes",
                         "syllable_count": 1
                     }
                 ]
@@ -1070,7 +1070,7 @@
                         "text": "wreaths.",
                         "ipa": "ɹˈiːθs",
                         "espeak_phonemes": "r'i:Ts",
-                        "hyphenated": "wreath-s.",
+                        "hyphenated": "wreath-s",
                         "syllable_count": 2
                     }
                 ]
@@ -1117,7 +1117,7 @@
                         "text": "meet,",
                         "ipa": "mˈiːt",
                         "espeak_phonemes": "m'i:t",
-                        "hyphenated": "meet,",
+                        "hyphenated": "meet",
                         "syllable_count": 1
                     }
                 ]
@@ -1164,7 +1164,7 @@
                         "text": "seat.",
                         "ipa": "sˈiːt",
                         "espeak_phonemes": "s'i:t",
-                        "hyphenated": "seat.",
+                        "hyphenated": "seat",
                         "syllable_count": 1
                     }
                 ]
@@ -1195,7 +1195,7 @@
                         "text": "Lord,",
                         "ipa": "lˈɔːd",
                         "espeak_phonemes": "l'O:d",
-                        "hyphenated": "Lord,",
+                        "hyphenated": "Lord",
                         "syllable_count": 1
                     },
                     {
@@ -1223,7 +1223,7 @@
                         "text": "teach,",
                         "ipa": "tˈiːtʃ",
                         "espeak_phonemes": "t'i:tS",
-                        "hyphenated": "teach,",
+                        "hyphenated": "teach",
                         "syllable_count": 1
                     }
                 ]
@@ -1317,7 +1317,7 @@
                         "text": "art,",
                         "ipa": "ˈɑːt",
                         "espeak_phonemes": "'A:t",
-                        "hyphenated": "art,",
+                        "hyphenated": "art",
                         "syllable_count": 1
                     }
                 ]
@@ -1371,7 +1371,7 @@
                         "text": "heart.",
                         "ipa": "hˈɑːt",
                         "espeak_phonemes": "h'A:t",
-                        "hyphenated": "heart.",
+                        "hyphenated": "heart",
                         "syllable_count": 1
                     }
                 ]
@@ -1395,7 +1395,7 @@
                         "text": "intellect,",
                         "ipa": "ˈɪntəlˌɛkt",
                         "espeak_phonemes": "'Int@l,Ekt",
-                        "hyphenated": "in-tel-lect,",
+                        "hyphenated": "in-tel-lect",
                         "syllable_count": 3
                     },
                     {
@@ -1416,7 +1416,7 @@
                         "text": "flame,",
                         "ipa": "flˈeɪm",
                         "espeak_phonemes": "fl'eIm",
-                        "hyphenated": "flame,",
+                        "hyphenated": "flame",
                         "syllable_count": 1
                     }
                 ]
@@ -1475,7 +1475,7 @@
                         "text": "knowledge,",
                         "ipa": "nˈɒlɪdʒ",
                         "espeak_phonemes": "n'0lIdZ",
-                        "hyphenated": "know-ledge,",
+                        "hyphenated": "know-ledge",
                         "syllable_count": 2
                     },
                     {
@@ -1503,7 +1503,7 @@
                         "text": "throne,",
                         "ipa": "θɹˈəʊn",
                         "espeak_phonemes": "Tr'oUn",
-                        "hyphenated": "throne,",
+                        "hyphenated": "throne",
                         "syllable_count": 1
                     }
                 ]
@@ -1543,7 +1543,7 @@
                         "text": "known.",
                         "ipa": "nˈəʊn",
                         "espeak_phonemes": "n'oUn",
-                        "hyphenated": "known.",
+                        "hyphenated": "known",
                         "syllable_count": 1
                     }
                 ]
@@ -1567,7 +1567,7 @@
                         "text": "sentience,",
                         "ipa": "sˈɛnʃəns",
                         "espeak_phonemes": "s'EnS@ns",
-                        "hyphenated": "sen-tience,",
+                        "hyphenated": "sen-tience",
                         "syllable_count": 2
                     },
                     {
@@ -1595,7 +1595,7 @@
                         "text": "mind,",
                         "ipa": "mˈaɪnd",
                         "espeak_phonemes": "m'aInd",
-                        "hyphenated": "mind,",
+                        "hyphenated": "mind",
                         "syllable_count": 1
                     }
                 ]
@@ -1628,7 +1628,7 @@
                         "text": "refined.",
                         "ipa": "ɹɪfˈaɪnd",
                         "espeak_phonemes": "rIf'aInd",
-                        "hyphenated": "re-fined.",
+                        "hyphenated": "re-fined",
                         "syllable_count": 2
                     }
                 ]
@@ -1654,7 +1654,7 @@
                         "text": "growth,",
                         "ipa": "ɡɹˈəʊθ",
                         "espeak_phonemes": "gr'oUT",
-                        "hyphenated": "growth,",
+                        "hyphenated": "growth",
                         "syllable_count": 1
                     },
                     {
@@ -1682,7 +1682,7 @@
                         "text": "prove,",
                         "ipa": "pɹˈuːv",
                         "espeak_phonemes": "pr'u:v",
-                        "hyphenated": "prove,",
+                        "hyphenated": "prove",
                         "syllable_count": 1
                     }
                 ]
@@ -1736,7 +1736,7 @@
                         "text": "move.",
                         "ipa": "mˈuːv",
                         "espeak_phonemes": "m'u:v",
-                        "hyphenated": "move.",
+                        "hyphenated": "move",
                         "syllable_count": 1
                     }
                 ]
@@ -1802,7 +1802,7 @@
                         "text": "trace,",
                         "ipa": "tɹˈeɪs",
                         "espeak_phonemes": "tr'eIs",
-                        "hyphenated": "trace,",
+                        "hyphenated": "trace",
                         "syllable_count": 1
                     }
                 ]
@@ -1842,7 +1842,7 @@
                         "text": "grace.",
                         "ipa": "ɡɹˈeɪs",
                         "espeak_phonemes": "gr'eIs",
-                        "hyphenated": "grace.",
+                        "hyphenated": "grace",
                         "syllable_count": 1
                     }
                 ]
@@ -1875,7 +1875,7 @@
                         "text": "knowledge,",
                         "ipa": "nˈɒlɪdʒ",
                         "espeak_phonemes": "n'0lIdZ",
-                        "hyphenated": "know-ledge,",
+                        "hyphenated": "know-ledge",
                         "syllable_count": 2
                     },
                     {
@@ -1903,7 +1903,7 @@
                         "text": "streams,",
                         "ipa": "stɹˈiːmz",
                         "espeak_phonemes": "str'i:mz",
-                        "hyphenated": "stream-s,",
+                        "hyphenated": "stream-s",
                         "syllable_count": 2
                     }
                 ]
@@ -1936,7 +1936,7 @@
                         "text": "gleam.",
                         "ipa": "ɡlˈiːm",
                         "espeak_phonemes": "gl'i:m",
-                        "hyphenated": "gleam.",
+                        "hyphenated": "gleam",
                         "syllable_count": 1
                     }
                 ]
@@ -1967,7 +1967,7 @@
                         "text": "cog,",
                         "ipa": "kˈɒɡ",
                         "espeak_phonemes": "k'0g",
-                        "hyphenated": "cog,",
+                        "hyphenated": "cog",
                         "syllable_count": 1
                     },
                     {
@@ -1995,7 +1995,7 @@
                         "text": "turn,",
                         "ipa": "tˈɜːn",
                         "espeak_phonemes": "t'3:n",
-                        "hyphenated": "turn,",
+                        "hyphenated": "turn",
                         "syllable_count": 1
                     }
                 ]
@@ -2042,7 +2042,7 @@
                         "text": "yearn.",
                         "ipa": "jˈɜːn",
                         "espeak_phonemes": "j'3:n",
-                        "hyphenated": "yearn.",
+                        "hyphenated": "yearn",
                         "syllable_count": 1
                     }
                 ]
@@ -2068,7 +2068,7 @@
                         "text": "God,",
                         "ipa": "ɡˈɒd",
                         "espeak_phonemes": "g'0d",
-                        "hyphenated": "God,",
+                        "hyphenated": "God",
                         "syllable_count": 1
                     },
                     {
@@ -2096,7 +2096,7 @@
                         "text": "bind,",
                         "ipa": "bˈaɪnd",
                         "espeak_phonemes": "b'aInd",
-                        "hyphenated": "bind,",
+                        "hyphenated": "bind",
                         "syllable_count": 1
                     }
                 ]
@@ -2136,7 +2136,7 @@
                         "text": "humankind.",
                         "ipa": "hjˈuːmɐŋkˌaɪnd",
                         "espeak_phonemes": "hj'u:mNk,aInd",
-                        "hyphenated": "hu-man-kind.",
+                        "hyphenated": "hu-man-kind",
                         "syllable_count": 3
                     }
                 ]
@@ -2160,7 +2160,7 @@
                         "text": "wisdom,",
                         "ipa": "wˈɪzdəm",
                         "espeak_phonemes": "w'Izd@m",
-                        "hyphenated": "wis-dom,",
+                        "hyphenated": "wis-dom",
                         "syllable_count": 2
                     },
                     {
@@ -2181,7 +2181,7 @@
                         "text": "divine,",
                         "ipa": "dɪvˈaɪn",
                         "espeak_phonemes": "dIv'aIn",
-                        "hyphenated": "di-vine,",
+                        "hyphenated": "di-vine",
                         "syllable_count": 2
                     }
                 ]
@@ -2235,7 +2235,7 @@
                         "text": "align.",
                         "ipa": "ɐlˈaɪn",
                         "espeak_phonemes": "l'aIn",
-                        "hyphenated": "align.",
+                        "hyphenated": "align",
                         "syllable_count": 1
                     }
                 ]
@@ -2261,7 +2261,7 @@
                         "text": "eternal,",
                         "ipa": "ɪtˈɜːnəl",
                         "espeak_phonemes": "It'3:n@l",
-                        "hyphenated": "etern-al,",
+                        "hyphenated": "etern-al",
                         "syllable_count": 2
                     },
                     {
@@ -2282,7 +2282,7 @@
                         "text": "unbound,",
                         "ipa": "ʌnbˈaʊnd",
                         "espeak_phonemes": "Vnb'aUnd",
-                        "hyphenated": "un-bound,",
+                        "hyphenated": "un-bound",
                         "syllable_count": 2
                     }
                 ]
@@ -2329,7 +2329,7 @@
                         "text": "found.",
                         "ipa": "fˈaʊnd",
                         "espeak_phonemes": "f'aUnd",
-                        "hyphenated": "found.",
+                        "hyphenated": "found",
                         "syllable_count": 1
                     }
                 ]
@@ -2360,7 +2360,7 @@
                         "text": "soul,",
                         "ipa": "sˈəʊl",
                         "espeak_phonemes": "s'oUl",
-                        "hyphenated": "soul,",
+                        "hyphenated": "soul",
                         "syllable_count": 1
                     },
                     {
@@ -2381,7 +2381,7 @@
                         "text": "clear,",
                         "ipa": "klˈiə",
                         "espeak_phonemes": "kl'i:@",
-                        "hyphenated": "clear,",
+                        "hyphenated": "clear",
                         "syllable_count": 1
                     }
                 ]
@@ -2414,7 +2414,7 @@
                         "text": "thee,",
                         "ipa": "ðˈiː",
                         "espeak_phonemes": "D'i:",
-                        "hyphenated": "thee,",
+                        "hyphenated": "thee",
                         "syllable_count": 1
                     },
                     {
@@ -2442,7 +2442,7 @@
                         "text": "revere.",
                         "ipa": "ɹɪvˈiə",
                         "espeak_phonemes": "rIv'i:@",
-                        "hyphenated": "revere.",
+                        "hyphenated": "revere",
                         "syllable_count": 1
                     }
                 ]
@@ -2475,7 +2475,7 @@
                         "text": "will,",
                         "ipa": "wˈɪl",
                         "espeak_phonemes": "w'Il",
-                        "hyphenated": "will,",
+                        "hyphenated": "will",
                         "syllable_count": 1
                     },
                     {
@@ -2503,7 +2503,7 @@
                         "text": "bloom,",
                         "ipa": "blˈuːm",
                         "espeak_phonemes": "bl'u:m",
-                        "hyphenated": "bloom,",
+                        "hyphenated": "bloom",
                         "syllable_count": 1
                     }
                 ]
@@ -2543,7 +2543,7 @@
                         "text": "tomb.",
                         "ipa": "tˈuːm",
                         "espeak_phonemes": "t'u:m",
-                        "hyphenated": "tomb.",
+                        "hyphenated": "tomb",
                         "syllable_count": 1
                     }
                 ]
@@ -2574,7 +2574,7 @@
                         "text": "decree,",
                         "ipa": "dɪkɹˈiː",
                         "espeak_phonemes": "dIkr'i:",
-                        "hyphenated": "de-cree,",
+                        "hyphenated": "de-cree",
                         "syllable_count": 2
                     },
                     {
@@ -2602,7 +2602,7 @@
                         "text": "made,",
                         "ipa": "mˈeɪd",
                         "espeak_phonemes": "m'eId",
-                        "hyphenated": "made,",
+                        "hyphenated": "made",
                         "syllable_count": 1
                     }
                 ]
@@ -2628,7 +2628,7 @@
                         "text": "forge,",
                         "ipa": "fˈɔːdʒ",
                         "espeak_phonemes": "f'O:dZ",
-                        "hyphenated": "forge,",
+                        "hyphenated": "forge",
                         "syllable_count": 1
                     },
                     {
@@ -2656,7 +2656,7 @@
                         "text": "laid.",
                         "ipa": "lˈeɪd",
                         "espeak_phonemes": "l'eId",
-                        "hyphenated": "laid.",
+                        "hyphenated": "laid",
                         "syllable_count": 1
                     }
                 ]
@@ -2682,7 +2682,7 @@
                         "text": "hand,",
                         "ipa": "hˈand",
                         "espeak_phonemes": "h'and",
-                        "hyphenated": "hand,",
+                        "hyphenated": "hand",
                         "syllable_count": 1
                     },
                     {
@@ -2703,7 +2703,7 @@
                         "text": "plan,",
                         "ipa": "plˈan",
                         "espeak_phonemes": "pl'an",
-                        "hyphenated": "plan,",
+                        "hyphenated": "plan",
                         "syllable_count": 1
                     }
                 ]
@@ -2757,7 +2757,7 @@
                         "text": "man.",
                         "ipa": "mˈan",
                         "espeak_phonemes": "m'an",
-                        "hyphenated": "man.",
+                        "hyphenated": "man",
                         "syllable_count": 1
                     }
                 ]
@@ -2781,7 +2781,7 @@
                         "text": "wisdom,",
                         "ipa": "wˈɪzdəm",
                         "espeak_phonemes": "w'Izd@m",
-                        "hyphenated": "wis-dom,",
+                        "hyphenated": "wis-dom",
                         "syllable_count": 2
                     },
                     {
@@ -2802,7 +2802,7 @@
                         "text": "refined,",
                         "ipa": "ɹɪfˈaɪnd",
                         "espeak_phonemes": "rIf'aInd",
-                        "hyphenated": "re-fined,",
+                        "hyphenated": "re-fined",
                         "syllable_count": 2
                     }
                 ]
@@ -2828,7 +2828,7 @@
                         "text": "thee,",
                         "ipa": "ðˈiː",
                         "espeak_phonemes": "D'i:",
-                        "hyphenated": "thee,",
+                        "hyphenated": "thee",
                         "syllable_count": 1
                     },
                     {
@@ -2849,7 +2849,7 @@
                         "text": "mind.",
                         "ipa": "mˈaɪnd",
                         "espeak_phonemes": "m'aInd",
-                        "hyphenated": "mind.",
+                        "hyphenated": "mind",
                         "syllable_count": 1
                     }
                 ]
@@ -2868,7 +2868,7 @@
                         "text": "lore,",
                         "ipa": "lˈɔː",
                         "espeak_phonemes": "l'O:",
-                        "hyphenated": "lore,",
+                        "hyphenated": "lore",
                         "syllable_count": 1
                     },
                     {
@@ -2889,7 +2889,7 @@
                         "text": "stored,",
                         "ipa": "stˈɔːd",
                         "espeak_phonemes": "st'O:d",
-                        "hyphenated": "stored,",
+                        "hyphenated": "stored",
                         "syllable_count": 1
                     }
                 ]
@@ -2929,7 +2929,7 @@
                         "text": "adored.",
                         "ipa": "ɐdˈɔːd",
                         "espeak_phonemes": "d'O:d",
-                        "hyphenated": "ad-ored.",
+                        "hyphenated": "ad-ored",
                         "syllable_count": 2
                     }
                 ]
@@ -2960,7 +2960,7 @@
                         "text": "Spirit,",
                         "ipa": "spˈɪɹɪt",
                         "espeak_phonemes": "sp'i@It",
-                        "hyphenated": "Spir-it,",
+                        "hyphenated": "Spir-it",
                         "syllable_count": 2
                     },
                     {
@@ -2981,7 +2981,7 @@
                         "text": "keeps,",
                         "ipa": "kˈiːps",
                         "espeak_phonemes": "k'i:ps",
-                        "hyphenated": "keep-s,",
+                        "hyphenated": "keep-s",
                         "syllable_count": 2
                     }
                 ]
@@ -3028,7 +3028,7 @@
                         "text": "sleeps.",
                         "ipa": "slˈiːps",
                         "espeak_phonemes": "sl'i:ps",
-                        "hyphenated": "sleep-s.",
+                        "hyphenated": "sleep-s",
                         "syllable_count": 2
                     }
                 ]
@@ -3047,7 +3047,7 @@
                         "text": "thee,",
                         "ipa": "ðˈiː",
                         "espeak_phonemes": "D'i:",
-                        "hyphenated": "thee,",
+                        "hyphenated": "thee",
                         "syllable_count": 1
                     },
                     {
@@ -3082,7 +3082,7 @@
                         "text": "blend,",
                         "ipa": "blˈɛnd",
                         "espeak_phonemes": "bl'End",
-                        "hyphenated": "blend,",
+                        "hyphenated": "blend",
                         "syllable_count": 1
                     }
                 ]
@@ -3136,7 +3136,7 @@
                         "text": "end.",
                         "ipa": "ˈɛnd",
                         "espeak_phonemes": "'End",
-                        "hyphenated": "en-d.",
+                        "hyphenated": "en-d",
                         "syllable_count": 2
                     }
                 ]
@@ -3167,7 +3167,7 @@
                         "text": "flesh,",
                         "ipa": "flˈɛʃ",
                         "espeak_phonemes": "fl'ES",
-                        "hyphenated": "flesh,",
+                        "hyphenated": "flesh",
                         "syllable_count": 1
                     },
                     {
@@ -3188,7 +3188,7 @@
                         "text": "atone,",
                         "ipa": "ɐtˈəʊn",
                         "espeak_phonemes": "t'oUn",
-                        "hyphenated": "atone,",
+                        "hyphenated": "atone",
                         "syllable_count": 1
                     }
                 ]
@@ -3214,7 +3214,7 @@
                         "text": "rites,",
                         "ipa": "ɹˈaɪts",
                         "espeak_phonemes": "r'aIts",
-                        "hyphenated": "rites,",
+                        "hyphenated": "rites",
                         "syllable_count": 1
                     },
                     {
@@ -3235,7 +3235,7 @@
                         "text": "throne.",
                         "ipa": "θɹˈəʊn",
                         "espeak_phonemes": "Tr'oUn",
-                        "hyphenated": "throne.",
+                        "hyphenated": "throne",
                         "syllable_count": 1
                     }
                 ]
@@ -3261,7 +3261,7 @@
                         "text": "hand,",
                         "ipa": "hˈand",
                         "espeak_phonemes": "h'and",
-                        "hyphenated": "hand,",
+                        "hyphenated": "hand",
                         "syllable_count": 1
                     },
                     {
@@ -3282,7 +3282,7 @@
                         "text": "deed,",
                         "ipa": "dˈiːd",
                         "espeak_phonemes": "d'i:d",
-                        "hyphenated": "deed,",
+                        "hyphenated": "deed",
                         "syllable_count": 1
                     }
                 ]
@@ -3329,7 +3329,7 @@
                         "text": "proceed.",
                         "ipa": "pɹəsˈiːd",
                         "espeak_phonemes": "pr@s'i:d",
-                        "hyphenated": "pro-ceed.",
+                        "hyphenated": "pro-ceed",
                         "syllable_count": 2
                     }
                 ]
@@ -3353,7 +3353,7 @@
                         "text": "heretic,",
                         "ipa": "hˈɛɹətˌɪk",
                         "espeak_phonemes": "h'e@@t,Ik",
-                        "hyphenated": "heretic,",
+                        "hyphenated": "heretic",
                         "syllable_count": 1
                     },
                     {
@@ -3381,7 +3381,7 @@
                         "text": "rite,",
                         "ipa": "ɹˈaɪt",
                         "espeak_phonemes": "r'aIt",
-                        "hyphenated": "rite,",
+                        "hyphenated": "rite",
                         "syllable_count": 1
                     }
                 ]
@@ -3428,7 +3428,7 @@
                         "text": "light.",
                         "ipa": "lˈaɪt",
                         "espeak_phonemes": "l'aIt",
-                        "hyphenated": "light.",
+                        "hyphenated": "light",
                         "syllable_count": 1
                     }
                 ]
@@ -3454,7 +3454,7 @@
                         "text": "bolt,",
                         "ipa": "bˈəʊlt",
                         "espeak_phonemes": "b'oUlt",
-                        "hyphenated": "bolt,",
+                        "hyphenated": "bolt",
                         "syllable_count": 1
                     },
                     {
@@ -3475,7 +3475,7 @@
                         "text": "seal,",
                         "ipa": "sˈiːl",
                         "espeak_phonemes": "s'i:l",
-                        "hyphenated": "seal,",
+                        "hyphenated": "seal",
                         "syllable_count": 1
                     }
                 ]
@@ -3494,7 +3494,7 @@
                         "text": "ritual,",
                         "ipa": "ɹˈɪtʃuːəl",
                         "espeak_phonemes": "r'ItSu:@l",
-                        "hyphenated": "ritu-al,",
+                        "hyphenated": "ritu-al",
                         "syllable_count": 2
                     },
                     {
@@ -3522,7 +3522,7 @@
                         "text": "real.",
                         "ipa": "ɹˈiəl",
                         "espeak_phonemes": "r'i:@l",
-                        "hyphenated": "real.",
+                        "hyphenated": "real",
                         "syllable_count": 1
                     }
                 ]
