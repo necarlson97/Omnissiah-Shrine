@@ -1,3 +1,9 @@
-# Need to install espeak
-epitran
+# For TTS:
+# (need to install espeak in terminal)
+lexconvert
 pyphen
+
+# For audio effects:
+soundfile
+audiofx
+resampy
