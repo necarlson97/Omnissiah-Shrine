@@ -33,10 +33,10 @@ def apply_effects(input_path, output_path):
 
     # Save the processed audio to output path
     sf.write(output_path, processed_audio, sample_rate)
-    print(f"{output_path} done")
 
 def process_audio_files(input_dir="./raw_tts", output_dir="./audio"):
     """Process all WAV files in the input directory, applying effects."""
+    print("Processing audio files...")
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
@@ -53,11 +53,7 @@ def process_audio_files(input_dir="./raw_tts", output_dir="./audio"):
                     apply_effects(input_path, output_path)
                 except librosa.util.exceptions.ParameterError as e:
                     print(f"Error on {input_path}: {e}")
+    print("All audio files processed and saved.")
 
 if __name__ == "__main__":
-    input_directory = "./raw_tts"
-    output_directory = "./audio"
-
-    print("Processing audio files...")
-    process_audio_files(input_directory, output_directory)
-    print("All audio files processed and saved.")
+    process_audio_files()

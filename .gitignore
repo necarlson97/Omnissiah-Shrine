@@ -3,3 +3,5 @@
 /android/
 /preprocess/env/*
 /preprocess/*/*.import
+/preprocess/*_old/
+*/__pycache__/

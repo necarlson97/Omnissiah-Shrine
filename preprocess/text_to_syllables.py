@@ -1,9 +1,12 @@
 import os
 import re
+import glob
 import subprocess
 import json
 import lexconvert
 import pyphen
+
+from add_effects import process_audio_files
 
 def load_syllables(file_path='./syllables.txt'):
     """
@@ -66,7 +69,28 @@ def generate_audio_with_espeak(espeak_phonemes, output_path, pitch=50, speed=150
         )
         raise
 
-def get_syllables(word):
+def get_phonemes(line_text, ipa=False):
+    """
+    Given a str line, return the ascii phoneme format
+    (that espeak takes as input)
+    Can return ipa unicode characters instead if desired
+    """
+    format_flag = "-x"
+    if ipa:
+        format_flag = "--ipa"
+    command = [
+        "espeak", line_text, format_flag, "-q",
+    ]
+    try:
+        result = subprocess.run(
+            command, check=True,
+            stdout=subprocess.PIPE, stderr=subprocess.PIPE
+        )
+        return result.stdout.decode("utf-8").strip()
+    except subprocess.CalledProcessError as e:
+        raise f"Error generating IPA for hymn: {e.stderr.decode('utf-8')}"
+
+def get_hyphenated(word):
     # Normalize the word (lowercase and remove trailing punctuation for lookup)
     word_cleaned = re.sub(r'[.,!?]+$', '', word.lower())
 
@@ -76,10 +100,36 @@ def get_syllables(word):
     # If it wasn't hyphenated by pyphen, or syllables.txt might catch it
     hyphenated = SYLLABLES_DICT.get(word_cleaned, hyphenated)
 
-    return {
-        'hyphenated': hyphenated,
-        'syllable_count': len(hyphenated.split('-')),
-    }
+    return hyphenated
+
+def get_phoneme_symbols(espeak_phonemes):
+    """
+    Return the espeak phonemes as a list of each separate phoneme
+    """
+    # Sometimes, a word's vocalization is totally omitted:
+    if espeak_phonemes == "":
+        return []
+
+    # Step 1: Split espeak_phonemes into symbols with utility characters
+    utility_prefix = "',"  # TODO is this correct?
+    utility_suffix = "#%=:_|123456789"
+    split_phonemes = []
+    add_to_next = ""
+    for i, phoneme_char in enumerate(espeak_phonemes):
+        # if this is a prefix, save it for the next symbol
+        if phoneme_char in utility_prefix:
+            add_to_next = phoneme_char
+        else:
+            add_to_next = ""
+
+        # if this is a suffix, add to phoneme before it
+        if phoneme_char in utility_suffix:
+            split_phonemes[-1] += phoneme_char
+
+        # if this is the symbol itself, add it
+        if phoneme_char not in utility_prefix + utility_suffix:
+            split_phonemes.append(add_to_next + phoneme_char)
+    return split_phonemes
 
 def split_phonemes(hyphenated, espeak_phonemes):
     """
@@ -94,28 +144,7 @@ def split_phonemes(hyphenated, espeak_phonemes):
 
     (*not true, just to make math easy)
     """
-    # Sometimes, a word's vocalization is totally omitted:
-    if espeak_phonemes == "":
-        return []
-
-    # Step 1: Split espeak_phonemes into symbols with utility characters
-    utility_symbols = "',%=:_|"
-    split_phonemes = []
-    add_to_first = ""
-    for i, phoneme_char in enumerate(espeak_phonemes):
-        # if a utility character, add to phoneme before it
-        if phoneme_char in utility_symbols:
-            if i == 0:
-                # if we have a utility symbol at the start, lets say
-                # its for the next character
-                add_to_first += phoneme_char
-            else:
-                split_phonemes[-1] += phoneme_char
-        else:
-            split_phonemes.append(phoneme_char)
-    split_phonemes[0] = add_to_first + split_phonemes[0]
-
-    # Step 2: Calculate proportional sizes of each syllable
+    split_phonemes = get_phoneme_symbols(espeak_phonemes)
     syllables = hyphenated.split('-')
     total_syllable_len = sum(len(s) for s in syllables)
     proportions = [len(s) / total_syllable_len for s in syllables]
@@ -159,64 +188,72 @@ def break_apart_hymn(hymn, output_dir="./raw_tts", pitch=50, speed=150):
     for line_text in hymn_lines[1:]:
         line_data = {
             "text": line_text,
-            "words": [],
             "syllables": [],
         }
 
-        # Get IPA transcription using espeak directly,
-        # as it is the only way to respect context for heteronyms
-        command = [
-            "espeak", line_text, "--ipa", "-q",
-            f"-g 10",  # Tiny gap between words to prevent them getting smushed
-        ]
-        try:
-            result = subprocess.run(
-                command, check=True,
-                stdout=subprocess.PIPE, stderr=subprocess.PIPE
-            )
-            ipa = result.stdout.decode("utf-8").strip()
-        except subprocess.CalledProcessError as e:
-            print(f"Error generating IPA for hymn: {e.stderr.decode('utf-8')}")
-            raise
-
-        ipa_words = ipa.split()
         str_words = line_text.split()
 
-        # Split apart some words that espeak smushes togeather
+        espeak_phonemes = get_phonemes(line_text)
+        espeak_words = espeak_phonemes.split()
+        # Split apart some of the known combinations where espeak smushes
+        # together two small words
+        known_smushes = {
+            "0vD@": "0v D@",
+            "InDI": "In DI",
+            "InDI2": "In DI2",
+            "InDI2;": "In DI2;",
+        }
+        espeak_words = [
+            word
+            for esw in espeak_words
+            for word in known_smushes.get(esw, esw).split(' ')
+        ]
 
-        if len(ipa_words) != len(str_words):
-            print(f"Word / phoneme mismatch: {ipa_words} {str_words}")
+        # I'm just going to omit seemingly empty phonemes:
+        # TODO could make this regex...
+        espeak_words = [
+            esw for esw in espeak_words
+            if esw not in [
+                "_!",
+            ]
+        ]
 
-        for ipa_word, str_word in zip(ipa_words, str_words, strict=True):
-            espeak_phonemes = lexconvert.convert(
-                ipa_word, "unicode-ipa", "espeak")
+        if len(espeak_words) != len(str_words):
+            print(
+                f"Word / phoneme mismatch:\n"
+                f"{[z for z in zip(espeak_words, str_words)]}\n"
+                f"{line_text}"
+            )
 
-            word_data = {
-                "text": str_word,
-                "ipa": ipa_word,
-                "espeak_phonemes": espeak_phonemes,
-                **get_syllables(str_word),
+        zip_words = zip(espeak_words, str_words, strict=True)
+        for espeak_phonemes, str_word in zip_words:
+            # Split out the words to it's syllables,
+            # and add those to json
+            hyphenated = get_hyphenated(str_word)
+            espeak_syllables = split_phonemes(hyphenated, espeak_phonemes)
+
+            # Some syllable sounds need another phoneme to actually be voiced
+            short_phonemes = {
+                "b": "bh",
             }
-            line_data["words"].append(word_data)
+            espeak_syllables = [
+                short_phonemes.get(ess, ess) for ess in espeak_syllables
+            ]
 
-            # Also split out the words to it's syllables,
-            # and add those to a separate dict
-            espeak_syllables = split_phonemes(
-                word_data['hyphenated'], espeak_phonemes)
-            str_syllables = word_data['hyphenated'].split('-')
-            for espeak_s, str_s in zip(espeak_syllables, str_syllables):
+            zip_syllables = zip(espeak_syllables, hyphenated.split('-'))
+            for espeak_s, str_s in zip_syllables:
                 line_data["syllables"].append({
                     "espeak": espeak_s,
                     "text": str_s,
                 })
 
-                # TODO just for testing
+                # Sanity check
                 expected_long_syllables = [
                     "through", "thought", "breathes", "wreaths", "streams",
                     "science",  # from conscience
                 ]
                 if len(str_s) > 6 and str_s not in expected_long_syllables:
-                    print(f"{str_s} ({str_word})")
+                    print(f"Long syllable? : {str_s} ({str_word})")
 
                 filename = sanitize_ipa(espeak_s)
                 output_path = os.path.join(output_dir, f"{filename}.wav")
@@ -232,6 +269,12 @@ def create_all_hymn_audio():
     pitch = 0
     all_hymn_data = []
 
+    # For now, wip dir every time:
+    for file in glob.glob("./raw_tts/*.wav"):
+        os.remove(file)
+    for file in glob.glob("./audio/*.wav"):
+        os.remove(file)
+
     # Also, have some utility words we want in the
     # library for other purposes
     print("Processing utility words:")
@@ -241,7 +284,7 @@ def create_all_hymn_audio():
     print("Processing hymns:")
     for i, hymn in enumerate(hymns):
         hymn_name = hymn.split('\n')[0]
-        # print(f"({i+1}) {hymn_name}:")
+        print(f"({i+1}) {hymn_name}:")
         hymn_data = break_apart_hymn(hymn, pitch=pitch)
         all_hymn_data.append(hymn_data)
 
@@ -250,6 +293,8 @@ def create_all_hymn_audio():
         json.dump(all_hymn_data, json_file, indent=4, ensure_ascii=False)
 
     print("All hymns processed and saved to hymns.json.")
+
+    process_audio_files()
 
 if __name__ == "__main__":
     create_all_hymn_audio()
