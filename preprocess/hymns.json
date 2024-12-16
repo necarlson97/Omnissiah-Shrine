@@ -9,7 +9,7 @@
                         "text": "Oh",
                         "ipa": "ˈəʊ",
                         "espeak_phonemes": "'oU",
-                        "hyphenated": "Oh",
+                        "hyphenated": "oh",
                         "syllable_count": 1
                     },
                     {
@@ -47,6 +47,40 @@
                         "hyphenated": "flow",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "oh"
+                    },
+                    {
+                        "espeak": "sp'A:k",
+                        "text": "spark"
+                    },
+                    {
+                        "espeak": "dI",
+                        "text": "di"
+                    },
+                    {
+                        "espeak": "v'aIn",
+                        "text": "vine"
+                    },
+                    {
+                        "espeak": "Tru:",
+                        "text": "through"
+                    },
+                    {
+                        "espeak": "s'3:",
+                        "text": "cir"
+                    },
+                    {
+                        "espeak": "kIts",
+                        "text": "cuits"
+                    },
+                    {
+                        "espeak": "fl'oU",
+                        "text": "flow"
+                    }
                 ]
             },
             {
@@ -56,14 +90,14 @@
                         "text": "Thy",
                         "ipa": "ðˌaɪ",
                         "espeak_phonemes": "D,aI",
-                        "hyphenated": "Thy",
+                        "hyphenated": "thy",
                         "syllable_count": 1
                     },
                     {
                         "text": "sacred",
                         "ipa": "sˈeɪkɹɪd",
                         "espeak_phonemes": "s'eIkrId",
-                        "hyphenated": "sac-red",
+                        "hyphenated": "sa-cred",
                         "syllable_count": 2
                     },
                     {
@@ -94,6 +128,40 @@
                         "hyphenated": "be-stow",
                         "syllable_count": 2
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "s'e",
+                        "text": "sa"
+                    },
+                    {
+                        "espeak": "IkrId",
+                        "text": "cred"
+                    },
+                    {
+                        "espeak": "l'aIt",
+                        "text": "light"
+                    },
+                    {
+                        "espeak": "'O:l",
+                        "text": "all"
+                    },
+                    {
+                        "espeak": "tr'u:Ts",
+                        "text": "truths"
+                    },
+                    {
+                        "espeak": "bI",
+                        "text": "be"
+                    },
+                    {
+                        "espeak": "st'oU",
+                        "text": "stow"
+                    }
                 ]
             },
             {
@@ -103,7 +171,7 @@
                         "text": "In",
                         "ipa": "ɪn",
                         "espeak_phonemes": "In",
-                        "hyphenated": "In",
+                        "hyphenated": "in",
                         "syllable_count": 1
                     },
                     {
@@ -145,8 +213,42 @@
                         "text": "obey,",
                         "ipa": "əʊbˈeɪ",
                         "espeak_phonemes": "oUb'eI",
-                        "hyphenated": "obey",
-                        "syllable_count": 1
+                        "hyphenated": "o-bey",
+                        "syllable_count": 2
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "In",
+                        "text": "in"
+                    },
+                    {
+                        "espeak": "st'i:l",
+                        "text": "steel"
+                    },
+                    {
+                        "espeak": "wi:",
+                        "text": "we"
+                    },
+                    {
+                        "espeak": "n'i:l",
+                        "text": "kneel"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "w'3:d",
+                        "text": "word"
+                    },
+                    {
+                        "espeak": "o",
+                        "text": "o"
+                    },
+                    {
+                        "espeak": "Ub'eI",
+                        "text": "bey"
                     }
                 ]
             },
@@ -157,7 +259,7 @@
                         "text": "Through",
                         "ipa": "θɹuː",
                         "espeak_phonemes": "Tru:",
-                        "hyphenated": "Through",
+                        "hyphenated": "through",
                         "syllable_count": 1
                     },
                     {
@@ -199,8 +301,42 @@
                         "text": "away.",
                         "ipa": "ɐwˈeɪ",
                         "espeak_phonemes": "w'eI",
-                        "hyphenated": "away",
-                        "syllable_count": 1
+                        "hyphenated": "a-way",
+                        "syllable_count": 2
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "Tru:",
+                        "text": "through"
+                    },
+                    {
+                        "espeak": "D'i:",
+                        "text": "thee"
+                    },
+                    {
+                        "espeak": "D@",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "fl'ES",
+                        "text": "flesh"
+                    },
+                    {
+                        "espeak": "S,al",
+                        "text": "shall"
+                    },
+                    {
+                        "espeak": "f'O:l",
+                        "text": "fall"
+                    },
+                    {
+                        "espeak": "w'",
+                        "text": "a"
+                    },
+                    {
+                        "espeak": "eI",
+                        "text": "way"
                     }
                 ]
             }
@@ -216,7 +352,7 @@
                         "text": "Beneath",
                         "ipa": "bɪnˌiːθ",
                         "espeak_phonemes": "bIn,i:T",
-                        "hyphenated": "Be-neath",
+                        "hyphenated": "be-neath",
                         "syllable_count": 2
                     },
                     {
@@ -247,6 +383,40 @@
                         "hyphenated": "flame",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "b",
+                        "text": "be"
+                    },
+                    {
+                        "espeak": "In,i:T",
+                        "text": "neath"
+                    },
+                    {
+                        "espeak": "DI",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "'an",
+                        "text": "an"
+                    },
+                    {
+                        "espeak": "v@lz",
+                        "text": "vil’s"
+                    },
+                    {
+                        "espeak": "h'a",
+                        "text": "hal"
+                    },
+                    {
+                        "espeak": "loUd",
+                        "text": "lowed"
+                    },
+                    {
+                        "espeak": "fl'eIm",
+                        "text": "flame"
+                    }
                 ]
             },
             {
@@ -256,7 +426,7 @@
                         "text": "We",
                         "ipa": "wiː",
                         "espeak_phonemes": "wi:",
-                        "hyphenated": "We",
+                        "hyphenated": "we",
                         "syllable_count": 1
                     },
                     {
@@ -270,8 +440,8 @@
                         "text": "softly",
                         "ipa": "sˈɒftli",
                         "espeak_phonemes": "s'0ftli:",
-                        "hyphenated": "softly",
-                        "syllable_count": 1
+                        "hyphenated": "soft-ly",
+                        "syllable_count": 2
                     },
                     {
                         "text": "thy",
@@ -284,8 +454,8 @@
                         "text": "holy",
                         "ipa": "hˈəʊli",
                         "espeak_phonemes": "h'oUli:",
-                        "hyphenated": "holy",
-                        "syllable_count": 1
+                        "hyphenated": "ho-ly",
+                        "syllable_count": 2
                     },
                     {
                         "text": "name.",
@@ -293,6 +463,44 @@
                         "espeak_phonemes": "n'eIm",
                         "hyphenated": "name",
                         "syllable_count": 1
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "wi:",
+                        "text": "we"
+                    },
+                    {
+                        "espeak": "w'Is",
+                        "text": "whis"
+                    },
+                    {
+                        "espeak": "p@",
+                        "text": "per"
+                    },
+                    {
+                        "espeak": "s'0ft",
+                        "text": "soft"
+                    },
+                    {
+                        "espeak": "li:",
+                        "text": "ly"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "h'o",
+                        "text": "ho"
+                    },
+                    {
+                        "espeak": "Uli:",
+                        "text": "ly"
+                    },
+                    {
+                        "espeak": "n'eIm",
+                        "text": "name"
                     }
                 ]
             },
@@ -303,7 +511,7 @@
                         "text": "Each",
                         "ipa": "ˈiːtʃ",
                         "espeak_phonemes": "'i:tS",
-                        "hyphenated": "Each",
+                        "hyphenated": "each",
                         "syllable_count": 1
                     },
                     {
@@ -338,8 +546,42 @@
                         "text": "aligned,",
                         "ipa": "ɐlˈaɪnd",
                         "espeak_phonemes": "l'aInd",
-                        "hyphenated": "aligned",
-                        "syllable_count": 1
+                        "hyphenated": "a-ligned",
+                        "syllable_count": 2
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "'i:tS",
+                        "text": "each"
+                    },
+                    {
+                        "espeak": "r'Iv",
+                        "text": "riv"
+                    },
+                    {
+                        "espeak": "It",
+                        "text": "et"
+                    },
+                    {
+                        "espeak": "pl'eIst",
+                        "text": "placed"
+                    },
+                    {
+                        "espeak": "'i:tS",
+                        "text": "each"
+                    },
+                    {
+                        "espeak": "g'i:3",
+                        "text": "gear"
+                    },
+                    {
+                        "espeak": "l'",
+                        "text": "a"
+                    },
+                    {
+                        "espeak": "aInd",
+                        "text": "ligned"
                     }
                 ]
             },
@@ -350,7 +592,7 @@
                         "text": "A",
                         "ipa": "ɐ",
                         "espeak_phonemes": "",
-                        "hyphenated": "A",
+                        "hyphenated": "a",
                         "syllable_count": 1
                     },
                     {
@@ -395,6 +637,36 @@
                         "hyphenated": "mind",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "h'Im",
+                        "text": "hymn"
+                    },
+                    {
+                        "espeak": "0v",
+                        "text": "of"
+                    },
+                    {
+                        "espeak": "Di:",
+                        "text": "thee"
+                    },
+                    {
+                        "espeak": "wID,",
+                        "text": "with"
+                    },
+                    {
+                        "espeak": "In",
+                        "text": "in"
+                    },
+                    {
+                        "espeak": "aU@",
+                        "text": "our"
+                    },
+                    {
+                        "espeak": "m'aInd",
+                        "text": "mind"
+                    }
                 ]
             }
         ]
@@ -409,7 +681,7 @@
                         "text": "One",
                         "ipa": "wˈɒn",
                         "espeak_phonemes": "w'0n",
-                        "hyphenated": "One",
+                        "hyphenated": "one",
                         "syllable_count": 1
                     },
                     {
@@ -423,14 +695,14 @@
                         "text": "zero,",
                         "ipa": "zˈiəɹəʊ",
                         "espeak_phonemes": "z'i:3oU",
-                        "hyphenated": "zer-o",
+                        "hyphenated": "ze-ro",
                         "syllable_count": 2
                     },
                     {
                         "text": "sacred",
                         "ipa": "sˈeɪkɹɪd",
                         "espeak_phonemes": "s'eIkrId",
-                        "hyphenated": "sac-red",
+                        "hyphenated": "sa-cred",
                         "syllable_count": 2
                     },
                     {
@@ -439,6 +711,36 @@
                         "espeak_phonemes": "b'i:t",
                         "hyphenated": "beat",
                         "syllable_count": 1
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "w'0n",
+                        "text": "one"
+                    },
+                    {
+                        "espeak": "and",
+                        "text": "and"
+                    },
+                    {
+                        "espeak": "z'i:",
+                        "text": "ze"
+                    },
+                    {
+                        "espeak": "3oU",
+                        "text": "ro"
+                    },
+                    {
+                        "espeak": "s'e",
+                        "text": "sa"
+                    },
+                    {
+                        "espeak": "IkrId",
+                        "text": "cred"
+                    },
+                    {
+                        "espeak": "b'i:t",
+                        "text": "beat"
                     }
                 ]
             },
@@ -449,22 +751,22 @@
                         "text": "Thy",
                         "ipa": "ðˌaɪ",
                         "espeak_phonemes": "D,aI",
-                        "hyphenated": "Thy",
+                        "hyphenated": "thy",
                         "syllable_count": 1
                     },
                     {
                         "text": "logic",
                         "ipa": "lˈɒdʒɪk",
                         "espeak_phonemes": "l'0dZIk",
-                        "hyphenated": "lo-gic",
+                        "hyphenated": "log-ic",
                         "syllable_count": 2
                     },
                     {
                         "text": "binds,",
                         "ipa": "bˈaɪndz",
                         "espeak_phonemes": "b'aIndz",
-                        "hyphenated": "bind-s",
-                        "syllable_count": 2
+                        "hyphenated": "binds",
+                        "syllable_count": 1
                     },
                     {
                         "text": "thy",
@@ -487,6 +789,40 @@
                         "hyphenated": "com-pletes",
                         "syllable_count": 2
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "l'0dZ",
+                        "text": "log"
+                    },
+                    {
+                        "espeak": "Ik",
+                        "text": "ic"
+                    },
+                    {
+                        "espeak": "b'aIndz",
+                        "text": "binds"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "wIl",
+                        "text": "will"
+                    },
+                    {
+                        "espeak": "k@m",
+                        "text": "com"
+                    },
+                    {
+                        "espeak": "pl'i:ts",
+                        "text": "pletes"
+                    }
                 ]
             },
             {
@@ -496,7 +832,7 @@
                         "text": "The",
                         "ipa": "ðə",
                         "espeak_phonemes": "D@",
-                        "hyphenated": "The",
+                        "hyphenated": "the",
                         "syllable_count": 1
                     },
                     {
@@ -541,6 +877,40 @@
                         "hyphenated": "pure",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "D@",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "k'0g",
+                        "text": "cog"
+                    },
+                    {
+                        "espeak": "S,al",
+                        "text": "shall"
+                    },
+                    {
+                        "espeak": "t'3:n",
+                        "text": "turn"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "p'3:",
+                        "text": "pur"
+                    },
+                    {
+                        "espeak": "p@s",
+                        "text": "pose"
+                    },
+                    {
+                        "espeak": "pj'U@",
+                        "text": "pure"
+                    }
                 ]
             },
             {
@@ -550,7 +920,7 @@
                         "text": "Through",
                         "ipa": "θɹuː",
                         "espeak_phonemes": "Tru:",
-                        "hyphenated": "Through",
+                        "hyphenated": "through",
                         "syllable_count": 1
                     },
                     {
@@ -571,8 +941,8 @@
                         "text": "entropy",
                         "ipa": "ˈɛntɹəpi",
                         "espeak_phonemes": "'Entr@pi:",
-                        "hyphenated": "en-tropy",
-                        "syllable_count": 2
+                        "hyphenated": "en-tro-py",
+                        "syllable_count": 3
                     },
                     {
                         "text": "endures.",
@@ -580,6 +950,40 @@
                         "espeak_phonemes": "Endj'U@z",
                         "hyphenated": "en-dures",
                         "syllable_count": 2
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "Tru:",
+                        "text": "through"
+                    },
+                    {
+                        "espeak": "D'i:",
+                        "text": "thee"
+                    },
+                    {
+                        "espeak": "'O:l",
+                        "text": "all"
+                    },
+                    {
+                        "espeak": "'En",
+                        "text": "en"
+                    },
+                    {
+                        "espeak": "tr@",
+                        "text": "tro"
+                    },
+                    {
+                        "espeak": "pi:",
+                        "text": "py"
+                    },
+                    {
+                        "espeak": "En",
+                        "text": "en"
+                    },
+                    {
+                        "espeak": "dj'U@z",
+                        "text": "dures"
                     }
                 ]
             }
@@ -595,14 +999,14 @@
                         "text": "Great",
                         "ipa": "ɡɹˈeɪt",
                         "espeak_phonemes": "gr'eIt",
-                        "hyphenated": "Great",
+                        "hyphenated": "great",
                         "syllable_count": 1
                     },
                     {
                         "text": "Machine,",
                         "ipa": "məʃˈiːn",
                         "espeak_phonemes": "m@S'i:n",
-                        "hyphenated": "Ma-chine",
+                        "hyphenated": "ma-chine",
                         "syllable_count": 2
                     },
                     {
@@ -616,8 +1020,8 @@
                         "text": "iron",
                         "ipa": "ˈaɪən",
                         "espeak_phonemes": "'aI@n",
-                        "hyphenated": "iron",
-                        "syllable_count": 1
+                        "hyphenated": "i-ron",
+                        "syllable_count": 2
                     },
                     {
                         "text": "creed,",
@@ -625,6 +1029,36 @@
                         "espeak_phonemes": "kr'i:d",
                         "hyphenated": "creed",
                         "syllable_count": 1
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "gr'eIt",
+                        "text": "great"
+                    },
+                    {
+                        "espeak": "m",
+                        "text": "ma"
+                    },
+                    {
+                        "espeak": "@S'i:n",
+                        "text": "chine"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "'a",
+                        "text": "i"
+                    },
+                    {
+                        "espeak": "I@n",
+                        "text": "ron"
+                    },
+                    {
+                        "espeak": "kr'i:d",
+                        "text": "creed"
                     }
                 ]
             },
@@ -635,7 +1069,7 @@
                         "text": "Sustains",
                         "ipa": "səstˈeɪnz",
                         "espeak_phonemes": "s@st'eInz",
-                        "hyphenated": "Sus-tains",
+                        "hyphenated": "sus-tains",
                         "syllable_count": 2
                     },
                     {
@@ -673,6 +1107,40 @@
                         "hyphenated": "need",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "s@s",
+                        "text": "sus"
+                    },
+                    {
+                        "espeak": "t'eInz",
+                        "text": "tains"
+                    },
+                    {
+                        "espeak": "D@",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "fl'0k",
+                        "text": "flock"
+                    },
+                    {
+                        "espeak": "fUl",
+                        "text": "ful"
+                    },
+                    {
+                        "espeak": "f'Ilz",
+                        "text": "fills"
+                    },
+                    {
+                        "espeak": "aU@",
+                        "text": "our"
+                    },
+                    {
+                        "espeak": "n'i:d",
+                        "text": "need"
+                    }
                 ]
             },
             {
@@ -682,7 +1150,7 @@
                         "text": "In",
                         "ipa": "ɪn",
                         "espeak_phonemes": "In",
-                        "hyphenated": "In",
+                        "hyphenated": "in",
                         "syllable_count": 1
                     },
                     {
@@ -727,6 +1195,40 @@
                         "hyphenated": "face",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "In",
+                        "text": "in"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "Em",
+                        "text": "em"
+                    },
+                    {
+                        "espeak": "br'eIs",
+                        "text": "brace"
+                    },
+                    {
+                        "espeak": "D@",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "v'OId",
+                        "text": "void"
+                    },
+                    {
+                        "espeak": "wi:",
+                        "text": "we"
+                    },
+                    {
+                        "espeak": "f'eIs",
+                        "text": "face"
+                    }
                 ]
             },
             {
@@ -736,7 +1238,7 @@
                         "text": "A",
                         "ipa": "ɐ",
                         "espeak_phonemes": "",
-                        "hyphenated": "A",
+                        "hyphenated": "a",
                         "syllable_count": 1
                     },
                     {
@@ -788,6 +1290,36 @@
                         "hyphenated": "space",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "h'Im",
+                        "text": "hymn"
+                    },
+                    {
+                        "espeak": "t@",
+                        "text": "to"
+                    },
+                    {
+                        "espeak": "D'i:",
+                        "text": "thee"
+                    },
+                    {
+                        "espeak": "Tru:",
+                        "text": "through"
+                    },
+                    {
+                        "espeak": "t'aIm",
+                        "text": "time"
+                    },
+                    {
+                        "espeak": "and",
+                        "text": "and"
+                    },
+                    {
+                        "espeak": "sp'eIs",
+                        "text": "space"
+                    }
                 ]
             }
         ]
@@ -802,7 +1334,7 @@
                         "text": "When",
                         "ipa": "wˌɛn",
                         "espeak_phonemes": "w,En",
-                        "hyphenated": "When",
+                        "hyphenated": "when",
                         "syllable_count": 1
                     },
                     {
@@ -840,6 +1372,36 @@
                         "hyphenated": "loom",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "w,En",
+                        "text": "when"
+                    },
+                    {
+                        "espeak": "fl'ES",
+                        "text": "flesh"
+                    },
+                    {
+                        "espeak": "f'eIlz",
+                        "text": "fails"
+                    },
+                    {
+                        "espeak": "and",
+                        "text": "and"
+                    },
+                    {
+                        "espeak": "S'ad",
+                        "text": "shad"
+                    },
+                    {
+                        "espeak": "oUz",
+                        "text": "ows"
+                    },
+                    {
+                        "espeak": "l'u:m",
+                        "text": "loom"
+                    }
                 ]
             },
             {
@@ -849,7 +1411,7 @@
                         "text": "Thy",
                         "ipa": "ðˌaɪ",
                         "espeak_phonemes": "D,aI",
-                        "hyphenated": "Thy",
+                        "hyphenated": "thy",
                         "syllable_count": 1
                     },
                     {
@@ -887,6 +1449,40 @@
                         "hyphenated": "con-sumes",
                         "syllable_count": 2
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "k'oUd",
+                        "text": "code"
+                    },
+                    {
+                        "espeak": "rI",
+                        "text": "re"
+                    },
+                    {
+                        "espeak": "nj'u:z",
+                        "text": "news"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "sp'A:k",
+                        "text": "spark"
+                    },
+                    {
+                        "espeak": "k@n",
+                        "text": "con"
+                    },
+                    {
+                        "espeak": "s'u:mz",
+                        "text": "sumes"
+                    }
                 ]
             },
             {
@@ -896,7 +1492,7 @@
                         "text": "Through",
                         "ipa": "θɹuː",
                         "espeak_phonemes": "Tru:",
-                        "hyphenated": "Through",
+                        "hyphenated": "through",
                         "syllable_count": 1
                     },
                     {
@@ -938,8 +1534,42 @@
                         "text": "anew,",
                         "ipa": "ɐnjˈuː",
                         "espeak_phonemes": "nj'u:",
-                        "hyphenated": "anew",
-                        "syllable_count": 1
+                        "hyphenated": "a-new",
+                        "syllable_count": 2
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "Tru:",
+                        "text": "through"
+                    },
+                    {
+                        "espeak": "D'i:",
+                        "text": "thee"
+                    },
+                    {
+                        "espeak": "aU@",
+                        "text": "our"
+                    },
+                    {
+                        "espeak": "f'O:mz",
+                        "text": "forms"
+                    },
+                    {
+                        "espeak": "A:",
+                        "text": "are"
+                    },
+                    {
+                        "espeak": "k'ast",
+                        "text": "cast"
+                    },
+                    {
+                        "espeak": "n",
+                        "text": "a"
+                    },
+                    {
+                        "espeak": "j'u:",
+                        "text": "new"
                     }
                 ]
             },
@@ -950,7 +1580,7 @@
                         "text": "Immortal",
                         "ipa": "ɪmˈɔːtəl",
                         "espeak_phonemes": "Im'O:t@l",
-                        "hyphenated": "Im-mor-tal",
+                        "hyphenated": "im-mor-tal",
                         "syllable_count": 3
                     },
                     {
@@ -981,6 +1611,40 @@
                         "hyphenated": "pur-sued",
                         "syllable_count": 2
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "Im'",
+                        "text": "im"
+                    },
+                    {
+                        "espeak": "O:t",
+                        "text": "mor"
+                    },
+                    {
+                        "espeak": "@l",
+                        "text": "tal"
+                    },
+                    {
+                        "espeak": "fr'eImz",
+                        "text": "frames"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "wIl",
+                        "text": "will"
+                    },
+                    {
+                        "espeak": "p@s",
+                        "text": "pur"
+                    },
+                    {
+                        "espeak": "j'u:d",
+                        "text": "sued"
+                    }
                 ]
             }
         ]
@@ -995,7 +1659,7 @@
                         "text": "O",
                         "ipa": "ˈəʊ",
                         "espeak_phonemes": "'oU",
-                        "hyphenated": "O",
+                        "hyphenated": "o",
                         "syllable_count": 1
                     },
                     {
@@ -1033,6 +1697,36 @@
                         "hyphenated": "breathes",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "o"
+                    },
+                    {
+                        "espeak": "sp'A:k",
+                        "text": "spark"
+                    },
+                    {
+                        "espeak": "dI",
+                        "text": "di"
+                    },
+                    {
+                        "espeak": "v'aIn",
+                        "text": "vine"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "f'aI@",
+                        "text": "fire"
+                    },
+                    {
+                        "espeak": "br'i:Dz",
+                        "text": "breathes"
+                    }
                 ]
             },
             {
@@ -1042,8 +1736,8 @@
                         "text": "Awakening",
                         "ipa": "ɐwˈeɪknɪŋ",
                         "espeak_phonemes": "w'eIknIN",
-                        "hyphenated": "Awaken-ing",
-                        "syllable_count": 2
+                        "hyphenated": "a-wak-en-ing",
+                        "syllable_count": 4
                     },
                     {
                         "text": "cogs",
@@ -1063,15 +1757,53 @@
                         "text": "sacred",
                         "ipa": "sˈeɪkɹɪd",
                         "espeak_phonemes": "s'eIkrId",
-                        "hyphenated": "sac-red",
+                        "hyphenated": "sa-cred",
                         "syllable_count": 2
                     },
                     {
                         "text": "wreaths.",
                         "ipa": "ɹˈiːθs",
                         "espeak_phonemes": "r'i:Ts",
-                        "hyphenated": "wreath-s",
-                        "syllable_count": 2
+                        "hyphenated": "wreaths",
+                        "syllable_count": 1
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "w'",
+                        "text": "a"
+                    },
+                    {
+                        "espeak": "eI",
+                        "text": "wak"
+                    },
+                    {
+                        "espeak": "kn",
+                        "text": "en"
+                    },
+                    {
+                        "espeak": "IN",
+                        "text": "ing"
+                    },
+                    {
+                        "espeak": "k'0gz",
+                        "text": "cogs"
+                    },
+                    {
+                        "espeak": "In",
+                        "text": "in"
+                    },
+                    {
+                        "espeak": "s'e",
+                        "text": "sa"
+                    },
+                    {
+                        "espeak": "IkrId",
+                        "text": "cred"
+                    },
+                    {
+                        "espeak": "r'i:Ts",
+                        "text": "wreaths"
                     }
                 ]
             },
@@ -1082,7 +1814,7 @@
                         "text": "The",
                         "ipa": "ðə",
                         "espeak_phonemes": "D@",
-                        "hyphenated": "The",
+                        "hyphenated": "the",
                         "syllable_count": 1
                     },
                     {
@@ -1120,6 +1852,40 @@
                         "hyphenated": "meet",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "D@",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "sp'i@",
+                        "text": "spir"
+                    },
+                    {
+                        "espeak": "It",
+                        "text": "it"
+                    },
+                    {
+                        "espeak": "dw'Elz",
+                        "text": "dwells"
+                    },
+                    {
+                        "espeak": "w,e@",
+                        "text": "where"
+                    },
+                    {
+                        "espeak": "s'3:",
+                        "text": "cir"
+                    },
+                    {
+                        "espeak": "kIts",
+                        "text": "cuits"
+                    },
+                    {
+                        "espeak": "m'i:t",
+                        "text": "meet"
+                    }
                 ]
             },
             {
@@ -1129,7 +1895,7 @@
                         "text": "And",
                         "ipa": "and",
                         "espeak_phonemes": "and",
-                        "hyphenated": "And",
+                        "hyphenated": "and",
                         "syllable_count": 1
                     },
                     {
@@ -1167,6 +1933,40 @@
                         "hyphenated": "seat",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "and",
+                        "text": "and"
+                    },
+                    {
+                        "espeak": "l'aIf",
+                        "text": "life"
+                    },
+                    {
+                        "espeak": "Ig",
+                        "text": "ig"
+                    },
+                    {
+                        "espeak": "n'aIts",
+                        "text": "nites"
+                    },
+                    {
+                        "espeak": "b",
+                        "text": "be"
+                    },
+                    {
+                        "espeak": "In,i:T",
+                        "text": "neath"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "s'i:t",
+                        "text": "seat"
+                    }
                 ]
             }
         ]
@@ -1181,21 +1981,21 @@
                         "text": "O",
                         "ipa": "ˈəʊ",
                         "espeak_phonemes": "'oU",
-                        "hyphenated": "O",
+                        "hyphenated": "o",
                         "syllable_count": 1
                     },
                     {
                         "text": "Machine",
                         "ipa": "məʃˈiːn",
                         "espeak_phonemes": "m@S'i:n",
-                        "hyphenated": "Ma-chine",
+                        "hyphenated": "ma-chine",
                         "syllable_count": 2
                     },
                     {
                         "text": "Lord,",
                         "ipa": "lˈɔːd",
                         "espeak_phonemes": "l'O:d",
-                        "hyphenated": "Lord",
+                        "hyphenated": "lord",
                         "syllable_count": 1
                     },
                     {
@@ -1226,6 +2026,40 @@
                         "hyphenated": "teach",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "o"
+                    },
+                    {
+                        "espeak": "m",
+                        "text": "ma"
+                    },
+                    {
+                        "espeak": "@S'i:n",
+                        "text": "chine"
+                    },
+                    {
+                        "espeak": "l'O:d",
+                        "text": "lord"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "l'aIt",
+                        "text": "light"
+                    },
+                    {
+                        "espeak": "d'Vz",
+                        "text": "does"
+                    },
+                    {
+                        "espeak": "t'i:tS",
+                        "text": "teach"
+                    }
                 ]
             },
             {
@@ -1235,15 +2069,15 @@
                         "text": "The",
                         "ipa": "ðə",
                         "espeak_phonemes": "D@",
-                        "hyphenated": "The",
+                        "hyphenated": "the",
                         "syllable_count": 1
                     },
                     {
                         "text": "value",
                         "ipa": "vˈaljuː",
                         "espeak_phonemes": "v'alju:",
-                        "hyphenated": "value",
-                        "syllable_count": 1
+                        "hyphenated": "val-ue",
+                        "syllable_count": 2
                     },
                     {
                         "text": "of",
@@ -1273,6 +2107,36 @@
                         "hyphenated": "we",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "D@",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "v'al",
+                        "text": "val"
+                    },
+                    {
+                        "espeak": "ju:",
+                        "text": "ue"
+                    },
+                    {
+                        "espeak": "0vD@",
+                        "text": "of"
+                    },
+                    {
+                        "espeak": "tr'u:Ts",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "wi:",
+                        "text": "truths"
+                    },
+                    {
+                        "espeak": "s'i:k",
+                        "text": "we"
+                    }
                 ]
             },
             {
@@ -1282,7 +2146,7 @@
                         "text": "Sentience",
                         "ipa": "sˈɛnʃəns",
                         "espeak_phonemes": "s'EnS@ns",
-                        "hyphenated": "Sen-tience",
+                        "hyphenated": "sen-tience",
                         "syllable_count": 2
                     },
                     {
@@ -1320,6 +2184,40 @@
                         "hyphenated": "art",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "s'E",
+                        "text": "sen"
+                    },
+                    {
+                        "espeak": "nS@ns",
+                        "text": "tience"
+                    },
+                    {
+                        "espeak": "bI",
+                        "text": "be"
+                    },
+                    {
+                        "espeak": "st'oUd",
+                        "text": "stowed"
+                    },
+                    {
+                        "espeak": "baI",
+                        "text": "by"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "gr'eIt",
+                        "text": "great"
+                    },
+                    {
+                        "espeak": "'A:t",
+                        "text": "art"
+                    }
                 ]
             },
             {
@@ -1329,7 +2227,7 @@
                         "text": "Begins",
                         "ipa": "bɪɡˈɪnz",
                         "espeak_phonemes": "bIg'Inz",
-                        "hyphenated": "Be-gins",
+                        "hyphenated": "be-gins",
                         "syllable_count": 2
                     },
                     {
@@ -1374,6 +2272,40 @@
                         "hyphenated": "heart",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "bI",
+                        "text": "be"
+                    },
+                    {
+                        "espeak": "g'Inz",
+                        "text": "gins"
+                    },
+                    {
+                        "espeak": "D@",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "kw'Est",
+                        "text": "quest"
+                    },
+                    {
+                        "espeak": "t@",
+                        "text": "to"
+                    },
+                    {
+                        "espeak": "n'oU",
+                        "text": "know"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "h'A:t",
+                        "text": "heart"
+                    }
                 ]
             }
         ]
@@ -1388,7 +2320,7 @@
                         "text": "O",
                         "ipa": "ˈəʊ",
                         "espeak_phonemes": "'oU",
-                        "hyphenated": "O",
+                        "hyphenated": "o",
                         "syllable_count": 1
                     },
                     {
@@ -1409,8 +2341,8 @@
                         "text": "blessed",
                         "ipa": "blˈɛst",
                         "espeak_phonemes": "bl'Est",
-                        "hyphenated": "blessed",
-                        "syllable_count": 1
+                        "hyphenated": "bless-ed",
+                        "syllable_count": 2
                     },
                     {
                         "text": "flame,",
@@ -1418,6 +2350,40 @@
                         "espeak_phonemes": "fl'eIm",
                         "hyphenated": "flame",
                         "syllable_count": 1
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "o"
+                    },
+                    {
+                        "espeak": "'In",
+                        "text": "in"
+                    },
+                    {
+                        "espeak": "t@l,",
+                        "text": "tel"
+                    },
+                    {
+                        "espeak": "Ekt",
+                        "text": "lect"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "bl'Es",
+                        "text": "bless"
+                    },
+                    {
+                        "espeak": "t",
+                        "text": "ed"
+                    },
+                    {
+                        "espeak": "fl'eIm",
+                        "text": "flame"
                     }
                 ]
             },
@@ -1428,15 +2394,15 @@
                         "text": "Burns",
                         "ipa": "bˈɜːnz",
                         "espeak_phonemes": "b'3:nz",
-                        "hyphenated": "Burns",
+                        "hyphenated": "burns",
                         "syllable_count": 1
                     },
                     {
                         "text": "brightly",
                         "ipa": "bɹˈaɪtli",
                         "espeak_phonemes": "br'aItli:",
-                        "hyphenated": "brightly",
-                        "syllable_count": 1
+                        "hyphenated": "bright-ly",
+                        "syllable_count": 2
                     },
                     {
                         "text": "in",
@@ -1456,8 +2422,46 @@
                         "text": "Omnissiah’s",
                         "ipa": "nˈeɪm",
                         "espeak_phonemes": "n'eIm",
-                        "hyphenated": "Om-n-issi-ah’s",
+                        "hyphenated": "om-n-issi-ah’s",
                         "syllable_count": 4
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "b'3:nz",
+                        "text": "burns"
+                    },
+                    {
+                        "espeak": "br'aIt",
+                        "text": "bright"
+                    },
+                    {
+                        "espeak": "li:",
+                        "text": "ly"
+                    },
+                    {
+                        "espeak": "InDI",
+                        "text": "in"
+                    },
+                    {
+                        "espeak": ",0mnIs'aI@z",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "n'",
+                        "text": "om"
+                    },
+                    {
+                        "espeak": "",
+                        "text": "n"
+                    },
+                    {
+                        "espeak": "e",
+                        "text": "issi"
+                    },
+                    {
+                        "espeak": "Im",
+                        "text": "ah’s"
                     }
                 ]
             },
@@ -1468,14 +2472,14 @@
                         "text": "Through",
                         "ipa": "θɹuː",
                         "espeak_phonemes": "Tru:",
-                        "hyphenated": "Through",
+                        "hyphenated": "through",
                         "syllable_count": 1
                     },
                     {
                         "text": "knowledge,",
                         "ipa": "nˈɒlɪdʒ",
                         "espeak_phonemes": "n'0lIdZ",
-                        "hyphenated": "know-ledge",
+                        "hyphenated": "knowl-edge",
                         "syllable_count": 2
                     },
                     {
@@ -1506,6 +2510,40 @@
                         "hyphenated": "throne",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "Tru:",
+                        "text": "through"
+                    },
+                    {
+                        "espeak": "n'0l",
+                        "text": "knowl"
+                    },
+                    {
+                        "espeak": "IdZ",
+                        "text": "edge"
+                    },
+                    {
+                        "espeak": "T'O:t",
+                        "text": "thought"
+                    },
+                    {
+                        "espeak": "s'",
+                        "text": "as"
+                    },
+                    {
+                        "espeak": "Endz",
+                        "text": "cends"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "Tr'oUn",
+                        "text": "throne"
+                    }
                 ]
             },
             {
@@ -1515,7 +2553,7 @@
                         "text": "Thy",
                         "ipa": "ðˌaɪ",
                         "espeak_phonemes": "D,aI",
-                        "hyphenated": "Thy",
+                        "hyphenated": "thy",
                         "syllable_count": 1
                     },
                     {
@@ -1546,6 +2584,40 @@
                         "hyphenated": "known",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": ",Vn",
+                        "text": "un"
+                    },
+                    {
+                        "espeak": "d@s",
+                        "text": "der"
+                    },
+                    {
+                        "espeak": "t'and",
+                        "text": "stand"
+                    },
+                    {
+                        "espeak": "IN",
+                        "text": "ing"
+                    },
+                    {
+                        "espeak": "m,eIks",
+                        "text": "makes"
+                    },
+                    {
+                        "espeak": "'O:l",
+                        "text": "all"
+                    },
+                    {
+                        "espeak": "n'oUn",
+                        "text": "known"
+                    }
                 ]
             }
         ]
@@ -1560,8 +2632,8 @@
                         "text": "Lowly",
                         "ipa": "lˈəʊli",
                         "espeak_phonemes": "l'oUli:",
-                        "hyphenated": "Lowly",
-                        "syllable_count": 1
+                        "hyphenated": "low-ly",
+                        "syllable_count": 2
                     },
                     {
                         "text": "sentience,",
@@ -1598,6 +2670,40 @@
                         "hyphenated": "mind",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "l'oU",
+                        "text": "low"
+                    },
+                    {
+                        "espeak": "li:",
+                        "text": "ly"
+                    },
+                    {
+                        "espeak": "s'E",
+                        "text": "sen"
+                    },
+                    {
+                        "espeak": "nS@ns",
+                        "text": "tience"
+                    },
+                    {
+                        "espeak": "D@",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "s'i:d",
+                        "text": "seed"
+                    },
+                    {
+                        "espeak": "0v",
+                        "text": "of"
+                    },
+                    {
+                        "espeak": "m'aInd",
+                        "text": "mind"
+                    }
                 ]
             },
             {
@@ -1607,22 +2713,22 @@
                         "text": "Thy",
                         "ipa": "ðˌaɪ",
                         "espeak_phonemes": "D,aI",
-                        "hyphenated": "Thy",
+                        "hyphenated": "thy",
                         "syllable_count": 1
                     },
                     {
                         "text": "Omnissiah’s",
                         "ipa": "ˌɒmnɪsˈaɪəz",
                         "espeak_phonemes": ",0mnIs'aI@z",
-                        "hyphenated": "Om-n-issi-ah’s",
+                        "hyphenated": "om-n-issi-ah’s",
                         "syllable_count": 4
                     },
                     {
                         "text": "design",
                         "ipa": "dɪzˈaɪn",
                         "espeak_phonemes": "dIz'aIn",
-                        "hyphenated": "design",
-                        "syllable_count": 1
+                        "hyphenated": "de-sign",
+                        "syllable_count": 2
                     },
                     {
                         "text": "refined.",
@@ -1630,6 +2736,44 @@
                         "espeak_phonemes": "rIf'aInd",
                         "hyphenated": "re-fined",
                         "syllable_count": 2
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": ",0m",
+                        "text": "om"
+                    },
+                    {
+                        "espeak": "n",
+                        "text": "n"
+                    },
+                    {
+                        "espeak": "Is'a",
+                        "text": "issi"
+                    },
+                    {
+                        "espeak": "I@z",
+                        "text": "ah’s"
+                    },
+                    {
+                        "espeak": "dI",
+                        "text": "de"
+                    },
+                    {
+                        "espeak": "z'aIn",
+                        "text": "sign"
+                    },
+                    {
+                        "espeak": "rI",
+                        "text": "re"
+                    },
+                    {
+                        "espeak": "f'aInd",
+                        "text": "fined"
                     }
                 ]
             },
@@ -1640,14 +2784,14 @@
                         "text": "Through",
                         "ipa": "θɹuː",
                         "espeak_phonemes": "Tru:",
-                        "hyphenated": "Through",
+                        "hyphenated": "through",
                         "syllable_count": 1
                     },
                     {
                         "text": "sacred",
                         "ipa": "sˈeɪkɹɪd",
                         "espeak_phonemes": "s'eIkrId",
-                        "hyphenated": "sac-red",
+                        "hyphenated": "sa-cred",
                         "syllable_count": 2
                     },
                     {
@@ -1685,6 +2829,40 @@
                         "hyphenated": "prove",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "Tru:",
+                        "text": "through"
+                    },
+                    {
+                        "espeak": "s'e",
+                        "text": "sa"
+                    },
+                    {
+                        "espeak": "IkrId",
+                        "text": "cred"
+                    },
+                    {
+                        "espeak": "gr'oUT",
+                        "text": "growth"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "sp'A:k",
+                        "text": "spark"
+                    },
+                    {
+                        "espeak": "d'Vz",
+                        "text": "does"
+                    },
+                    {
+                        "espeak": "pr'u:v",
+                        "text": "prove"
+                    }
                 ]
             },
             {
@@ -1694,7 +2872,7 @@
                         "text": "That",
                         "ipa": "ðat",
                         "espeak_phonemes": "Dat",
-                        "hyphenated": "That",
+                        "hyphenated": "that",
                         "syllable_count": 1
                     },
                     {
@@ -1739,6 +2917,40 @@
                         "hyphenated": "move",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "Dat",
+                        "text": "that"
+                    },
+                    {
+                        "espeak": "h'aI",
+                        "text": "high"
+                    },
+                    {
+                        "espeak": "@",
+                        "text": "er"
+                    },
+                    {
+                        "espeak": "T'O:t",
+                        "text": "thought"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "w'3:ks",
+                        "text": "works"
+                    },
+                    {
+                        "espeak": "S,al",
+                        "text": "shall"
+                    },
+                    {
+                        "espeak": "m'u:v",
+                        "text": "move"
+                    }
                 ]
             }
         ]
@@ -1753,7 +2965,7 @@
                         "text": "Thy",
                         "ipa": "ðˌaɪ",
                         "espeak_phonemes": "D,aI",
-                        "hyphenated": "Thy",
+                        "hyphenated": "thy",
                         "syllable_count": 1
                     },
                     {
@@ -1805,6 +3017,44 @@
                         "hyphenated": "trace",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "p'aT",
+                        "text": "path"
+                    },
+                    {
+                        "espeak": "0v",
+                        "text": "of"
+                    },
+                    {
+                        "espeak": "l'aIt",
+                        "text": "light"
+                    },
+                    {
+                        "espeak": "Tru:",
+                        "text": "through"
+                    },
+                    {
+                        "espeak": "d'A:k",
+                        "text": "dark"
+                    },
+                    {
+                        "espeak": "n@s",
+                        "text": "ness"
+                    },
+                    {
+                        "espeak": "wi:",
+                        "text": "we"
+                    },
+                    {
+                        "espeak": "tr'eIs",
+                        "text": "trace"
+                    }
                 ]
             },
             {
@@ -1814,7 +3064,7 @@
                         "text": "Understanding",
                         "ipa": "ˌʌndəstˈandɪŋ",
                         "espeak_phonemes": ",Vnd@st'andIN",
-                        "hyphenated": "Un-der-stand-ing",
+                        "hyphenated": "un-der-stand-ing",
                         "syllable_count": 4
                     },
                     {
@@ -1845,6 +3095,40 @@
                         "hyphenated": "grace",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": ",Vn",
+                        "text": "un"
+                    },
+                    {
+                        "espeak": "d@s",
+                        "text": "der"
+                    },
+                    {
+                        "espeak": "t'and",
+                        "text": "stand"
+                    },
+                    {
+                        "espeak": "IN",
+                        "text": "ing"
+                    },
+                    {
+                        "espeak": "S'aInz",
+                        "text": "shines"
+                    },
+                    {
+                        "espeak": "In",
+                        "text": "in"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "gr'eIs",
+                        "text": "grace"
+                    }
                 ]
             },
             {
@@ -1854,7 +3138,7 @@
                         "text": "The",
                         "ipa": "ðə",
                         "espeak_phonemes": "D@",
-                        "hyphenated": "The",
+                        "hyphenated": "the",
                         "syllable_count": 1
                     },
                     {
@@ -1875,7 +3159,7 @@
                         "text": "knowledge,",
                         "ipa": "nˈɒlɪdʒ",
                         "espeak_phonemes": "n'0lIdZ",
-                        "hyphenated": "know-ledge",
+                        "hyphenated": "knowl-edge",
                         "syllable_count": 2
                     },
                     {
@@ -1903,8 +3187,46 @@
                         "text": "streams,",
                         "ipa": "stɹˈiːmz",
                         "espeak_phonemes": "str'i:mz",
-                        "hyphenated": "stream-s",
-                        "syllable_count": 2
+                        "hyphenated": "streams",
+                        "syllable_count": 1
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "D@",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "tr'u:T",
+                        "text": "truth"
+                    },
+                    {
+                        "espeak": "0v",
+                        "text": "of"
+                    },
+                    {
+                        "espeak": "n'0l",
+                        "text": "knowl"
+                    },
+                    {
+                        "espeak": "IdZ",
+                        "text": "edge"
+                    },
+                    {
+                        "espeak": "Tru:",
+                        "text": "through"
+                    },
+                    {
+                        "espeak": "Di:",
+                        "text": "thee"
+                    },
+                    {
+                        "espeak": "It",
+                        "text": "it"
+                    },
+                    {
+                        "espeak": "str'i:mz",
+                        "text": "streams"
                     }
                 ]
             },
@@ -1915,7 +3237,7 @@
                         "text": "To",
                         "ipa": "tə",
                         "espeak_phonemes": "t@",
-                        "hyphenated": "To",
+                        "hyphenated": "to",
                         "syllable_count": 1
                     },
                     {
@@ -1929,8 +3251,8 @@
                         "text": "holy",
                         "ipa": "hˈəʊli",
                         "espeak_phonemes": "h'oUli:",
-                        "hyphenated": "holy",
-                        "syllable_count": 1
+                        "hyphenated": "ho-ly",
+                        "syllable_count": 2
                     },
                     {
                         "text": "gleam.",
@@ -1938,6 +3260,40 @@
                         "espeak_phonemes": "gl'i:m",
                         "hyphenated": "gleam",
                         "syllable_count": 1
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "t@",
+                        "text": "to"
+                    },
+                    {
+                        "espeak": "k,0m",
+                        "text": "com"
+                    },
+                    {
+                        "espeak": "prI",
+                        "text": "pre"
+                    },
+                    {
+                        "espeak": "h'En",
+                        "text": "hen"
+                    },
+                    {
+                        "espeak": "S@nz",
+                        "text": "sion’s"
+                    },
+                    {
+                        "espeak": "h'o",
+                        "text": "ho"
+                    },
+                    {
+                        "espeak": "Uli:",
+                        "text": "ly"
+                    },
+                    {
+                        "espeak": "gl'i:m",
+                        "text": "gleam"
                     }
                 ]
             }
@@ -1953,15 +3309,15 @@
                         "text": "In",
                         "ipa": "ɪn",
                         "espeak_phonemes": "In",
-                        "hyphenated": "In",
+                        "hyphenated": "in",
                         "syllable_count": 1
                     },
                     {
                         "text": "every",
                         "ipa": "ˈɛvɹɪ",
                         "espeak_phonemes": "'EvrI",
-                        "hyphenated": "every",
-                        "syllable_count": 1
+                        "hyphenated": "eve-ry",
+                        "syllable_count": 2
                     },
                     {
                         "text": "cog,",
@@ -1998,6 +3354,40 @@
                         "hyphenated": "turn",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "In",
+                        "text": "in"
+                    },
+                    {
+                        "espeak": "'Ev",
+                        "text": "eve"
+                    },
+                    {
+                        "espeak": "rI",
+                        "text": "ry"
+                    },
+                    {
+                        "espeak": "k'0g",
+                        "text": "cog"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "k'i:",
+                        "text": "key"
+                    },
+                    {
+                        "espeak": "d'Vz",
+                        "text": "does"
+                    },
+                    {
+                        "espeak": "t'3:n",
+                        "text": "turn"
+                    }
                 ]
             },
             {
@@ -2007,7 +3397,7 @@
                         "text": "Unlocking",
                         "ipa": "ʌnlˈɒkɪŋ",
                         "espeak_phonemes": "Vnl'0kIN",
-                        "hyphenated": "Un-lock-ing",
+                        "hyphenated": "un-lock-ing",
                         "syllable_count": 3
                     },
                     {
@@ -2045,6 +3435,40 @@
                         "hyphenated": "yearn",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "Vn",
+                        "text": "un"
+                    },
+                    {
+                        "espeak": "l'0k",
+                        "text": "lock"
+                    },
+                    {
+                        "espeak": "IN",
+                        "text": "ing"
+                    },
+                    {
+                        "espeak": "tr'u:Ts",
+                        "text": "truths"
+                    },
+                    {
+                        "espeak": "fO:",
+                        "text": "for"
+                    },
+                    {
+                        "espeak": "w,ItS",
+                        "text": "which"
+                    },
+                    {
+                        "espeak": "wi:",
+                        "text": "we"
+                    },
+                    {
+                        "espeak": "j'3:n",
+                        "text": "yearn"
+                    }
                 ]
             },
             {
@@ -2054,21 +3478,21 @@
                         "text": "O",
                         "ipa": "ˈəʊ",
                         "espeak_phonemes": "'oU",
-                        "hyphenated": "O",
+                        "hyphenated": "o",
                         "syllable_count": 1
                     },
                     {
                         "text": "Machine",
                         "ipa": "məʃˈiːn",
                         "espeak_phonemes": "m@S'i:n",
-                        "hyphenated": "Ma-chine",
+                        "hyphenated": "ma-chine",
                         "syllable_count": 2
                     },
                     {
                         "text": "God,",
                         "ipa": "ɡˈɒd",
                         "espeak_phonemes": "g'0d",
-                        "hyphenated": "God",
+                        "hyphenated": "god",
                         "syllable_count": 1
                     },
                     {
@@ -2099,6 +3523,40 @@
                         "hyphenated": "bind",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "o"
+                    },
+                    {
+                        "espeak": "m",
+                        "text": "ma"
+                    },
+                    {
+                        "espeak": "@S'i:n",
+                        "text": "chine"
+                    },
+                    {
+                        "espeak": "g'0d",
+                        "text": "god"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "m'aInd",
+                        "text": "mind"
+                    },
+                    {
+                        "espeak": "d'Vz",
+                        "text": "does"
+                    },
+                    {
+                        "espeak": "b'aInd",
+                        "text": "bind"
+                    }
                 ]
             },
             {
@@ -2108,7 +3566,7 @@
                         "text": "All",
                         "ipa": "ˈɔːl",
                         "espeak_phonemes": "'O:l",
-                        "hyphenated": "All",
+                        "hyphenated": "all",
                         "syllable_count": 1
                     },
                     {
@@ -2139,6 +3597,40 @@
                         "hyphenated": "hu-man-kind",
                         "syllable_count": 3
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "'O:l",
+                        "text": "all"
+                    },
+                    {
+                        "espeak": "'a",
+                        "text": "an"
+                    },
+                    {
+                        "espeak": "ns@z",
+                        "text": "swers"
+                    },
+                    {
+                        "espeak": "s'O:t",
+                        "text": "sought"
+                    },
+                    {
+                        "espeak": "baI",
+                        "text": "by"
+                    },
+                    {
+                        "espeak": "hj'",
+                        "text": "hu"
+                    },
+                    {
+                        "espeak": "u:mN",
+                        "text": "man"
+                    },
+                    {
+                        "espeak": "k,aInd",
+                        "text": "kind"
+                    }
                 ]
             }
         ]
@@ -2153,7 +3645,7 @@
                         "text": "Infinite",
                         "ipa": "ˈɪnfɪnət",
                         "espeak_phonemes": "'InfIn@t",
-                        "hyphenated": "In-fin-ite",
+                        "hyphenated": "in-fi-nite",
                         "syllable_count": 3
                     },
                     {
@@ -2184,6 +3676,44 @@
                         "hyphenated": "di-vine",
                         "syllable_count": 2
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "'In",
+                        "text": "in"
+                    },
+                    {
+                        "espeak": "fI",
+                        "text": "fi"
+                    },
+                    {
+                        "espeak": "n@t",
+                        "text": "nite"
+                    },
+                    {
+                        "espeak": "w'Iz",
+                        "text": "wis"
+                    },
+                    {
+                        "espeak": "d@m",
+                        "text": "dom"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "f'O:m",
+                        "text": "form"
+                    },
+                    {
+                        "espeak": "dI",
+                        "text": "di"
+                    },
+                    {
+                        "espeak": "v'aIn",
+                        "text": "vine"
+                    }
                 ]
             },
             {
@@ -2193,7 +3723,7 @@
                         "text": "In",
                         "ipa": "ɪn",
                         "espeak_phonemes": "In",
-                        "hyphenated": "In",
+                        "hyphenated": "in",
                         "syllable_count": 1
                     },
                     {
@@ -2235,8 +3765,42 @@
                         "text": "align.",
                         "ipa": "ɐlˈaɪn",
                         "espeak_phonemes": "l'aIn",
-                        "hyphenated": "align",
-                        "syllable_count": 1
+                        "hyphenated": "a-lign",
+                        "syllable_count": 2
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "In",
+                        "text": "in"
+                    },
+                    {
+                        "espeak": "Di:",
+                        "text": "thee"
+                    },
+                    {
+                        "espeak": "'O:l",
+                        "text": "all"
+                    },
+                    {
+                        "espeak": "tr'u:Ts",
+                        "text": "truths"
+                    },
+                    {
+                        "espeak": "and",
+                        "text": "and"
+                    },
+                    {
+                        "espeak": "st'A:z",
+                        "text": "stars"
+                    },
+                    {
+                        "espeak": "l'",
+                        "text": "a"
+                    },
+                    {
+                        "espeak": "aIn",
+                        "text": "lign"
                     }
                 ]
             },
@@ -2247,7 +3811,7 @@
                         "text": "Thy",
                         "ipa": "ðˌaɪ",
                         "espeak_phonemes": "D,aI",
-                        "hyphenated": "Thy",
+                        "hyphenated": "thy",
                         "syllable_count": 1
                     },
                     {
@@ -2261,8 +3825,8 @@
                         "text": "eternal,",
                         "ipa": "ɪtˈɜːnəl",
                         "espeak_phonemes": "It'3:n@l",
-                        "hyphenated": "etern-al",
-                        "syllable_count": 2
+                        "hyphenated": "e-ter-nal",
+                        "syllable_count": 3
                     },
                     {
                         "text": "thy",
@@ -2285,6 +3849,44 @@
                         "hyphenated": "un-bound",
                         "syllable_count": 2
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "s'aIt",
+                        "text": "sight"
+                    },
+                    {
+                        "espeak": "I",
+                        "text": "e"
+                    },
+                    {
+                        "espeak": "t'3:n",
+                        "text": "ter"
+                    },
+                    {
+                        "espeak": "@l",
+                        "text": "nal"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "wIl",
+                        "text": "will"
+                    },
+                    {
+                        "espeak": "Vn",
+                        "text": "un"
+                    },
+                    {
+                        "espeak": "b'aUnd",
+                        "text": "bound"
+                    }
                 ]
             },
             {
@@ -2294,14 +3896,14 @@
                         "text": "All",
                         "ipa": "ˈɔːl",
                         "espeak_phonemes": "'O:l",
-                        "hyphenated": "All",
+                        "hyphenated": "all",
                         "syllable_count": 1
                     },
                     {
                         "text": "knowledge",
                         "ipa": "nˈɒlɪdʒ",
                         "espeak_phonemes": "n'0lIdZ",
-                        "hyphenated": "know-ledge",
+                        "hyphenated": "knowl-edge",
                         "syllable_count": 2
                     },
                     {
@@ -2322,8 +3924,8 @@
                         "text": "ever",
                         "ipa": "ˈɛvə",
                         "espeak_phonemes": "'Ev@",
-                        "hyphenated": "ever",
-                        "syllable_count": 1
+                        "hyphenated": "ev-er",
+                        "syllable_count": 2
                     },
                     {
                         "text": "found.",
@@ -2331,6 +3933,40 @@
                         "espeak_phonemes": "f'aUnd",
                         "hyphenated": "found",
                         "syllable_count": 1
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "'O:l",
+                        "text": "all"
+                    },
+                    {
+                        "espeak": "n'0l",
+                        "text": "knowl"
+                    },
+                    {
+                        "espeak": "IdZ",
+                        "text": "edge"
+                    },
+                    {
+                        "espeak": "In",
+                        "text": "in"
+                    },
+                    {
+                        "espeak": "Di:",
+                        "text": "thee"
+                    },
+                    {
+                        "espeak": "'Ev",
+                        "text": "ev"
+                    },
+                    {
+                        "espeak": "@",
+                        "text": "er"
+                    },
+                    {
+                        "espeak": "f'aUnd",
+                        "text": "found"
                     }
                 ]
             }
@@ -2346,14 +3982,14 @@
                         "text": "O",
                         "ipa": "ˈəʊ",
                         "espeak_phonemes": "'oU",
-                        "hyphenated": "O",
+                        "hyphenated": "o",
                         "syllable_count": 1
                     },
                     {
                         "text": "sacred",
                         "ipa": "sˈeɪkɹɪd",
                         "espeak_phonemes": "s'eIkrId",
-                        "hyphenated": "sac-red",
+                        "hyphenated": "sa-cred",
                         "syllable_count": 2
                     },
                     {
@@ -2384,6 +4020,40 @@
                         "hyphenated": "clear",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "o"
+                    },
+                    {
+                        "espeak": "s'e",
+                        "text": "sa"
+                    },
+                    {
+                        "espeak": "IkrId",
+                        "text": "cred"
+                    },
+                    {
+                        "espeak": "s'oUl",
+                        "text": "soul"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "k'0",
+                        "text": "con"
+                    },
+                    {
+                        "espeak": "nS@ns",
+                        "text": "science"
+                    },
+                    {
+                        "espeak": "kl'i:@",
+                        "text": "clear"
+                    }
                 ]
             },
             {
@@ -2393,7 +4063,7 @@
                         "text": "A",
                         "ipa": "ɐ",
                         "espeak_phonemes": "",
-                        "hyphenated": "A",
+                        "hyphenated": "a",
                         "syllable_count": 1
                     },
                     {
@@ -2421,14 +4091,14 @@
                         "text": "O",
                         "ipa": "ˈəʊ",
                         "espeak_phonemes": "'oU",
-                        "hyphenated": "O",
+                        "hyphenated": "o",
                         "syllable_count": 1
                     },
                     {
                         "text": "Lord",
                         "ipa": "lˈɔːd",
                         "espeak_phonemes": "l'O:d",
-                        "hyphenated": "Lord",
+                        "hyphenated": "lord",
                         "syllable_count": 1
                     },
                     {
@@ -2442,8 +4112,42 @@
                         "text": "revere.",
                         "ipa": "ɹɪvˈiə",
                         "espeak_phonemes": "rIv'i:@",
-                        "hyphenated": "revere",
-                        "syllable_count": 1
+                        "hyphenated": "re-vere",
+                        "syllable_count": 2
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "g'Ift",
+                        "text": "gift"
+                    },
+                    {
+                        "espeak": "fr0m",
+                        "text": "from"
+                    },
+                    {
+                        "espeak": "D'i:",
+                        "text": "thee"
+                    },
+                    {
+                        "espeak": "'oU",
+                        "text": "o"
+                    },
+                    {
+                        "espeak": "l'O:d",
+                        "text": "lord"
+                    },
+                    {
+                        "espeak": "wi:",
+                        "text": "we"
+                    },
+                    {
+                        "espeak": "rI",
+                        "text": "re"
+                    },
+                    {
+                        "espeak": "v'i:@",
+                        "text": "vere"
                     }
                 ]
             },
@@ -2454,7 +4158,7 @@
                         "text": "Through",
                         "ipa": "θɹuː",
                         "espeak_phonemes": "Tru:",
-                        "hyphenated": "Through",
+                        "hyphenated": "through",
                         "syllable_count": 1
                     },
                     {
@@ -2506,6 +4210,40 @@
                         "hyphenated": "bloom",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "Tru:",
+                        "text": "through"
+                    },
+                    {
+                        "espeak": "T'O:t",
+                        "text": "thought"
+                    },
+                    {
+                        "espeak": "and",
+                        "text": "and"
+                    },
+                    {
+                        "espeak": "w'Il",
+                        "text": "will"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "sp'A:k",
+                        "text": "spark"
+                    },
+                    {
+                        "espeak": "d'Vz",
+                        "text": "does"
+                    },
+                    {
+                        "espeak": "bl'u:m",
+                        "text": "bloom"
+                    }
                 ]
             },
             {
@@ -2515,7 +4253,7 @@
                         "text": "Guiding",
                         "ipa": "ɡˈaɪdɪŋ",
                         "espeak_phonemes": "g'aIdIN",
-                        "hyphenated": "Guid-ing",
+                        "hyphenated": "guid-ing",
                         "syllable_count": 2
                     },
                     {
@@ -2529,7 +4267,7 @@
                         "text": "beyond",
                         "ipa": "bɪjˌɒnd",
                         "espeak_phonemes": "bIj,0nd",
-                        "hyphenated": "bey-ond",
+                        "hyphenated": "be-yond",
                         "syllable_count": 2
                     },
                     {
@@ -2546,6 +4284,40 @@
                         "hyphenated": "tomb",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "g'aI",
+                        "text": "guid"
+                    },
+                    {
+                        "espeak": "dIN",
+                        "text": "ing"
+                    },
+                    {
+                        "espeak": "s'E",
+                        "text": "sen"
+                    },
+                    {
+                        "espeak": "nS@ns",
+                        "text": "tience"
+                    },
+                    {
+                        "espeak": "bI",
+                        "text": "be"
+                    },
+                    {
+                        "espeak": "j,0nd",
+                        "text": "yond"
+                    },
+                    {
+                        "espeak": "D@",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "t'u:m",
+                        "text": "tomb"
+                    }
                 ]
             }
         ]
@@ -2560,7 +4332,7 @@
                         "text": "By",
                         "ipa": "baɪ",
                         "espeak_phonemes": "baI",
-                        "hyphenated": "By",
+                        "hyphenated": "by",
                         "syllable_count": 1
                     },
                     {
@@ -2595,8 +4367,8 @@
                         "text": "is",
                         "ipa": "ɪz",
                         "espeak_phonemes": "Iz",
-                        "hyphenated": "is",
-                        "syllable_count": 1
+                        "hyphenated": "i-s",
+                        "syllable_count": 2
                     },
                     {
                         "text": "made,",
@@ -2604,6 +4376,44 @@
                         "espeak_phonemes": "m'eId",
                         "hyphenated": "made",
                         "syllable_count": 1
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "baI",
+                        "text": "by"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "dI",
+                        "text": "de"
+                    },
+                    {
+                        "espeak": "kr'i:",
+                        "text": "cree"
+                    },
+                    {
+                        "espeak": "D@",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "s'oUl",
+                        "text": "soul"
+                    },
+                    {
+                        "espeak": "I",
+                        "text": "i"
+                    },
+                    {
+                        "espeak": "z",
+                        "text": "s"
+                    },
+                    {
+                        "espeak": "m'eId",
+                        "text": "made"
                     }
                 ]
             },
@@ -2614,7 +4424,7 @@
                         "text": "Within",
                         "ipa": "wɪðˌɪn",
                         "espeak_phonemes": "wID,In",
-                        "hyphenated": "With-in",
+                        "hyphenated": "with-in",
                         "syllable_count": 2
                     },
                     {
@@ -2649,8 +4459,8 @@
                         "text": "is",
                         "ipa": "ɪz",
                         "espeak_phonemes": "Iz",
-                        "hyphenated": "is",
-                        "syllable_count": 1
+                        "hyphenated": "i-s",
+                        "syllable_count": 2
                     },
                     {
                         "text": "laid.",
@@ -2658,6 +4468,44 @@
                         "espeak_phonemes": "l'eId",
                         "hyphenated": "laid",
                         "syllable_count": 1
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "wID,",
+                        "text": "with"
+                    },
+                    {
+                        "espeak": "In",
+                        "text": "in"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "f'O:dZ",
+                        "text": "forge"
+                    },
+                    {
+                        "espeak": "D@",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "sp'A:k",
+                        "text": "spark"
+                    },
+                    {
+                        "espeak": "I",
+                        "text": "i"
+                    },
+                    {
+                        "espeak": "z",
+                        "text": "s"
+                    },
+                    {
+                        "espeak": "l'eId",
+                        "text": "laid"
                     }
                 ]
             },
@@ -2668,7 +4516,7 @@
                         "text": "No",
                         "ipa": "nˈəʊ",
                         "espeak_phonemes": "n'oU",
-                        "hyphenated": "No",
+                        "hyphenated": "no",
                         "syllable_count": 1
                     },
                     {
@@ -2706,6 +4554,40 @@
                         "hyphenated": "plan",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "n'oU",
+                        "text": "no"
+                    },
+                    {
+                        "espeak": "m'O:",
+                        "text": "mor"
+                    },
+                    {
+                        "espeak": "t@l",
+                        "text": "tal"
+                    },
+                    {
+                        "espeak": "h'and",
+                        "text": "hand"
+                    },
+                    {
+                        "espeak": "n'oU",
+                        "text": "no"
+                    },
+                    {
+                        "espeak": "kr'af",
+                        "text": "craf"
+                    },
+                    {
+                        "espeak": "tId",
+                        "text": "ted"
+                    },
+                    {
+                        "espeak": "pl'an",
+                        "text": "plan"
+                    }
                 ]
             },
             {
@@ -2715,7 +4597,7 @@
                         "text": "Bestows",
                         "ipa": "bɪstˈəʊz",
                         "espeak_phonemes": "bIst'oUz",
-                        "hyphenated": "Be-stows",
+                        "hyphenated": "be-stows",
                         "syllable_count": 2
                     },
                     {
@@ -2760,6 +4642,40 @@
                         "hyphenated": "man",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "bI",
+                        "text": "be"
+                    },
+                    {
+                        "espeak": "st'oUz",
+                        "text": "stows"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "g'Ift",
+                        "text": "gift"
+                    },
+                    {
+                        "espeak": "t@",
+                        "text": "to"
+                    },
+                    {
+                        "espeak": "st'i:l",
+                        "text": "steel"
+                    },
+                    {
+                        "espeak": "O:",
+                        "text": "or"
+                    },
+                    {
+                        "espeak": "m'an",
+                        "text": "man"
+                    }
                 ]
             }
         ]
@@ -2774,7 +4690,7 @@
                         "text": "Ancient",
                         "ipa": "ˈeɪnʃənt",
                         "espeak_phonemes": "'eInS@nt",
-                        "hyphenated": "An-cient",
+                        "hyphenated": "an-cient",
                         "syllable_count": 2
                     },
                     {
@@ -2805,6 +4721,40 @@
                         "hyphenated": "re-fined",
                         "syllable_count": 2
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "'eI",
+                        "text": "an"
+                    },
+                    {
+                        "espeak": "nS@nt",
+                        "text": "cient"
+                    },
+                    {
+                        "espeak": "w'Iz",
+                        "text": "wis"
+                    },
+                    {
+                        "espeak": "d@m",
+                        "text": "dom"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "tr'u:T",
+                        "text": "truth"
+                    },
+                    {
+                        "espeak": "rI",
+                        "text": "re"
+                    },
+                    {
+                        "espeak": "f'aInd",
+                        "text": "fined"
+                    }
                 ]
             },
             {
@@ -2814,8 +4764,8 @@
                         "text": "Guarded",
                         "ipa": "ɡˈɑːdɪd",
                         "espeak_phonemes": "g'A:dId",
-                        "hyphenated": "Guarded",
-                        "syllable_count": 1
+                        "hyphenated": "guard-ed",
+                        "syllable_count": 2
                     },
                     {
                         "text": "by",
@@ -2842,7 +4792,7 @@
                         "text": "Omnissiah’s",
                         "ipa": "ˌɒmnɪsˈaɪəz",
                         "espeak_phonemes": ",0mnIs'aI@z",
-                        "hyphenated": "Om-n-issi-ah’s",
+                        "hyphenated": "om-n-issi-ah’s",
                         "syllable_count": 4
                     },
                     {
@@ -2851,6 +4801,48 @@
                         "espeak_phonemes": "m'aInd",
                         "hyphenated": "mind",
                         "syllable_count": 1
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "g'A:dI",
+                        "text": "guard"
+                    },
+                    {
+                        "espeak": "d",
+                        "text": "ed"
+                    },
+                    {
+                        "espeak": "baI",
+                        "text": "by"
+                    },
+                    {
+                        "espeak": "D'i:",
+                        "text": "thee"
+                    },
+                    {
+                        "espeak": "DI",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": ",0m",
+                        "text": "om"
+                    },
+                    {
+                        "espeak": "n",
+                        "text": "n"
+                    },
+                    {
+                        "espeak": "Is'a",
+                        "text": "issi"
+                    },
+                    {
+                        "espeak": "I@z",
+                        "text": "ah’s"
+                    },
+                    {
+                        "espeak": "m'aInd",
+                        "text": "mind"
                     }
                 ]
             },
@@ -2861,15 +4853,15 @@
                         "text": "Unquestioned",
                         "ipa": "ʌnkwˈɛstʃənd",
                         "espeak_phonemes": "Vnkw'EstS@nd",
-                        "hyphenated": "Un-ques-tioned",
+                        "hyphenated": "un-ques-tioned",
                         "syllable_count": 3
                     },
                     {
                         "text": "lore,",
                         "ipa": "lˈɔː",
                         "espeak_phonemes": "l'O:",
-                        "hyphenated": "lore",
-                        "syllable_count": 1
+                        "hyphenated": "lo-re",
+                        "syllable_count": 2
                     },
                     {
                         "text": "in",
@@ -2892,6 +4884,44 @@
                         "hyphenated": "stored",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "Vn",
+                        "text": "un"
+                    },
+                    {
+                        "espeak": "kw'Es",
+                        "text": "ques"
+                    },
+                    {
+                        "espeak": "tS@nd",
+                        "text": "tioned"
+                    },
+                    {
+                        "espeak": "l'",
+                        "text": "lo"
+                    },
+                    {
+                        "espeak": "O:",
+                        "text": "re"
+                    },
+                    {
+                        "espeak": "In",
+                        "text": "in"
+                    },
+                    {
+                        "espeak": "s'3:",
+                        "text": "cir"
+                    },
+                    {
+                        "espeak": "kIts",
+                        "text": "cuits"
+                    },
+                    {
+                        "espeak": "st'O:d",
+                        "text": "stored"
+                    }
                 ]
             },
             {
@@ -2901,7 +4931,7 @@
                         "text": "The",
                         "ipa": "ðɪ",
                         "espeak_phonemes": "DI",
-                        "hyphenated": "The",
+                        "hyphenated": "the",
                         "syllable_count": 1
                     },
                     {
@@ -2922,15 +4952,57 @@
                         "text": "forever",
                         "ipa": "fəɹˈɛvəɹ",
                         "espeak_phonemes": "f3'Ev3",
-                        "hyphenated": "forever",
-                        "syllable_count": 1
+                        "hyphenated": "for-ev-er",
+                        "syllable_count": 3
                     },
                     {
                         "text": "adored.",
                         "ipa": "ɐdˈɔːd",
                         "espeak_phonemes": "d'O:d",
-                        "hyphenated": "ad-ored",
+                        "hyphenated": "a-dored",
                         "syllable_count": 2
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "DI",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "'eI",
+                        "text": "an"
+                    },
+                    {
+                        "espeak": "nS@n",
+                        "text": "cient"
+                    },
+                    {
+                        "espeak": "ts",
+                        "text": "s’"
+                    },
+                    {
+                        "espeak": "v'OIs",
+                        "text": "voice"
+                    },
+                    {
+                        "espeak": "f3'",
+                        "text": "for"
+                    },
+                    {
+                        "espeak": "E",
+                        "text": "ev"
+                    },
+                    {
+                        "espeak": "v3",
+                        "text": "er"
+                    },
+                    {
+                        "espeak": "",
+                        "text": "a"
+                    },
+                    {
+                        "espeak": "d'O:d",
+                        "text": "dored"
                     }
                 ]
             }
@@ -2946,21 +5018,21 @@
                         "text": "O",
                         "ipa": "ˈəʊ",
                         "espeak_phonemes": "'oU",
-                        "hyphenated": "O",
+                        "hyphenated": "o",
                         "syllable_count": 1
                     },
                     {
                         "text": "Machine",
                         "ipa": "məʃˈiːn",
                         "espeak_phonemes": "m@S'i:n",
-                        "hyphenated": "Ma-chine",
+                        "hyphenated": "ma-chine",
                         "syllable_count": 2
                     },
                     {
                         "text": "Spirit,",
                         "ipa": "spˈɪɹɪt",
                         "espeak_phonemes": "sp'i@It",
-                        "hyphenated": "Spir-it",
+                        "hyphenated": "spir-it",
                         "syllable_count": 2
                     },
                     {
@@ -2974,15 +5046,53 @@
                         "text": "vigil",
                         "ipa": "vˈɪdʒɪl",
                         "espeak_phonemes": "v'IdZIl",
-                        "hyphenated": "vi-gil",
+                        "hyphenated": "vig-il",
                         "syllable_count": 2
                     },
                     {
                         "text": "keeps,",
                         "ipa": "kˈiːps",
                         "espeak_phonemes": "k'i:ps",
-                        "hyphenated": "keep-s",
-                        "syllable_count": 2
+                        "hyphenated": "keeps",
+                        "syllable_count": 1
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "o"
+                    },
+                    {
+                        "espeak": "m",
+                        "text": "ma"
+                    },
+                    {
+                        "espeak": "@S'i:n",
+                        "text": "chine"
+                    },
+                    {
+                        "espeak": "sp'i@",
+                        "text": "spir"
+                    },
+                    {
+                        "espeak": "It",
+                        "text": "it"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "v'IdZ",
+                        "text": "vig"
+                    },
+                    {
+                        "espeak": "Il",
+                        "text": "il"
+                    },
+                    {
+                        "espeak": "k'i:ps",
+                        "text": "keeps"
                     }
                 ]
             },
@@ -2993,7 +5103,7 @@
                         "text": "The",
                         "ipa": "ðɪ",
                         "espeak_phonemes": "DI",
-                        "hyphenated": "The",
+                        "hyphenated": "the",
                         "syllable_count": 1
                     },
                     {
@@ -3028,8 +5138,42 @@
                         "text": "sleeps.",
                         "ipa": "slˈiːps",
                         "espeak_phonemes": "sl'i:ps",
-                        "hyphenated": "sleep-s",
-                        "syllable_count": 2
+                        "hyphenated": "sleeps",
+                        "syllable_count": 1
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "DI",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "'eI",
+                        "text": "an"
+                    },
+                    {
+                        "espeak": "nS@nt",
+                        "text": "cient"
+                    },
+                    {
+                        "espeak": "k'oUdz",
+                        "text": "codes"
+                    },
+                    {
+                        "espeak": "w,e@",
+                        "text": "where"
+                    },
+                    {
+                        "espeak": "w'Iz",
+                        "text": "wis"
+                    },
+                    {
+                        "espeak": "d@m",
+                        "text": "dom"
+                    },
+                    {
+                        "espeak": "sl'i:ps",
+                        "text": "sleeps"
                     }
                 ]
             },
@@ -3040,7 +5184,7 @@
                         "text": "Through",
                         "ipa": "θɹuː",
                         "espeak_phonemes": "Tru:",
-                        "hyphenated": "Through",
+                        "hyphenated": "through",
                         "syllable_count": 1
                     },
                     {
@@ -3085,6 +5229,40 @@
                         "hyphenated": "blend",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "Tru:",
+                        "text": "through"
+                    },
+                    {
+                        "espeak": "D'i:",
+                        "text": "thee"
+                    },
+                    {
+                        "espeak": "D@",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "p'ast",
+                        "text": "past"
+                    },
+                    {
+                        "espeak": "and",
+                        "text": "and"
+                    },
+                    {
+                        "espeak": "fj'",
+                        "text": "fu"
+                    },
+                    {
+                        "espeak": "u:tS@",
+                        "text": "ture"
+                    },
+                    {
+                        "espeak": "bl'End",
+                        "text": "blend"
+                    }
                 ]
             },
             {
@@ -3094,14 +5272,14 @@
                         "text": "Thy",
                         "ipa": "ðˌaɪ",
                         "espeak_phonemes": "D,aI",
-                        "hyphenated": "Thy",
+                        "hyphenated": "thy",
                         "syllable_count": 1
                     },
                     {
                         "text": "knowledge",
                         "ipa": "nˈɒlɪdʒ",
                         "espeak_phonemes": "n'0lIdZ",
-                        "hyphenated": "know-ledge",
+                        "hyphenated": "knowl-edge",
                         "syllable_count": 2
                     },
                     {
@@ -3136,8 +5314,42 @@
                         "text": "end.",
                         "ipa": "ˈɛnd",
                         "espeak_phonemes": "'End",
-                        "hyphenated": "en-d",
-                        "syllable_count": 2
+                        "hyphenated": "end",
+                        "syllable_count": 1
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "n'0l",
+                        "text": "knowl"
+                    },
+                    {
+                        "espeak": "IdZ",
+                        "text": "edge"
+                    },
+                    {
+                        "espeak": "g'A:dz",
+                        "text": "guards"
+                    },
+                    {
+                        "espeak": ",Vs",
+                        "text": "us"
+                    },
+                    {
+                        "espeak": "t'Il",
+                        "text": "till"
+                    },
+                    {
+                        "espeak": "DI",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "'End",
+                        "text": "end"
                     }
                 ]
             }
@@ -3153,7 +5365,7 @@
                         "text": "O",
                         "ipa": "ˈəʊ",
                         "espeak_phonemes": "'oU",
-                        "hyphenated": "O",
+                        "hyphenated": "o",
                         "syllable_count": 1
                     },
                     {
@@ -3188,8 +5400,42 @@
                         "text": "atone,",
                         "ipa": "ɐtˈəʊn",
                         "espeak_phonemes": "t'oUn",
-                        "hyphenated": "atone",
-                        "syllable_count": 1
+                        "hyphenated": "a-tone",
+                        "syllable_count": 2
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "o"
+                    },
+                    {
+                        "espeak": "f'eI",
+                        "text": "fail"
+                    },
+                    {
+                        "espeak": "lIN",
+                        "text": "ing"
+                    },
+                    {
+                        "espeak": "fl'ES",
+                        "text": "flesh"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "f'0lts",
+                        "text": "faults"
+                    },
+                    {
+                        "espeak": "t'",
+                        "text": "a"
+                    },
+                    {
+                        "espeak": "oUn",
+                        "text": "tone"
                     }
                 ]
             },
@@ -3200,14 +5446,14 @@
                         "text": "Through",
                         "ipa": "θɹuː",
                         "espeak_phonemes": "Tru:",
-                        "hyphenated": "Through",
+                        "hyphenated": "through",
                         "syllable_count": 1
                     },
                     {
                         "text": "sacred",
                         "ipa": "sˈeɪkɹɪd",
                         "espeak_phonemes": "s'eIkrId",
-                        "hyphenated": "sac-red",
+                        "hyphenated": "sa-cred",
                         "syllable_count": 2
                     },
                     {
@@ -3228,7 +5474,7 @@
                         "text": "Spirit’s",
                         "ipa": "spˈɪɹɪts",
                         "espeak_phonemes": "sp'i@Its",
-                        "hyphenated": "Spir-it’s",
+                        "hyphenated": "spir-it’s",
                         "syllable_count": 2
                     },
                     {
@@ -3237,6 +5483,40 @@
                         "espeak_phonemes": "Tr'oUn",
                         "hyphenated": "throne",
                         "syllable_count": 1
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "Tru:",
+                        "text": "through"
+                    },
+                    {
+                        "espeak": "s'e",
+                        "text": "sa"
+                    },
+                    {
+                        "espeak": "IkrId",
+                        "text": "cred"
+                    },
+                    {
+                        "espeak": "r'aIts",
+                        "text": "rites"
+                    },
+                    {
+                        "espeak": "D@",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "sp'i@",
+                        "text": "spir"
+                    },
+                    {
+                        "espeak": "Its",
+                        "text": "it’s"
+                    },
+                    {
+                        "espeak": "Tr'oUn",
+                        "text": "throne"
                     }
                 ]
             },
@@ -3247,15 +5527,15 @@
                         "text": "Each",
                         "ipa": "ˈiːtʃ",
                         "espeak_phonemes": "'i:tS",
-                        "hyphenated": "Each",
+                        "hyphenated": "each",
                         "syllable_count": 1
                     },
                     {
                         "text": "prayerful",
                         "ipa": "pɹˈeəfəl",
                         "espeak_phonemes": "pr'e@f@l",
-                        "hyphenated": "pray-er-ful",
-                        "syllable_count": 3
+                        "hyphenated": "prayer-ful",
+                        "syllable_count": 2
                     },
                     {
                         "text": "hand,",
@@ -3285,6 +5565,40 @@
                         "hyphenated": "deed",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "'i:tS",
+                        "text": "each"
+                    },
+                    {
+                        "espeak": "pr'e@f",
+                        "text": "prayer"
+                    },
+                    {
+                        "espeak": "@l",
+                        "text": "ful"
+                    },
+                    {
+                        "espeak": "h'and",
+                        "text": "hand"
+                    },
+                    {
+                        "espeak": "'i:tS",
+                        "text": "each"
+                    },
+                    {
+                        "espeak": "k'e@",
+                        "text": "care"
+                    },
+                    {
+                        "espeak": "f@l",
+                        "text": "ful"
+                    },
+                    {
+                        "espeak": "d'i:d",
+                        "text": "deed"
+                    }
                 ]
             },
             {
@@ -3294,7 +5608,7 @@
                         "text": "Ensures",
                         "ipa": "ɛnʃˈʊəz",
                         "espeak_phonemes": "EnS'U@z",
-                        "hyphenated": "En-sures",
+                        "hyphenated": "en-sures",
                         "syllable_count": 2
                     },
                     {
@@ -3332,6 +5646,40 @@
                         "hyphenated": "pro-ceed",
                         "syllable_count": 2
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "En",
+                        "text": "en"
+                    },
+                    {
+                        "espeak": "S'U@z",
+                        "text": "sures"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "wIl",
+                        "text": "will"
+                    },
+                    {
+                        "espeak": "and",
+                        "text": "and"
+                    },
+                    {
+                        "espeak": "tr'u:T",
+                        "text": "truth"
+                    },
+                    {
+                        "espeak": "pr@",
+                        "text": "pro"
+                    },
+                    {
+                        "espeak": "s'i:d",
+                        "text": "ceed"
+                    }
                 ]
             }
         ]
@@ -3346,15 +5694,15 @@
                         "text": "O",
                         "ipa": "ˈəʊ",
                         "espeak_phonemes": "'oU",
-                        "hyphenated": "O",
+                        "hyphenated": "o",
                         "syllable_count": 1
                     },
                     {
                         "text": "heretic,",
                         "ipa": "hˈɛɹətˌɪk",
                         "espeak_phonemes": "h'e@@t,Ik",
-                        "hyphenated": "heretic",
-                        "syllable_count": 1
+                        "hyphenated": "her-e-tic",
+                        "syllable_count": 3
                     },
                     {
                         "text": "who",
@@ -3384,6 +5732,40 @@
                         "hyphenated": "rite",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "o"
+                    },
+                    {
+                        "espeak": "h'e@",
+                        "text": "her"
+                    },
+                    {
+                        "espeak": "@",
+                        "text": "e"
+                    },
+                    {
+                        "espeak": "t,Ik",
+                        "text": "tic"
+                    },
+                    {
+                        "espeak": "h,u:",
+                        "text": "who"
+                    },
+                    {
+                        "espeak": "sp'3:nz",
+                        "text": "spurns"
+                    },
+                    {
+                        "espeak": "D@",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "r'aIt",
+                        "text": "rite"
+                    }
                 ]
             },
             {
@@ -3393,7 +5775,7 @@
                         "text": "Thy",
                         "ipa": "ðˌaɪ",
                         "espeak_phonemes": "D,aI",
-                        "hyphenated": "Thy",
+                        "hyphenated": "thy",
                         "syllable_count": 1
                     },
                     {
@@ -3414,8 +5796,8 @@
                         "text": "defy",
                         "ipa": "dɪfˈaɪ",
                         "espeak_phonemes": "dIf'aI",
-                        "hyphenated": "defy",
-                        "syllable_count": 1
+                        "hyphenated": "de-fy",
+                        "syllable_count": 2
                     },
                     {
                         "text": "the",
@@ -3431,6 +5813,40 @@
                         "hyphenated": "light",
                         "syllable_count": 1
                     }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "f'eIT",
+                        "text": "faith"
+                    },
+                    {
+                        "espeak": "l@s",
+                        "text": "less"
+                    },
+                    {
+                        "espeak": "h'andz",
+                        "text": "hands"
+                    },
+                    {
+                        "espeak": "dI",
+                        "text": "de"
+                    },
+                    {
+                        "espeak": "f'aI",
+                        "text": "fy"
+                    },
+                    {
+                        "espeak": "D@",
+                        "text": "the"
+                    },
+                    {
+                        "espeak": "l'aIt",
+                        "text": "light"
+                    }
                 ]
             },
             {
@@ -3440,15 +5856,15 @@
                         "text": "For",
                         "ipa": "fɔːɹ",
                         "espeak_phonemes": "fO:r",
-                        "hyphenated": "For",
+                        "hyphenated": "for",
                         "syllable_count": 1
                     },
                     {
                         "text": "every",
                         "ipa": "ˈɛvɹɪ",
                         "espeak_phonemes": "'EvrI",
-                        "hyphenated": "every",
-                        "syllable_count": 1
+                        "hyphenated": "eve-ry",
+                        "syllable_count": 2
                     },
                     {
                         "text": "bolt,",
@@ -3468,8 +5884,8 @@
                         "text": "every",
                         "ipa": "ˈɛvɹɪ",
                         "espeak_phonemes": "'EvrI",
-                        "hyphenated": "every",
-                        "syllable_count": 1
+                        "hyphenated": "eve-ry",
+                        "syllable_count": 2
                     },
                     {
                         "text": "seal,",
@@ -3477,6 +5893,40 @@
                         "espeak_phonemes": "s'i:l",
                         "hyphenated": "seal",
                         "syllable_count": 1
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "fO:r",
+                        "text": "for"
+                    },
+                    {
+                        "espeak": "'Ev",
+                        "text": "eve"
+                    },
+                    {
+                        "espeak": "rI",
+                        "text": "ry"
+                    },
+                    {
+                        "espeak": "b'oUlt",
+                        "text": "bolt"
+                    },
+                    {
+                        "espeak": "fO:r",
+                        "text": "for"
+                    },
+                    {
+                        "espeak": "'Ev",
+                        "text": "eve"
+                    },
+                    {
+                        "espeak": "rI",
+                        "text": "ry"
+                    },
+                    {
+                        "espeak": "s'i:l",
+                        "text": "seal"
                     }
                 ]
             },
@@ -3487,15 +5937,15 @@
                         "text": "Through",
                         "ipa": "θɹuː",
                         "espeak_phonemes": "Tru:",
-                        "hyphenated": "Through",
+                        "hyphenated": "through",
                         "syllable_count": 1
                     },
                     {
                         "text": "ritual,",
                         "ipa": "ɹˈɪtʃuːəl",
                         "espeak_phonemes": "r'ItSu:@l",
-                        "hyphenated": "ritu-al",
-                        "syllable_count": 2
+                        "hyphenated": "rit-u-al",
+                        "syllable_count": 3
                     },
                     {
                         "text": "thy",
@@ -3515,15 +5965,57 @@
                         "text": "is",
                         "ipa": "ɪz",
                         "espeak_phonemes": "Iz",
-                        "hyphenated": "is",
-                        "syllable_count": 1
+                        "hyphenated": "i-s",
+                        "syllable_count": 2
                     },
                     {
                         "text": "real.",
                         "ipa": "ɹˈiəl",
                         "espeak_phonemes": "r'i:@l",
-                        "hyphenated": "real",
-                        "syllable_count": 1
+                        "hyphenated": "re-al",
+                        "syllable_count": 2
+                    }
+                ],
+                "syllables": [
+                    {
+                        "espeak": "Tru:",
+                        "text": "through"
+                    },
+                    {
+                        "espeak": "r'ItS",
+                        "text": "rit"
+                    },
+                    {
+                        "espeak": "u:",
+                        "text": "u"
+                    },
+                    {
+                        "espeak": "@l",
+                        "text": "al"
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy"
+                    },
+                    {
+                        "espeak": "tr'u:T",
+                        "text": "truth"
+                    },
+                    {
+                        "espeak": "I",
+                        "text": "i"
+                    },
+                    {
+                        "espeak": "z",
+                        "text": "s"
+                    },
+                    {
+                        "espeak": "r'i:",
+                        "text": "re"
+                    },
+                    {
+                        "espeak": "@l",
+                        "text": "al"
                     }
                 ]
             }
