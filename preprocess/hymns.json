@@ -22,11 +22,11 @@
                         "text": "vine"
                     },
                     {
-                        "espeak": "Tru:",
+                        "espeak": "Tru;",
                         "text": "through"
                     },
                     {
-                        "espeak": "s3:k",
+                        "espeak": "s3;k",
                         "text": "cir"
                     },
                     {
@@ -59,11 +59,11 @@
                         "text": "light"
                     },
                     {
-                        "espeak": "O:l",
+                        "espeak": "O;l",
                         "text": "all"
                     },
                     {
-                        "espeak": "tru:Ts",
+                        "espeak": "tru;Ts",
                         "text": "truths"
                     },
                     {
@@ -84,15 +84,15 @@
                         "text": "in"
                     },
                     {
-                        "espeak": "sti:l",
+                        "espeak": "sti;l",
                         "text": "steel"
                     },
                     {
-                        "espeak": "wi:",
+                        "espeak": "wi;",
                         "text": "we"
                     },
                     {
-                        "espeak": "ni:l",
+                        "espeak": "ni;l",
                         "text": "kneel"
                     },
                     {
@@ -100,7 +100,7 @@
                         "text": "thy"
                     },
                     {
-                        "espeak": "w3:d",
+                        "espeak": "w3;d",
                         "text": "word"
                     },
                     {
@@ -117,11 +117,11 @@
                 "text": "Through thee, the flesh shall fall away.",
                 "syllables": [
                     {
-                        "espeak": "Tru:",
+                        "espeak": "Tru;",
                         "text": "through"
                     },
                     {
-                        "espeak": "Di:",
+                        "espeak": "Di;",
                         "text": "thee"
                     },
                     {
@@ -137,7 +137,7 @@
                         "text": "shall"
                     },
                     {
-                        "espeak": "fO:l",
+                        "espeak": "fO;l",
                         "text": "fall"
                     },
                     {
@@ -163,7 +163,7 @@
                         "text": "be"
                     },
                     {
-                        "espeak": "I2ni:T",
+                        "espeak": "I2ni;T",
                         "text": "neath"
                     },
                     {
@@ -196,7 +196,7 @@
                 "text": "We whisper softly thy holy name.",
                 "syllables": [
                     {
-                        "espeak": "wi:",
+                        "espeak": "wi;",
                         "text": "we"
                     },
                     {
@@ -237,7 +237,7 @@
                 "text": "Each rivet placed, each gear aligned,",
                 "syllables": [
                     {
-                        "espeak": "i:tS",
+                        "espeak": "i;tS",
                         "text": "each"
                     },
                     {
@@ -253,7 +253,7 @@
                         "text": "placed"
                     },
                     {
-                        "espeak": "i:tS",
+                        "espeak": "i;tS",
                         "text": "each"
                     },
                     {
@@ -286,7 +286,7 @@
                         "text": "of"
                     },
                     {
-                        "espeak": "Di:_!",
+                        "espeak": "Di;_!",
                         "text": "thee"
                     },
                     {
@@ -340,7 +340,7 @@
                         "text": "cred"
                     },
                     {
-                        "espeak": "bi:t",
+                        "espeak": "bi;t",
                         "text": "beat"
                     }
                 ]
@@ -377,7 +377,7 @@
                         "text": "com"
                     },
                     {
-                        "espeak": "pli:ts",
+                        "espeak": "pli;ts",
                         "text": "pletes"
                     }
                 ]
@@ -398,7 +398,7 @@
                         "text": "shall"
                     },
                     {
-                        "espeak": "t3:n",
+                        "espeak": "t3;n",
                         "text": "turn"
                     },
                     {
@@ -406,7 +406,7 @@
                         "text": "thy"
                     },
                     {
-                        "espeak": "p3:p",
+                        "espeak": "p3;p",
                         "text": "pur"
                     },
                     {
@@ -423,15 +423,15 @@
                 "text": "Through thee, all entropy endures.",
                 "syllables": [
                     {
-                        "espeak": "Tru:",
+                        "espeak": "Tru;",
                         "text": "through"
                     },
                     {
-                        "espeak": "Di:",
+                        "espeak": "Di;",
                         "text": "thee"
                     },
                     {
-                        "espeak": "O:l",
+                        "espeak": "O;l",
                         "text": "all"
                     },
                     {
@@ -473,7 +473,7 @@
                         "text": "ma"
                     },
                     {
-                        "espeak": "@Si:n",
+                        "espeak": "@Si;n",
                         "text": "chine"
                     },
                     {
@@ -489,7 +489,7 @@
                         "text": "ron"
                     },
                     {
-                        "espeak": "kri:d",
+                        "espeak": "kri;d",
                         "text": "creed"
                     }
                 ]
@@ -526,7 +526,7 @@
                         "text": "our"
                     },
                     {
-                        "espeak": "ni:d",
+                        "espeak": "ni;d",
                         "text": "need"
                     }
                 ]
@@ -559,7 +559,7 @@
                         "text": "void"
                     },
                     {
-                        "espeak": "wi:",
+                        "espeak": "wi;",
                         "text": "we"
                     },
                     {
@@ -584,15 +584,15 @@
                         "text": "to"
                     },
                     {
-                        "espeak": "Di:",
+                        "espeak": "Di;",
                         "text": "thee"
                     },
                     {
-                        "espeak": "Tru:",
+                        "espeak": "Tru;",
                         "text": "through"
                     },
                     {
-                        "espeak": "taIm_:_:",
+                        "espeak": "taIm_;_;",
                         "text": "time"
                     },
                     {
@@ -622,7 +622,7 @@
                         "text": "flesh"
                     },
                     {
-                        "espeak": "feIlz_:_:",
+                        "espeak": "feIlz_;_;",
                         "text": "fails"
                     },
                     {
@@ -638,7 +638,7 @@
                         "text": "ows"
                     },
                     {
-                        "espeak": "lu:m",
+                        "espeak": "lu;m",
                         "text": "loom"
                     }
                 ]
@@ -659,7 +659,7 @@
                         "text": "re"
                     },
                     {
-                        "espeak": "nju:z",
+                        "espeak": "nju;z",
                         "text": "news"
                     },
                     {
@@ -675,7 +675,7 @@
                         "text": "con"
                     },
                     {
-                        "espeak": "su:mz",
+                        "espeak": "su;mz",
                         "text": "sumes"
                     }
                 ]
@@ -684,11 +684,11 @@
                 "text": "Through thee, our forms are cast anew,",
                 "syllables": [
                     {
-                        "espeak": "Tru:",
+                        "espeak": "Tru;",
                         "text": "through"
                     },
                     {
-                        "espeak": "Di:",
+                        "espeak": "Di;",
                         "text": "thee"
                     },
                     {
@@ -712,7 +712,7 @@
                         "text": "a"
                     },
                     {
-                        "espeak": "nju:",
+                        "espeak": "nju;",
                         "text": "new"
                     }
                 ]
@@ -749,7 +749,7 @@
                         "text": "pur"
                     },
                     {
-                        "espeak": "ju:d",
+                        "espeak": "ju;d",
                         "text": "sued"
                     }
                 ]
@@ -787,7 +787,7 @@
                         "text": "fire"
                     },
                     {
-                        "espeak": "bri:Dz",
+                        "espeak": "bri;Dz",
                         "text": "breathes"
                     }
                 ]
@@ -828,7 +828,7 @@
                         "text": "cred"
                     },
                     {
-                        "espeak": "ri:Ts",
+                        "espeak": "ri;Ts",
                         "text": "wreaths"
                     }
                 ]
@@ -849,7 +849,7 @@
                         "text": "it"
                     },
                     {
-                        "espeak": "dwElz_:_:",
+                        "espeak": "dwElz_;_;",
                         "text": "dwells"
                     },
                     {
@@ -857,7 +857,7 @@
                         "text": "where"
                     },
                     {
-                        "espeak": "s3:k",
+                        "espeak": "s3;k",
                         "text": "cir"
                     },
                     {
@@ -865,7 +865,7 @@
                         "text": "cuits"
                     },
                     {
-                        "espeak": "mi:t",
+                        "espeak": "mi;t",
                         "text": "meet"
                     }
                 ]
@@ -894,7 +894,7 @@
                         "text": "be"
                     },
                     {
-                        "espeak": "I2ni:T",
+                        "espeak": "I2ni;T",
                         "text": "neath"
                     },
                     {
@@ -902,7 +902,7 @@
                         "text": "thy"
                     },
                     {
-                        "espeak": "si:t",
+                        "espeak": "si;t",
                         "text": "seat"
                     }
                 ]
@@ -924,7 +924,7 @@
                         "text": "ma"
                     },
                     {
-                        "espeak": "@Si:n",
+                        "espeak": "@Si;n",
                         "text": "chine"
                     },
                     {
@@ -944,7 +944,7 @@
                         "text": "does"
                     },
                     {
-                        "espeak": "ti:tS",
+                        "espeak": "ti;tS",
                         "text": "teach"
                     }
                 ]
@@ -961,7 +961,7 @@
                         "text": "val"
                     },
                     {
-                        "espeak": "ju:",
+                        "espeak": "ju;",
                         "text": "ue"
                     },
                     {
@@ -973,15 +973,15 @@
                         "text": "the"
                     },
                     {
-                        "espeak": "tru:Ts",
+                        "espeak": "tru;Ts",
                         "text": "truths"
                     },
                     {
-                        "espeak": "wi:",
+                        "espeak": "wi;",
                         "text": "we"
                     },
                     {
-                        "espeak": "si:k",
+                        "espeak": "si;k",
                         "text": "seek"
                     }
                 ]
@@ -1106,7 +1106,7 @@
                 "text": "Burns brightly in the Omnissiah’s name.",
                 "syllables": [
                     {
-                        "espeak": "b3:nz",
+                        "espeak": "b3;nz",
                         "text": "burns"
                     },
                     {
@@ -1151,7 +1151,7 @@
                 "text": "Through knowledge, thought ascends thy throne,",
                 "syllables": [
                     {
-                        "espeak": "Tru:",
+                        "espeak": "Tru;",
                         "text": "through"
                     },
                     {
@@ -1163,7 +1163,7 @@
                         "text": "edge"
                     },
                     {
-                        "espeak": "TO:t",
+                        "espeak": "TO;t",
                         "text": "thought"
                     },
                     {
@@ -1212,7 +1212,7 @@
                         "text": "makes"
                     },
                     {
-                        "espeak": "O:l",
+                        "espeak": "O;l",
                         "text": "all"
                     },
                     {
@@ -1250,7 +1250,7 @@
                         "text": "the"
                     },
                     {
-                        "espeak": "si:d",
+                        "espeak": "si;d",
                         "text": "seed"
                     },
                     {
@@ -1308,7 +1308,7 @@
                 "text": "Through sacred growth, thy spark does prove,",
                 "syllables": [
                     {
-                        "espeak": "Tru:",
+                        "espeak": "Tru;",
                         "text": "through"
                     },
                     {
@@ -1336,7 +1336,7 @@
                         "text": "does"
                     },
                     {
-                        "espeak": "pru:v",
+                        "espeak": "pru;v",
                         "text": "prove"
                     }
                 ]
@@ -1357,7 +1357,7 @@
                         "text": "er"
                     },
                     {
-                        "espeak": "TO:t",
+                        "espeak": "TO;t",
                         "text": "thought"
                     },
                     {
@@ -1365,7 +1365,7 @@
                         "text": "thy"
                     },
                     {
-                        "espeak": "w3:ks",
+                        "espeak": "w3;ks",
                         "text": "works"
                     },
                     {
@@ -1373,7 +1373,7 @@
                         "text": "shall"
                     },
                     {
-                        "espeak": "mu:v",
+                        "espeak": "mu;v",
                         "text": "move"
                     }
                 ]
@@ -1403,7 +1403,7 @@
                         "text": "light"
                     },
                     {
-                        "espeak": "Tru:",
+                        "espeak": "Tru;",
                         "text": "through"
                     },
                     {
@@ -1415,7 +1415,7 @@
                         "text": "ness"
                     },
                     {
-                        "espeak": "wi:",
+                        "espeak": "wi;",
                         "text": "we"
                     },
                     {
@@ -1469,7 +1469,7 @@
                         "text": "the"
                     },
                     {
-                        "espeak": "tru:T",
+                        "espeak": "tru;T",
                         "text": "truth"
                     },
                     {
@@ -1485,11 +1485,11 @@
                         "text": "edge"
                     },
                     {
-                        "espeak": "Tru:",
+                        "espeak": "Tru;",
                         "text": "through"
                     },
                     {
-                        "espeak": "Di:;",
+                        "espeak": "Di;;",
                         "text": "thee"
                     },
                     {
@@ -1497,7 +1497,7 @@
                         "text": "it"
                     },
                     {
-                        "espeak": "stri:mz",
+                        "espeak": "stri;mz",
                         "text": "streams"
                     }
                 ]
@@ -1534,7 +1534,7 @@
                         "text": "ly"
                     },
                     {
-                        "espeak": "gli:m",
+                        "espeak": "gli;m",
                         "text": "gleam"
                     }
                 ]
@@ -1568,7 +1568,7 @@
                         "text": "thy"
                     },
                     {
-                        "espeak": "ki:",
+                        "espeak": "ki;",
                         "text": "key"
                     },
                     {
@@ -1576,7 +1576,7 @@
                         "text": "does"
                     },
                     {
-                        "espeak": "t3:n",
+                        "espeak": "t3;n",
                         "text": "turn"
                     }
                 ]
@@ -1597,11 +1597,11 @@
                         "text": "ing"
                     },
                     {
-                        "espeak": "tru:Ts",
+                        "espeak": "tru;Ts",
                         "text": "truths"
                     },
                     {
-                        "espeak": "fO@_:_:",
+                        "espeak": "fO@_;_;",
                         "text": "for"
                     },
                     {
@@ -1609,11 +1609,11 @@
                         "text": "which"
                     },
                     {
-                        "espeak": "wi:",
+                        "espeak": "wi;",
                         "text": "we"
                     },
                     {
-                        "espeak": "j3:n",
+                        "espeak": "j3;n",
                         "text": "yearn"
                     }
                 ]
@@ -1630,7 +1630,7 @@
                         "text": "ma"
                     },
                     {
-                        "espeak": "@Si:n",
+                        "espeak": "@Si;n",
                         "text": "chine"
                     },
                     {
@@ -1659,7 +1659,7 @@
                 "text": "All answers sought by humankind.",
                 "syllables": [
                     {
-                        "espeak": "O:l",
+                        "espeak": "O;l",
                         "text": "all"
                     },
                     {
@@ -1671,7 +1671,7 @@
                         "text": "swers"
                     },
                     {
-                        "espeak": "sO:t",
+                        "espeak": "sO;t",
                         "text": "sought"
                     },
                     {
@@ -1683,7 +1683,7 @@
                         "text": "hu"
                     },
                     {
-                        "espeak": "u:ma#N",
+                        "espeak": "u;ma#N",
                         "text": "man"
                     },
                     {
@@ -1746,15 +1746,15 @@
                         "text": "in"
                     },
                     {
-                        "espeak": "Di:;",
+                        "espeak": "Di;;",
                         "text": "thee"
                     },
                     {
-                        "espeak": "O:l",
+                        "espeak": "O;l",
                         "text": "all"
                     },
                     {
-                        "espeak": "tru:Ts_:_:",
+                        "espeak": "tru;Ts_;_;",
                         "text": "truths"
                     },
                     {
@@ -1791,7 +1791,7 @@
                         "text": "e"
                     },
                     {
-                        "espeak": "t3:n",
+                        "espeak": "t3;n",
                         "text": "ter"
                     },
                     {
@@ -1820,7 +1820,7 @@
                 "text": "All knowledge in thee ever found.",
                 "syllables": [
                     {
-                        "espeak": "O:l",
+                        "espeak": "O;l",
                         "text": "all"
                     },
                     {
@@ -1836,7 +1836,7 @@
                         "text": "in"
                     },
                     {
-                        "espeak": "Di:;",
+                        "espeak": "Di;;",
                         "text": "thee"
                     },
                     {
@@ -1911,7 +1911,7 @@
                         "text": "from"
                     },
                     {
-                        "espeak": "Di:",
+                        "espeak": "Di;",
                         "text": "thee"
                     },
                     {
@@ -1923,7 +1923,7 @@
                         "text": "lord"
                     },
                     {
-                        "espeak": "wi:",
+                        "espeak": "wi;",
                         "text": "we"
                     },
                     {
@@ -1940,11 +1940,11 @@
                 "text": "Through thought and will, thy spark does bloom,",
                 "syllables": [
                     {
-                        "espeak": "Tru:",
+                        "espeak": "Tru;",
                         "text": "through"
                     },
                     {
-                        "espeak": "TO:t_:_:",
+                        "espeak": "TO;t_;_;",
                         "text": "thought"
                     },
                     {
@@ -1968,7 +1968,7 @@
                         "text": "does"
                     },
                     {
-                        "espeak": "blu:m",
+                        "espeak": "blu;m",
                         "text": "bloom"
                     }
                 ]
@@ -2005,7 +2005,7 @@
                         "text": "the"
                     },
                     {
-                        "espeak": "tu:m",
+                        "espeak": "tu;m",
                         "text": "tomb"
                     }
                 ]
@@ -2031,7 +2031,7 @@
                         "text": "de"
                     },
                     {
-                        "espeak": "kri:",
+                        "espeak": "kri;",
                         "text": "cree"
                     },
                     {
@@ -2158,7 +2158,7 @@
                         "text": "to"
                     },
                     {
-                        "espeak": "sti:l_:_:",
+                        "espeak": "sti;l_;_;",
                         "text": "steel"
                     },
                     {
@@ -2200,7 +2200,7 @@
                         "text": "thy"
                     },
                     {
-                        "espeak": "tru:T",
+                        "espeak": "tru;T",
                         "text": "truth"
                     },
                     {
@@ -2229,7 +2229,7 @@
                         "text": "by"
                     },
                     {
-                        "espeak": "Di:",
+                        "espeak": "Di;",
                         "text": "thee"
                     },
                     {
@@ -2286,7 +2286,7 @@
                         "text": "in"
                     },
                     {
-                        "espeak": "s3:k",
+                        "espeak": "s3;k",
                         "text": "cir"
                     },
                     {
@@ -2361,7 +2361,7 @@
                         "text": "ma"
                     },
                     {
-                        "espeak": "@Si:n",
+                        "espeak": "@Si;n",
                         "text": "chine"
                     },
                     {
@@ -2385,7 +2385,7 @@
                         "text": "il"
                     },
                     {
-                        "espeak": "ki:ps",
+                        "espeak": "ki;ps",
                         "text": "keeps"
                     }
                 ]
@@ -2406,7 +2406,7 @@
                         "text": "cient"
                     },
                     {
-                        "espeak": "koUdz_:_:",
+                        "espeak": "koUdz_;_;",
                         "text": "codes"
                     },
                     {
@@ -2422,7 +2422,7 @@
                         "text": "dom"
                     },
                     {
-                        "espeak": "sli:ps",
+                        "espeak": "sli;ps",
                         "text": "sleeps"
                     }
                 ]
@@ -2431,11 +2431,11 @@
                 "text": "Through thee, the past and future blend,",
                 "syllables": [
                     {
-                        "espeak": "Tru:",
+                        "espeak": "Tru;",
                         "text": "through"
                     },
                     {
-                        "espeak": "Di:",
+                        "espeak": "Di;",
                         "text": "thee"
                     },
                     {
@@ -2443,7 +2443,7 @@
                         "text": "the"
                     },
                     {
-                        "espeak": "paast_:_:",
+                        "espeak": "paast_;_;",
                         "text": "past"
                     },
                     {
@@ -2455,7 +2455,7 @@
                         "text": "fu"
                     },
                     {
-                        "espeak": "u:tS3",
+                        "espeak": "u;tS3",
                         "text": "ture"
                     },
                     {
@@ -2547,7 +2547,7 @@
                 "text": "Through sacred rites, the Spirit’s throne.",
                 "syllables": [
                     {
-                        "espeak": "Tru:",
+                        "espeak": "Tru;",
                         "text": "through"
                     },
                     {
@@ -2584,7 +2584,7 @@
                 "text": "Each prayerful hand, each careful deed,",
                 "syllables": [
                     {
-                        "espeak": "i:tS",
+                        "espeak": "i;tS",
                         "text": "each"
                     },
                     {
@@ -2600,7 +2600,7 @@
                         "text": "hand"
                     },
                     {
-                        "espeak": "i:tS",
+                        "espeak": "i;tS",
                         "text": "each"
                     },
                     {
@@ -2612,7 +2612,7 @@
                         "text": "ful"
                     },
                     {
-                        "espeak": "di:d",
+                        "espeak": "di;d",
                         "text": "deed"
                     }
                 ]
@@ -2633,7 +2633,7 @@
                         "text": "thy"
                     },
                     {
-                        "espeak": "wIl_:_:",
+                        "espeak": "wIl_;_;",
                         "text": "will"
                     },
                     {
@@ -2641,7 +2641,7 @@
                         "text": "and"
                     },
                     {
-                        "espeak": "tru:T",
+                        "espeak": "tru;T",
                         "text": "truth"
                     },
                     {
@@ -2649,7 +2649,7 @@
                         "text": "pro"
                     },
                     {
-                        "espeak": "si:d",
+                        "espeak": "si;d",
                         "text": "ceed"
                     }
                 ]
@@ -2679,11 +2679,11 @@
                         "text": "tic"
                     },
                     {
-                        "espeak": "hu:",
+                        "espeak": "hu;",
                         "text": "who"
                     },
                     {
-                        "espeak": "sp3:nz",
+                        "espeak": "sp3;nz",
                         "text": "spurns"
                     },
                     {
@@ -2765,7 +2765,7 @@
                         "text": "ry"
                     },
                     {
-                        "espeak": "si:l",
+                        "espeak": "si;l",
                         "text": "seal"
                     }
                 ]
@@ -2774,7 +2774,7 @@
                 "text": "Through ritual, thy truth is real.",
                 "syllables": [
                     {
-                        "espeak": "Tru:",
+                        "espeak": "Tru;",
                         "text": "through"
                     },
                     {
@@ -2782,7 +2782,7 @@
                         "text": "rit"
                     },
                     {
-                        "espeak": "u:",
+                        "espeak": "u;",
                         "text": "u"
                     },
                     {
@@ -2794,7 +2794,7 @@
                         "text": "thy"
                     },
                     {
-                        "espeak": "tru:T",
+                        "espeak": "tru;T",
                         "text": "truth"
                     },
                     {

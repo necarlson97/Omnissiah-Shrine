@@ -35,10 +35,16 @@ def hymn_reader(file_path):
     hymns = content.strip().split('\n\n')
     return hymns
 
-def sanitize_ipa(ipa):
-    """Converts IPA to a filename-safe format"""
-    # TODO for now, just use ipa, as on ubuntu it is safe
-    return ipa
+def sanitize_to_filename(phonemes):
+    """Converts phoneme chracaters to filename-safe format"""
+
+    # Linux is fine with these - but windows has problems with these
+    replacements = {
+        ':': ';',
+        '|': '(',  # We love a unclosed parenthesis
+        '%': '$',
+    }
+    return ''.join(replacements.get(c, c) for c in phonemes)
 
 # We want to regenerate when we rerun the script,
 # but not if we re-encounter the word several times,
@@ -242,6 +248,10 @@ def break_apart_hymn(hymn, output_dir="./raw_tts", pitch=50, speed=150):
 
             zip_syllables = zip(espeak_syllables, hyphenated.split('-'))
             for espeak_s, str_s in zip_syllables:
+                # We want the json to exactly reflect the filenames,
+                # and there are some limitations on filenames
+                espeak_s = sanitize_to_filename(espeak_s)
+
                 line_data["syllables"].append({
                     "espeak": espeak_s,
                     "text": str_s,
@@ -255,8 +265,7 @@ def break_apart_hymn(hymn, output_dir="./raw_tts", pitch=50, speed=150):
                 if len(str_s) > 6 and str_s not in expected_long_syllables:
                     print(f"Long syllable? : {str_s} ({str_word})")
 
-                filename = sanitize_ipa(espeak_s)
-                output_path = os.path.join(output_dir, f"{filename}.wav")
+                output_path = os.path.join(output_dir, f"{espeak_s}.wav")
                 generate_audio_with_espeak(
                     espeak_s, output_path, pitch, speed)
 
