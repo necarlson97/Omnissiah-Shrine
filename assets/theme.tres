@@ -1,0 +1,26 @@
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://do823bsq283g2"]
+
+[ext_resource type="FontFile" uid="uid://73f7sjamwkgf" path="res://assets/unifont.ttf" id="1_8yipg"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_medue"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(1, 0.365, 0.365, 1)
+draw_center = false
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_detail = 1
+
+[resource]
+default_font = ExtResource("1_8yipg")
+CSS/colors/bad = Color(0.901961, 0.223529, 0.27451, 1)
+CSS/colors/bad_dark = Color(0.505882, 0.164706, 0.164706, 1)
+CSS/colors/good = Color(0.431373, 0.796078, 0.388235, 1)
+CSS/colors/good_dark = Color(0.168627, 0.431373, 0.2, 1)
+CSS/styles/panel = SubResource("StyleBoxFlat_medue")
+MutedLabel/base_type = &"Label"
+MutedLabel/colors/font_color = Color(0.485703, 0.485704, 0.485703, 1)

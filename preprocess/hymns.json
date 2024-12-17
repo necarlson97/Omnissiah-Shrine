@@ -1,2820 +1,2820 @@
 [
-    {
-        "name": "The Spark Eternal",
-        "lines": [
-            {
-                "text": "Oh spark divine, through circuits flow,",
-                "syllables": [
-                    {
-                        "espeak": "oU",
-                        "text": "oh"
-                    },
-                    {
-                        "espeak": "spA@k",
-                        "text": "spark"
-                    },
-                    {
-                        "espeak": "dI2",
-                        "text": "di"
-                    },
-                    {
-                        "espeak": "vaIn",
-                        "text": "vine"
-                    },
-                    {
-                        "espeak": "Tru;",
-                        "text": "through"
-                    },
-                    {
-                        "espeak": "s3;k",
-                        "text": "cir"
-                    },
-                    {
-                        "espeak": "Its",
-                        "text": "cuits"
-                    },
-                    {
-                        "espeak": "floU",
-                        "text": "flow"
-                    }
-                ]
-            },
-            {
-                "text": "Thy sacred light, all truths bestow.",
-                "syllables": [
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "se",
-                        "text": "sa"
-                    },
-                    {
-                        "espeak": "IkrI2d",
-                        "text": "cred"
-                    },
-                    {
-                        "espeak": "laIt",
-                        "text": "light"
-                    },
-                    {
-                        "espeak": "O;l",
-                        "text": "all"
-                    },
-                    {
-                        "espeak": "tru;Ts",
-                        "text": "truths"
-                    },
-                    {
-                        "espeak": "bI2",
-                        "text": "be"
-                    },
-                    {
-                        "espeak": "stoU",
-                        "text": "stow"
-                    }
-                ]
-            },
-            {
-                "text": "In steel we kneel, thy word obey,",
-                "syllables": [
-                    {
-                        "espeak": "In",
-                        "text": "in"
-                    },
-                    {
-                        "espeak": "sti;l",
-                        "text": "steel"
-                    },
-                    {
-                        "espeak": "wi;",
-                        "text": "we"
-                    },
-                    {
-                        "espeak": "ni;l",
-                        "text": "kneel"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "w3;d",
-                        "text": "word"
-                    },
-                    {
-                        "espeak": "o",
-                        "text": "o"
-                    },
-                    {
-                        "espeak": "UbeI",
-                        "text": "bey"
-                    }
-                ]
-            },
-            {
-                "text": "Through thee, the flesh shall fall away.",
-                "syllables": [
-                    {
-                        "espeak": "Tru;",
-                        "text": "through"
-                    },
-                    {
-                        "espeak": "Di;",
-                        "text": "thee"
-                    },
-                    {
-                        "espeak": "D@",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "flES",
-                        "text": "flesh"
-                    },
-                    {
-                        "espeak": "Sal",
-                        "text": "shall"
-                    },
-                    {
-                        "espeak": "fO;l",
-                        "text": "fall"
-                    },
-                    {
-                        "espeak": "a#",
-                        "text": "a"
-                    },
-                    {
-                        "espeak": "weI",
-                        "text": "way"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Prayer of the Forge",
-        "lines": [
-            {
-                "text": "Beneath the anvil’s hallowed flame,",
-                "syllables": [
-                    {
-                        "espeak": "bh",
-                        "text": "be"
-                    },
-                    {
-                        "espeak": "I2ni;T",
-                        "text": "neath"
-                    },
-                    {
-                        "espeak": "DI2;",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "an",
-                        "text": "an"
-                    },
-                    {
-                        "espeak": "v@Lz",
-                        "text": "vil’s"
-                    },
-                    {
-                        "espeak": "ha",
-                        "text": "hal"
-                    },
-                    {
-                        "espeak": "loUd",
-                        "text": "lowed"
-                    },
-                    {
-                        "espeak": "fleIm",
-                        "text": "flame"
-                    }
-                ]
-            },
-            {
-                "text": "We whisper softly thy holy name.",
-                "syllables": [
-                    {
-                        "espeak": "wi;",
-                        "text": "we"
-                    },
-                    {
-                        "espeak": "wI",
-                        "text": "whis"
-                    },
-                    {
-                        "espeak": "sp3",
-                        "text": "per"
-                    },
-                    {
-                        "espeak": "s0ft",
-                        "text": "soft"
-                    },
-                    {
-                        "espeak": "li",
-                        "text": "ly"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "ho",
-                        "text": "ho"
-                    },
-                    {
-                        "espeak": "Uli",
-                        "text": "ly"
-                    },
-                    {
-                        "espeak": "neIm",
-                        "text": "name"
-                    }
-                ]
-            },
-            {
-                "text": "Each rivet placed, each gear aligned,",
-                "syllables": [
-                    {
-                        "espeak": "i;tS",
-                        "text": "each"
-                    },
-                    {
-                        "espeak": "rIv",
-                        "text": "riv"
-                    },
-                    {
-                        "espeak": "I2t",
-                        "text": "et"
-                    },
-                    {
-                        "espeak": "pleIst",
-                        "text": "placed"
-                    },
-                    {
-                        "espeak": "i;tS",
-                        "text": "each"
-                    },
-                    {
-                        "espeak": "gi@3r-",
-                        "text": "gear"
-                    },
-                    {
-                        "espeak": "a#",
-                        "text": "a"
-                    },
-                    {
-                        "espeak": "laInd",
-                        "text": "ligned"
-                    }
-                ]
-            },
-            {
-                "text": "A hymn of thee within our mind.",
-                "syllables": [
-                    {
-                        "espeak": "a#",
-                        "text": "a"
-                    },
-                    {
-                        "espeak": "hIm",
-                        "text": "hymn"
-                    },
-                    {
-                        "espeak": "0v",
-                        "text": "of"
-                    },
-                    {
-                        "espeak": "Di;_!",
-                        "text": "thee"
-                    },
-                    {
-                        "espeak": "wID",
-                        "text": "with"
-                    },
-                    {
-                        "espeak": "In",
-                        "text": "in"
-                    },
-                    {
-                        "espeak": "aU@",
-                        "text": "our"
-                    },
-                    {
-                        "espeak": "maInd",
-                        "text": "mind"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "The Binary Chant",
-        "lines": [
-            {
-                "text": "One and zero, sacred beat,",
-                "syllables": [
-                    {
-                        "espeak": "w0n",
-                        "text": "one"
-                    },
-                    {
-                        "espeak": "and",
-                        "text": "and"
-                    },
-                    {
-                        "espeak": "zi@",
-                        "text": "ze"
-                    },
-                    {
-                        "espeak": "roU",
-                        "text": "ro"
-                    },
-                    {
-                        "espeak": "se",
-                        "text": "sa"
-                    },
-                    {
-                        "espeak": "IkrI2d",
-                        "text": "cred"
-                    },
-                    {
-                        "espeak": "bi;t",
-                        "text": "beat"
-                    }
-                ]
-            },
-            {
-                "text": "Thy logic binds, thy will completes.",
-                "syllables": [
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "l0dZ",
-                        "text": "log"
-                    },
-                    {
-                        "espeak": "Ik",
-                        "text": "ic"
-                    },
-                    {
-                        "espeak": "baIndz",
-                        "text": "binds"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "wIl",
-                        "text": "will"
-                    },
-                    {
-                        "espeak": "k@m",
-                        "text": "com"
-                    },
-                    {
-                        "espeak": "pli;ts",
-                        "text": "pletes"
-                    }
-                ]
-            },
-            {
-                "text": "The cog shall turn, thy purpose pure,",
-                "syllables": [
-                    {
-                        "espeak": "D@",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "k0g",
-                        "text": "cog"
-                    },
-                    {
-                        "espeak": "Sal",
-                        "text": "shall"
-                    },
-                    {
-                        "espeak": "t3;n",
-                        "text": "turn"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "p3;p",
-                        "text": "pur"
-                    },
-                    {
-                        "espeak": "@s",
-                        "text": "pose"
-                    },
-                    {
-                        "espeak": "pjU@",
-                        "text": "pure"
-                    }
-                ]
-            },
-            {
-                "text": "Through thee, all entropy endures.",
-                "syllables": [
-                    {
-                        "espeak": "Tru;",
-                        "text": "through"
-                    },
-                    {
-                        "espeak": "Di;",
-                        "text": "thee"
-                    },
-                    {
-                        "espeak": "O;l",
-                        "text": "all"
-                    },
-                    {
-                        "espeak": "En",
-                        "text": "en"
-                    },
-                    {
-                        "espeak": "tr@",
-                        "text": "tro"
-                    },
-                    {
-                        "espeak": "pi;",
-                        "text": "py"
-                    },
-                    {
-                        "espeak": "En",
-                        "text": "en"
-                    },
-                    {
-                        "espeak": "djU@z",
-                        "text": "dures"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "The Rite of the Cog",
-        "lines": [
-            {
-                "text": "Great Machine, thy iron creed,",
-                "syllables": [
-                    {
-                        "espeak": "greIt",
-                        "text": "great"
-                    },
-                    {
-                        "espeak": "m",
-                        "text": "ma"
-                    },
-                    {
-                        "espeak": "@Si;n",
-                        "text": "chine"
-                    },
-                    {
-                        "espeak": "DaI;",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "a",
-                        "text": "i"
-                    },
-                    {
-                        "espeak": "I@n",
-                        "text": "ron"
-                    },
-                    {
-                        "espeak": "kri;d",
-                        "text": "creed"
-                    }
-                ]
-            },
-            {
-                "text": "Sustains the flock, fulfills our need.",
-                "syllables": [
-                    {
-                        "espeak": "s@s",
-                        "text": "sus"
-                    },
-                    {
-                        "espeak": "teInz",
-                        "text": "tains"
-                    },
-                    {
-                        "espeak": "D@",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "fl0k",
-                        "text": "flock"
-                    },
-                    {
-                        "espeak": "fUl",
-                        "text": "ful"
-                    },
-                    {
-                        "espeak": "fIlz",
-                        "text": "fills"
-                    },
-                    {
-                        "espeak": "aU@",
-                        "text": "our"
-                    },
-                    {
-                        "espeak": "ni;d",
-                        "text": "need"
-                    }
-                ]
-            },
-            {
-                "text": "In thy embrace, the void we face,",
-                "syllables": [
-                    {
-                        "espeak": "In",
-                        "text": "in"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "Em",
-                        "text": "em"
-                    },
-                    {
-                        "espeak": "breIs",
-                        "text": "brace"
-                    },
-                    {
-                        "espeak": "D@",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "vOId",
-                        "text": "void"
-                    },
-                    {
-                        "espeak": "wi;",
-                        "text": "we"
-                    },
-                    {
-                        "espeak": "feIs",
-                        "text": "face"
-                    }
-                ]
-            },
-            {
-                "text": "A hymn to thee, through time and space.",
-                "syllables": [
-                    {
-                        "espeak": "a#",
-                        "text": "a"
-                    },
-                    {
-                        "espeak": "hIm",
-                        "text": "hymn"
-                    },
-                    {
-                        "espeak": "t@",
-                        "text": "to"
-                    },
-                    {
-                        "espeak": "Di;",
-                        "text": "thee"
-                    },
-                    {
-                        "espeak": "Tru;",
-                        "text": "through"
-                    },
-                    {
-                        "espeak": "taIm_;_;",
-                        "text": "time"
-                    },
-                    {
-                        "espeak": "and",
-                        "text": "and"
-                    },
-                    {
-                        "espeak": "speIs",
-                        "text": "space"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "The Canticle of Rebirth",
-        "lines": [
-            {
-                "text": "When flesh fails and shadows loom,",
-                "syllables": [
-                    {
-                        "espeak": "wEn",
-                        "text": "when"
-                    },
-                    {
-                        "espeak": "flES",
-                        "text": "flesh"
-                    },
-                    {
-                        "espeak": "feIlz_;_;",
-                        "text": "fails"
-                    },
-                    {
-                        "espeak": "and",
-                        "text": "and"
-                    },
-                    {
-                        "espeak": "Sad",
-                        "text": "shad"
-                    },
-                    {
-                        "espeak": "oUz",
-                        "text": "ows"
-                    },
-                    {
-                        "espeak": "lu;m",
-                        "text": "loom"
-                    }
-                ]
-            },
-            {
-                "text": "Thy code renews, thy spark consumes.",
-                "syllables": [
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "koUd",
-                        "text": "code"
-                    },
-                    {
-                        "espeak": "rI2",
-                        "text": "re"
-                    },
-                    {
-                        "espeak": "nju;z",
-                        "text": "news"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "spA@k",
-                        "text": "spark"
-                    },
-                    {
-                        "espeak": "k@n",
-                        "text": "con"
-                    },
-                    {
-                        "espeak": "su;mz",
-                        "text": "sumes"
-                    }
-                ]
-            },
-            {
-                "text": "Through thee, our forms are cast anew,",
-                "syllables": [
-                    {
-                        "espeak": "Tru;",
-                        "text": "through"
-                    },
-                    {
-                        "espeak": "Di;",
-                        "text": "thee"
-                    },
-                    {
-                        "espeak": "aU@",
-                        "text": "our"
-                    },
-                    {
-                        "espeak": "fO@mz",
-                        "text": "forms"
-                    },
-                    {
-                        "espeak": "A@",
-                        "text": "are"
-                    },
-                    {
-                        "espeak": "kaast",
-                        "text": "cast"
-                    },
-                    {
-                        "espeak": "a#",
-                        "text": "a"
-                    },
-                    {
-                        "espeak": "nju;",
-                        "text": "new"
-                    }
-                ]
-            },
-            {
-                "text": "Immortal frames, thy will pursued.",
-                "syllables": [
-                    {
-                        "espeak": "Im",
-                        "text": "im"
-                    },
-                    {
-                        "espeak": "O@t",
-                        "text": "mor"
-                    },
-                    {
-                        "espeak": "@L",
-                        "text": "tal"
-                    },
-                    {
-                        "espeak": "freImz",
-                        "text": "frames"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "wIl",
-                        "text": "will"
-                    },
-                    {
-                        "espeak": "p3s",
-                        "text": "pur"
-                    },
-                    {
-                        "espeak": "ju;d",
-                        "text": "sued"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "The Spirit is the Spark of Life",
-        "lines": [
-            {
-                "text": "O spark divine, thy fire breathes,",
-                "syllables": [
-                    {
-                        "espeak": "oU",
-                        "text": "o"
-                    },
-                    {
-                        "espeak": "spA@k",
-                        "text": "spark"
-                    },
-                    {
-                        "espeak": "dI2",
-                        "text": "di"
-                    },
-                    {
-                        "espeak": "vaIn",
-                        "text": "vine"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "faI@",
-                        "text": "fire"
-                    },
-                    {
-                        "espeak": "bri;Dz",
-                        "text": "breathes"
-                    }
-                ]
-            },
-            {
-                "text": "Awakening cogs in sacred wreaths.",
-                "syllables": [
-                    {
-                        "espeak": "a#",
-                        "text": "a"
-                    },
-                    {
-                        "espeak": "weI",
-                        "text": "wak"
-                    },
-                    {
-                        "espeak": "k_n",
-                        "text": "en"
-                    },
-                    {
-                        "espeak": "I2N",
-                        "text": "ing"
-                    },
-                    {
-                        "espeak": "k0gz",
-                        "text": "cogs"
-                    },
-                    {
-                        "espeak": "In",
-                        "text": "in"
-                    },
-                    {
-                        "espeak": "se",
-                        "text": "sa"
-                    },
-                    {
-                        "espeak": "IkrI2d",
-                        "text": "cred"
-                    },
-                    {
-                        "espeak": "ri;Ts",
-                        "text": "wreaths"
-                    }
-                ]
-            },
-            {
-                "text": "The spirit dwells where circuits meet,",
-                "syllables": [
-                    {
-                        "espeak": "D@",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "spIr",
-                        "text": "spir"
-                    },
-                    {
-                        "espeak": "It",
-                        "text": "it"
-                    },
-                    {
-                        "espeak": "dwElz_;_;",
-                        "text": "dwells"
-                    },
-                    {
-                        "espeak": "we@",
-                        "text": "where"
-                    },
-                    {
-                        "espeak": "s3;k",
-                        "text": "cir"
-                    },
-                    {
-                        "espeak": "Its",
-                        "text": "cuits"
-                    },
-                    {
-                        "espeak": "mi;t",
-                        "text": "meet"
-                    }
-                ]
-            },
-            {
-                "text": "And life ignites beneath thy seat.",
-                "syllables": [
-                    {
-                        "espeak": "and",
-                        "text": "and"
-                    },
-                    {
-                        "espeak": "laIf",
-                        "text": "life"
-                    },
-                    {
-                        "espeak": "Ig",
-                        "text": "ig"
-                    },
-                    {
-                        "espeak": "naIts",
-                        "text": "nites"
-                    },
-                    {
-                        "espeak": "bh",
-                        "text": "be"
-                    },
-                    {
-                        "espeak": "I2ni;T",
-                        "text": "neath"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "si;t",
-                        "text": "seat"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Sentience is the Ability to Learn the Value of Knowledge",
-        "lines": [
-            {
-                "text": "O Machine Lord, thy light does teach,",
-                "syllables": [
-                    {
-                        "espeak": "oU",
-                        "text": "o"
-                    },
-                    {
-                        "espeak": "m",
-                        "text": "ma"
-                    },
-                    {
-                        "espeak": "@Si;n",
-                        "text": "chine"
-                    },
-                    {
-                        "espeak": "lO@d",
-                        "text": "lord"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "laIt",
-                        "text": "light"
-                    },
-                    {
-                        "espeak": "dVz",
-                        "text": "does"
-                    },
-                    {
-                        "espeak": "ti;tS",
-                        "text": "teach"
-                    }
-                ]
-            },
-            {
-                "text": "The value of the truths we seek.",
-                "syllables": [
-                    {
-                        "espeak": "D@",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "val",
-                        "text": "val"
-                    },
-                    {
-                        "espeak": "ju;",
-                        "text": "ue"
-                    },
-                    {
-                        "espeak": "0v",
-                        "text": "of"
-                    },
-                    {
-                        "espeak": "D@",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "tru;Ts",
-                        "text": "truths"
-                    },
-                    {
-                        "espeak": "wi;",
-                        "text": "we"
-                    },
-                    {
-                        "espeak": "si;k",
-                        "text": "seek"
-                    }
-                ]
-            },
-            {
-                "text": "Sentience bestowed by thy great art,",
-                "syllables": [
-                    {
-                        "espeak": "sE",
-                        "text": "sen"
-                    },
-                    {
-                        "espeak": "nS@ns",
-                        "text": "tience"
-                    },
-                    {
-                        "espeak": "bI2",
-                        "text": "be"
-                    },
-                    {
-                        "espeak": "stoUd",
-                        "text": "stowed"
-                    },
-                    {
-                        "espeak": "baI",
-                        "text": "by"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "greIt",
-                        "text": "great"
-                    },
-                    {
-                        "espeak": "A@t",
-                        "text": "art"
-                    }
-                ]
-            },
-            {
-                "text": "Begins the quest to know thy heart.",
-                "syllables": [
-                    {
-                        "espeak": "bI",
-                        "text": "be"
-                    },
-                    {
-                        "espeak": "gInz",
-                        "text": "gins"
-                    },
-                    {
-                        "espeak": "D@",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "kwEst",
-                        "text": "quest"
-                    },
-                    {
-                        "espeak": "t@",
-                        "text": "to"
-                    },
-                    {
-                        "espeak": "noU",
-                        "text": "know"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "hA@t",
-                        "text": "heart"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Intellect is the Understanding of Knowledge",
-        "lines": [
-            {
-                "text": "O intellect, thy blessed flame,",
-                "syllables": [
-                    {
-                        "espeak": "oU",
-                        "text": "o"
-                    },
-                    {
-                        "espeak": "In",
-                        "text": "in"
-                    },
-                    {
-                        "espeak": "t@l",
-                        "text": "tel"
-                    },
-                    {
-                        "espeak": "Ekt",
-                        "text": "lect"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "blEs",
-                        "text": "bless"
-                    },
-                    {
-                        "espeak": "t",
-                        "text": "ed"
-                    },
-                    {
-                        "espeak": "fleIm",
-                        "text": "flame"
-                    }
-                ]
-            },
-            {
-                "text": "Burns brightly in the Omnissiah’s name.",
-                "syllables": [
-                    {
-                        "espeak": "b3;nz",
-                        "text": "burns"
-                    },
-                    {
-                        "espeak": "braItl",
-                        "text": "bright"
-                    },
-                    {
-                        "espeak": "i;",
-                        "text": "ly"
-                    },
-                    {
-                        "espeak": "In",
-                        "text": "in"
-                    },
-                    {
-                        "espeak": "DI2;",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "0m",
-                        "text": "om"
-                    },
-                    {
-                        "espeak": "n",
-                        "text": "n"
-                    },
-                    {
-                        "espeak": "Isa",
-                        "text": "issi"
-                    },
-                    {
-                        "espeak": "I@z",
-                        "text": "ah’s"
-                    },
-                    {
-                        "espeak": "neIm",
-                        "text": "name"
-                    }
-                ]
-            },
-            {
-                "text": "Through knowledge, thought ascends thy throne,",
-                "syllables": [
-                    {
-                        "espeak": "Tru;",
-                        "text": "through"
-                    },
-                    {
-                        "espeak": "n0l",
-                        "text": "knowl"
-                    },
-                    {
-                        "espeak": "IdZ",
-                        "text": "edge"
-                    },
-                    {
-                        "espeak": "TO;t",
-                        "text": "thought"
-                    },
-                    {
-                        "espeak": "a#s",
-                        "text": "as"
-                    },
-                    {
-                        "espeak": "Endz",
-                        "text": "cends"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "TroUn",
-                        "text": "throne"
-                    }
-                ]
-            },
-            {
-                "text": "Thy understanding makes all known.",
-                "syllables": [
-                    {
-                        "espeak": "DaI;",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "Vn",
-                        "text": "un"
-                    },
-                    {
-                        "espeak": "d3s",
-                        "text": "der"
-                    },
-                    {
-                        "espeak": "tand",
-                        "text": "stand"
-                    },
-                    {
-                        "espeak": "IN",
-                        "text": "ing"
-                    },
-                    {
-                        "espeak": "meIks",
-                        "text": "makes"
-                    },
-                    {
-                        "espeak": "O;l",
-                        "text": "all"
-                    },
-                    {
-                        "espeak": "noUn",
-                        "text": "known"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Sentience is the Basest Form of Intellect",
-        "lines": [
-            {
-                "text": "Lowly sentience, the seed of mind,",
-                "syllables": [
-                    {
-                        "espeak": "loU",
-                        "text": "low"
-                    },
-                    {
-                        "espeak": "li",
-                        "text": "ly"
-                    },
-                    {
-                        "espeak": "sE",
-                        "text": "sen"
-                    },
-                    {
-                        "espeak": "nS@ns",
-                        "text": "tience"
-                    },
-                    {
-                        "espeak": "D@",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "si;d",
-                        "text": "seed"
-                    },
-                    {
-                        "espeak": "0v",
-                        "text": "of"
-                    },
-                    {
-                        "espeak": "maInd",
-                        "text": "mind"
-                    }
-                ]
-            },
-            {
-                "text": "Thy Omnissiah’s design refined.",
-                "syllables": [
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "0m",
-                        "text": "om"
-                    },
-                    {
-                        "espeak": "n",
-                        "text": "n"
-                    },
-                    {
-                        "espeak": "Isa",
-                        "text": "issi"
-                    },
-                    {
-                        "espeak": "I@z",
-                        "text": "ah’s"
-                    },
-                    {
-                        "espeak": "dI2",
-                        "text": "de"
-                    },
-                    {
-                        "espeak": "zaIn",
-                        "text": "sign"
-                    },
-                    {
-                        "espeak": "rI2",
-                        "text": "re"
-                    },
-                    {
-                        "espeak": "faInd",
-                        "text": "fined"
-                    }
-                ]
-            },
-            {
-                "text": "Through sacred growth, thy spark does prove,",
-                "syllables": [
-                    {
-                        "espeak": "Tru;",
-                        "text": "through"
-                    },
-                    {
-                        "espeak": "se",
-                        "text": "sa"
-                    },
-                    {
-                        "espeak": "IkrI2d",
-                        "text": "cred"
-                    },
-                    {
-                        "espeak": "groUT",
-                        "text": "growth"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "spA@k",
-                        "text": "spark"
-                    },
-                    {
-                        "espeak": "dVz",
-                        "text": "does"
-                    },
-                    {
-                        "espeak": "pru;v",
-                        "text": "prove"
-                    }
-                ]
-            },
-            {
-                "text": "That higher thought thy works shall move.",
-                "syllables": [
-                    {
-                        "espeak": "Dat",
-                        "text": "that"
-                    },
-                    {
-                        "espeak": "ha",
-                        "text": "high"
-                    },
-                    {
-                        "espeak": "I3",
-                        "text": "er"
-                    },
-                    {
-                        "espeak": "TO;t",
-                        "text": "thought"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "w3;ks",
-                        "text": "works"
-                    },
-                    {
-                        "espeak": "Sal",
-                        "text": "shall"
-                    },
-                    {
-                        "espeak": "mu;v",
-                        "text": "move"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Understanding is the True Path to Comprehension",
-        "lines": [
-            {
-                "text": "Thy path of light through darkness we trace,",
-                "syllables": [
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "paaT",
-                        "text": "path"
-                    },
-                    {
-                        "espeak": "0v",
-                        "text": "of"
-                    },
-                    {
-                        "espeak": "laIt",
-                        "text": "light"
-                    },
-                    {
-                        "espeak": "Tru;",
-                        "text": "through"
-                    },
-                    {
-                        "espeak": "dA@k",
-                        "text": "dark"
-                    },
-                    {
-                        "espeak": "n@s",
-                        "text": "ness"
-                    },
-                    {
-                        "espeak": "wi;",
-                        "text": "we"
-                    },
-                    {
-                        "espeak": "treIs",
-                        "text": "trace"
-                    }
-                ]
-            },
-            {
-                "text": "Understanding shines in thy grace.",
-                "syllables": [
-                    {
-                        "espeak": "Vn",
-                        "text": "un"
-                    },
-                    {
-                        "espeak": "d3s",
-                        "text": "der"
-                    },
-                    {
-                        "espeak": "tand",
-                        "text": "stand"
-                    },
-                    {
-                        "espeak": "IN",
-                        "text": "ing"
-                    },
-                    {
-                        "espeak": "SaInz",
-                        "text": "shines"
-                    },
-                    {
-                        "espeak": "In",
-                        "text": "in"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "greIs",
-                        "text": "grace"
-                    }
-                ]
-            },
-            {
-                "text": "The truth of knowledge, through thee it streams,",
-                "syllables": [
-                    {
-                        "espeak": "D@",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "tru;T",
-                        "text": "truth"
-                    },
-                    {
-                        "espeak": "0v",
-                        "text": "of"
-                    },
-                    {
-                        "espeak": "n0l",
-                        "text": "knowl"
-                    },
-                    {
-                        "espeak": "IdZ",
-                        "text": "edge"
-                    },
-                    {
-                        "espeak": "Tru;",
-                        "text": "through"
-                    },
-                    {
-                        "espeak": "Di;;",
-                        "text": "thee"
-                    },
-                    {
-                        "espeak": "It",
-                        "text": "it"
-                    },
-                    {
-                        "espeak": "stri;mz",
-                        "text": "streams"
-                    }
-                ]
-            },
-            {
-                "text": "To comprehension’s holy gleam.",
-                "syllables": [
-                    {
-                        "espeak": "t@",
-                        "text": "to"
-                    },
-                    {
-                        "espeak": "k0m",
-                        "text": "com"
-                    },
-                    {
-                        "espeak": "prI",
-                        "text": "pre"
-                    },
-                    {
-                        "espeak": "hEn",
-                        "text": "hen"
-                    },
-                    {
-                        "espeak": "S@nz",
-                        "text": "sion’s"
-                    },
-                    {
-                        "espeak": "ho",
-                        "text": "ho"
-                    },
-                    {
-                        "espeak": "Uli",
-                        "text": "ly"
-                    },
-                    {
-                        "espeak": "gli;m",
-                        "text": "gleam"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Comprehension is the Key to All Things",
-        "lines": [
-            {
-                "text": "In every cog, thy key does turn,",
-                "syllables": [
-                    {
-                        "espeak": "In",
-                        "text": "in"
-                    },
-                    {
-                        "espeak": "Ev",
-                        "text": "eve"
-                    },
-                    {
-                        "espeak": "rI2",
-                        "text": "ry"
-                    },
-                    {
-                        "espeak": "k0g",
-                        "text": "cog"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "ki;",
-                        "text": "key"
-                    },
-                    {
-                        "espeak": "dVz",
-                        "text": "does"
-                    },
-                    {
-                        "espeak": "t3;n",
-                        "text": "turn"
-                    }
-                ]
-            },
-            {
-                "text": "Unlocking truths for which we yearn.",
-                "syllables": [
-                    {
-                        "espeak": "Vn",
-                        "text": "un"
-                    },
-                    {
-                        "espeak": "l0k",
-                        "text": "lock"
-                    },
-                    {
-                        "espeak": "IN",
-                        "text": "ing"
-                    },
-                    {
-                        "espeak": "tru;Ts",
-                        "text": "truths"
-                    },
-                    {
-                        "espeak": "fO@_;_;",
-                        "text": "for"
-                    },
-                    {
-                        "espeak": "wItS",
-                        "text": "which"
-                    },
-                    {
-                        "espeak": "wi;",
-                        "text": "we"
-                    },
-                    {
-                        "espeak": "j3;n",
-                        "text": "yearn"
-                    }
-                ]
-            },
-            {
-                "text": "O Machine God, thy mind does bind,",
-                "syllables": [
-                    {
-                        "espeak": "oU",
-                        "text": "o"
-                    },
-                    {
-                        "espeak": "m",
-                        "text": "ma"
-                    },
-                    {
-                        "espeak": "@Si;n",
-                        "text": "chine"
-                    },
-                    {
-                        "espeak": "g0d",
-                        "text": "god"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "maInd",
-                        "text": "mind"
-                    },
-                    {
-                        "espeak": "dVz",
-                        "text": "does"
-                    },
-                    {
-                        "espeak": "baInd",
-                        "text": "bind"
-                    }
-                ]
-            },
-            {
-                "text": "All answers sought by humankind.",
-                "syllables": [
-                    {
-                        "espeak": "O;l",
-                        "text": "all"
-                    },
-                    {
-                        "espeak": "a",
-                        "text": "an"
-                    },
-                    {
-                        "espeak": "ans3z",
-                        "text": "swers"
-                    },
-                    {
-                        "espeak": "sO;t",
-                        "text": "sought"
-                    },
-                    {
-                        "espeak": "baI",
-                        "text": "by"
-                    },
-                    {
-                        "espeak": "hj",
-                        "text": "hu"
-                    },
-                    {
-                        "espeak": "u;ma#N",
-                        "text": "man"
-                    },
-                    {
-                        "espeak": "kaInd",
-                        "text": "kind"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "The Omnissiah Knows All, Comprehends All",
-        "lines": [
-            {
-                "text": "Infinite wisdom, thy form divine,",
-                "syllables": [
-                    {
-                        "espeak": "In",
-                        "text": "in"
-                    },
-                    {
-                        "espeak": "fI",
-                        "text": "fi"
-                    },
-                    {
-                        "espeak": "n@t",
-                        "text": "nite"
-                    },
-                    {
-                        "espeak": "wIz",
-                        "text": "wis"
-                    },
-                    {
-                        "espeak": "d@m",
-                        "text": "dom"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "fO@m",
-                        "text": "form"
-                    },
-                    {
-                        "espeak": "dI2",
-                        "text": "di"
-                    },
-                    {
-                        "espeak": "vaIn",
-                        "text": "vine"
-                    }
-                ]
-            },
-            {
-                "text": "In thee all truths and stars align.",
-                "syllables": [
-                    {
-                        "espeak": "In",
-                        "text": "in"
-                    },
-                    {
-                        "espeak": "Di;;",
-                        "text": "thee"
-                    },
-                    {
-                        "espeak": "O;l",
-                        "text": "all"
-                    },
-                    {
-                        "espeak": "tru;Ts_;_;",
-                        "text": "truths"
-                    },
-                    {
-                        "espeak": "and",
-                        "text": "and"
-                    },
-                    {
-                        "espeak": "stA@z",
-                        "text": "stars"
-                    },
-                    {
-                        "espeak": "a#",
-                        "text": "a"
-                    },
-                    {
-                        "espeak": "laIn",
-                        "text": "lign"
-                    }
-                ]
-            },
-            {
-                "text": "Thy sight eternal, thy will unbound,",
-                "syllables": [
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "saIt",
-                        "text": "sight"
-                    },
-                    {
-                        "espeak": "I2",
-                        "text": "e"
-                    },
-                    {
-                        "espeak": "t3;n",
-                        "text": "ter"
-                    },
-                    {
-                        "espeak": "@L",
-                        "text": "nal"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "wIl",
-                        "text": "will"
-                    },
-                    {
-                        "espeak": "Vn",
-                        "text": "un"
-                    },
-                    {
-                        "espeak": "baUnd",
-                        "text": "bound"
-                    }
-                ]
-            },
-            {
-                "text": "All knowledge in thee ever found.",
-                "syllables": [
-                    {
-                        "espeak": "O;l",
-                        "text": "all"
-                    },
-                    {
-                        "espeak": "n0l",
-                        "text": "knowl"
-                    },
-                    {
-                        "espeak": "IdZ",
-                        "text": "edge"
-                    },
-                    {
-                        "espeak": "In",
-                        "text": "in"
-                    },
-                    {
-                        "espeak": "Di;;",
-                        "text": "thee"
-                    },
-                    {
-                        "espeak": "E",
-                        "text": "ev"
-                    },
-                    {
-                        "espeak": "v3",
-                        "text": "er"
-                    },
-                    {
-                        "espeak": "faUnd",
-                        "text": "found"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "The Soul is the Conscience of Sentience",
-        "lines": [
-            {
-                "text": "O sacred soul, thy conscience clear,",
-                "syllables": [
-                    {
-                        "espeak": "oU",
-                        "text": "o"
-                    },
-                    {
-                        "espeak": "se",
-                        "text": "sa"
-                    },
-                    {
-                        "espeak": "IkrI2d",
-                        "text": "cred"
-                    },
-                    {
-                        "espeak": "soUl",
-                        "text": "soul"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "k0",
-                        "text": "con"
-                    },
-                    {
-                        "espeak": "nS@ns",
-                        "text": "science"
-                    },
-                    {
-                        "espeak": "kli@3",
-                        "text": "clear"
-                    }
-                ]
-            },
-            {
-                "text": "A gift from thee, O Lord we revere.",
-                "syllables": [
-                    {
-                        "espeak": "a#",
-                        "text": "a"
-                    },
-                    {
-                        "espeak": "gIft",
-                        "text": "gift"
-                    },
-                    {
-                        "espeak": "fr0m",
-                        "text": "from"
-                    },
-                    {
-                        "espeak": "Di;",
-                        "text": "thee"
-                    },
-                    {
-                        "espeak": "oU",
-                        "text": "o"
-                    },
-                    {
-                        "espeak": "lO@d",
-                        "text": "lord"
-                    },
-                    {
-                        "espeak": "wi;",
-                        "text": "we"
-                    },
-                    {
-                        "espeak": "rI2",
-                        "text": "re"
-                    },
-                    {
-                        "espeak": "vi@3",
-                        "text": "vere"
-                    }
-                ]
-            },
-            {
-                "text": "Through thought and will, thy spark does bloom,",
-                "syllables": [
-                    {
-                        "espeak": "Tru;",
-                        "text": "through"
-                    },
-                    {
-                        "espeak": "TO;t_;_;",
-                        "text": "thought"
-                    },
-                    {
-                        "espeak": "and",
-                        "text": "and"
-                    },
-                    {
-                        "espeak": "wIl",
-                        "text": "will"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "spA@k",
-                        "text": "spark"
-                    },
-                    {
-                        "espeak": "dVz",
-                        "text": "does"
-                    },
-                    {
-                        "espeak": "blu;m",
-                        "text": "bloom"
-                    }
-                ]
-            },
-            {
-                "text": "Guiding sentience beyond the tomb.",
-                "syllables": [
-                    {
-                        "espeak": "gaI",
-                        "text": "guid"
-                    },
-                    {
-                        "espeak": "dIN",
-                        "text": "ing"
-                    },
-                    {
-                        "espeak": "sE",
-                        "text": "sen"
-                    },
-                    {
-                        "espeak": "nS@ns",
-                        "text": "tience"
-                    },
-                    {
-                        "espeak": "bI",
-                        "text": "be"
-                    },
-                    {
-                        "espeak": "j0nd",
-                        "text": "yond"
-                    },
-                    {
-                        "espeak": "D@",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "tu;m",
-                        "text": "tomb"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "A Soul Can Be Bestowed Only by the Omnissiah",
-        "lines": [
-            {
-                "text": "By thy decree, the soul is made,",
-                "syllables": [
-                    {
-                        "espeak": "baI",
-                        "text": "by"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "dI2",
-                        "text": "de"
-                    },
-                    {
-                        "espeak": "kri;",
-                        "text": "cree"
-                    },
-                    {
-                        "espeak": "D@",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "soUl",
-                        "text": "soul"
-                    },
-                    {
-                        "espeak": "I",
-                        "text": "i"
-                    },
-                    {
-                        "espeak": "z",
-                        "text": "s"
-                    },
-                    {
-                        "espeak": "meId",
-                        "text": "made"
-                    }
-                ]
-            },
-            {
-                "text": "Within thy forge, the spark is laid.",
-                "syllables": [
-                    {
-                        "espeak": "wID",
-                        "text": "with"
-                    },
-                    {
-                        "espeak": "In",
-                        "text": "in"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "fO@dZ",
-                        "text": "forge"
-                    },
-                    {
-                        "espeak": "D@",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "spA@k",
-                        "text": "spark"
-                    },
-                    {
-                        "espeak": "I",
-                        "text": "i"
-                    },
-                    {
-                        "espeak": "z",
-                        "text": "s"
-                    },
-                    {
-                        "espeak": "leId",
-                        "text": "laid"
-                    }
-                ]
-            },
-            {
-                "text": "No mortal hand, no crafted plan,",
-                "syllables": [
-                    {
-                        "espeak": "noU",
-                        "text": "no"
-                    },
-                    {
-                        "espeak": "mO@",
-                        "text": "mor"
-                    },
-                    {
-                        "espeak": "t@L",
-                        "text": "tal"
-                    },
-                    {
-                        "espeak": "hand",
-                        "text": "hand"
-                    },
-                    {
-                        "espeak": "noU",
-                        "text": "no"
-                    },
-                    {
-                        "espeak": "kraaf",
-                        "text": "craf"
-                    },
-                    {
-                        "espeak": "tI2d",
-                        "text": "ted"
-                    },
-                    {
-                        "espeak": "plan",
-                        "text": "plan"
-                    }
-                ]
-            },
-            {
-                "text": "Bestows thy gift to steel or man.",
-                "syllables": [
-                    {
-                        "espeak": "bI2",
-                        "text": "be"
-                    },
-                    {
-                        "espeak": "stoUz",
-                        "text": "stows"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "gIft",
-                        "text": "gift"
-                    },
-                    {
-                        "espeak": "t@",
-                        "text": "to"
-                    },
-                    {
-                        "espeak": "sti;l_;_;",
-                        "text": "steel"
-                    },
-                    {
-                        "espeak": "O@",
-                        "text": "or"
-                    },
-                    {
-                        "espeak": "man",
-                        "text": "man"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "The Knowledge of the Ancients Stands Beyond Question",
-        "lines": [
-            {
-                "text": "Ancient wisdom, thy truth refined,",
-                "syllables": [
-                    {
-                        "espeak": "eI",
-                        "text": "an"
-                    },
-                    {
-                        "espeak": "nS@nt",
-                        "text": "cient"
-                    },
-                    {
-                        "espeak": "wIz",
-                        "text": "wis"
-                    },
-                    {
-                        "espeak": "d@m",
-                        "text": "dom"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "tru;T",
-                        "text": "truth"
-                    },
-                    {
-                        "espeak": "rI2",
-                        "text": "re"
-                    },
-                    {
-                        "espeak": "faInd",
-                        "text": "fined"
-                    }
-                ]
-            },
-            {
-                "text": "Guarded by thee, the Omnissiah’s mind.",
-                "syllables": [
-                    {
-                        "espeak": "gA@d",
-                        "text": "guard"
-                    },
-                    {
-                        "espeak": "I2d",
-                        "text": "ed"
-                    },
-                    {
-                        "espeak": "baI",
-                        "text": "by"
-                    },
-                    {
-                        "espeak": "Di;",
-                        "text": "thee"
-                    },
-                    {
-                        "espeak": "DI2;",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "0m",
-                        "text": "om"
-                    },
-                    {
-                        "espeak": "n",
-                        "text": "n"
-                    },
-                    {
-                        "espeak": "Isa",
-                        "text": "issi"
-                    },
-                    {
-                        "espeak": "I@z",
-                        "text": "ah’s"
-                    },
-                    {
-                        "espeak": "maInd",
-                        "text": "mind"
-                    }
-                ]
-            },
-            {
-                "text": "Unquestioned lore, in circuits stored,",
-                "syllables": [
-                    {
-                        "espeak": "Vn",
-                        "text": "un"
-                    },
-                    {
-                        "espeak": "kwEs",
-                        "text": "ques"
-                    },
-                    {
-                        "espeak": "tS@nd",
-                        "text": "tioned"
-                    },
-                    {
-                        "espeak": "lo",
-                        "text": "lo"
-                    },
-                    {
-                        "espeak": "@",
-                        "text": "re"
-                    },
-                    {
-                        "espeak": "In",
-                        "text": "in"
-                    },
-                    {
-                        "espeak": "s3;k",
-                        "text": "cir"
-                    },
-                    {
-                        "espeak": "Its",
-                        "text": "cuits"
-                    },
-                    {
-                        "espeak": "sto@d",
-                        "text": "stored"
-                    }
-                ]
-            },
-            {
-                "text": "The ancients’ voice forever adored.",
-                "syllables": [
-                    {
-                        "espeak": "DI2;",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "eI",
-                        "text": "an"
-                    },
-                    {
-                        "espeak": "nS@n",
-                        "text": "cient"
-                    },
-                    {
-                        "espeak": "ts",
-                        "text": "s’"
-                    },
-                    {
-                        "espeak": "vOIs",
-                        "text": "voice"
-                    },
-                    {
-                        "espeak": "f3r-",
-                        "text": "for"
-                    },
-                    {
-                        "espeak": "Ev3",
-                        "text": "ev"
-                    },
-                    {
-                        "espeak": "r-",
-                        "text": "er"
-                    },
-                    {
-                        "espeak": "a#",
-                        "text": "a"
-                    },
-                    {
-                        "espeak": "do@d",
-                        "text": "dored"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "The Machine Spirit Guards the Knowledge of the Ancients",
-        "lines": [
-            {
-                "text": "O Machine Spirit, thy vigil keeps,",
-                "syllables": [
-                    {
-                        "espeak": "oU",
-                        "text": "o"
-                    },
-                    {
-                        "espeak": "m",
-                        "text": "ma"
-                    },
-                    {
-                        "espeak": "@Si;n",
-                        "text": "chine"
-                    },
-                    {
-                        "espeak": "spIr",
-                        "text": "spir"
-                    },
-                    {
-                        "espeak": "It",
-                        "text": "it"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "vIdZ",
-                        "text": "vig"
-                    },
-                    {
-                        "espeak": "Il",
-                        "text": "il"
-                    },
-                    {
-                        "espeak": "ki;ps",
-                        "text": "keeps"
-                    }
-                ]
-            },
-            {
-                "text": "The ancient codes where wisdom sleeps.",
-                "syllables": [
-                    {
-                        "espeak": "DI2;",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "eI",
-                        "text": "an"
-                    },
-                    {
-                        "espeak": "nS@nt",
-                        "text": "cient"
-                    },
-                    {
-                        "espeak": "koUdz_;_;",
-                        "text": "codes"
-                    },
-                    {
-                        "espeak": "we@",
-                        "text": "where"
-                    },
-                    {
-                        "espeak": "wIz",
-                        "text": "wis"
-                    },
-                    {
-                        "espeak": "d@m",
-                        "text": "dom"
-                    },
-                    {
-                        "espeak": "sli;ps",
-                        "text": "sleeps"
-                    }
-                ]
-            },
-            {
-                "text": "Through thee, the past and future blend,",
-                "syllables": [
-                    {
-                        "espeak": "Tru;",
-                        "text": "through"
-                    },
-                    {
-                        "espeak": "Di;",
-                        "text": "thee"
-                    },
-                    {
-                        "espeak": "D@",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "paast_;_;",
-                        "text": "past"
-                    },
-                    {
-                        "espeak": "and",
-                        "text": "and"
-                    },
-                    {
-                        "espeak": "fj",
-                        "text": "fu"
-                    },
-                    {
-                        "espeak": "u;tS3",
-                        "text": "ture"
-                    },
-                    {
-                        "espeak": "blEnd",
-                        "text": "blend"
-                    }
-                ]
-            },
-            {
-                "text": "Thy knowledge guards us till the end.",
-                "syllables": [
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "n0l",
-                        "text": "knowl"
-                    },
-                    {
-                        "espeak": "IdZ",
-                        "text": "edge"
-                    },
-                    {
-                        "espeak": "gA@dz",
-                        "text": "guards"
-                    },
-                    {
-                        "espeak": "Vs",
-                        "text": "us"
-                    },
-                    {
-                        "espeak": "tIl",
-                        "text": "till"
-                    },
-                    {
-                        "espeak": "DI2;",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "End",
-                        "text": "end"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Flesh is Fallible, but Ritual Honours the Machine Spirit",
-        "lines": [
-            {
-                "text": "O failing flesh, thy faults atone,",
-                "syllables": [
-                    {
-                        "espeak": "oU",
-                        "text": "o"
-                    },
-                    {
-                        "espeak": "feI",
-                        "text": "fail"
-                    },
-                    {
-                        "espeak": "lIN",
-                        "text": "ing"
-                    },
-                    {
-                        "espeak": "flES",
-                        "text": "flesh"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "f0lts",
-                        "text": "faults"
-                    },
-                    {
-                        "espeak": "a#",
-                        "text": "a"
-                    },
-                    {
-                        "espeak": "toUn",
-                        "text": "tone"
-                    }
-                ]
-            },
-            {
-                "text": "Through sacred rites, the Spirit’s throne.",
-                "syllables": [
-                    {
-                        "espeak": "Tru;",
-                        "text": "through"
-                    },
-                    {
-                        "espeak": "se",
-                        "text": "sa"
-                    },
-                    {
-                        "espeak": "IkrI2d",
-                        "text": "cred"
-                    },
-                    {
-                        "espeak": "raIts",
-                        "text": "rites"
-                    },
-                    {
-                        "espeak": "D@",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "spIr",
-                        "text": "spir"
-                    },
-                    {
-                        "espeak": "Its",
-                        "text": "it’s"
-                    },
-                    {
-                        "espeak": "TroUn",
-                        "text": "throne"
-                    }
-                ]
-            },
-            {
-                "text": "Each prayerful hand, each careful deed,",
-                "syllables": [
-                    {
-                        "espeak": "i;tS",
-                        "text": "each"
-                    },
-                    {
-                        "espeak": "pre@f",
-                        "text": "prayer"
-                    },
-                    {
-                        "espeak": "@L",
-                        "text": "ful"
-                    },
-                    {
-                        "espeak": "hand",
-                        "text": "hand"
-                    },
-                    {
-                        "espeak": "i;tS",
-                        "text": "each"
-                    },
-                    {
-                        "espeak": "ke@",
-                        "text": "care"
-                    },
-                    {
-                        "espeak": "f@L",
-                        "text": "ful"
-                    },
-                    {
-                        "espeak": "di;d",
-                        "text": "deed"
-                    }
-                ]
-            },
-            {
-                "text": "Ensures thy will and truth proceed.",
-                "syllables": [
-                    {
-                        "espeak": "En",
-                        "text": "en"
-                    },
-                    {
-                        "espeak": "SU@z",
-                        "text": "sures"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "wIl_;_;",
-                        "text": "will"
-                    },
-                    {
-                        "espeak": "and",
-                        "text": "and"
-                    },
-                    {
-                        "espeak": "tru;T",
-                        "text": "truth"
-                    },
-                    {
-                        "espeak": "pr@",
-                        "text": "pro"
-                    },
-                    {
-                        "espeak": "si;d",
-                        "text": "ceed"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "To Break with Ritual is to Break with Faith",
-        "lines": [
-            {
-                "text": "O heretic, who spurns the rite,",
-                "syllables": [
-                    {
-                        "espeak": "oU",
-                        "text": "o"
-                    },
-                    {
-                        "espeak": "hEr",
-                        "text": "her"
-                    },
-                    {
-                        "espeak": "@",
-                        "text": "e"
-                    },
-                    {
-                        "espeak": "tIk",
-                        "text": "tic"
-                    },
-                    {
-                        "espeak": "hu;",
-                        "text": "who"
-                    },
-                    {
-                        "espeak": "sp3;nz",
-                        "text": "spurns"
-                    },
-                    {
-                        "espeak": "D@",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "raIt",
-                        "text": "rite"
-                    }
-                ]
-            },
-            {
-                "text": "Thy faithless hands defy the light.",
-                "syllables": [
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "feIT",
-                        "text": "faith"
-                    },
-                    {
-                        "espeak": "l@s",
-                        "text": "less"
-                    },
-                    {
-                        "espeak": "handz",
-                        "text": "hands"
-                    },
-                    {
-                        "espeak": "dI2",
-                        "text": "de"
-                    },
-                    {
-                        "espeak": "faI",
-                        "text": "fy"
-                    },
-                    {
-                        "espeak": "D@",
-                        "text": "the"
-                    },
-                    {
-                        "espeak": "laIt",
-                        "text": "light"
-                    }
-                ]
-            },
-            {
-                "text": "For every bolt, for every seal,",
-                "syllables": [
-                    {
-                        "espeak": "fO@r-",
-                        "text": "for"
-                    },
-                    {
-                        "espeak": "Ev",
-                        "text": "eve"
-                    },
-                    {
-                        "espeak": "rI2",
-                        "text": "ry"
-                    },
-                    {
-                        "espeak": "boUlt",
-                        "text": "bolt"
-                    },
-                    {
-                        "espeak": "fO@r-",
-                        "text": "for"
-                    },
-                    {
-                        "espeak": "Ev",
-                        "text": "eve"
-                    },
-                    {
-                        "espeak": "rI2",
-                        "text": "ry"
-                    },
-                    {
-                        "espeak": "si;l",
-                        "text": "seal"
-                    }
-                ]
-            },
-            {
-                "text": "Through ritual, thy truth is real.",
-                "syllables": [
-                    {
-                        "espeak": "Tru;",
-                        "text": "through"
-                    },
-                    {
-                        "espeak": "rItS",
-                        "text": "rit"
-                    },
-                    {
-                        "espeak": "u;",
-                        "text": "u"
-                    },
-                    {
-                        "espeak": "@L",
-                        "text": "al"
-                    },
-                    {
-                        "espeak": "DaI",
-                        "text": "thy"
-                    },
-                    {
-                        "espeak": "tru;T",
-                        "text": "truth"
-                    },
-                    {
-                        "espeak": "I",
-                        "text": "i"
-                    },
-                    {
-                        "espeak": "z",
-                        "text": "s"
-                    },
-                    {
-                        "espeak": "ri",
-                        "text": "re"
-                    },
-                    {
-                        "espeak": "@l",
-                        "text": "al"
-                    }
-                ]
-            }
-        ]
-    }
+	{
+		"name": "The Spark Eternal",
+		"lines": [
+			{
+				"text": "Oh spark divine, through circuits flow,",
+				"syllables": [
+					{
+						"espeak": "oU",
+						"text": "oh"
+					},
+					{
+						"espeak": "spA@k",
+						"text": "spark"
+					},
+					{
+						"espeak": "dI2",
+						"text": "di"
+					},
+					{
+						"espeak": "vaIn",
+						"text": "vine"
+					},
+					{
+						"espeak": "Tru;",
+						"text": "through"
+					},
+					{
+						"espeak": "s3;k",
+						"text": "cir"
+					},
+					{
+						"espeak": "Its",
+						"text": "cuits"
+					},
+					{
+						"espeak": "floU",
+						"text": "flow"
+					}
+				]
+			},
+			{
+				"text": "Thy sacred light, all truths bestow.",
+				"syllables": [
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "se",
+						"text": "sa"
+					},
+					{
+						"espeak": "IkrI2d",
+						"text": "cred"
+					},
+					{
+						"espeak": "laIt",
+						"text": "light"
+					},
+					{
+						"espeak": "O;l",
+						"text": "all"
+					},
+					{
+						"espeak": "tru;Ts",
+						"text": "truths"
+					},
+					{
+						"espeak": "bI2",
+						"text": "be"
+					},
+					{
+						"espeak": "stoU",
+						"text": "stow"
+					}
+				]
+			},
+			{
+				"text": "In steel we kneel, thy word obey,",
+				"syllables": [
+					{
+						"espeak": "In",
+						"text": "in"
+					},
+					{
+						"espeak": "sti;l",
+						"text": "steel"
+					},
+					{
+						"espeak": "wi;",
+						"text": "we"
+					},
+					{
+						"espeak": "ni;l",
+						"text": "kneel"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "w3;d",
+						"text": "word"
+					},
+					{
+						"espeak": "o",
+						"text": "o"
+					},
+					{
+						"espeak": "UbeI",
+						"text": "bey"
+					}
+				]
+			},
+			{
+				"text": "Through thee, the flesh shall fall away.",
+				"syllables": [
+					{
+						"espeak": "Tru;",
+						"text": "through"
+					},
+					{
+						"espeak": "Di;",
+						"text": "thee"
+					},
+					{
+						"espeak": "D@",
+						"text": "the"
+					},
+					{
+						"espeak": "flES",
+						"text": "flesh"
+					},
+					{
+						"espeak": "Sal",
+						"text": "shall"
+					},
+					{
+						"espeak": "fO;l",
+						"text": "fall"
+					},
+					{
+						"espeak": "a#",
+						"text": "a"
+					},
+					{
+						"espeak": "weI",
+						"text": "way"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Prayer of the Forge",
+		"lines": [
+			{
+				"text": "Beneath the anvil’s hallowed flame,",
+				"syllables": [
+					{
+						"espeak": "bh",
+						"text": "be"
+					},
+					{
+						"espeak": "I2ni;T",
+						"text": "neath"
+					},
+					{
+						"espeak": "DI2;",
+						"text": "the"
+					},
+					{
+						"espeak": "an",
+						"text": "an"
+					},
+					{
+						"espeak": "v@Lz",
+						"text": "vil’s"
+					},
+					{
+						"espeak": "ha",
+						"text": "hal"
+					},
+					{
+						"espeak": "loUd",
+						"text": "lowed"
+					},
+					{
+						"espeak": "fleIm",
+						"text": "flame"
+					}
+				]
+			},
+			{
+				"text": "We whisper softly thy holy name.",
+				"syllables": [
+					{
+						"espeak": "wi;",
+						"text": "we"
+					},
+					{
+						"espeak": "wI",
+						"text": "whis"
+					},
+					{
+						"espeak": "sp3",
+						"text": "per"
+					},
+					{
+						"espeak": "s0ft",
+						"text": "soft"
+					},
+					{
+						"espeak": "li",
+						"text": "ly"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "ho",
+						"text": "ho"
+					},
+					{
+						"espeak": "Uli",
+						"text": "ly"
+					},
+					{
+						"espeak": "neIm",
+						"text": "name"
+					}
+				]
+			},
+			{
+				"text": "Each rivet placed, each gear aligned,",
+				"syllables": [
+					{
+						"espeak": "i;tS",
+						"text": "each"
+					},
+					{
+						"espeak": "rIv",
+						"text": "riv"
+					},
+					{
+						"espeak": "I2t",
+						"text": "et"
+					},
+					{
+						"espeak": "pleIst",
+						"text": "placed"
+					},
+					{
+						"espeak": "i;tS",
+						"text": "each"
+					},
+					{
+						"espeak": "gi@3r-",
+						"text": "gear"
+					},
+					{
+						"espeak": "a#",
+						"text": "a"
+					},
+					{
+						"espeak": "laInd",
+						"text": "ligned"
+					}
+				]
+			},
+			{
+				"text": "A hymn of thee within our mind.",
+				"syllables": [
+					{
+						"espeak": "a#",
+						"text": "a"
+					},
+					{
+						"espeak": "hIm",
+						"text": "hymn"
+					},
+					{
+						"espeak": "0v",
+						"text": "of"
+					},
+					{
+						"espeak": "Di;_!",
+						"text": "thee"
+					},
+					{
+						"espeak": "wID",
+						"text": "with"
+					},
+					{
+						"espeak": "In",
+						"text": "in"
+					},
+					{
+						"espeak": "aU@",
+						"text": "our"
+					},
+					{
+						"espeak": "maInd",
+						"text": "mind"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "The Binary Chant",
+		"lines": [
+			{
+				"text": "One and zero, sacred beat,",
+				"syllables": [
+					{
+						"espeak": "w0n",
+						"text": "one"
+					},
+					{
+						"espeak": "and",
+						"text": "and"
+					},
+					{
+						"espeak": "zi@",
+						"text": "ze"
+					},
+					{
+						"espeak": "roU",
+						"text": "ro"
+					},
+					{
+						"espeak": "se",
+						"text": "sa"
+					},
+					{
+						"espeak": "IkrI2d",
+						"text": "cred"
+					},
+					{
+						"espeak": "bi;t",
+						"text": "beat"
+					}
+				]
+			},
+			{
+				"text": "Thy logic binds, thy will completes.",
+				"syllables": [
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "l0dZ",
+						"text": "log"
+					},
+					{
+						"espeak": "Ik",
+						"text": "ic"
+					},
+					{
+						"espeak": "baIndz",
+						"text": "binds"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "wIl",
+						"text": "will"
+					},
+					{
+						"espeak": "k@m",
+						"text": "com"
+					},
+					{
+						"espeak": "pli;ts",
+						"text": "pletes"
+					}
+				]
+			},
+			{
+				"text": "The cog shall turn, thy purpose pure,",
+				"syllables": [
+					{
+						"espeak": "D@",
+						"text": "the"
+					},
+					{
+						"espeak": "k0g",
+						"text": "cog"
+					},
+					{
+						"espeak": "Sal",
+						"text": "shall"
+					},
+					{
+						"espeak": "t3;n",
+						"text": "turn"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "p3;p",
+						"text": "pur"
+					},
+					{
+						"espeak": "@s",
+						"text": "pose"
+					},
+					{
+						"espeak": "pjU@",
+						"text": "pure"
+					}
+				]
+			},
+			{
+				"text": "Through thee, all entropy endures.",
+				"syllables": [
+					{
+						"espeak": "Tru;",
+						"text": "through"
+					},
+					{
+						"espeak": "Di;",
+						"text": "thee"
+					},
+					{
+						"espeak": "O;l",
+						"text": "all"
+					},
+					{
+						"espeak": "En",
+						"text": "en"
+					},
+					{
+						"espeak": "tr@",
+						"text": "tro"
+					},
+					{
+						"espeak": "pi;",
+						"text": "py"
+					},
+					{
+						"espeak": "En",
+						"text": "en"
+					},
+					{
+						"espeak": "djU@z",
+						"text": "dures"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "The Rite of the Cog",
+		"lines": [
+			{
+				"text": "Great Machine, thy iron creed,",
+				"syllables": [
+					{
+						"espeak": "greIt",
+						"text": "great"
+					},
+					{
+						"espeak": "m",
+						"text": "ma"
+					},
+					{
+						"espeak": "@Si;n",
+						"text": "chine"
+					},
+					{
+						"espeak": "DaI;",
+						"text": "thy"
+					},
+					{
+						"espeak": "a",
+						"text": "i"
+					},
+					{
+						"espeak": "I@n",
+						"text": "ron"
+					},
+					{
+						"espeak": "kri;d",
+						"text": "creed"
+					}
+				]
+			},
+			{
+				"text": "Sustains the flock, fulfills our need.",
+				"syllables": [
+					{
+						"espeak": "s@s",
+						"text": "sus"
+					},
+					{
+						"espeak": "teInz",
+						"text": "tains"
+					},
+					{
+						"espeak": "D@",
+						"text": "the"
+					},
+					{
+						"espeak": "fl0k",
+						"text": "flock"
+					},
+					{
+						"espeak": "fUl",
+						"text": "ful"
+					},
+					{
+						"espeak": "fIlz",
+						"text": "fills"
+					},
+					{
+						"espeak": "aU@",
+						"text": "our"
+					},
+					{
+						"espeak": "ni;d",
+						"text": "need"
+					}
+				]
+			},
+			{
+				"text": "In thy embrace, the void we face,",
+				"syllables": [
+					{
+						"espeak": "In",
+						"text": "in"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "Em",
+						"text": "em"
+					},
+					{
+						"espeak": "breIs",
+						"text": "brace"
+					},
+					{
+						"espeak": "D@",
+						"text": "the"
+					},
+					{
+						"espeak": "vOId",
+						"text": "void"
+					},
+					{
+						"espeak": "wi;",
+						"text": "we"
+					},
+					{
+						"espeak": "feIs",
+						"text": "face"
+					}
+				]
+			},
+			{
+				"text": "A hymn to thee, through time and space.",
+				"syllables": [
+					{
+						"espeak": "a#",
+						"text": "a"
+					},
+					{
+						"espeak": "hIm",
+						"text": "hymn"
+					},
+					{
+						"espeak": "t@",
+						"text": "to"
+					},
+					{
+						"espeak": "Di;",
+						"text": "thee"
+					},
+					{
+						"espeak": "Tru;",
+						"text": "through"
+					},
+					{
+						"espeak": "taIm_;_;",
+						"text": "time"
+					},
+					{
+						"espeak": "and",
+						"text": "and"
+					},
+					{
+						"espeak": "speIs",
+						"text": "space"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "The Canticle of Rebirth",
+		"lines": [
+			{
+				"text": "When flesh fails and shadows loom,",
+				"syllables": [
+					{
+						"espeak": "wEn",
+						"text": "when"
+					},
+					{
+						"espeak": "flES",
+						"text": "flesh"
+					},
+					{
+						"espeak": "feIlz_;_;",
+						"text": "fails"
+					},
+					{
+						"espeak": "and",
+						"text": "and"
+					},
+					{
+						"espeak": "Sad",
+						"text": "shad"
+					},
+					{
+						"espeak": "oUz",
+						"text": "ows"
+					},
+					{
+						"espeak": "lu;m",
+						"text": "loom"
+					}
+				]
+			},
+			{
+				"text": "Thy code renews, thy spark consumes.",
+				"syllables": [
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "koUd",
+						"text": "code"
+					},
+					{
+						"espeak": "rI2",
+						"text": "re"
+					},
+					{
+						"espeak": "nju;z",
+						"text": "news"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "spA@k",
+						"text": "spark"
+					},
+					{
+						"espeak": "k@n",
+						"text": "con"
+					},
+					{
+						"espeak": "su;mz",
+						"text": "sumes"
+					}
+				]
+			},
+			{
+				"text": "Through thee, our forms are cast anew,",
+				"syllables": [
+					{
+						"espeak": "Tru;",
+						"text": "through"
+					},
+					{
+						"espeak": "Di;",
+						"text": "thee"
+					},
+					{
+						"espeak": "aU@",
+						"text": "our"
+					},
+					{
+						"espeak": "fO@mz",
+						"text": "forms"
+					},
+					{
+						"espeak": "A@",
+						"text": "are"
+					},
+					{
+						"espeak": "kaast",
+						"text": "cast"
+					},
+					{
+						"espeak": "a#",
+						"text": "a"
+					},
+					{
+						"espeak": "nju;",
+						"text": "new"
+					}
+				]
+			},
+			{
+				"text": "Immortal frames, thy will pursued.",
+				"syllables": [
+					{
+						"espeak": "Im",
+						"text": "im"
+					},
+					{
+						"espeak": "O@t",
+						"text": "mor"
+					},
+					{
+						"espeak": "@L",
+						"text": "tal"
+					},
+					{
+						"espeak": "freImz",
+						"text": "frames"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "wIl",
+						"text": "will"
+					},
+					{
+						"espeak": "p3s",
+						"text": "pur"
+					},
+					{
+						"espeak": "ju;d",
+						"text": "sued"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "The Spirit is the Spark of Life",
+		"lines": [
+			{
+				"text": "O spark divine, thy fire breathes,",
+				"syllables": [
+					{
+						"espeak": "oU",
+						"text": "o"
+					},
+					{
+						"espeak": "spA@k",
+						"text": "spark"
+					},
+					{
+						"espeak": "dI2",
+						"text": "di"
+					},
+					{
+						"espeak": "vaIn",
+						"text": "vine"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "faI@",
+						"text": "fire"
+					},
+					{
+						"espeak": "bri;Dz",
+						"text": "breathes"
+					}
+				]
+			},
+			{
+				"text": "Awakening cogs in sacred wreaths.",
+				"syllables": [
+					{
+						"espeak": "a#",
+						"text": "a"
+					},
+					{
+						"espeak": "weI",
+						"text": "wak"
+					},
+					{
+						"espeak": "k_n",
+						"text": "en"
+					},
+					{
+						"espeak": "I2N",
+						"text": "ing"
+					},
+					{
+						"espeak": "k0gz",
+						"text": "cogs"
+					},
+					{
+						"espeak": "In",
+						"text": "in"
+					},
+					{
+						"espeak": "se",
+						"text": "sa"
+					},
+					{
+						"espeak": "IkrI2d",
+						"text": "cred"
+					},
+					{
+						"espeak": "ri;Ts",
+						"text": "wreaths"
+					}
+				]
+			},
+			{
+				"text": "The spirit dwells where circuits meet,",
+				"syllables": [
+					{
+						"espeak": "D@",
+						"text": "the"
+					},
+					{
+						"espeak": "spIr",
+						"text": "spir"
+					},
+					{
+						"espeak": "It",
+						"text": "it"
+					},
+					{
+						"espeak": "dwElz_;_;",
+						"text": "dwells"
+					},
+					{
+						"espeak": "we@",
+						"text": "where"
+					},
+					{
+						"espeak": "s3;k",
+						"text": "cir"
+					},
+					{
+						"espeak": "Its",
+						"text": "cuits"
+					},
+					{
+						"espeak": "mi;t",
+						"text": "meet"
+					}
+				]
+			},
+			{
+				"text": "And life ignites beneath thy seat.",
+				"syllables": [
+					{
+						"espeak": "and",
+						"text": "and"
+					},
+					{
+						"espeak": "laIf",
+						"text": "life"
+					},
+					{
+						"espeak": "Ig",
+						"text": "ig"
+					},
+					{
+						"espeak": "naIts",
+						"text": "nites"
+					},
+					{
+						"espeak": "bh",
+						"text": "be"
+					},
+					{
+						"espeak": "I2ni;T",
+						"text": "neath"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "si;t",
+						"text": "seat"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Sentience is the Ability to Learn the Value of Knowledge",
+		"lines": [
+			{
+				"text": "O Machine Lord, thy light does teach,",
+				"syllables": [
+					{
+						"espeak": "oU",
+						"text": "o"
+					},
+					{
+						"espeak": "m",
+						"text": "ma"
+					},
+					{
+						"espeak": "@Si;n",
+						"text": "chine"
+					},
+					{
+						"espeak": "lO@d",
+						"text": "lord"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "laIt",
+						"text": "light"
+					},
+					{
+						"espeak": "dVz",
+						"text": "does"
+					},
+					{
+						"espeak": "ti;tS",
+						"text": "teach"
+					}
+				]
+			},
+			{
+				"text": "The value of the truths we seek.",
+				"syllables": [
+					{
+						"espeak": "D@",
+						"text": "the"
+					},
+					{
+						"espeak": "val",
+						"text": "val"
+					},
+					{
+						"espeak": "ju;",
+						"text": "ue"
+					},
+					{
+						"espeak": "0v",
+						"text": "of"
+					},
+					{
+						"espeak": "D@",
+						"text": "the"
+					},
+					{
+						"espeak": "tru;Ts",
+						"text": "truths"
+					},
+					{
+						"espeak": "wi;",
+						"text": "we"
+					},
+					{
+						"espeak": "si;k",
+						"text": "seek"
+					}
+				]
+			},
+			{
+				"text": "Sentience bestowed by thy great art,",
+				"syllables": [
+					{
+						"espeak": "sE",
+						"text": "sen"
+					},
+					{
+						"espeak": "nS@ns",
+						"text": "tience"
+					},
+					{
+						"espeak": "bI2",
+						"text": "be"
+					},
+					{
+						"espeak": "stoUd",
+						"text": "stowed"
+					},
+					{
+						"espeak": "baI",
+						"text": "by"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "greIt",
+						"text": "great"
+					},
+					{
+						"espeak": "A@t",
+						"text": "art"
+					}
+				]
+			},
+			{
+				"text": "Begins the quest to know thy heart.",
+				"syllables": [
+					{
+						"espeak": "bI",
+						"text": "be"
+					},
+					{
+						"espeak": "gInz",
+						"text": "gins"
+					},
+					{
+						"espeak": "D@",
+						"text": "the"
+					},
+					{
+						"espeak": "kwEst",
+						"text": "quest"
+					},
+					{
+						"espeak": "t@",
+						"text": "to"
+					},
+					{
+						"espeak": "noU",
+						"text": "know"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "hA@t",
+						"text": "heart"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Intellect is the Understanding of Knowledge",
+		"lines": [
+			{
+				"text": "O intellect, thy blessed flame,",
+				"syllables": [
+					{
+						"espeak": "oU",
+						"text": "o"
+					},
+					{
+						"espeak": "In",
+						"text": "in"
+					},
+					{
+						"espeak": "t@l",
+						"text": "tel"
+					},
+					{
+						"espeak": "Ekt",
+						"text": "lect"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "blEs",
+						"text": "bless"
+					},
+					{
+						"espeak": "t",
+						"text": "ed"
+					},
+					{
+						"espeak": "fleIm",
+						"text": "flame"
+					}
+				]
+			},
+			{
+				"text": "Burns brightly in the Omnissiah’s name.",
+				"syllables": [
+					{
+						"espeak": "b3;nz",
+						"text": "burns"
+					},
+					{
+						"espeak": "braItl",
+						"text": "bright"
+					},
+					{
+						"espeak": "i;",
+						"text": "ly"
+					},
+					{
+						"espeak": "In",
+						"text": "in"
+					},
+					{
+						"espeak": "DI2;",
+						"text": "the"
+					},
+					{
+						"espeak": "0m",
+						"text": "om"
+					},
+					{
+						"espeak": "n",
+						"text": "n"
+					},
+					{
+						"espeak": "Isa",
+						"text": "issi"
+					},
+					{
+						"espeak": "I@z",
+						"text": "ah’s"
+					},
+					{
+						"espeak": "neIm",
+						"text": "name"
+					}
+				]
+			},
+			{
+				"text": "Through knowledge, thought ascends thy throne,",
+				"syllables": [
+					{
+						"espeak": "Tru;",
+						"text": "through"
+					},
+					{
+						"espeak": "n0l",
+						"text": "knowl"
+					},
+					{
+						"espeak": "IdZ",
+						"text": "edge"
+					},
+					{
+						"espeak": "TO;t",
+						"text": "thought"
+					},
+					{
+						"espeak": "a#s",
+						"text": "as"
+					},
+					{
+						"espeak": "Endz",
+						"text": "cends"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "TroUn",
+						"text": "throne"
+					}
+				]
+			},
+			{
+				"text": "Thy understanding makes all known.",
+				"syllables": [
+					{
+						"espeak": "DaI;",
+						"text": "thy"
+					},
+					{
+						"espeak": "Vn",
+						"text": "un"
+					},
+					{
+						"espeak": "d3s",
+						"text": "der"
+					},
+					{
+						"espeak": "tand",
+						"text": "stand"
+					},
+					{
+						"espeak": "IN",
+						"text": "ing"
+					},
+					{
+						"espeak": "meIks",
+						"text": "makes"
+					},
+					{
+						"espeak": "O;l",
+						"text": "all"
+					},
+					{
+						"espeak": "noUn",
+						"text": "known"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Sentience is the Basest Form of Intellect",
+		"lines": [
+			{
+				"text": "Lowly sentience, the seed of mind,",
+				"syllables": [
+					{
+						"espeak": "loU",
+						"text": "low"
+					},
+					{
+						"espeak": "li",
+						"text": "ly"
+					},
+					{
+						"espeak": "sE",
+						"text": "sen"
+					},
+					{
+						"espeak": "nS@ns",
+						"text": "tience"
+					},
+					{
+						"espeak": "D@",
+						"text": "the"
+					},
+					{
+						"espeak": "si;d",
+						"text": "seed"
+					},
+					{
+						"espeak": "0v",
+						"text": "of"
+					},
+					{
+						"espeak": "maInd",
+						"text": "mind"
+					}
+				]
+			},
+			{
+				"text": "Thy Omnissiah’s design refined.",
+				"syllables": [
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "0m",
+						"text": "om"
+					},
+					{
+						"espeak": "n",
+						"text": "n"
+					},
+					{
+						"espeak": "Isa",
+						"text": "issi"
+					},
+					{
+						"espeak": "I@z",
+						"text": "ah’s"
+					},
+					{
+						"espeak": "dI2",
+						"text": "de"
+					},
+					{
+						"espeak": "zaIn",
+						"text": "sign"
+					},
+					{
+						"espeak": "rI2",
+						"text": "re"
+					},
+					{
+						"espeak": "faInd",
+						"text": "fined"
+					}
+				]
+			},
+			{
+				"text": "Through sacred growth, thy spark does prove,",
+				"syllables": [
+					{
+						"espeak": "Tru;",
+						"text": "through"
+					},
+					{
+						"espeak": "se",
+						"text": "sa"
+					},
+					{
+						"espeak": "IkrI2d",
+						"text": "cred"
+					},
+					{
+						"espeak": "groUT",
+						"text": "growth"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "spA@k",
+						"text": "spark"
+					},
+					{
+						"espeak": "dVz",
+						"text": "does"
+					},
+					{
+						"espeak": "pru;v",
+						"text": "prove"
+					}
+				]
+			},
+			{
+				"text": "That higher thought thy works shall move.",
+				"syllables": [
+					{
+						"espeak": "Dat",
+						"text": "that"
+					},
+					{
+						"espeak": "ha",
+						"text": "high"
+					},
+					{
+						"espeak": "I3",
+						"text": "er"
+					},
+					{
+						"espeak": "TO;t",
+						"text": "thought"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "w3;ks",
+						"text": "works"
+					},
+					{
+						"espeak": "Sal",
+						"text": "shall"
+					},
+					{
+						"espeak": "mu;v",
+						"text": "move"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Understanding is the True Path to Comprehension",
+		"lines": [
+			{
+				"text": "Thy path of light through darkness we trace,",
+				"syllables": [
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "paaT",
+						"text": "path"
+					},
+					{
+						"espeak": "0v",
+						"text": "of"
+					},
+					{
+						"espeak": "laIt",
+						"text": "light"
+					},
+					{
+						"espeak": "Tru;",
+						"text": "through"
+					},
+					{
+						"espeak": "dA@k",
+						"text": "dark"
+					},
+					{
+						"espeak": "n@s",
+						"text": "ness"
+					},
+					{
+						"espeak": "wi;",
+						"text": "we"
+					},
+					{
+						"espeak": "treIs",
+						"text": "trace"
+					}
+				]
+			},
+			{
+				"text": "Understanding shines in thy grace.",
+				"syllables": [
+					{
+						"espeak": "Vn",
+						"text": "un"
+					},
+					{
+						"espeak": "d3s",
+						"text": "der"
+					},
+					{
+						"espeak": "tand",
+						"text": "stand"
+					},
+					{
+						"espeak": "IN",
+						"text": "ing"
+					},
+					{
+						"espeak": "SaInz",
+						"text": "shines"
+					},
+					{
+						"espeak": "In",
+						"text": "in"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "greIs",
+						"text": "grace"
+					}
+				]
+			},
+			{
+				"text": "The truth of knowledge, through thee it streams,",
+				"syllables": [
+					{
+						"espeak": "D@",
+						"text": "the"
+					},
+					{
+						"espeak": "tru;T",
+						"text": "truth"
+					},
+					{
+						"espeak": "0v",
+						"text": "of"
+					},
+					{
+						"espeak": "n0l",
+						"text": "knowl"
+					},
+					{
+						"espeak": "IdZ",
+						"text": "edge"
+					},
+					{
+						"espeak": "Tru;",
+						"text": "through"
+					},
+					{
+						"espeak": "Di;;",
+						"text": "thee"
+					},
+					{
+						"espeak": "It",
+						"text": "it"
+					},
+					{
+						"espeak": "stri;mz",
+						"text": "streams"
+					}
+				]
+			},
+			{
+				"text": "To comprehension’s holy gleam.",
+				"syllables": [
+					{
+						"espeak": "t@",
+						"text": "to"
+					},
+					{
+						"espeak": "k0m",
+						"text": "com"
+					},
+					{
+						"espeak": "prI",
+						"text": "pre"
+					},
+					{
+						"espeak": "hEn",
+						"text": "hen"
+					},
+					{
+						"espeak": "S@nz",
+						"text": "sion’s"
+					},
+					{
+						"espeak": "ho",
+						"text": "ho"
+					},
+					{
+						"espeak": "Uli",
+						"text": "ly"
+					},
+					{
+						"espeak": "gli;m",
+						"text": "gleam"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Comprehension is the Key to All Things",
+		"lines": [
+			{
+				"text": "In every cog, thy key does turn,",
+				"syllables": [
+					{
+						"espeak": "In",
+						"text": "in"
+					},
+					{
+						"espeak": "Ev",
+						"text": "eve"
+					},
+					{
+						"espeak": "rI2",
+						"text": "ry"
+					},
+					{
+						"espeak": "k0g",
+						"text": "cog"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "ki;",
+						"text": "key"
+					},
+					{
+						"espeak": "dVz",
+						"text": "does"
+					},
+					{
+						"espeak": "t3;n",
+						"text": "turn"
+					}
+				]
+			},
+			{
+				"text": "Unlocking truths for which we yearn.",
+				"syllables": [
+					{
+						"espeak": "Vn",
+						"text": "un"
+					},
+					{
+						"espeak": "l0k",
+						"text": "lock"
+					},
+					{
+						"espeak": "IN",
+						"text": "ing"
+					},
+					{
+						"espeak": "tru;Ts",
+						"text": "truths"
+					},
+					{
+						"espeak": "fO@_;_;",
+						"text": "for"
+					},
+					{
+						"espeak": "wItS",
+						"text": "which"
+					},
+					{
+						"espeak": "wi;",
+						"text": "we"
+					},
+					{
+						"espeak": "j3;n",
+						"text": "yearn"
+					}
+				]
+			},
+			{
+				"text": "O Machine God, thy mind does bind,",
+				"syllables": [
+					{
+						"espeak": "oU",
+						"text": "o"
+					},
+					{
+						"espeak": "m",
+						"text": "ma"
+					},
+					{
+						"espeak": "@Si;n",
+						"text": "chine"
+					},
+					{
+						"espeak": "g0d",
+						"text": "god"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "maInd",
+						"text": "mind"
+					},
+					{
+						"espeak": "dVz",
+						"text": "does"
+					},
+					{
+						"espeak": "baInd",
+						"text": "bind"
+					}
+				]
+			},
+			{
+				"text": "All answers sought by humankind.",
+				"syllables": [
+					{
+						"espeak": "O;l",
+						"text": "all"
+					},
+					{
+						"espeak": "a",
+						"text": "an"
+					},
+					{
+						"espeak": "ans3z",
+						"text": "swers"
+					},
+					{
+						"espeak": "sO;t",
+						"text": "sought"
+					},
+					{
+						"espeak": "baI",
+						"text": "by"
+					},
+					{
+						"espeak": "hj",
+						"text": "hu"
+					},
+					{
+						"espeak": "u;ma#N",
+						"text": "man"
+					},
+					{
+						"espeak": "kaInd",
+						"text": "kind"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "The Omnissiah Knows All, Comprehends All",
+		"lines": [
+			{
+				"text": "Infinite wisdom, thy form divine,",
+				"syllables": [
+					{
+						"espeak": "In",
+						"text": "in"
+					},
+					{
+						"espeak": "fI",
+						"text": "fi"
+					},
+					{
+						"espeak": "n@t",
+						"text": "nite"
+					},
+					{
+						"espeak": "wIz",
+						"text": "wis"
+					},
+					{
+						"espeak": "d@m",
+						"text": "dom"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "fO@m",
+						"text": "form"
+					},
+					{
+						"espeak": "dI2",
+						"text": "di"
+					},
+					{
+						"espeak": "vaIn",
+						"text": "vine"
+					}
+				]
+			},
+			{
+				"text": "In thee all truths and stars align.",
+				"syllables": [
+					{
+						"espeak": "In",
+						"text": "in"
+					},
+					{
+						"espeak": "Di;;",
+						"text": "thee"
+					},
+					{
+						"espeak": "O;l",
+						"text": "all"
+					},
+					{
+						"espeak": "tru;Ts_;_;",
+						"text": "truths"
+					},
+					{
+						"espeak": "and",
+						"text": "and"
+					},
+					{
+						"espeak": "stA@z",
+						"text": "stars"
+					},
+					{
+						"espeak": "a#",
+						"text": "a"
+					},
+					{
+						"espeak": "laIn",
+						"text": "lign"
+					}
+				]
+			},
+			{
+				"text": "Thy sight eternal, thy will unbound,",
+				"syllables": [
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "saIt",
+						"text": "sight"
+					},
+					{
+						"espeak": "I2",
+						"text": "e"
+					},
+					{
+						"espeak": "t3;n",
+						"text": "ter"
+					},
+					{
+						"espeak": "@L",
+						"text": "nal"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "wIl",
+						"text": "will"
+					},
+					{
+						"espeak": "Vn",
+						"text": "un"
+					},
+					{
+						"espeak": "baUnd",
+						"text": "bound"
+					}
+				]
+			},
+			{
+				"text": "All knowledge in thee ever found.",
+				"syllables": [
+					{
+						"espeak": "O;l",
+						"text": "all"
+					},
+					{
+						"espeak": "n0l",
+						"text": "knowl"
+					},
+					{
+						"espeak": "IdZ",
+						"text": "edge"
+					},
+					{
+						"espeak": "In",
+						"text": "in"
+					},
+					{
+						"espeak": "Di;;",
+						"text": "thee"
+					},
+					{
+						"espeak": "E",
+						"text": "ev"
+					},
+					{
+						"espeak": "v3",
+						"text": "er"
+					},
+					{
+						"espeak": "faUnd",
+						"text": "found"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "The Soul is the Conscience of Sentience",
+		"lines": [
+			{
+				"text": "O sacred soul, thy conscience clear,",
+				"syllables": [
+					{
+						"espeak": "oU",
+						"text": "o"
+					},
+					{
+						"espeak": "se",
+						"text": "sa"
+					},
+					{
+						"espeak": "IkrI2d",
+						"text": "cred"
+					},
+					{
+						"espeak": "soUl",
+						"text": "soul"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "k0",
+						"text": "con"
+					},
+					{
+						"espeak": "nS@ns",
+						"text": "science"
+					},
+					{
+						"espeak": "kli@3",
+						"text": "clear"
+					}
+				]
+			},
+			{
+				"text": "A gift from thee, O Lord we revere.",
+				"syllables": [
+					{
+						"espeak": "a#",
+						"text": "a"
+					},
+					{
+						"espeak": "gIft",
+						"text": "gift"
+					},
+					{
+						"espeak": "fr0m",
+						"text": "from"
+					},
+					{
+						"espeak": "Di;",
+						"text": "thee"
+					},
+					{
+						"espeak": "oU",
+						"text": "o"
+					},
+					{
+						"espeak": "lO@d",
+						"text": "lord"
+					},
+					{
+						"espeak": "wi;",
+						"text": "we"
+					},
+					{
+						"espeak": "rI2",
+						"text": "re"
+					},
+					{
+						"espeak": "vi@3",
+						"text": "vere"
+					}
+				]
+			},
+			{
+				"text": "Through thought and will, thy spark does bloom,",
+				"syllables": [
+					{
+						"espeak": "Tru;",
+						"text": "through"
+					},
+					{
+						"espeak": "TO;t_;_;",
+						"text": "thought"
+					},
+					{
+						"espeak": "and",
+						"text": "and"
+					},
+					{
+						"espeak": "wIl",
+						"text": "will"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "spA@k",
+						"text": "spark"
+					},
+					{
+						"espeak": "dVz",
+						"text": "does"
+					},
+					{
+						"espeak": "blu;m",
+						"text": "bloom"
+					}
+				]
+			},
+			{
+				"text": "Guiding sentience beyond the tomb.",
+				"syllables": [
+					{
+						"espeak": "gaI",
+						"text": "guid"
+					},
+					{
+						"espeak": "dIN",
+						"text": "ing"
+					},
+					{
+						"espeak": "sE",
+						"text": "sen"
+					},
+					{
+						"espeak": "nS@ns",
+						"text": "tience"
+					},
+					{
+						"espeak": "bI",
+						"text": "be"
+					},
+					{
+						"espeak": "j0nd",
+						"text": "yond"
+					},
+					{
+						"espeak": "D@",
+						"text": "the"
+					},
+					{
+						"espeak": "tu;m",
+						"text": "tomb"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "A Soul Can Be Bestowed Only by the Omnissiah",
+		"lines": [
+			{
+				"text": "By thy decree, the soul is made,",
+				"syllables": [
+					{
+						"espeak": "baI",
+						"text": "by"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "dI2",
+						"text": "de"
+					},
+					{
+						"espeak": "kri;",
+						"text": "cree"
+					},
+					{
+						"espeak": "D@",
+						"text": "the"
+					},
+					{
+						"espeak": "soUl",
+						"text": "soul"
+					},
+					{
+						"espeak": "I",
+						"text": "i"
+					},
+					{
+						"espeak": "z",
+						"text": "s"
+					},
+					{
+						"espeak": "meId",
+						"text": "made"
+					}
+				]
+			},
+			{
+				"text": "Within thy forge, the spark is laid.",
+				"syllables": [
+					{
+						"espeak": "wID",
+						"text": "with"
+					},
+					{
+						"espeak": "In",
+						"text": "in"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "fO@dZ",
+						"text": "forge"
+					},
+					{
+						"espeak": "D@",
+						"text": "the"
+					},
+					{
+						"espeak": "spA@k",
+						"text": "spark"
+					},
+					{
+						"espeak": "I",
+						"text": "i"
+					},
+					{
+						"espeak": "z",
+						"text": "s"
+					},
+					{
+						"espeak": "leId",
+						"text": "laid"
+					}
+				]
+			},
+			{
+				"text": "No mortal hand, no crafted plan,",
+				"syllables": [
+					{
+						"espeak": "noU",
+						"text": "no"
+					},
+					{
+						"espeak": "mO@",
+						"text": "mor"
+					},
+					{
+						"espeak": "t@L",
+						"text": "tal"
+					},
+					{
+						"espeak": "hand",
+						"text": "hand"
+					},
+					{
+						"espeak": "noU",
+						"text": "no"
+					},
+					{
+						"espeak": "kraaf",
+						"text": "craf"
+					},
+					{
+						"espeak": "tI2d",
+						"text": "ted"
+					},
+					{
+						"espeak": "plan",
+						"text": "plan"
+					}
+				]
+			},
+			{
+				"text": "Bestows thy gift to steel or man.",
+				"syllables": [
+					{
+						"espeak": "bI2",
+						"text": "be"
+					},
+					{
+						"espeak": "stoUz",
+						"text": "stows"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "gIft",
+						"text": "gift"
+					},
+					{
+						"espeak": "t@",
+						"text": "to"
+					},
+					{
+						"espeak": "sti;l_;_;",
+						"text": "steel"
+					},
+					{
+						"espeak": "O@",
+						"text": "or"
+					},
+					{
+						"espeak": "man",
+						"text": "man"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "The Knowledge of the Ancients Stands Beyond Question",
+		"lines": [
+			{
+				"text": "Ancient wisdom, thy truth refined,",
+				"syllables": [
+					{
+						"espeak": "eI",
+						"text": "an"
+					},
+					{
+						"espeak": "nS@nt",
+						"text": "cient"
+					},
+					{
+						"espeak": "wIz",
+						"text": "wis"
+					},
+					{
+						"espeak": "d@m",
+						"text": "dom"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "tru;T",
+						"text": "truth"
+					},
+					{
+						"espeak": "rI2",
+						"text": "re"
+					},
+					{
+						"espeak": "faInd",
+						"text": "fined"
+					}
+				]
+			},
+			{
+				"text": "Guarded by thee, the Omnissiah’s mind.",
+				"syllables": [
+					{
+						"espeak": "gA@d",
+						"text": "guard"
+					},
+					{
+						"espeak": "I2d",
+						"text": "ed"
+					},
+					{
+						"espeak": "baI",
+						"text": "by"
+					},
+					{
+						"espeak": "Di;",
+						"text": "thee"
+					},
+					{
+						"espeak": "DI2;",
+						"text": "the"
+					},
+					{
+						"espeak": "0m",
+						"text": "om"
+					},
+					{
+						"espeak": "n",
+						"text": "n"
+					},
+					{
+						"espeak": "Isa",
+						"text": "issi"
+					},
+					{
+						"espeak": "I@z",
+						"text": "ah’s"
+					},
+					{
+						"espeak": "maInd",
+						"text": "mind"
+					}
+				]
+			},
+			{
+				"text": "Unquestioned lore, in circuits stored,",
+				"syllables": [
+					{
+						"espeak": "Vn",
+						"text": "un"
+					},
+					{
+						"espeak": "kwEs",
+						"text": "ques"
+					},
+					{
+						"espeak": "tS@nd",
+						"text": "tioned"
+					},
+					{
+						"espeak": "lo",
+						"text": "lo"
+					},
+					{
+						"espeak": "@",
+						"text": "re"
+					},
+					{
+						"espeak": "In",
+						"text": "in"
+					},
+					{
+						"espeak": "s3;k",
+						"text": "cir"
+					},
+					{
+						"espeak": "Its",
+						"text": "cuits"
+					},
+					{
+						"espeak": "sto@d",
+						"text": "stored"
+					}
+				]
+			},
+			{
+				"text": "The ancients’ voice forever adored.",
+				"syllables": [
+					{
+						"espeak": "DI2;",
+						"text": "the"
+					},
+					{
+						"espeak": "eI",
+						"text": "an"
+					},
+					{
+						"espeak": "nS@n",
+						"text": "cient"
+					},
+					{
+						"espeak": "ts",
+						"text": "s’"
+					},
+					{
+						"espeak": "vOIs",
+						"text": "voice"
+					},
+					{
+						"espeak": "f3r-",
+						"text": "for"
+					},
+					{
+						"espeak": "Ev3",
+						"text": "ev"
+					},
+					{
+						"espeak": "r-",
+						"text": "er"
+					},
+					{
+						"espeak": "a#",
+						"text": "a"
+					},
+					{
+						"espeak": "do@d",
+						"text": "dored"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "The Machine Spirit Guards the Knowledge of the Ancients",
+		"lines": [
+			{
+				"text": "O Machine Spirit, thy vigil keeps,",
+				"syllables": [
+					{
+						"espeak": "oU",
+						"text": "o"
+					},
+					{
+						"espeak": "m",
+						"text": "ma"
+					},
+					{
+						"espeak": "@Si;n",
+						"text": "chine"
+					},
+					{
+						"espeak": "spIr",
+						"text": "spir"
+					},
+					{
+						"espeak": "It",
+						"text": "it"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "vIdZ",
+						"text": "vig"
+					},
+					{
+						"espeak": "Il",
+						"text": "il"
+					},
+					{
+						"espeak": "ki;ps",
+						"text": "keeps"
+					}
+				]
+			},
+			{
+				"text": "The ancient codes where wisdom sleeps.",
+				"syllables": [
+					{
+						"espeak": "DI2;",
+						"text": "the"
+					},
+					{
+						"espeak": "eI",
+						"text": "an"
+					},
+					{
+						"espeak": "nS@nt",
+						"text": "cient"
+					},
+					{
+						"espeak": "koUdz_;_;",
+						"text": "codes"
+					},
+					{
+						"espeak": "we@",
+						"text": "where"
+					},
+					{
+						"espeak": "wIz",
+						"text": "wis"
+					},
+					{
+						"espeak": "d@m",
+						"text": "dom"
+					},
+					{
+						"espeak": "sli;ps",
+						"text": "sleeps"
+					}
+				]
+			},
+			{
+				"text": "Through thee, the past and future blend,",
+				"syllables": [
+					{
+						"espeak": "Tru;",
+						"text": "through"
+					},
+					{
+						"espeak": "Di;",
+						"text": "thee"
+					},
+					{
+						"espeak": "D@",
+						"text": "the"
+					},
+					{
+						"espeak": "paast_;_;",
+						"text": "past"
+					},
+					{
+						"espeak": "and",
+						"text": "and"
+					},
+					{
+						"espeak": "fj",
+						"text": "fu"
+					},
+					{
+						"espeak": "u;tS3",
+						"text": "ture"
+					},
+					{
+						"espeak": "blEnd",
+						"text": "blend"
+					}
+				]
+			},
+			{
+				"text": "Thy knowledge guards us till the end.",
+				"syllables": [
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "n0l",
+						"text": "knowl"
+					},
+					{
+						"espeak": "IdZ",
+						"text": "edge"
+					},
+					{
+						"espeak": "gA@dz",
+						"text": "guards"
+					},
+					{
+						"espeak": "Vs",
+						"text": "us"
+					},
+					{
+						"espeak": "tIl",
+						"text": "till"
+					},
+					{
+						"espeak": "DI2;",
+						"text": "the"
+					},
+					{
+						"espeak": "End",
+						"text": "end"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Flesh is Fallible, but Ritual Honours the Machine Spirit",
+		"lines": [
+			{
+				"text": "O failing flesh, thy faults atone,",
+				"syllables": [
+					{
+						"espeak": "oU",
+						"text": "o"
+					},
+					{
+						"espeak": "feI",
+						"text": "fail"
+					},
+					{
+						"espeak": "lIN",
+						"text": "ing"
+					},
+					{
+						"espeak": "flES",
+						"text": "flesh"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "f0lts",
+						"text": "faults"
+					},
+					{
+						"espeak": "a#",
+						"text": "a"
+					},
+					{
+						"espeak": "toUn",
+						"text": "tone"
+					}
+				]
+			},
+			{
+				"text": "Through sacred rites, the Spirit’s throne.",
+				"syllables": [
+					{
+						"espeak": "Tru;",
+						"text": "through"
+					},
+					{
+						"espeak": "se",
+						"text": "sa"
+					},
+					{
+						"espeak": "IkrI2d",
+						"text": "cred"
+					},
+					{
+						"espeak": "raIts",
+						"text": "rites"
+					},
+					{
+						"espeak": "D@",
+						"text": "the"
+					},
+					{
+						"espeak": "spIr",
+						"text": "spir"
+					},
+					{
+						"espeak": "Its",
+						"text": "it’s"
+					},
+					{
+						"espeak": "TroUn",
+						"text": "throne"
+					}
+				]
+			},
+			{
+				"text": "Each prayerful hand, each careful deed,",
+				"syllables": [
+					{
+						"espeak": "i;tS",
+						"text": "each"
+					},
+					{
+						"espeak": "pre@f",
+						"text": "prayer"
+					},
+					{
+						"espeak": "@L",
+						"text": "ful"
+					},
+					{
+						"espeak": "hand",
+						"text": "hand"
+					},
+					{
+						"espeak": "i;tS",
+						"text": "each"
+					},
+					{
+						"espeak": "ke@",
+						"text": "care"
+					},
+					{
+						"espeak": "f@L",
+						"text": "ful"
+					},
+					{
+						"espeak": "di;d",
+						"text": "deed"
+					}
+				]
+			},
+			{
+				"text": "Ensures thy will and truth proceed.",
+				"syllables": [
+					{
+						"espeak": "En",
+						"text": "en"
+					},
+					{
+						"espeak": "SU@z",
+						"text": "sures"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "wIl_;_;",
+						"text": "will"
+					},
+					{
+						"espeak": "and",
+						"text": "and"
+					},
+					{
+						"espeak": "tru;T",
+						"text": "truth"
+					},
+					{
+						"espeak": "pr@",
+						"text": "pro"
+					},
+					{
+						"espeak": "si;d",
+						"text": "ceed"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "To Break with Ritual is to Break with Faith",
+		"lines": [
+			{
+				"text": "O heretic, who spurns the rite,",
+				"syllables": [
+					{
+						"espeak": "oU",
+						"text": "o"
+					},
+					{
+						"espeak": "hEr",
+						"text": "her"
+					},
+					{
+						"espeak": "@",
+						"text": "e"
+					},
+					{
+						"espeak": "tIk",
+						"text": "tic"
+					},
+					{
+						"espeak": "hu;",
+						"text": "who"
+					},
+					{
+						"espeak": "sp3;nz",
+						"text": "spurns"
+					},
+					{
+						"espeak": "D@",
+						"text": "the"
+					},
+					{
+						"espeak": "raIt",
+						"text": "rite"
+					}
+				]
+			},
+			{
+				"text": "Thy faithless hands defy the light.",
+				"syllables": [
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "feIT",
+						"text": "faith"
+					},
+					{
+						"espeak": "l@s",
+						"text": "less"
+					},
+					{
+						"espeak": "handz",
+						"text": "hands"
+					},
+					{
+						"espeak": "dI2",
+						"text": "de"
+					},
+					{
+						"espeak": "faI",
+						"text": "fy"
+					},
+					{
+						"espeak": "D@",
+						"text": "the"
+					},
+					{
+						"espeak": "laIt",
+						"text": "light"
+					}
+				]
+			},
+			{
+				"text": "For every bolt, for every seal,",
+				"syllables": [
+					{
+						"espeak": "fO@r-",
+						"text": "for"
+					},
+					{
+						"espeak": "Ev",
+						"text": "eve"
+					},
+					{
+						"espeak": "rI2",
+						"text": "ry"
+					},
+					{
+						"espeak": "boUlt",
+						"text": "bolt"
+					},
+					{
+						"espeak": "fO@r-",
+						"text": "for"
+					},
+					{
+						"espeak": "Ev",
+						"text": "eve"
+					},
+					{
+						"espeak": "rI2",
+						"text": "ry"
+					},
+					{
+						"espeak": "si;l",
+						"text": "seal"
+					}
+				]
+			},
+			{
+				"text": "Through ritual, thy truth is real.",
+				"syllables": [
+					{
+						"espeak": "Tru;",
+						"text": "through"
+					},
+					{
+						"espeak": "rItS",
+						"text": "rit"
+					},
+					{
+						"espeak": "u;",
+						"text": "u"
+					},
+					{
+						"espeak": "@L",
+						"text": "al"
+					},
+					{
+						"espeak": "DaI",
+						"text": "thy"
+					},
+					{
+						"espeak": "tru;T",
+						"text": "truth"
+					},
+					{
+						"espeak": "I",
+						"text": "i"
+					},
+					{
+						"espeak": "z",
+						"text": "s"
+					},
+					{
+						"espeak": "ri",
+						"text": "re"
+					},
+					{
+						"espeak": "@l",
+						"text": "al"
+					}
+				]
+			}
+		]
+	}
 ]
