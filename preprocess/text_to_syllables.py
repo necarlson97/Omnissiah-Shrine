@@ -110,32 +110,57 @@ def get_hyphenated(word):
 
 def get_phoneme_symbols(espeak_phonemes):
     """
-    Return the espeak phonemes as a list of each separate phoneme
+    Return the espeak phonemes as a list of each separate phoneme.
+    This method uses multiple passes to ensure prefixes,
+    suffixes, and vowel groups are merged correctly.
     """
     # Sometimes, a word's vocalization is totally omitted:
     if espeak_phonemes == "":
         return []
 
-    # Step 1: Split espeak_phonemes into symbols with utility characters
-    utility_prefix = "',"  # TODO is this correct?
-    utility_suffix = "#%=:_|123456789"
-    split_phonemes = []
-    add_to_next = ""
-    for i, phoneme_char in enumerate(espeak_phonemes):
-        # if this is a prefix, save it for the next symbol
-        if phoneme_char in utility_prefix:
-            add_to_next = phoneme_char
+    # Step 1: Split espeak_phonemes into single-character strings
+    symbols = list(espeak_phonemes)
+
+    # Step 2: Merge prefixes
+    utility_prefix = "',"
+    merged = []
+    for char in reversed(symbols):
+        if char in utility_prefix and merged:
+            merged[-1] = char + merged[-1]
         else:
-            add_to_next = ""
+            merged.append(char)
+    symbols = reversed(merged)
 
-        # if this is a suffix, add to phoneme before it
-        if phoneme_char in utility_suffix:
-            split_phonemes[-1] += phoneme_char
+    # Step 3: Merge suffixes
+    # (note: includes both the speak symbols and our
+    # windows-filename-safe replacements)
+    utility_suffix = "#%$=:;_|(123456789!"
+    merged = []
+    for char in symbols:
+        if char in utility_suffix and merged:
+            merged[-1] += char
+        else:
+            merged.append(char)
+    symbols = merged
 
-        # if this is the symbol itself, add it
-        if phoneme_char not in utility_prefix + utility_suffix:
-            split_phonemes.append(add_to_next + phoneme_char)
-    return split_phonemes
+    # Step 4: Merge vowel groups (likely part of the same syllable)
+    vowels = "aeiou"
+    merged = []
+    last_char_alpha = ""
+    for char in symbols:
+        # Ignore prefix/suffes when checking if it is a vowel sound
+        char_alpha = "".join(
+            c.lower() for c in char
+            if c not in utility_prefix + utility_suffix
+        )
+        if merged and char_alpha in vowels and last_char_alpha in vowels:
+            merged[-1] += char
+        else:
+            merged.append(char)
+        last_char_alpha = char_alpha
+
+    return merged
+
 
 def split_phonemes(hyphenated, espeak_phonemes):
     """
@@ -155,7 +180,6 @@ def split_phonemes(hyphenated, espeak_phonemes):
     total_syllable_len = sum(len(s) for s in syllables)
     proportions = [len(s) / total_syllable_len for s in syllables]
 
-    # Step 3: Map proportional sizes to phonemes
     total_phonemes = len(split_phonemes)
     result = []
     index = 0
@@ -305,5 +329,20 @@ def create_all_hymn_audio():
 
     process_audio_files()
 
+def run_tests():
+    expected_phoneme_split = {
+        "oU": ["oU"],
+        "spA@k": ["s", "p", "A", "@", "k"],
+        "dI2vaIn": ["d", "I2", "v", "aI", "n"],
+        "s3;kIts": ["s3;", "k", "I", "t", "s"],
+        "s'eIkrI2d": ["s", "'eI", "k", "r", "I2", "d"],
+    }
+    for k, expected in expected_phoneme_split.items():
+        got = get_phoneme_symbols(k)
+        assert expected == got, f"expected {expected}, got {got}"
+
+    # TODO write some tests for hyphenating espeak phonemes
+
 if __name__ == "__main__":
+    run_tests()
     create_all_hymn_audio()

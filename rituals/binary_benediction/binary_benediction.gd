@@ -55,6 +55,9 @@ func _input(event: InputEvent):
 		if key in [KEY_KP_1, KEY_KP_2, KEY_KP_3]:
 			var pitch_int = key - KEY_KP_1
 			advance_pointer(pitch_int)
+		if key in [KEY_1, KEY_2, KEY_3]:
+			var pitch_int = key - KEY_1
+			advance_pointer(pitch_int)
 
 var current_staff: Staff
 func advance_pointer(pressed_line: int):
