@@ -162,7 +162,7 @@ def get_phoneme_symbols(espeak_phonemes):
     return merged
 
 
-def split_phonemes(hyphenated, espeak_phonemes):
+def get_phoneme_syllables(hyphenated, espeak_phonemes):
     """
     Splits the espeak_phonemes string into chunks
     matching the hyphenated syllables. I.e.:
@@ -260,7 +260,8 @@ def break_apart_hymn(hymn, output_dir="./raw_tts", pitch=50, speed=150):
             # Split out the words to it's syllables,
             # and add those to json
             hyphenated = get_hyphenated(str_word)
-            espeak_syllables = split_phonemes(hyphenated, espeak_phonemes)
+            espeak_syllables = get_phoneme_syllables(
+                hyphenated, espeak_phonemes)
 
             # Some syllable sounds need another phoneme to actually be voiced
             short_phonemes = {
@@ -340,6 +341,35 @@ def run_tests():
     for k, expected in expected_phoneme_split.items():
         got = get_phoneme_symbols(k)
         assert expected == got, f"expected {expected}, got {got}"
+
+    expected_syllable_split = {
+        "di-vine": "dI2-v'aIn",
+        "cir-cuits": "s'3:-kIts",
+        "sa-cred": "s'eI-krI2d",
+        "be-stow": "bI2-st'oU",
+        "o-bey": "oU-b'eI",
+        "a-way": "a#-w'eI",
+        "be-neath": "bh-I2n,i:T",
+        "an-vil’s": "'an-v@Lz",
+        "hal-lowed": "h'a-loUd",
+        "whis-per": "w'I-sp3",  # TODO are we okay with this?
+        "soft-ly": "s'0ft-li",
+        "ho-ly": "h'oU-li",
+        "riv-et": "r'Iv-I2t",
+        "a-ligned": "a#-l'aInd",
+        "with-in": "wID-,In",
+        "her-e-tic": "h'Er-@-t,Ik",
+        "faith-less": "f'eIT-l@s",
+        "de-fy": "dI2-f'aI",
+        "eve-ry": "'Ev-rI2",
+        "rit-u-al": "r'ItS-u:-@L",
+        "i-s": "I-z",
+        "re-al": "r'i-@l",
+    }
+    for text_syllable, phoneme_sylable in expected_syllable_split.items():
+        phonemes = phoneme_sylable.replace("-", "")
+        got = "-".join(get_phoneme_syllables(text_syllable, phonemes))
+        assert phoneme_sylable == got, f"expected {phoneme_sylable}, got {got} ({text_syllable})"
 
     # TODO write some tests for hyphenating espeak phonemes
 
