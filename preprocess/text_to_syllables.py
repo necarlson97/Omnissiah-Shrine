@@ -7,6 +7,7 @@ import lexconvert
 import pyphen
 
 from add_effects import process_audio_files
+from sanitize_filename import espeak_to_filename
 
 def load_syllables(file_path='./syllables.txt'):
     """
@@ -35,16 +36,6 @@ def hymn_reader(file_path):
     hymns = content.strip().split('\n\n')
     return hymns
 
-def sanitize_to_filename(phonemes):
-    """Converts phoneme chracaters to filename-safe format"""
-
-    # Linux is fine with these - but windows has problems with these
-    replacements = {
-        ':': ';',
-        '|': '(',  # We love a unclosed parenthesis
-        '%': '$',
-    }
-    return ''.join(replacements.get(c, c) for c in phonemes)
 
 # We want to regenerate when we rerun the script,
 # but not if we re-encounter the word several times,
@@ -279,13 +270,16 @@ def break_apart_hymn(hymn, output_dir="./raw_tts", pitch=50, speed=150):
 
             zip_syllables = zip(espeak_syllables, hyphenated.split('-'))
             for espeak_s, str_s in zip_syllables:
-                # We want the json to exactly reflect the filenames,
-                # and there are some limitations on filenames
-                espeak_s = sanitize_to_filename(espeak_s)
+
+                # Linux would be fine with even the unicode ipa as a filename,
+                # but windows has countless limits - see sanitize_filename.py
+                # for details
+                filename = espeak_to_filename(espeak_s)
 
                 line_data["syllables"].append({
                     "espeak": espeak_s,
                     "text": str_s,
+                    "filename": filename,
                 })
 
                 # Sanity check
@@ -296,7 +290,7 @@ def break_apart_hymn(hymn, output_dir="./raw_tts", pitch=50, speed=150):
                 if len(str_s) > 6 and str_s not in expected_long_syllables:
                     print(f"Long syllable? : {str_s} ({str_word})")
 
-                output_path = os.path.join(output_dir, f"{espeak_s}.wav")
+                output_path = os.path.join(output_dir, f"{filename}.wav")
                 generate_audio_with_espeak(
                     espeak_s, output_path, pitch, speed)
 
