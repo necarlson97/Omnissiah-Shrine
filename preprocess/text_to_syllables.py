@@ -263,6 +263,12 @@ def break_apart_hymn(hymn, output_dir="./raw_tts", pitch=50, speed=150):
             espeak_syllables = get_phoneme_syllables(
                 hyphenated, espeak_phonemes)
 
+            # Unfortunately, this does not actually add in syllable splits.
+            # We could do espeak -> cmu -> unicode-ipa-syls,
+            # and that might get us syllable splits?
+            cmu = lexconvert.convert(espeak_phonemes, 'espeak', 'cmu')
+            ipa = lexconvert.convert(cmu, 'cmu', 'unicode-ipa-syls')
+
             # Some syllable sounds need another phoneme to actually be voiced
             short_phonemes = {
                 "b": "bh",
@@ -293,6 +299,15 @@ def break_apart_hymn(hymn, output_dir="./raw_tts", pitch=50, speed=150):
                 output_path = os.path.join(output_dir, f"{espeak_s}.wav")
                 generate_audio_with_espeak(
                     espeak_s, output_path, pitch, speed)
+
+            # With the last syllable, lets include a little extra info, just
+            # to maybe use as juice later
+            line_data["syllables"][-1]["finished_word"] = {
+                "text": str_word,
+                "hyphenated": hyphenated,
+                "ipa": ipa,
+                "espeak_phonemes": espeak_phonemes,
+            }
 
         hymn_data["lines"].append(line_data)
 
@@ -370,6 +385,17 @@ def run_tests():
         phonemes = phoneme_sylable.replace("-", "")
         got = "-".join(get_phoneme_syllables(text_syllable, phonemes))
         assert phoneme_sylable == got, f"expected {phoneme_sylable}, got {got} ({text_syllable})"
+
+    # Some sanity check hyphenations
+    expected_hyphenations = {
+        "is": "is",
+        "at": "at",
+        "the": "the",
+        "hyphenated": "hy-phen-at-ed",
+        "heretic": "her-e-tic",
+    }
+    for k, v in expected_hyphenations.items():
+        assert v == get_hyphenated(k), f"{v} != {get_hyphenated(k)} ({k})"
 
     # TODO write some tests for hyphenating espeak phonemes
 
