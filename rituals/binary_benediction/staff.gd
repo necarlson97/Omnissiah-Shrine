@@ -1,9 +1,6 @@
 extends Node2D
 class_name Staff
 
-@onready var notes: Node2D = $Notes
-@onready var lines: Node2D = $Lines
-
 var line_count = 3
 var line_height = 100
 var total_height = line_count * line_height
@@ -33,7 +30,7 @@ func create_staff_lines(line_count: int):
 			Vector2(margin, height),
 			Vector2(get_viewport().size.x - margin, height)
 		]
-		add_child(line)
+		$Lines.add_child(line)
 	
 	var cursor_height = line_height * (line_count - 1)
 	$Cursor.scale.y = cursor_height
@@ -45,19 +42,13 @@ func generate_notes(note_data: Dictionary):
 	var x_position = margin
 
 	for syllable_data in note_data["syllables"]:
-		# So our 'melody' here is 'random' - but deterministic and
-		# dependent on the phonemes, so each hymn will always have a constant
-		# mealody
-		var pitch_int: int = abs(hash(syllable_data["espeak"])) % 3
-		
-		var note: Note = Note.create(
-			syllable_data["text"], syllable_data["espeak"], pitch_int)
+		var note: Note = Note.create(syllable_data)
 		$Notes.add_child(note)
 
-		var y_pos = margin + (2 - pitch_int) * line_height
+		var y_pos = margin + (2 - note.pitch_int) * line_height
 		note.position = Vector2(x_position, y_pos)
 		x_position += note_spacing
-		
+
 		notes_to_play.append(note)
 
 func advance_cursor(pressed_line: int):

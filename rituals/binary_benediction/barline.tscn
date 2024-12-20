@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://biisq4tdi2sp"]
+
+[ext_resource type="Script" path="res://rituals/binary_benediction/barline.gd" id="1_mfok6"]
+
+[node name="Barline" type="Line2D"]
+script = ExtResource("1_mfok6")

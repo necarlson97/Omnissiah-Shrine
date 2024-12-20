@@ -7,12 +7,19 @@ class_name Note
 var pitch_int: int = -1
 # Do we play the whole word file, or just part?
 var audio_stream: AudioStream
+var syllable_data: Dictionary
 
-static func create(syllable: String, phonemes: String, pitch_int: int) -> Note:
+static func create(syllable_data: Dictionary) -> Note:
 	var note = preload("res://rituals/binary_benediction/note.tscn").instantiate() as Note
-	(func(): note._setup(syllable, phonemes)).call_deferred()
-	note.pitch_int = pitch_int
-	var audio_path = "res://preprocess/audio/%s.wav" % phonemes
+	note.syllable_data = syllable_data
+	
+	# So our 'melody' here is 'random' - but deterministic and
+	# dependent on the phonemes, so each hymn will always have a constant
+	# mealody
+	note.pitch_int = abs(hash(syllable_data["espeak"])) % 3
+	
+	(func(): note._setup(syllable_data['text'], syllable_data['espeak'])).call_deferred()
+	var audio_path = "res://preprocess/audio/%s.wav" % syllable_data['filename']
 	var audio_stream = load(audio_path) as AudioStream
 	note.audio_stream = audio_stream
 	return note

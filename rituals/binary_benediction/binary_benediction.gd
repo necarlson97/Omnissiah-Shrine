@@ -3,12 +3,16 @@ class_name BinaryBenediction
 
 @onready var audio_player: AudioStreamPlayer2D = $AudioStreamPlayer2D
 
-var hymns_data: Array
 var current_note_index: int = 0
 var current_notes: Array = []
 
+var current_hymn_index: int = 0
+var all_hymn_data: Array
+
 var line_height = 100
 const margin = 50
+# For now just keep scrolling forever
+var y = 0
 
 var staffs_to_play: Array[Node2D]
 
@@ -26,22 +30,22 @@ func _ready():
 		print("JSON Parse Error: ", json.get_error_message(), " in ", file_str, " at line ", json.get_error_line())
 		return
 
-	hymns_data = json.data
-	if typeof(hymns_data) != TYPE_ARRAY:
-		print("Unexpected data: %s" % hymns_data)
+	all_hymn_data = json.data
+	if typeof(all_hymn_data) != TYPE_ARRAY:
+		print("Unexpected data: %s" % all_hymn_data)
 		return
 
-	if not hymns_data:
-		print("Hymns empty: %s" % hymns_data)
+	if not all_hymn_data:
+		print("Hymns empty: %s" % all_hymn_data)
 		return
 
-	create_hymn(hymns_data[0])
+	current_hymn_index = randi_range(0, all_hymn_data.size())
+	create_hymn(all_hymn_data[current_hymn_index])
 
 func create_hymn(hymn_data: Dictionary):
 	print("Playing hymn: " + hymn_data["name"])
 
 	# Load the first line of the hymn
-	var y = 0
 	for line_data in hymn_data["lines"]:
 		var new_staff = Staff.create(line_data)
 		add_child(new_staff)
@@ -65,8 +69,10 @@ func advance_pointer(pressed_line: int):
 	if current_staff == null or current_staff.is_done():
 		current_staff = staffs_to_play.pop_front()
 	if current_staff == null:
-		print("Done!")
-	current_staff.advance_cursor(pressed_line)
+		current_hymn_index += 1
+		create_hymn(all_hymn_data[current_hymn_index])
+	else:
+		current_staff.advance_cursor(pressed_line)
 
 var cam_speed = 10
 func _process(delta: float) -> void:
