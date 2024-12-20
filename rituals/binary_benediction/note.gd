@@ -9,7 +9,9 @@ var pitch_int: int = -1
 var audio_stream: AudioStream
 var syllable_data: Dictionary
 
-static func create(syllable_data: Dictionary) -> Note:
+var line: Barline
+
+static func create(syllable_data: Dictionary, lines: Array) -> Note:
 	var note = preload("res://rituals/binary_benediction/note.tscn").instantiate() as Note
 	note.syllable_data = syllable_data
 	
@@ -17,6 +19,7 @@ static func create(syllable_data: Dictionary) -> Note:
 	# dependent on the phonemes, so each hymn will always have a constant
 	# mealody
 	note.pitch_int = abs(hash(syllable_data["espeak"])) % 3
+	note.line = lines[2-note.pitch_int]
 	
 	(func(): note._setup(syllable_data['text'], syllable_data['espeak'])).call_deferred()
 	var audio_path = "res://preprocess/audio/%s.wav" % syllable_data['filename']
@@ -50,7 +53,6 @@ func get_pitch_percent(pitch_pressed: int) -> float:
 	var semitone_shifts = [1, 4, 8]  # Semitone shifts from C#(3) to D, F, G
 	var semitone_shift = semitone_shifts[pitch_pressed]
 	var pitch_scale = pow(2.0, semitone_shift / 12.0)
-	print(pitch_scale)
 	return pitch_scale
 
 func success():

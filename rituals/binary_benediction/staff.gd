@@ -20,18 +20,9 @@ func _ready():
 	
 func create_staff_lines(line_count: int):
 	for i in range(line_count):
-		var line = Line2D.new()
-		line.default_color = Color.WHITE
-		line.width = 5
 		var height = margin + i * line_height
+		$Lines.add_child(Barline.create(height))
 		
-		# TOOD more points so we can do juicy wave later
-		line.points = [
-			Vector2(margin, height),
-			Vector2(get_viewport().size.x - margin, height)
-		]
-		$Lines.add_child(line)
-	
 	var cursor_height = line_height * (line_count - 1)
 	$Cursor.scale.y = cursor_height
 	$Cursor.position = Vector2(margin, margin + cursor_height / 2)
@@ -42,7 +33,7 @@ func generate_notes(note_data: Dictionary):
 	var x_position = margin
 
 	for syllable_data in note_data["syllables"]:
-		var note: Note = Note.create(syllable_data)
+		var note: Note = Note.create(syllable_data, $Lines.get_children())
 		$Notes.add_child(note)
 
 		var y_pos = margin + (2 - note.pitch_int) * line_height
@@ -58,6 +49,8 @@ func advance_cursor(pressed_line: int):
 
 	var note = notes_to_play.pop_front()
 	note.pitch_pressed(pressed_line)
+	var line = $Lines.get_children()[2-pressed_line]
+	line.trigger_wave(note.global_position.x)
 	$Cursor.position.x = note.position.x
 
 func is_done() -> bool:
