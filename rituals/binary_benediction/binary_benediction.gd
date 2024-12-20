@@ -1,8 +1,6 @@
 extends Node2D
 class_name BinaryBenediction
 
-@onready var audio_player: AudioStreamPlayer2D = $AudioStreamPlayer2D
-
 var current_note_index: int = 0
 var current_notes: Array = []
 
