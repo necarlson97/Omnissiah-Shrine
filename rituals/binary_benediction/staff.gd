@@ -51,7 +51,7 @@ func advance_cursor(pressed_line: int):
 	var was_correct = note.pitch_pressed(pressed_line)
 	var line = $Lines.get_children()[2-pressed_line]
 	line.trigger_wave(note.global_position.x, was_correct)
-	$Cursor.position.x = note.position.x
+	$Cursor.global_position.x = note.global_position.x
 
 func is_done() -> bool:
 	return notes_to_play.size() == 0
