@@ -3,17 +3,17 @@ class_name Barline
 
 # Wave properties
 # TODO wave could be set by the 'hot' meter
-var wave_resolution = 50
-var wave_amplitude: float = 100.0  # Height of the wave
-var wave_frequency: float = 0.2  # Number of oscillations
-var wave_speed: float = 5.0       # Speed of the wave animation
-var wave_decay: float = 0.95      # Damping factor for the wave
-
-var curr_amplitude: float  
-var curr_center: float = 0.0 # X position of the wave origin
+var wave_resolution = 100
+var wave_amplitude: float = -100.0  # Height of the wave
+var wave_decay: float = 0.9  # Damping factor for the wave
+var wave_stiffness: float = 4000.0  # how "springy" the connections are
 
 # Timer for wave animation
 var wave_timer: Timer
+
+# For the 'string sim' of 'plucking' this line
+var velocities = range(wave_resolution).map(func(i): return 0.0)
+var displacements = range(wave_resolution).map(func(i): return 0.0)
 
 static func create(height: float) -> Barline:
 	var new = preload("res://rituals/binary_benediction/barline.tscn").instantiate() as Barline
@@ -34,7 +34,7 @@ func _ready():
 		new_points.append(Vector2(x, 0))
 		x += x_step
 	points = new_points
-		
+
 	wave_timer = Timer.new()
 	wave_timer.wait_time = 0.016  # 60 FPS
 	wave_timer.one_shot = false
@@ -42,9 +42,20 @@ func _ready():
 	add_child(wave_timer)
 
 func trigger_wave(center_x: float, good=true):
-	curr_center = center_x
-	curr_amplitude = wave_amplitude  # Reset amplitude for a new wave
-	wave_timer.start()
+	# Find the point closest to x and move it up to amplitude
+	
+	# Sort points by their distance to center_x, then pick the closest
+	# TODO could do algebraic but this is more robust in a way
+	var idx_dist_pairs = []
+	for i in range(points.size()):
+		idx_dist_pairs.append([i, abs(points[i].x - center_x)])
+	idx_dist_pairs.sort_custom(func(a, b): return a[1] < b[1])
+	var closest_idx = idx_dist_pairs[0][0]
+	# Don't ever move the anchored first and last
+	closest_idx = clamp(closest_idx, 1, points.size()-1)
+	
+	# Pluck the line at the closest point
+	displacements[closest_idx] = wave_amplitude
 	
 	# Set a color that we will lerp back to white from
 	var color = "good"
@@ -52,88 +63,49 @@ func trigger_wave(center_x: float, good=true):
 		color = "bad"
 	default_color = ThemeDB.get_project_theme().get_color(color, "CSS")
 	
-	move_resolution(center_x)
-
-func move_resolution(center_x: float):
-	# Move the 'resolution' of the wave to focus around the center
-	# of this new wave (but still maintain the first and last poitns)
-	# Debug: For holding debug visuals
-	if $Debug:
-		$Debug.get_children().map(func(c): c.queue_free())
-	else:
-		var debug = Node2D.new()
-		debug.set_name("Debug")
-		add_child(debug)
-		
-	#var start = points[0].x
-	#var end = points[points.size() - 1].x
-	# TODO
-	var start = BinaryBenediction.margin
-	var end = get_viewport().size.x - BinaryBenediction.margin
-	var total_width = end - start
-	
-	# Generate a list of values that spreads from 0 outwards
-	# twice as many as we need (minus first and last, as they are static)
-	var inner_points = points.size() - 2 
-	var spread_offsets = range(inner_points).map(func(i): return pow(i, 2))
-	spread_offsets += range(1, inner_points).map(func(i): return -pow(i, 2))
-	var max_offset = abs(spread_offsets[spread_offsets.size()-1])
-	spread_offsets.sort()   # TODO debug
-	print("Offsets:")
-	for x in spread_offsets:
-		print("  %s"%[round(x)])
-	
-	spread_offsets = spread_offsets.map(func(x_offset): 
-		# Map to within start-end, cutting off any that fall outside
-		var x = remap(x_offset, -max_offset, max_offset, -total_width, total_width)
-		return center_x + x
-	)
-	print("Xs:")
-	for x in spread_offsets:
-		print("  (%s) [%s-%s] %s"%[round(x), start, end, x >= start and x <= end])
-	spread_offsets = spread_offsets.filter(func(x): return x >= start and x <= end)
-	spread_offsets.sort()
-	
-
-	print("%s vs %s"%[spread_offsets.size(), points.size()])
-	# We should have 2 less than we need (start and end)
-	# If we have an extras, discard them
-	while spread_offsets.size() > inner_points:
-		if spread_offsets.size() %2 == 0:
-			spread_offsets.pop_back()
-		else:
-			spread_offsets.pop_front()
-	spread_offsets = [start] + spread_offsets + [end]
-	
-	assert(spread_offsets.size() == points.size(), "%s vs %s"%[spread_offsets.size(), points.size()])
-
-	for i in range(points.size()):
-		points[i] = Vector2(spread_offsets[i], points[i].y)
-		# Debug: add the thin vertical lines to show where the points are
-		#var debug_box = preload("res://debug_box.tscn").instantiate()
-		#$Debug.add_child(debug_box)
-		#debug_box.position = Vector2(points[i].x, 0)
-		#debug_box.scale.y = 2 + (4*float(i)/points.size())
-		#debug_box.modulate = Color.RED
+	wave_timer.start()
 
 func _update_wave():
-	# Gradually decay the wave
-	curr_amplitude *= wave_decay
-	if curr_amplitude < 0.01:
-		curr_amplitude = 0
-		
-	for i in points.size():
-		var point = points[i]
-		var distance = abs(point.x - curr_center)
-		var decay = pow(wave_decay, distance)
-		var distance_factor = sin((distance * wave_frequency) + (Time.get_ticks_msec() / 1000.0 * wave_speed))
-		var y_offset = distance_factor * curr_amplitude * decay
-		points[i] = Vector2(point.x, y_offset)
+	# Spread the wave with simple spring elastics (fixed ends) and
+	# gradually decay
+	var delta = wave_timer.wait_time
+
+	# Compute accelerations based on neighbors
+	var accelerations = range(wave_resolution).map(func(i): return 0.0)
+
+	# Ends are fixed for simplicity - no displacement change.
+	# Or you could treat them as anchored to 0 displacement.
+	for i in range(1, wave_resolution - 1):
+		var left = displacements[i - 1]
+		var right = displacements[i + 1]
+		var center = displacements[i]
+		var target = (left + right) / 2.0
+		var error = target - center
+		accelerations[i] = wave_stiffness * error
+
+	# Integrate velocities and positions
+	for i in range(1, wave_resolution - 1):
+		velocities[i] += accelerations[i] * delta
+		velocities[i] *= wave_decay  # apply damping
+		displacements[i] += velocities[i] * delta
+
+	# Update line points
+	for i in range(wave_resolution):
+		var p = points[i]
+		# Vertical displacement only
+		points[i] = Vector2(p.x, displacements[i])
 		
 	# Lerp color back towards white
 	default_color = default_color.lerp(Color.WHITE, 1-wave_decay)
 
 	# Once wave is set to rest at 0, we can stop timer and reset color fully
-	if curr_amplitude == 0:
-		curr_amplitude = 0
+	if _is_wave_at_rest():
 		default_color = Color.WHITE
+		wave_timer.stop()
+
+func _is_wave_at_rest() -> bool:
+	var threshold = 0.1
+	for i in range(wave_resolution):
+		if abs(displacements[i]) > threshold or abs(velocities[i]) > threshold:
+			return false
+	return true
