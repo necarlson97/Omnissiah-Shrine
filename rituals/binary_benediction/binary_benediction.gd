@@ -50,6 +50,12 @@ func create_hymn(hymn_data: Dictionary):
 		new_staff.position.y = y
 		y += new_staff.total_height + margin
 		staffs_to_play.append(new_staff)
+	for line_data in hymn_data["lines"]:
+		var new_staff = StaffBinary.create(line_data)
+		add_child(new_staff)
+		new_staff.position.y = y
+		y += new_staff.total_height + margin
+		staffs_to_play.append(new_staff)
 
 func _input(event: InputEvent):
 	if event is InputEventKey and event.is_pressed():

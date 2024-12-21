@@ -49,7 +49,8 @@ func advance_cursor(pressed_line: int):
 
 	var note = notes_to_play.pop_front()
 	var was_correct = note.pitch_pressed(pressed_line)
-	var line = $Lines.get_children()[2-pressed_line]
+	var last_idx = $Lines.get_children().size()-1
+	var line = $Lines.get_children()[last_idx-pressed_line]
 	line.trigger_wave(note.global_position.x, was_correct)
 	$Cursor.global_position.x = note.global_position.x
 
