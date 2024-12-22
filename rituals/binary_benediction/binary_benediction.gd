@@ -1,8 +1,6 @@
 extends Node2D
 class_name BinaryBenediction
 
-@onready var audio_player: AudioStreamPlayer2D = $AudioStreamPlayer2D
-
 var current_note_index: int = 0
 var current_notes: Array = []
 
@@ -48,6 +46,12 @@ func create_hymn(hymn_data: Dictionary):
 	# Load the first line of the hymn
 	for line_data in hymn_data["lines"]:
 		var new_staff = Staff.create(line_data)
+		add_child(new_staff)
+		new_staff.position.y = y
+		y += new_staff.total_height + margin
+		staffs_to_play.append(new_staff)
+	for line_data in hymn_data["lines"]:
+		var new_staff = StaffBinary.create(line_data)
 		add_child(new_staff)
 		new_staff.position.y = y
 		y += new_staff.total_height + margin

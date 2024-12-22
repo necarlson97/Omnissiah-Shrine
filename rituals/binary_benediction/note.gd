@@ -37,10 +37,11 @@ func voice_word(pitch_pressed: int):
 		audio_player.stream = audio_stream
 		audio_player.play()
 	
-func pitch_pressed(pitch_pressed: int):
+func pitch_pressed(pitch_pressed: int) -> bool:
 	voice_word(pitch_pressed)
 	if pitch_int == pitch_pressed: success()
 	else: fail()
+	return pitch_int == pitch_pressed
 	
 func get_pitch_percent(pitch_pressed: int) -> float:
 	# Returns the 'pitch scale' needed to shift the audio clip
