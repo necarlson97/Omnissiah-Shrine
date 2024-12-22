@@ -346,8 +346,11 @@ def create_all_hymn_audio():
     print("Processing utility words:")
     for word in ["zero", "one"]:
         espeak_phonemes = get_phonemes(word)
-        info_dict = get_syllable_dict(espeak_phonemes, word)
-        print(f"  saved: {info_dict}")
+        filename = espeak_to_filename(espeak_phonemes)
+        output_path = os.path.join("./raw_tts/", f"{filename}.wav")
+        generate_audio_with_espeak(
+            espeak_phonemes, output_path, speed=300)
+        print(f"  saved: {filename}")
 
     # Process each hymn
     print("Processing hymns:")
