@@ -12,8 +12,8 @@ var wave_stiffness: float = 4000.0  # how "springy" the connections are
 var wave_timer: Timer
 
 # For the 'string sim' of 'plucking' this line
-var velocities = range(wave_resolution).map(func(i): return 0.0)
-var displacements = range(wave_resolution).map(func(i): return 0.0)
+var velocities = range(wave_resolution).map(func(_i): return 0.0)
+var displacements = range(wave_resolution).map(func(_i): return 0.0)
 
 static func create(height: float) -> Barline:
 	var new = preload("res://rituals/binary_benediction/barline.tscn").instantiate() as Barline
@@ -71,7 +71,7 @@ func _update_wave():
 	var delta = wave_timer.wait_time
 
 	# Compute accelerations based on neighbors
-	var accelerations = range(wave_resolution).map(func(i): return 0.0)
+	var accelerations = range(wave_resolution).map(func(_i): return 0.0)
 
 	# Ends are fixed for simplicity - no displacement change.
 	# Or you could treat them as anchored to 0 displacement.

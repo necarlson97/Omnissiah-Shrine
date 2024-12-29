@@ -45,8 +45,9 @@ func get_note_binary(note_data: Dictionary) -> Dictionary:
 		}
 	)
 	
-	var byte_array = Array(note_data.get("text", "").to_ascii_buffer())
-	var string_of_binary = "".join(byte_array.map(byte_to_string))
+	# For now, the binary of the entire line was too long,
+	# so we hash it and use that
+	var string_of_binary = byte_to_string(hash(note_data.get("text", "")))
 	return {
 		"text": string_of_binary,
 		"syllables": Array(string_of_binary.split("")).map(get_syllable_info),
@@ -54,7 +55,7 @@ func get_note_binary(note_data: Dictionary) -> Dictionary:
 	
 func byte_to_string(byte: int) -> String:
 	var bin_str = ""
-	for i in range(8):
+	for i in range(16):
 		bin_str = str(byte & 1) + bin_str
 		byte >>= 1
 	return bin_str

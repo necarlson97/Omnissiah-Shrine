@@ -19,6 +19,8 @@ static func create(syllable_data: Dictionary, lines: Array) -> Note:
 	# dependent on the phonemes, so each hymn will always have a constant
 	# mealody
 	note.pitch_int = abs(hash(syllable_data["espeak"])) % 3
+	if syllable_data['text'] == "0" or syllable_data['text'] == "1":
+		note.pitch_int = int(syllable_data['text']) + 1
 	note.line = lines[2-note.pitch_int]
 	
 	(func(): note._setup(syllable_data['text'], syllable_data['espeak'])).call_deferred()
@@ -32,10 +34,14 @@ func _setup(syllable: String, phonemes: String):
 	$Text.text = syllable
 
 func voice_word(pitch_pressed: int):
-	if audio_stream:
-		audio_player.pitch_scale = get_pitch_percent(pitch_pressed)
-		audio_player.stream = audio_stream
-		audio_player.play()
+	# Set the pitch shift effect on the 'chant' audio bus
+	var effect = AudioServer.get_bus_effect(AudioServer.get_bus_index("chant"), 0)
+	effect.pitch_scale = get_pitch_scale(pitch_pressed)
+	
+	# Play the audio stream on the 'chant' bus
+	audio_player.bus = "chant"
+	audio_player.stream = audio_stream
+	audio_player.play()
 	
 func pitch_pressed(pitch_pressed: int) -> bool:
 	voice_word(pitch_pressed)
@@ -43,7 +49,7 @@ func pitch_pressed(pitch_pressed: int) -> bool:
 	else: fail()
 	return pitch_int == pitch_pressed
 	
-func get_pitch_percent(pitch_pressed: int) -> float:
+func get_pitch_scale(pitch_pressed: int) -> float:
 	# Returns the 'pitch scale' needed to shift the audio clip
 	# to match the pressed note
 	
@@ -51,9 +57,11 @@ func get_pitch_percent(pitch_pressed: int) -> float:
 	# and we need to pitch it up to one of the following note(s):
 	# [D, F, C] depending on 'pitch_pressed' (pitch_pressed is 0, 1, or 2)
 	
-	var semitone_shifts = [1, 4, 8]  # Semitone shifts from C#(3) to D, F, G
+	var semitone_shifts = [-11, -8, -4]  # Semitone shifts from C#(3) to D, F, G
 	var semitone_shift = semitone_shifts[pitch_pressed]
 	var pitch_scale = pow(2.0, semitone_shift / 12.0)
+	# Add a little randomness
+	pitch_scale += randf_range(-0.01, 0.01)
 	return pitch_scale
 
 func success():
