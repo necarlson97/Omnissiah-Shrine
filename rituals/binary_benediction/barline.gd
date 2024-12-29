@@ -15,19 +15,26 @@ var wave_timer: Timer
 var velocities = range(wave_resolution).map(func(_i): return 0.0)
 var displacements = range(wave_resolution).map(func(_i): return 0.0)
 
-static func create(height: float) -> Barline:
+static func create(index: int, height: float) -> Barline:
 	var new = preload("res://rituals/binary_benediction/barline.tscn").instantiate() as Barline
 	# Thankfully, we can set height before or after assigning child
 	new.position.y = height
+	new.get_node("Label").text = str(index)
 	return new
 	
 func _ready():
+	setup_line()
+
+func setup_line():
 	default_color = Color.WHITE
 	width = 5
 	var margin = BinaryBenediction.margin
 	var max_width = get_viewport().size.x - 2 * margin
 	var x_step = max_width / wave_resolution
 	var x = margin
+	
+	# Set the label near the start of the line
+	$Label.position = Vector2(x-30, -10)
 	
 	var new_points = []
 	for i in range(wave_resolution):

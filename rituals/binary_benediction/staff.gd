@@ -21,22 +21,22 @@ func _ready():
 func create_staff_lines(line_count: int):
 	for i in range(line_count):
 		var height = margin + i * line_height
-		$Lines.add_child(Barline.create(height))
+		$Lines.add_child(Barline.create(line_count-1-i, height))
 		
 	var cursor_height = line_height * (line_count - 1)
 	$Cursor.scale.y = cursor_height
 	$Cursor.position = Vector2(margin, margin + cursor_height / 2)
 
 func generate_notes(note_data: Dictionary):
-	var total_width = get_viewport().size.x - margin * 2
+	var total_width = get_viewport().size.x - margin * 3
 	var note_spacing = total_width / note_data["syllables"].size()
-	var x_position = margin
+	var x_position = margin * 1.5
 
 	for syllable_data in note_data["syllables"]:
 		var note: Note = Note.create(syllable_data, $Lines.get_children())
 		$Notes.add_child(note)
 
-		var y_pos = margin + (2 - note.pitch_int) * line_height
+		var y_pos = margin + (line_count - 1 - note.pitch_int) * line_height
 		note.position = Vector2(x_position, y_pos)
 		x_position += note_spacing
 

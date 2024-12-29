@@ -20,8 +20,8 @@ static func create(syllable_data: Dictionary, lines: Array) -> Note:
 	# mealody
 	note.pitch_int = abs(hash(syllable_data["espeak"])) % 3
 	if syllable_data['text'] == "0" or syllable_data['text'] == "1":
-		note.pitch_int = int(syllable_data['text']) + 1
-	note.line = lines[2-note.pitch_int]
+		note.pitch_int = int(syllable_data['text'])
+	note.line = lines[lines.size() - 1 - note.pitch_int]
 	
 	(func(): note._setup(syllable_data['text'], syllable_data['espeak'])).call_deferred()
 	var audio_path = "res://preprocess/audio/%s.wav" % syllable_data['filename']
@@ -57,7 +57,7 @@ func get_pitch_scale(pitch_pressed: int) -> float:
 	# and we need to pitch it up to one of the following note(s):
 	# [D, F, C] depending on 'pitch_pressed' (pitch_pressed is 0, 1, or 2)
 	
-	var semitone_shifts = [-11, -8, -4]  # Semitone shifts from C#(3) to D, F, G
+	var semitone_shifts = [-5, 0, +2]  # Semitone shifts
 	var semitone_shift = semitone_shifts[pitch_pressed]
 	var pitch_scale = pow(2.0, semitone_shift / 12.0)
 	# Add a little randomness
