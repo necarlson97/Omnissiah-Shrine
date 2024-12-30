@@ -4,6 +4,7 @@ class_name StaffBinary
 static func create(note_data: Dictionary) -> Staff:
 	var new = preload("res://rituals/binary_benediction/staff_binary.tscn").instantiate() as Staff
 	new.line_count = 2
+	new.total_height = new.line_count * new.line_height
 	new.note_data = new.get_note_binary(note_data)
 	return new
 	
