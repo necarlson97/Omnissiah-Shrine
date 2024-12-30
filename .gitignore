@@ -5,3 +5,6 @@
 /preprocess/*/*.import
 /preprocess/*_old/
 */__pycache__/
+
+
+!/preprocess/env/.gdignore
