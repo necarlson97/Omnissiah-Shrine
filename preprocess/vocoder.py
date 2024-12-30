@@ -32,7 +32,6 @@ def apply_vocoder_effect(audio_path: str, output_path="output.wav", pitch: float
     frame_size = 1024
     hop_size = 512
 
-    print(f"Working on: {audio_path}")
     # TODO bad, sloopy
     if "./raw_tts/.wav" in audio_path:
         return audio_path

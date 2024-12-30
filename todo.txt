@@ -1,6 +1,6 @@
 Binary benediction juice:
 	# Anchor to bottom? So that keys can be 'lined up' with screen? Move edge of screen with the cursor as it presses along? Flip vertically?
-	* Would be great to implement 'juice' as individual components, so maybe it takes
+	* Would be great to implement 'juice' as individual components, so maybe it takes12
 	a number where +10 is the best, -10 is the worst, then all the parent has to do is call
 	'squeeze_juice(+5)' on all its children that implement 'juice' or w/e and that calls everything
 	* make the transcript look nicer. Maybe just add some line pagebreaks / punctuation?
