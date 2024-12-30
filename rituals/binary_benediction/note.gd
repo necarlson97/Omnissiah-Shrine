@@ -43,6 +43,11 @@ func voice_word(pitch_pressed: int):
 	audio_player.stream = audio_stream
 	audio_player.play()
 	
+	# If we finished a word, bubble that up to show
+	if "finished_word" in syllable_data:
+		var transcript = Utils.static_get_matching_node(get_tree().root, Transcript) as Transcript
+		transcript.finished_word(syllable_data["finished_word"])
+	
 func pitch_pressed(pitch_pressed: int) -> bool:
 	voice_word(pitch_pressed)
 	if pitch_int == pitch_pressed: success()
@@ -69,3 +74,6 @@ func success():
 
 func fail():
 	$Sprite2D.modulate = ThemeDB.get_project_theme().get_color("bad", "CSS")
+
+func _to_string() -> String:
+	return "%s (%s)"%[syllable_data["text"], pitch_int]

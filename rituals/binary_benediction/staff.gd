@@ -56,3 +56,6 @@ func advance_cursor(pressed_line: int):
 
 func is_done() -> bool:
 	return notes_to_play.size() == 0
+	
+func _to_string() -> String:
+	return "Staff %s: %s"%[note_data["text"], notes_to_play]

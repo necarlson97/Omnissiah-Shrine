@@ -7,6 +7,7 @@
 script = ExtResource("1_d2xo2")
 
 [node name="Cursor" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.392157)
 position = Vector2(16, 180)
 scale = Vector2(10, 100)
 texture = ExtResource("2_dak32")

@@ -39,6 +39,7 @@ func _ready():
 
 	current_hymn_index = randi_range(0, all_hymn_data.size()-1)
 	create_hymn(all_hymn_data[current_hymn_index])
+	advance_pointer()
 
 func create_hymn(hymn_data: Dictionary):
 	print("Playing hymn: " + hymn_data["name"])
@@ -62,23 +63,30 @@ func _input(event: InputEvent):
 		var key = event.keycode
 		if key in [KEY_KP_1, KEY_KP_2, KEY_KP_3]:
 			var pitch_int = key - KEY_KP_1
-			advance_pointer(pitch_int)
+			note_pressed(pitch_int)
 		if key in [KEY_1, KEY_2, KEY_3]:
 			var pitch_int = key - KEY_1
-			advance_pointer(pitch_int)
+			note_pressed(pitch_int)
 
-var current_staff: Staff
-func advance_pointer(pressed_line: int):
+func note_pressed(pressed_line: int):
 	# TODO when we run out
-	if current_staff == null or current_staff.is_done():
-		current_staff = staffs_to_play.pop_front()
-	if current_staff == null:
+	staffs_to_play[0].advance_cursor(pressed_line)
+	
+	if staffs_to_play[0].is_done():
+		staffs_to_play.pop_front()
+	if staffs_to_play.is_empty():
 		current_hymn_index += 1
 		create_hymn(all_hymn_data[current_hymn_index])
-	else:
-		current_staff.advance_cursor(pressed_line)
+	
+	advance_pointer()
+	
+func advance_pointer():
+	var current_staff = staffs_to_play[0]
+	var next_note = staffs_to_play[0].notes_to_play[0]
+	$Pointer.global_position = next_note.global_position + Vector2(0, -20)
 
 var cam_speed = 10
 func _process(delta: float) -> void:
+	var current_staff = staffs_to_play[0]
 	if current_staff:
 		$CamHolder.position = $CamHolder.position.lerp(current_staff.position, cam_speed * delta)
