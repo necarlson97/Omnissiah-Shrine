@@ -21,7 +21,7 @@ def apply_effects(input_path, output_path):
     fx = Fx(sample_rate)
 
     fx_chain = {
-        "distortion": 2,
+        # "distortion": 2,
         "chorus": 1,
         "pitch": 1,
     }
