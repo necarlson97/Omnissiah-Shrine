@@ -82,8 +82,10 @@ func note_pressed(pressed_line: int):
 	
 func advance_pointer():
 	var current_staff = staffs_to_play[0]
-	var next_note = staffs_to_play[0].notes_to_play[0]
+	var next_note = staffs_to_play[0].notes_to_play[0] as Note
+	next_note.comming_next()
 	$Pointer.global_position = next_note.global_position + Vector2(0, -20)
+	$Pointer.reset_pulse()
 
 var cam_speed = 10
 func _process(delta: float) -> void:

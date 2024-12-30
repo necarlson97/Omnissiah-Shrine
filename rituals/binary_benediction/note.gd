@@ -32,6 +32,7 @@ static func create(syllable_data: Dictionary, lines: Array) -> Note:
 func _setup(syllable: String, phonemes: String):
 	$Phoneme.text = phonemes
 	$Text.text = syllable
+	$Sprite2D.modulate = Color.WEB_GRAY
 
 func voice_word(pitch_pressed: int):
 	# Set the pitch shift effect on the 'chant' audio bus
@@ -74,6 +75,9 @@ func success():
 
 func fail():
 	$Sprite2D.modulate = ThemeDB.get_project_theme().get_color("bad", "CSS")
+
+func comming_next():
+	$Sprite2D.modulate = Color.WHITE
 
 func _to_string() -> String:
 	return "%s (%s)"%[syllable_data["text"], pitch_int]

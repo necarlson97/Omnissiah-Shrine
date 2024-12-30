@@ -9,3 +9,7 @@ func _process(delta):
 	# Calculate alpha value using a sine wave (scaled to range [0, 1])
 	var alpha = (sin(time_accumulator * TAU) + 1.0) / 2.0
 	modulate.a = alpha
+
+func reset_pulse():
+	# Sets the alpha back to 1 and continue from there
+	time_accumulator = 0.0

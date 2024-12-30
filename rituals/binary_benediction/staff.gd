@@ -2,7 +2,7 @@ extends Node2D
 class_name Staff
 
 var line_count = 3
-var line_height = 100
+var line_height = 60
 var total_height = line_count * line_height
 var note_data: Dictionary
 var margin = BinaryBenediction.margin
