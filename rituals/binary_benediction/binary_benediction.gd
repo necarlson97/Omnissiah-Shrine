@@ -37,7 +37,8 @@ func _ready():
 		print("Hymns empty: %s" % all_hymn_data)
 		return
 
-	current_hymn_index = randi_range(0, all_hymn_data.size()-1)
+	# TODO
+	current_hymn_index = 10  # randi_range(0, all_hymn_data.size()-1)
 	create_hymn(all_hymn_data[current_hymn_index])
 	advance_pointer()
 

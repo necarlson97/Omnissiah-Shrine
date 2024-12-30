@@ -3639,19 +3639,19 @@
 						}
 					},
 					{
-						"espeak": "hj",
+						"espeak": "hj'u:",
 						"text": "hu",
-						"filename": "hj"
+						"filename": "hj(pri)u(pau)"
 					},
 					{
-						"espeak": "'u:ma#",
+						"espeak": "ma#N",
 						"text": "man",
-						"filename": "(pri)u(pau)ma(hsh)"
+						"filename": "ma(hsh)^n"
 					},
 					{
-						"espeak": "Nk,aInd",
+						"espeak": "k,aInd",
 						"text": "kind",
-						"filename": "^nk(sec)a^ind",
+						"filename": "k(sec)a^ind",
 						"finished_word": {
 							"text": "humankind.",
 							"hyphenated": "hu-man-kind",

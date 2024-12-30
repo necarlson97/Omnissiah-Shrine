@@ -149,8 +149,21 @@ def get_phoneme_symbols(espeak_phonemes):
         else:
             merged.append(char)
         last_char_alpha = char_alpha
+    symbols = merged
 
-    return merged
+    # Step 5: Merge other consonant pairs that we expect to be
+    # in the same syllable
+    merged = []
+    combine = ["hj"]
+    for char in symbols:
+        for combine_str in combine:
+            if merged and combine_str == merged[-1] + char:
+                merged[-1] += char
+            else:
+                merged.append(char)
+    symbols = merged
+
+    return symbols
 
 def get_phoneme_syllables(hyphenated, espeak_phonemes):
     """
@@ -389,6 +402,7 @@ def run_tests():
         "ma-chine": "m@-S'i:n",
         "whis-per": "w'Is-p3",
         "be-neath": "bI-2n,i:T",
+        "hu-man-kind": "hj'u:-ma#N-k,aInd",
 
         # less problematic
         "a-lign": "a#-l'aIn",
