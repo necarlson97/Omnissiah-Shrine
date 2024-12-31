@@ -2,9 +2,6 @@ import os
 import soundfile as sf
 import librosa
 
-import numpy as np
-from scipy.signal import butter, filtfilt
-
 from vocoder import apply_vocoder_effect
 
 # For some reason `from audioFX.Fx import Fx` does not work,
@@ -15,13 +12,14 @@ from audioFX.Fx import Fx
 
 
 def apply_effects(input_path, output_path):
-    """Apply retro effects using audioFX."""
-    # Load the audio file
+    """
+    The simple shortlist of effects to get a retro, robotic voice
+    """
     audio, sample_rate = librosa.load(input_path, sr=None)
     fx = Fx(sample_rate)
 
     fx_chain = {
-        # "distortion": 2,
+        # "distortion": 2,  # was causing issues with vocoder output
         "chorus": 1,
         "pitch": 1,
     }
@@ -33,10 +31,26 @@ def apply_effects(input_path, output_path):
         "pitch_semitones": -3,
     }
 
-    # Apply the effects chain
     processed_audio = fx.process_audio(audio, fx_chain, optional)
+    sf.write(output_path, processed_audio, sample_rate)
 
-    # Save the processed audio to output path
+
+def drop(input_path, output_path):
+    """
+    Drop down a wavs pitch (for zeros and ones)
+    For now, a 5th (7 semitones)
+    """
+    audio, sample_rate = librosa.load(input_path, sr=None)
+    fx = Fx(sample_rate)
+
+    fx_chain = {
+        "pitch": 1,
+    }
+    optional = {
+        "pitch_semitones": -7,
+    }
+
+    processed_audio = fx.process_audio(audio, fx_chain, optional)
     sf.write(output_path, processed_audio, sample_rate)
 
 

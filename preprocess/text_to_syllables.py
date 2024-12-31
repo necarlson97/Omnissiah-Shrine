@@ -6,7 +6,7 @@ import json
 import lexconvert
 import pyphen
 
-from add_effects import process_audio_files
+from add_effects import process_audio_files, drop
 from sanitize_filename import espeak_to_filename
 
 def load_syllables(file_path='./syllables.txt'):
@@ -360,9 +360,11 @@ def create_all_hymn_audio():
     for word in ["zero", "one"]:
         espeak_phonemes = get_phonemes(word)
         filename = espeak_to_filename(espeak_phonemes)
-        output_path = os.path.join("./raw_tts/", f"{filename}.wav")
+        output_path = os.path.join("./raw_tts/", f"{filename}(low).wav")
         generate_audio_with_espeak(
             espeak_phonemes, output_path, speed=300)
+        drop(output_path, output_path)
+
         print(f"  saved: {filename}")
 
     # Process each hymn
