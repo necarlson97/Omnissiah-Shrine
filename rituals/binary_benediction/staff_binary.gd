@@ -33,8 +33,8 @@ func get_note_binary(note_data: Dictionary) -> Dictionary:
 		"1": "w'0n",
 	}
 	var filename_dict = {
-		"0": "z(pri)i@ro^u",
-		"1": "w(pri)0n"
+		"0": "z(pri)i@ro^u(low)",
+		"1": "w(pri)0n(low)"
 	}
 	
 	# Quick helper to convert a 1 or 0 to a list of info dicts for the notes
@@ -56,7 +56,9 @@ func get_note_binary(note_data: Dictionary) -> Dictionary:
 	
 func byte_to_string(byte: int) -> String:
 	var bin_str = ""
-	for i in range(16):
+	for i in range(15):
 		bin_str = str(byte & 1) + bin_str
 		byte >>= 1
+	# Last bit is always 0
+	bin_str += "0"
 	return bin_str

@@ -1,24 +1,71 @@
-[gd_scene load_steps=5 format=3 uid="uid://c61riv2sy78v2"]
+[gd_scene load_steps=13 format=3 uid="uid://c61riv2sy78v2"]
 
 [ext_resource type="Script" path="res://rituals/binary_benediction/binary_benediction.gd" id="1_qf34k"]
+[ext_resource type="AudioStream" uid="uid://dca2dyjmn3x8a" path="res://assets/Omnissiah_Drone.mp3" id="2_cksuw"]
 [ext_resource type="Script" path="res://rituals/binary_benediction/transcript.gd" id="2_emcjy"]
 [ext_resource type="Texture2D" uid="uid://d1wndb774ahv5" path="res://assets/pointer.png" id="3_roh52"]
 [ext_resource type="Script" path="res://rituals/binary_benediction/pointer.gd" id="4_sdrll"]
+[ext_resource type="SpriteFrames" uid="uid://mmtm43q5x81u" path="res://assets/gears.tres" id="6_21qwv"]
+[ext_resource type="Script" path="res://rituals/binary_benediction/gears.gd" id="6_674xt"]
+
+[sub_resource type="Gradient" id="Gradient_ojwy8"]
+offsets = PackedFloat32Array(0, 0.0576132, 0.539095, 1)
+colors = PackedColorArray(0, 0, 0, 1, 0.980125, 0.716056, 0.342229, 1, 1, 0.316667, 0, 1, 0, 0, 0, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_1k1hp"]
+gradient = SubResource("Gradient_ojwy8")
+
+[sub_resource type="Curve" id="Curve_dymg2"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.302583, 1), 0.0, 0.0, 0, 0, Vector2(0.867159, 0.960546), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="CurveTexture" id="CurveTexture_7hjku"]
+curve = SubResource("Curve_dymg2")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_xkwvm"]
+particle_flag_disable_z = true
+direction = Vector3(-1, 1, 0)
+initial_velocity_max = 218.59
+angular_velocity_min = -1.60933e-05
+angular_velocity_max = 720.0
+gravity = Vector3(0, 98, 0)
+scale_min = 3.55
+scale_max = 3.55
+scale_curve = SubResource("CurveTexture_7hjku")
+color_ramp = SubResource("GradientTexture1D_1k1hp")
 
 [node name="BinaryBenediction" type="Node2D"]
 script = ExtResource("1_qf34k")
 
-[node name="CamHolder" type="Node2D" parent="."]
+[node name="Staffs" type="Node2D" parent="."]
 
-[node name="Camera2D" type="Camera2D" parent="CamHolder"]
-position = Vector2(575, 325)
+[node name="Pointer" type="Sprite2D" parent="Staffs"]
+position = Vector2(248, 151)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("3_roh52")
+script = ExtResource("4_sdrll")
 
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="CamHolder"]
+[node name="Gears" type="AnimatedSprite2D" parent="."]
+position = Vector2(1150, 0)
+scale = Vector2(0.1, 0.1)
+sprite_frames = ExtResource("6_21qwv")
+animation = &"gear spin"
+frame_progress = 0.71728
+speed_scale = 20.0
+centered = false
+offset = Vector2(-920, 0)
+script = ExtResource("6_674xt")
 
-[node name="Transcript" type="Node2D" parent="CamHolder"]
+[node name="SparkParticles2D" type="GPUParticles2D" parent="Gears"]
+position = Vector2(-430, 620)
+amount = 5
+amount_ratio = 0.1
+process_material = SubResource("ParticleProcessMaterial_xkwvm")
+
+[node name="Transcript" type="Node2D" parent="."]
 script = ExtResource("2_emcjy")
 
-[node name="Text" type="Label" parent="CamHolder/Transcript"]
+[node name="Text" type="Label" parent="Transcript"]
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
@@ -35,11 +82,11 @@ testing
 testing"
 horizontal_alignment = 2
 
-[node name="PhoneticsHBox" type="HBoxContainer" parent="CamHolder/Transcript"]
+[node name="PhoneticsHBox" type="HBoxContainer" parent="Transcript"]
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="Espeak" type="Label" parent="CamHolder/Transcript/PhoneticsHBox"]
+[node name="Espeak" type="Label" parent="Transcript/PhoneticsHBox"]
 layout_mode = 2
 theme_type_variation = &"MutedLabel"
 text = "testing
@@ -48,7 +95,7 @@ testing
 testing
 testing"
 
-[node name="IPA" type="Label" parent="CamHolder/Transcript/PhoneticsHBox"]
+[node name="IPA" type="Label" parent="Transcript/PhoneticsHBox"]
 layout_mode = 2
 theme_type_variation = &"MutedLabel"
 text = "testing
@@ -57,8 +104,13 @@ testing
 testing
 testing"
 
-[node name="Pointer" type="Sprite2D" parent="."]
-position = Vector2(248, 151)
-scale = Vector2(0.2, 0.2)
-texture = ExtResource("3_roh52")
-script = ExtResource("4_sdrll")
+[node name="CamHolder" type="Node2D" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="CamHolder"]
+position = Vector2(575, 325)
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="CamHolder"]
+
+[node name="DronePlayer" type="AudioStreamPlayer2D" parent="CamHolder"]
+stream = ExtResource("2_cksuw")
+autoplay = true

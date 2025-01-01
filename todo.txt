@@ -1,4 +1,5 @@
 Binary benediction juice:
+	# Make the zero and one for binary lower - probs easiest to do in python hand have like a (low) wav for each.
 	# Anchor to bottom? So that keys can be 'lined up' with screen? Move edge of screen with the cursor as it presses along? Flip vertically?
 	* Would be great to implement 'juice' as individual components, so maybe it takes12
 	a number where +10 is the best, -10 is the worst, then all the parent has to do is call

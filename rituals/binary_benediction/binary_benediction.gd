@@ -14,6 +14,8 @@ var y = 0
 
 var staffs_to_play: Array[Node2D]
 
+@onready var pointer = $Staffs/Pointer
+
 func _ready():
 	# Load hymns.json
 	var json_path = "res://preprocess/hymns.json"
@@ -37,8 +39,7 @@ func _ready():
 		print("Hymns empty: %s" % all_hymn_data)
 		return
 
-	# TODO
-	current_hymn_index = 10  # randi_range(0, all_hymn_data.size()-1)
+	current_hymn_index = randi_range(0, all_hymn_data.size()-1)
 	create_hymn(all_hymn_data[current_hymn_index])
 	advance_pointer()
 
@@ -48,26 +49,34 @@ func create_hymn(hymn_data: Dictionary):
 	# Load the first line of the hymn
 	for line_data in hymn_data["lines"]:
 		var new_staff = Staff.create(line_data)
-		add_child(new_staff)
+		$Staffs.add_child(new_staff)
 		new_staff.position.y = y
 		y += new_staff.total_height + margin
 		staffs_to_play.append(new_staff)
-	for line_data in hymn_data["lines"]:
+	# For now, limit to only 2 lines of binary
+	for line_data in hymn_data["lines"].slice(0, 2):
 		var new_staff = StaffBinary.create(line_data)
-		add_child(new_staff)
+		$Staffs.add_child(new_staff)
 		new_staff.position.y = y
 		y += new_staff.total_height + margin
 		staffs_to_play.append(new_staff)
 
 func _input(event: InputEvent):
-	if event is InputEventKey and event.is_pressed():
-		var key = event.keycode
-		if key in [KEY_KP_1, KEY_KP_2, KEY_KP_3]:
-			var pitch_int = key - KEY_KP_1
-			note_pressed(pitch_int)
-		if key in [KEY_1, KEY_2, KEY_3]:
-			var pitch_int = key - KEY_1
-			note_pressed(pitch_int)
+	var pitch_int = get_note_key(event)
+	if pitch_int > -1:
+		note_pressed(pitch_int)
+			
+static func get_note_key(event) -> int:
+	# Get white note the keypress corresponds to 0-2 (or w/e)
+	# -1 if it is not a note key
+	if not (event is InputEventKey and event.is_pressed()):
+		return -1
+		
+	if event.keycode in [KEY_KP_1, KEY_KP_2, KEY_KP_3]:
+		return event.keycode - KEY_KP_1
+	if event.keycode in [KEY_1, KEY_2, KEY_3]:
+		return event.keycode - KEY_1
+	return -1
 
 func note_pressed(pressed_line: int):
 	# TODO when we run out
@@ -82,14 +91,13 @@ func note_pressed(pressed_line: int):
 	advance_pointer()
 	
 func advance_pointer():
-	var current_staff = staffs_to_play[0]
 	var next_note = staffs_to_play[0].notes_to_play[0] as Note
 	next_note.comming_next()
-	$Pointer.global_position = next_note.global_position + Vector2(0, -20)
-	$Pointer.reset_pulse()
+	pointer.global_position = next_note.global_position + Vector2(0, -20)
+	pointer.reset_pulse()
 
 var cam_speed = 10
 func _process(delta: float) -> void:
 	var current_staff = staffs_to_play[0]
 	if current_staff:
-		$CamHolder.position = $CamHolder.position.lerp(current_staff.position, cam_speed * delta)
+		$Staffs.position = $Staffs.position.lerp(-current_staff.position, cam_speed * delta)
