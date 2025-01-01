@@ -344,7 +344,7 @@
         "name": "Prayer of the Forge",
         "lines": [
             {
-                "text": "Beneath the anvil’s hallowed flame,",
+                "text": "Beneath the anvil's hallowed flame,",
                 "syllables": [
                     {
                         "espeak": "bI2",
@@ -380,11 +380,11 @@
                     },
                     {
                         "espeak": "v@Lz",
-                        "text": "vil’s",
+                        "text": "vil's",
                         "filename": "v@^lz",
                         "finished_word": {
-                            "text": "anvil’s",
-                            "hyphenated": "an-vil’s",
+                            "text": "anvil's",
+                            "hyphenated": "an-vil's",
                             "ipa": "ˈæ.nvʌlz",
                             "espeak_phonemes": "'anv@Lz"
                         }
@@ -2401,7 +2401,7 @@
                 ]
             },
             {
-                "text": "Burns brightly in the Omnissiah’s name.",
+                "text": "Burns brightly in the Omnissiah's name.",
                 "syllables": [
                     {
                         "espeak": "b'3:nz",
@@ -2453,27 +2453,27 @@
                         }
                     },
                     {
-                        "espeak": ",0",
+                        "espeak": ",0m",
                         "text": "om",
-                        "filename": "(sec)0"
+                        "filename": "(sec)0m"
                     },
                     {
-                        "espeak": "m",
-                        "text": "n",
-                        "filename": "m"
+                        "espeak": "nI",
+                        "text": "ni",
+                        "filename": "n^i"
                     },
                     {
-                        "espeak": "nIs",
-                        "text": "issi",
-                        "filename": "n^is"
+                        "espeak": "s'aI",
+                        "text": "ssi",
+                        "filename": "s(pri)a^i"
                     },
                     {
-                        "espeak": "'aI@z",
-                        "text": "ah’s",
-                        "filename": "(pri)a^i@z",
+                        "espeak": "@z",
+                        "text": "ah's",
+                        "filename": "@z",
                         "finished_word": {
-                            "text": "Omnissiah’s",
-                            "hyphenated": "om-n-issi-ah’s",
+                            "text": "Omnissiah's",
+                            "hyphenated": "om-ni-ssi-ah's",
                             "ipa": "ˌɑ.mnɪsˈaɪ.ʌz",
                             "espeak_phonemes": ",0mnIs'aI@z"
                         }
@@ -2734,7 +2734,7 @@
                 ]
             },
             {
-                "text": "Thy Omnissiah’s design refined.",
+                "text": "Thy Omnissiah's design refined.",
                 "syllables": [
                     {
                         "espeak": "D,aI",
@@ -2748,27 +2748,27 @@
                         }
                     },
                     {
-                        "espeak": ",0",
+                        "espeak": ",0m",
                         "text": "om",
-                        "filename": "(sec)0"
+                        "filename": "(sec)0m"
                     },
                     {
-                        "espeak": "m",
-                        "text": "n",
-                        "filename": "m"
+                        "espeak": "nI",
+                        "text": "ni",
+                        "filename": "n^i"
                     },
                     {
-                        "espeak": "nIs",
-                        "text": "issi",
-                        "filename": "n^is"
+                        "espeak": "s'aI",
+                        "text": "ssi",
+                        "filename": "s(pri)a^i"
                     },
                     {
-                        "espeak": "'aI@z",
-                        "text": "ah’s",
-                        "filename": "(pri)a^i@z",
+                        "espeak": "@z",
+                        "text": "ah's",
+                        "filename": "@z",
                         "finished_word": {
-                            "text": "Omnissiah’s",
-                            "hyphenated": "om-n-issi-ah’s",
+                            "text": "Omnissiah's",
+                            "hyphenated": "om-ni-ssi-ah's",
                             "ipa": "ˌɑ.mnɪsˈaɪ.ʌz",
                             "espeak_phonemes": ",0mnIs'aI@z"
                         }
@@ -3258,7 +3258,7 @@
                 ]
             },
             {
-                "text": "To comprehension’s holy gleam.",
+                "text": "To comprehension's holy gleam.",
                 "syllables": [
                     {
                         "espeak": "t@",
@@ -3288,11 +3288,11 @@
                     },
                     {
                         "espeak": "S@nz",
-                        "text": "sion’s",
+                        "text": "sion's",
                         "filename": "^s@nz",
                         "finished_word": {
-                            "text": "comprehension’s",
-                            "hyphenated": "com-pre-hen-sion’s",
+                            "text": "comprehension's",
+                            "hyphenated": "com-pre-hen-sion's",
                             "ipa": "kˌɑ.mpɹɪhˈɛ.nʃʌnz",
                             "espeak_phonemes": "k,0mprIh'EnS@nz"
                         }
@@ -4780,7 +4780,7 @@
                 ]
             },
             {
-                "text": "Guarded by thee, the Omnissiah’s mind.",
+                "text": "Guarded by thee, the Omnissiah's mind.",
                 "syllables": [
                     {
                         "espeak": "g'A@d",
@@ -4832,27 +4832,27 @@
                         }
                     },
                     {
-                        "espeak": ",0",
+                        "espeak": ",0m",
                         "text": "om",
-                        "filename": "(sec)0"
+                        "filename": "(sec)0m"
                     },
                     {
-                        "espeak": "m",
-                        "text": "n",
-                        "filename": "m"
+                        "espeak": "nI",
+                        "text": "ni",
+                        "filename": "n^i"
                     },
                     {
-                        "espeak": "nIs",
-                        "text": "issi",
-                        "filename": "n^is"
+                        "espeak": "s'aI",
+                        "text": "ssi",
+                        "filename": "s(pri)a^i"
                     },
                     {
-                        "espeak": "'aI@z",
-                        "text": "ah’s",
-                        "filename": "(pri)a^i@z",
+                        "espeak": "@z",
+                        "text": "ah's",
+                        "filename": "@z",
                         "finished_word": {
-                            "text": "Omnissiah’s",
-                            "hyphenated": "om-n-issi-ah’s",
+                            "text": "Omnissiah's",
+                            "hyphenated": "om-ni-ssi-ah's",
                             "ipa": "ˌɑ.mnɪsˈaɪ.ʌz",
                             "espeak_phonemes": ",0mnIs'aI@z"
                         }
@@ -4951,7 +4951,7 @@
                 ]
             },
             {
-                "text": "The ancients’ voice forever adored.",
+                "text": "The ancients' voice forever adored.",
                 "syllables": [
                     {
                         "espeak": "DI2;",
@@ -4976,11 +4976,11 @@
                     },
                     {
                         "espeak": "s",
-                        "text": "s’",
+                        "text": "s'",
                         "filename": "s",
                         "finished_word": {
-                            "text": "ancients’",
-                            "hyphenated": "an-cient-s’",
+                            "text": "ancients'",
+                            "hyphenated": "an-cient-s'",
                             "ipa": "ˈeɪ.nʃʌnts",
                             "espeak_phonemes": "'eInS@nts"
                         }
@@ -5468,7 +5468,7 @@
                 ]
             },
             {
-                "text": "Through sacred rites, the Spirit’s throne.",
+                "text": "Through sacred rites, the Spirit's throne.",
                 "syllables": [
                     {
                         "espeak": "Tru:",
@@ -5526,11 +5526,11 @@
                     },
                     {
                         "espeak": "Its",
-                        "text": "it’s",
+                        "text": "it's",
                         "filename": "^its",
                         "finished_word": {
-                            "text": "Spirit’s",
-                            "hyphenated": "spir-it’s",
+                            "text": "Spirit's",
+                            "hyphenated": "spir-it's",
                             "ipa": "spˈɪ.ɹɪts",
                             "espeak_phonemes": "sp'IrIts"
                         }

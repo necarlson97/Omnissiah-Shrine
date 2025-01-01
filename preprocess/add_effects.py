@@ -38,7 +38,6 @@ def apply_effects(input_path, output_path):
 def drop(input_path, output_path):
     """
     Drop down a wavs pitch (for zeros and ones)
-    For now, a 5th (7 semitones)
     """
     audio, sample_rate = librosa.load(input_path, sr=None)
     fx = Fx(sample_rate)
@@ -47,7 +46,7 @@ def drop(input_path, output_path):
         "pitch": 1,
     }
     optional = {
-        "pitch_semitones": -7,
+        "pitch_semitones": -4,
     }
 
     processed_audio = fx.process_audio(audio, fx_chain, optional)

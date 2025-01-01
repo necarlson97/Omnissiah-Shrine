@@ -91,12 +91,13 @@ def get_hyphenated(word):
     # Normalize the word (lowercase and remove trailing punctuation for lookup)
     word_cleaned = re.sub(r'[.,!?]+$', '', word.lower())
 
+    # Look in our manual dictionary
+    if word_cleaned in SYLLABLES_DICT:
+        return SYLLABLES_DICT[word_cleaned]
+
+    # Otherwise, rely on pyphen
     dic = pyphen.Pyphen(lang='en')
     hyphenated = dic.inserted(word_cleaned)
-
-    # If it wasn't hyphenated by pyphen, or syllables.txt might catch it
-    hyphenated = SYLLABLES_DICT.get(word_cleaned, hyphenated)
-
     return hyphenated
 
 def get_phoneme_symbols(espeak_phonemes):
@@ -162,7 +163,6 @@ def get_phoneme_symbols(espeak_phonemes):
             else:
                 merged.append(char)
     symbols = merged
-
     return symbols
 
 def get_phoneme_syllables(hyphenated, espeak_phonemes):
@@ -187,7 +187,7 @@ def get_phoneme_syllables(hyphenated, espeak_phonemes):
     # characters, such as "sh", "ch", etc
     syllables = hyphenated.split('-')
     split_text = [
-        re.findall(r'ch|sh|th|.', s) for s in syllables
+        re.findall(r'ch|sh|th|\'s|.', s) for s in syllables
     ]
     total_syllable_len = sum(len(s) for s in split_text)
     proportions = [
@@ -214,6 +214,9 @@ def break_apart_hymn(hymn):
     Generates a wav file for each word in the hymn, and returns a dict
     that contains data about each line and word
     """
+    # Some quick cleaning
+    hymn = hymn.replace("’", "'")
+
     # Split hymn text into individual lines
     hymn_lines = hymn.split('\n')
 
@@ -383,71 +386,7 @@ def create_all_hymn_audio():
 
     process_audio_files()
 
-def run_tests():
-    expected_phoneme_split = {
-        "oU": ["oU"],
-        "spA@k": ["s", "p", "A", "@", "k"],
-        "dI2vaIn": ["d", "I2", "v", "aI", "n"],
-        "s3;kIts": ["s", "3;", "k", "I", "t", "s"],
-        "s'eIkrI2d": ["s", "'eI", "k", "r", "I2", "d"],
-
-        "h'aI3": ["h", "'aI", "3"],
-        "m@S'i:n": ["m", "@", "S", "'i:", "n"],
-    }
-    for k, expected in expected_phoneme_split.items():
-        got = get_phoneme_symbols(k)
-        assert expected == got, f"expected {expected}, got {got}"
-
-    expected_syllable_split = {
-        # Problematic
-        "high-er": "h'aI-3",
-        "ma-chine": "m@-S'i:n",
-        "whis-per": "w'Is-p3",
-        "be-neath": "bI-2n,i:T",
-        "hu-man-kind": "hj'u:-ma#N-k,aInd",
-
-        # less problematic
-        "a-lign": "a#-l'aIn",
-        "di-vine": "dI2-v'aIn",
-        "cir-cuits": "s'3:-kIts",
-        "sa-cred": "s'eI-krI2d",
-        "be-stow": "bI2-st'oU",
-        "o-bey": "oU-b'eI",
-        "a-way": "a#-w'eI",
-        "be-neath": "bh-I2n,i:T",
-        "an-vil’s": "'an-v@Lz",
-        "hal-lowed": "h'a-loUd",
-        "soft-ly": "s'0ft-li",
-        "ho-ly": "h'oU-li",
-        "riv-et": "r'Iv-I2t",
-        "a-ligned": "a#-l'aInd",
-        "with-in": "wID-,In",
-        "her-e-tic": "h'Er-@-t,Ik",
-        "faith-less": "f'eIT-l@s",
-        "de-fy": "dI2-f'aI",
-        "eve-ry": "'Ev-rI2",
-        "rit-u-al": "r'ItS-u:-@L",
-        "i-s": "I-z",
-        "re-al": "r'i-@l",
-    }
-    for text_syllable, phoneme_sylable in expected_syllable_split.items():
-        phonemes = phoneme_sylable.replace("-", "")
-        got = "-".join(get_phoneme_syllables(text_syllable, phonemes))
-        assert phoneme_sylable == got, f"expected {phoneme_sylable}, got {got} ({text_syllable})"
-
-    # Some sanity check hyphenations
-    expected_hyphenations = {
-        "is": "is",
-        "at": "at",
-        "the": "the",
-        "hyphenated": "hy-phen-at-ed",
-        "heretic": "her-e-tic",
-    }
-    for k, v in expected_hyphenations.items():
-        assert v == get_hyphenated(k), f"{v} != {get_hyphenated(k)} ({k})"
-
-    # TODO write some tests for hyphenating espeak phonemes
-
 if __name__ == "__main__":
+    from tests import run_tests
     run_tests()
     create_all_hymn_audio()
