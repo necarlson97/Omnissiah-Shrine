@@ -1,5 +1,6 @@
 from text_to_syllables import (
-    get_phoneme_symbols, get_phoneme_syllables, get_hyphenated
+    get_phoneme_symbols, get_phoneme_syllables, get_hyphenated,
+    get_phonemes
 )
 
 def run_tests():
@@ -67,8 +68,12 @@ def run_tests():
     for text_syllable, phoneme_sylable in expected_syllable_split.items():
         phonemes = phoneme_sylable.replace("-", "")
         got = "-".join(get_phoneme_syllables(text_syllable, phonemes))
-        assert phoneme_sylable == got, f"expected {phoneme_sylable}, got {got} ({text_syllable})"
+        msg = f"expected {phoneme_sylable}, got {got} ({text_syllable})"
+        assert phoneme_sylable == got, msg
 
-
-
-    # TODO write some tests for hyphenating espeak phonemes
+    expected_phonemes = {
+        "forever": "f3r'Ev3"
+    }
+    for text, phonemes in expected_phonemes.items():
+        got = get_phonemes(text)
+        assert phonemes == got, f"expected {phonemes}, got {got} ({text})"

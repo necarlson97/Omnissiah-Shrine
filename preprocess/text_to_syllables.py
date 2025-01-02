@@ -83,7 +83,11 @@ def get_phonemes(line_text, ipa=False):
             command, check=True,
             stdout=subprocess.PIPE, stderr=subprocess.PIPE
         )
-        return result.stdout.decode("utf-8").strip()
+        phonemes = result.stdout.decode("utf-8").strip()
+        # Hyphenating can come up in phonemes,
+        # but it seems to have only a minor effect (?), and we want to use
+        # '-' for syllable split deliminator, so removing for now
+        return phonemes.replace('-', '')
     except subprocess.CalledProcessError as e:
         raise f"Error generating IPA for hymn: {e.stderr.decode('utf-8')}"
 

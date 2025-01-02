@@ -557,14 +557,14 @@
                         }
                     },
                     {
-                        "espeak": "g'i@3r-",
+                        "espeak": "g'i@3r",
                         "text": "gear",
-                        "filename": "g(pri)i@3r-",
+                        "filename": "g(pri)i@3r",
                         "finished_word": {
                             "text": "gear",
                             "hyphenated": "gear",
                             "ipa": "ɡˈeɪ.ʌɹ",
-                            "espeak_phonemes": "g'i@3r-"
+                            "espeak_phonemes": "g'i@3r"
                         }
                     },
                     {
@@ -4970,17 +4970,12 @@
                         "filename": "(pri)e^in"
                     },
                     {
-                        "espeak": "S@nt",
-                        "text": "cient",
-                        "filename": "^s@nt"
-                    },
-                    {
-                        "espeak": "s",
-                        "text": "s'",
-                        "filename": "s",
+                        "espeak": "S@nts",
+                        "text": "cients'",
+                        "filename": "^s@nts",
                         "finished_word": {
                             "text": "ancients'",
-                            "hyphenated": "an-cient-s'",
+                            "hyphenated": "an-cients'",
                             "ipa": "ˈeɪ.nʃʌnts",
                             "espeak_phonemes": "'eInS@nts"
                         }
@@ -4997,24 +4992,24 @@
                         }
                     },
                     {
-                        "espeak": "f3r-",
+                        "espeak": "f3r",
                         "text": "for",
-                        "filename": "f3r-"
+                        "filename": "f3r"
                     },
                     {
-                        "espeak": "'Ev3",
+                        "espeak": "'Ev",
                         "text": "ev",
-                        "filename": "(pri)^ev3"
+                        "filename": "(pri)^ev"
                     },
                     {
-                        "espeak": "r-",
+                        "espeak": "3r",
                         "text": "er",
-                        "filename": "r-",
+                        "filename": "3r",
                         "finished_word": {
                             "text": "forever",
                             "hyphenated": "for-ev-er",
                             "ipa": "fʌɹˈɛ.vʌɹ",
-                            "espeak_phonemes": "f3r-'Ev3r-"
+                            "espeak_phonemes": "f3r'Ev3r"
                         }
                     },
                     {
@@ -5881,14 +5876,14 @@
                 "text": "For every bolt, for every seal,",
                 "syllables": [
                     {
-                        "espeak": "fO@r-",
+                        "espeak": "fO@r",
                         "text": "for",
-                        "filename": "f^o@r-",
+                        "filename": "f^o@r",
                         "finished_word": {
                             "text": "For",
                             "hyphenated": "for",
                             "ipa": "fɔːɹ",
-                            "espeak_phonemes": "fO@r-"
+                            "espeak_phonemes": "fO@r"
                         }
                     },
                     {
@@ -5919,14 +5914,14 @@
                         }
                     },
                     {
-                        "espeak": "fO@r-",
+                        "espeak": "fO@r",
                         "text": "for",
-                        "filename": "f^o@r-",
+                        "filename": "f^o@r",
                         "finished_word": {
                             "text": "for",
                             "hyphenated": "for",
                             "ipa": "fɔːɹ",
-                            "espeak_phonemes": "fO@r-"
+                            "espeak_phonemes": "fO@r"
                         }
                     },
                     {
@@ -6914,14 +6909,14 @@
                         }
                     },
                     {
-                        "espeak": "f'aI@r-",
+                        "espeak": "f'aI@r",
                         "text": "fire",
-                        "filename": "f(pri)a^i@r-",
+                        "filename": "f(pri)a^i@r",
                         "finished_word": {
                             "text": "fire",
                             "hyphenated": "fire",
                             "ipa": "fˈaɪ.ʌɹ",
-                            "espeak_phonemes": "f'aI@r-"
+                            "espeak_phonemes": "f'aI@r"
                         }
                     },
                     {
@@ -9519,14 +9514,14 @@
                 "text": "For in its depths, the ancients speak,",
                 "syllables": [
                     {
-                        "espeak": "fO@r-",
+                        "espeak": "fO@r",
                         "text": "for",
-                        "filename": "f^o@r-",
+                        "filename": "f^o@r",
                         "finished_word": {
                             "text": "For",
                             "hyphenated": "for",
                             "ipa": "fɔːɹ",
-                            "espeak_phonemes": "fO@r-"
+                            "espeak_phonemes": "fO@r"
                         }
                     },
                     {
@@ -10658,19 +10653,19 @@
                         "filename": "f3r"
                     },
                     {
-                        "espeak": "-'E",
+                        "espeak": "'Ev",
                         "text": "ev",
-                        "filename": "-(pri)^e"
+                        "filename": "(pri)^ev"
                     },
                     {
-                        "espeak": "v3",
+                        "espeak": "3",
                         "text": "er",
-                        "filename": "v3",
+                        "filename": "3",
                         "finished_word": {
                             "text": "forever",
                             "hyphenated": "for-ev-er",
                             "ipa": "fʌɹˈɛ.vʌ",
-                            "espeak_phonemes": "f3r-'Ev3"
+                            "espeak_phonemes": "f3r'Ev3"
                         }
                     },
                     {
@@ -11642,19 +11637,19 @@
                         "filename": "f3r"
                     },
                     {
-                        "espeak": "-'E",
+                        "espeak": "'Ev",
                         "text": "ev",
-                        "filename": "-(pri)^e"
+                        "filename": "(pri)^ev"
                     },
                     {
-                        "espeak": "v3",
+                        "espeak": "3",
                         "text": "er",
-                        "filename": "v3",
+                        "filename": "3",
                         "finished_word": {
                             "text": "forever",
                             "hyphenated": "for-ev-er",
                             "ipa": "fʌɹˈɛ.vʌ",
-                            "espeak_phonemes": "f3r-'Ev3"
+                            "espeak_phonemes": "f3r'Ev3"
                         }
                     },
                     {
@@ -11966,14 +11961,14 @@
                         "filename": "s(pri)a^i@"
                     },
                     {
-                        "espeak": "r-",
+                        "espeak": "r",
                         "text": "ah",
-                        "filename": "r-",
+                        "filename": "r",
                         "finished_word": {
                             "text": "Omnissiah",
                             "hyphenated": "om-ni-ssi-ah",
                             "ipa": "ˌɑ.mnɪsˈaɪ.ʌɹ",
-                            "espeak_phonemes": ",0mnIs'aI@r-"
+                            "espeak_phonemes": ",0mnIs'aI@r"
                         }
                     },
                     {
@@ -12254,14 +12249,14 @@
                         }
                     },
                     {
-                        "espeak": "pj'U@r-",
+                        "espeak": "pj'U@r",
                         "text": "pure",
-                        "filename": "pj(pri)^u@r-",
+                        "filename": "pj(pri)^u@r",
                         "finished_word": {
                             "text": "pure",
                             "hyphenated": "pure",
                             "ipa": "pjˈʊə.ɹ",
-                            "espeak_phonemes": "pj'U@r-"
+                            "espeak_phonemes": "pj'U@r"
                         }
                     },
                     {
@@ -12945,14 +12940,14 @@
                 "text": "Where all thy knowledge comprehends.",
                 "syllables": [
                     {
-                        "espeak": "w,e@r-",
+                        "espeak": "w,e@r",
                         "text": "where",
-                        "filename": "w(sec)e@r-",
+                        "filename": "w(sec)e@r",
                         "finished_word": {
                             "text": "Where",
                             "hyphenated": "where",
-                            "ipa": "wˌəː.ɹ",
-                            "espeak_phonemes": "w,e@r-"
+                            "ipa": "wˌəː",
+                            "espeak_phonemes": "w,e@r"
                         }
                     },
                     {
