@@ -9,8 +9,8 @@
 [ext_resource type="Script" path="res://rituals/binary_benediction/gears.gd" id="6_674xt"]
 
 [sub_resource type="Gradient" id="Gradient_ojwy8"]
-offsets = PackedFloat32Array(0, 0.0576132, 0.539095, 1)
-colors = PackedColorArray(0, 0, 0, 1, 0.980125, 0.716056, 0.342229, 1, 1, 0.316667, 0, 1, 0, 0, 0, 0)
+offsets = PackedFloat32Array(0, 0.0576132, 0.707819, 1)
+colors = PackedColorArray(0, 0, 0, 1, 0.980125, 0.716056, 0.342229, 1, 0.431373, 0.796078, 0.388235, 1, 0, 0, 0, 0)
 
 [sub_resource type="GradientTexture1D" id="GradientTexture1D_1k1hp"]
 gradient = SubResource("Gradient_ojwy8")
@@ -50,7 +50,7 @@ position = Vector2(1150, 0)
 scale = Vector2(0.1, 0.1)
 sprite_frames = ExtResource("6_21qwv")
 animation = &"gear spin"
-frame_progress = 0.71728
+frame_progress = 0.02128
 speed_scale = 20.0
 centered = false
 offset = Vector2(-920, 0)
@@ -58,9 +58,10 @@ script = ExtResource("6_674xt")
 
 [node name="SparkParticles2D" type="GPUParticles2D" parent="Gears"]
 position = Vector2(-430, 620)
-amount = 5
-amount_ratio = 0.1
+amount = 20
 process_material = SubResource("ParticleProcessMaterial_xkwvm")
+explosiveness = 0.53
+randomness = 1.0
 
 [node name="Transcript" type="Node2D" parent="."]
 script = ExtResource("2_emcjy")

@@ -42,10 +42,11 @@ func generate_notes(note_data: Dictionary):
 
 		notes_to_play.append(note)
 
-func advance_cursor(pressed_line: int):
+func play_note(pressed_line: int) -> bool:
+	# Play a given note, returning true if the note was correct
 	if is_done():
 		print("Hymn finished!")
-		return
+		return true
 
 	var note = notes_to_play.pop_front()
 	var was_correct = note.pitch_pressed(pressed_line)
@@ -53,6 +54,7 @@ func advance_cursor(pressed_line: int):
 	var line = $Lines.get_children()[last_idx-pressed_line]
 	line.trigger_wave(note.global_position.x, was_correct)
 	$Cursor.global_position.x = note.global_position.x
+	return was_correct
 
 func is_done() -> bool:
 	return notes_to_play.size() == 0

@@ -11,6 +11,9 @@ var syllable_data: Dictionary
 
 var line: Barline
 
+# Sometimes we change color suddenly, other times we lerp
+var target_color = Color.WEB_GRAY
+
 static func create(syllable_data: Dictionary, lines: Array) -> Note:
 	var note = preload("res://rituals/binary_benediction/note.tscn").instantiate() as Note
 	note.syllable_data = syllable_data
@@ -32,7 +35,7 @@ static func create(syllable_data: Dictionary, lines: Array) -> Note:
 func _setup(syllable: String, phonemes: String):
 	$Phoneme.text = phonemes
 	$Text.text = syllable
-	$Sprite2D.modulate = Color.WEB_GRAY
+	$Sprite2D.modulate = target_color
 
 func voice_word(pitch_pressed: int):
 	# Set the pitch shift effect on the 'chant' audio bus
@@ -70,13 +73,19 @@ func get_pitch_scale(pitch_pressed: int) -> float:
 	return pitch_scale
 
 func success():
+	target_color = ThemeDB.get_project_theme().get_color("good_dark", "CSS")
 	$Sprite2D.modulate = ThemeDB.get_project_theme().get_color("good", "CSS")
 
 func fail():
+	target_color = ThemeDB.get_project_theme().get_color("bad_dark", "CSS")
 	$Sprite2D.modulate = ThemeDB.get_project_theme().get_color("bad", "CSS")
 
 func comming_next():
+	target_color = Color.WHITE
 	$Sprite2D.modulate = Color.WHITE
-
+	
+func _process(delta: float) -> void:
+	$Sprite2D.modulate = $Sprite2D.modulate.lerp(target_color, 0.04)
+	
 func _to_string() -> String:
 	return "%s (%s)"%[syllable_data["text"], pitch_int]

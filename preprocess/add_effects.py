@@ -8,6 +8,7 @@ from vocoder import apply_vocoder_effect
 # but we can manually force including
 import sys
 sys.path.append(os.path.abspath("./env/lib/python3.10/site-packages/audioFX"))
+sys.path.append(os.path.abspath(".\\env\\Lib\\site-packages\\audioFX"))
 from audioFX.Fx import Fx
 
 

@@ -67,12 +67,17 @@ func trigger_wave(center_x: float, good=true):
 	displacements[closest_idx] = wave_amplitude
 	
 	# Set a color that we will lerp back to white from
-	var color = "good"
-	if not good:
-		color = "bad"
-	default_color = ThemeDB.get_project_theme().get_color(color, "CSS")
+	var color_name = "good" if good else "bad"
+	var color = ThemeDB.get_project_theme().get_color(color_name, "CSS")
+	default_color = color
 	
 	wave_timer.start()
+	
+	# Also, lets play a little particle effect
+	# TODO is this good? Should we do something else?
+	$GPUParticles2D.modulate = color
+	$GPUParticles2D.restart()
+	$GPUParticles2D.position.x = center_x
 
 func _update_wave():
 	# Spread the wave with simple spring elastics (fixed ends) and
@@ -104,8 +109,8 @@ func _update_wave():
 		# Vertical displacement only
 		points[i] = Vector2(p.x, displacements[i])
 		
-	# Lerp color back towards white
-	default_color = default_color.lerp(rest_color, 1-wave_decay)
+	# Lerp color back towards rest color
+	default_color = default_color.lerp(rest_color, 0.01)
 
 	# Once wave is set to rest at 0, we can stop timer and reset color fully
 	if _is_wave_at_rest():

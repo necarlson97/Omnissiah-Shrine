@@ -76,7 +76,7 @@ def get_phonemes(line_text, ipa=False):
     if ipa:
         format_flag = "--ipa"
     command = [
-        "espeak", line_text, format_flag, "-q",
+        "espeak", line_text, "-q", format_flag,
     ]
     try:
         result = subprocess.run(

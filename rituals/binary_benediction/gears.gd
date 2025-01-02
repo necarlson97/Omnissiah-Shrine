@@ -6,6 +6,7 @@ var inputs_per_second: float = 0.0   # smoothed value over time
 var max_presses_per_second: float = 4.0  # define a "ceiling" for max input rate
 
 func _ready() -> void:
+	play()
 	speed_scale = 0.0
 
 func _input(event: InputEvent) -> void:
@@ -30,9 +31,12 @@ func _process(delta: float) -> void:
 	var speed = remap(inputs_per_second, 0.0, max_presses_per_second, 0.0, 10.0)
 	speed_scale = speed
 
-	var spark_particles = $SparkParticles2D
+	var spark_particles = $SparkParticles2D as GPUParticles2D
 	# Scale "amount" from 0–100 based on speed 0–10
-	spark_particles.amount = remap(speed, 0.0, 10.0, 1, 100)
+	#spark_particles.amount = remap(speed, 0.0, 10.0, 1, 100)
+	
+	# TODO
+	spark_particles.amount_ratio = remap(speed, 5.0, 10.0, 0.0, 1.0)
 
 	var mat := spark_particles.process_material as ParticleProcessMaterial
 	mat.initial_velocity_max = remap(speed, 0.0, 10.0, 0, 750)

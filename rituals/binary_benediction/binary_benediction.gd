@@ -79,15 +79,14 @@ static func get_note_key(event) -> int:
 	return -1
 
 func note_pressed(pressed_line: int):
-	# TODO when we run out
-	staffs_to_play[0].advance_cursor(pressed_line)
+	var was_correct = staffs_to_play[0].play_note(pressed_line)
 	
 	if staffs_to_play[0].is_done():
 		staffs_to_play.pop_front()
 	if staffs_to_play.is_empty():
 		current_hymn_index += 1
 		create_hymn(all_hymn_data[current_hymn_index])
-	
+		
 	advance_pointer()
 	
 func advance_pointer():
