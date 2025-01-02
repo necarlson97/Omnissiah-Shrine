@@ -6480,12 +6480,17 @@
                         }
                     },
                     {
-                        "espeak": "'eIdZIz",
-                        "text": "ages",
-                        "filename": "(pri)e^id^z^iz",
+                        "espeak": "'eI",
+                        "text": "a",
+                        "filename": "(pri)e^i"
+                    },
+                    {
+                        "espeak": "dZIz",
+                        "text": "ges",
+                        "filename": "d^z^iz",
                         "finished_word": {
                             "text": "ages",
-                            "hyphenated": "ages",
+                            "hyphenated": "a-ges",
                             "ipa": "ˈeɪ.dʒɪz",
                             "espeak_phonemes": "'eIdZIz"
                         }
@@ -6893,14 +6898,14 @@
                         }
                     },
                     {
-                        "espeak": "kr",
+                        "espeak": "kri:;",
                         "text": "cre",
-                        "filename": "kr"
+                        "filename": "kri(pau);"
                     },
                     {
-                        "espeak": "i:;'eIS@nz",
+                        "espeak": "'eIS@nz",
                         "text": "ation's",
-                        "filename": "i(pau);(pri)e^i^s@nz",
+                        "filename": "(pri)e^i^s@nz",
                         "finished_word": {
                             "text": "creation's",
                             "hyphenated": "cre-ation's",
@@ -7528,17 +7533,12 @@
                         "filename": "h(pri)a"
                     },
                     {
-                        "espeak": "m3",
-                        "text": "mer",
-                        "filename": "m3"
-                    },
-                    {
-                        "espeak": "z",
-                        "text": "'s",
-                        "filename": "z",
+                        "espeak": "m3z",
+                        "text": "mer's",
+                        "filename": "m3z",
                         "finished_word": {
                             "text": "hammer's",
-                            "hyphenated": "ham-mer-'s",
+                            "hyphenated": "ham-mer's",
                             "ipa": "hˈæ.mʌz",
                             "espeak_phonemes": "h'am3z"
                         }
@@ -11410,12 +11410,17 @@
                         }
                     },
                     {
-                        "espeak": "dI2n'aIz",
-                        "text": "denies",
-                        "filename": "d^i2n(pri)a^iz",
+                        "espeak": "dI2",
+                        "text": "den",
+                        "filename": "d^i2"
+                    },
+                    {
+                        "espeak": "n'aIz",
+                        "text": "ies",
+                        "filename": "n(pri)a^iz",
                         "finished_word": {
                             "text": "denies,",
-                            "hyphenated": "denies",
+                            "hyphenated": "den-ies",
                             "ipa": "dɪnˈaɪ.z",
                             "espeak_phonemes": "dI2n'aIz"
                         }
@@ -12649,12 +12654,17 @@
                         }
                     },
                     {
-                        "espeak": "'eIdZIz",
-                        "text": "ages",
-                        "filename": "(pri)e^id^z^iz",
+                        "espeak": "'eI",
+                        "text": "a",
+                        "filename": "(pri)e^i"
+                    },
+                    {
+                        "espeak": "dZIz",
+                        "text": "ges",
+                        "filename": "d^z^iz",
                         "finished_word": {
                             "text": "ages,",
-                            "hyphenated": "ages",
+                            "hyphenated": "a-ges",
                             "ipa": "ˈeɪ.dʒɪz",
                             "espeak_phonemes": "'eIdZIz"
                         }
@@ -12789,12 +12799,17 @@
                 "text": "Awaits beyond the world machine.",
                 "syllables": [
                     {
-                        "espeak": "a#w'eIts",
-                        "text": "awaits",
-                        "filename": "a(hsh)w(pri)e^its",
+                        "espeak": "a#",
+                        "text": "a",
+                        "filename": "a(hsh)"
+                    },
+                    {
+                        "espeak": "w'eIts",
+                        "text": "waits",
+                        "filename": "w(pri)e^its",
                         "finished_word": {
                             "text": "Awaits",
-                            "hyphenated": "awaits",
+                            "hyphenated": "a-waits",
                             "ipa": "ʌwˈeɪ.ts",
                             "espeak_phonemes": "a#w'eIts"
                         }

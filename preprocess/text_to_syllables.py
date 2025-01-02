@@ -87,7 +87,8 @@ def get_phonemes(line_text, ipa=False):
         # Hyphenating can come up in phonemes,
         # but it seems to have only a minor effect (?), and we want to use
         # '-' for syllable split deliminator, so removing for now
-        return phonemes.replace('-', '')
+        phonemes = phonemes.replace('-', '')
+        return phonemes
     except subprocess.CalledProcessError as e:
         raise f"Error generating IPA for hymn: {e.stderr.decode('utf-8')}"
 
@@ -149,15 +150,19 @@ def get_phoneme_symbols(espeak_phonemes):
             c.lower() for c in char
             if c not in utility_prefix + utility_suffix
         )
-        if merged and char_alpha in vowels and last_char_alpha in vowels:
+        should_merge = (
+            merged and char_alpha in vowels
+            and last_char_alpha in vowels
+            and len(merged[-1] + char) < 5
+        )
+        if should_merge:
             merged[-1] += char
         else:
             merged.append(char)
         last_char_alpha = char_alpha
     symbols = merged
 
-    # Step 5: Merge other consonant pairs that we expect to be
-    # in the same syllable
+    # Step 5: Merge other pairs that we expect to be in the same syllable
     merged = []
     combine = ["hj"]
     for char in symbols:

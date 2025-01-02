@@ -24,9 +24,9 @@ def run_tests():
         "s3;kIts": ["s", "3;", "k", "I", "t", "s"],
         "s'eIkrI2d": ["s", "'eI", "k", "r", "I2", "d"],
         ",0mnIs'aI@z": [",0", "m", "n", "I", "s", "'aI", "@", "z"],
-
         "h'aI3": ["h", "'aI", "3"],
         "m@S'i:n": ["m", "@", "S", "'i:", "n"],
+        "kri:;'eIS@nz": ["k", "r", "i:;", "'eI", "S", "@", "n", "z"],
     }
     for k, expected in expected_phoneme_split.items():
         got = get_phoneme_symbols(k)
@@ -77,3 +77,6 @@ def run_tests():
     for text, phonemes in expected_phonemes.items():
         got = get_phonemes(text)
         assert phonemes == got, f"expected {phonemes}, got {got} ({text})"
+
+if __name__ == "__main__":
+    run_tests()
