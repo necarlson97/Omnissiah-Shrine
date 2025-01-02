@@ -242,6 +242,7 @@ def break_apart_hymn(hymn):
             "InDI": "In DI",
             "InDI2": "In DI2",
             "InDI2;": "In DI2;",
+            "w'Ilt@": "w'Il t@",
         }
         espeak_words = [
             word
@@ -329,8 +330,9 @@ def get_syllable_dict(espeak_s, str_s, output_dir="./raw_tts"):
 
     # Sanity check
     expected_long_syllables = [
-        "through", "thought", "breathes", "wreaths", "streams",
-        "science",  # from conscience
+        "through", "thought", "breathes", "wreaths", "streams", "strikes",
+        "steel's",
+        "ation's", "science",  # from longer words like con(science)
     ]
     if len(str_s) > 6 and str_s not in expected_long_syllables:
         print(f"Long syllable? : {str_s} ({espeak_s})")
