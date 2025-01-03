@@ -13,6 +13,8 @@ def run_tests():
         "heretic": "her-e-tic",
         "omnissiah": "om-ni-ssi-ah",
         "omnissiah's": "om-ni-ssi-ah's",
+        "lore": "lore",
+        "core": "core",
     }
     for k, v in expected_hyphenations.items():
         assert v == get_hyphenated(k), f"{v} != {get_hyphenated(k)} ({k})"

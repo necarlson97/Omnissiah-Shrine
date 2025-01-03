@@ -4,27 +4,11 @@ import glob
 import subprocess
 import json
 import lexconvert
-import pyphen
 
 from add_effects import process_audio_files, drop
 from sanitize_filename import espeak_to_filename
+from syllables import get_hyphenated
 
-def load_syllables(file_path='./syllables.txt'):
-    """
-    Load syllables from a syllables.txt file into a dictionary for quick lookup
-    Format: word=hy-phen-a-ted
-    """
-    syllables_dict = {}
-    with open(file_path, 'r', encoding='utf-8') as file:
-        for line in file:
-            line = line.strip()
-            if '=' in line:
-                word, hyphenated = line.split('=', 1)
-                syllables_dict[word.lower()] = hyphenated
-    return syllables_dict
-
-# Load the syllables.txt file once
-SYLLABLES_DICT = load_syllables()
 
 def hymn_reader(file_path):
     """
@@ -91,19 +75,6 @@ def get_phonemes(line_text, ipa=False):
         return phonemes
     except subprocess.CalledProcessError as e:
         raise f"Error generating IPA for hymn: {e.stderr.decode('utf-8')}"
-
-def get_hyphenated(word):
-    # Normalize the word (lowercase and remove trailing punctuation for lookup)
-    word_cleaned = re.sub(r'[.,!?]+$', '', word.lower())
-
-    # Look in our manual dictionary
-    if word_cleaned in SYLLABLES_DICT:
-        return SYLLABLES_DICT[word_cleaned]
-
-    # Otherwise, rely on pyphen
-    dic = pyphen.Pyphen(lang='en')
-    hyphenated = dic.inserted(word_cleaned)
-    return hyphenated
 
 def get_phoneme_symbols(espeak_phonemes):
     """
