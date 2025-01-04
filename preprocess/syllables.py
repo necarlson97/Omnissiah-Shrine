@@ -77,44 +77,63 @@ def resolve_conflicts(file_path='./syllables.txt'):
     resolved_entries = {}
 
     for word, options in conflicts.items():
-        print(f"Choose the correct breakdown for the word: {word}")
-        options = list(options)
-        for i, option in enumerate(options, 1):
-            print(f"{i}. {option}")
-        print(f"{len(options) + 1}. Remove all entries for this word")
-        print("q. Quit and come back")
-        print("s. Skip for now")
-        print("w. Hear the word again")
+        # TODO this is bold, but for now, if pyphen agrees, just use that
+        dic = pyphen.Pyphen(lang='en')
+        hyphenated = dic.inserted(word)
+        if hyphenated in options:
+            print(f"Trusting pyphen for {hyphenated}")
+            resolved_entries[word] = hyphenated
+            continue
+        else:
+            # print(f"Pyphen '{hyphenated}' not in {options}")
+            options.add(hyphenated)
 
-        while True:
-            say_word(word)
-            try:
-                choice = input("Enter your choice: ")
-                try:
-                    int_choice = int(choice)
-                except ValueError:
-                    int_choice = -1
+        # TODO this is bad, but lets just force a solution with this
+        resolved_entries[word] = max(options, key=lambda w: w.count('-'))
+        print(f"Choosing {resolved_entries[word]}")
 
-                if 1 <= int_choice <= len(options):
-                    resolved_entries[word] = options[int_choice - 1]
-                    break
-                elif int_choice == len(options) + 1:
-                    resolved_entries[word] = None  # Mark for removal
-                    break
-                elif choice == "q":
-                    write_resolved(resolved_entries, file_path)
-                    return
-                elif choice == "s":
-                    break
-                elif choice == "w":
-                    # hear the word again
-                    pass
-                else:
-                    print("Invalid choice. Try again.")
-            except ValueError:
-                print("Invalid input. Please enter a number.")
+    input("CTRL+C now to quit")
     write_resolved(resolved_entries, file_path)
 
+
+def user_input(word, options, resolved_entries):
+    print(f"Choose the correct breakdown for the word: {word}")
+    options = list(options)
+    for i, option in enumerate(options, 1):
+        print(f"{i}. {option}")
+    print(f"{len(options) + 1}. Remove all entries for this word")
+    print("q. Quit and come back")
+    print("s. Skip for now")
+    print("w. Hear the word again")
+
+    while True:
+        say_word(word)
+        try:
+            choice = input("Enter your choice: ")
+            try:
+                int_choice = int(choice)
+            except ValueError:
+                int_choice = -1
+
+            if 1 <= int_choice <= len(options):
+                resolved_entries[word] = options[int_choice - 1]
+                break
+            elif int_choice == len(options) + 1:
+                resolved_entries[word] = None  # Mark for removal
+                break
+            elif choice == "q":
+                # TODO broken
+                return resolved_entries
+            elif choice == "s":
+                break
+            elif choice == "w":
+                # hear the word again
+                pass
+            else:
+                print("Invalid choice. Try again.")
+        except ValueError:
+            print("Invalid input. Please enter a number.")
+    return resolved_entries
 
 def write_resolved(resolved_entries, file_path='./syllables.txt'):
     # Write the resolved file

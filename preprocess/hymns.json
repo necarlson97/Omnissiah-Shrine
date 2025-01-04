@@ -4895,17 +4895,12 @@
                         }
                     },
                     {
-                        "espeak": "l'o",
-                        "text": "lo",
-                        "filename": "l(pri)o"
-                    },
-                    {
-                        "espeak": "@",
-                        "text": "re",
-                        "filename": "@",
+                        "espeak": "l'o@",
+                        "text": "lore",
+                        "filename": "l(pri)o@",
                         "finished_word": {
                             "text": "lore,",
-                            "hyphenated": "lo-re",
+                            "hyphenated": "lore",
                             "ipa": "lˈɔː",
                             "espeak_phonemes": "l'o@"
                         }
@@ -9009,17 +9004,12 @@
                         }
                     },
                     {
-                        "espeak": "k'V",
-                        "text": "co",
-                        "filename": "k(pri)^v"
-                    },
-                    {
-                        "espeak": "mz",
-                        "text": "mes",
-                        "filename": "mz",
+                        "espeak": "k'Vmz",
+                        "text": "comes",
+                        "filename": "k(pri)^vmz",
                         "finished_word": {
                             "text": "comes.",
-                            "hyphenated": "co-mes",
+                            "hyphenated": "comes",
                             "ipa": "kˈʌ.mz",
                             "espeak_phonemes": "k'Vmz"
                         }
@@ -9401,17 +9391,12 @@
                         }
                     },
                     {
-                        "espeak": "k'o",
-                        "text": "co",
-                        "filename": "k(pri)o"
-                    },
-                    {
-                        "espeak": "@",
-                        "text": "re",
-                        "filename": "@",
+                        "espeak": "k'o@",
+                        "text": "core",
+                        "filename": "k(pri)o@",
                         "finished_word": {
                             "text": "core,",
-                            "hyphenated": "co-re",
+                            "hyphenated": "core",
                             "ipa": "kˈɔː",
                             "espeak_phonemes": "k'o@"
                         }
@@ -9493,17 +9478,12 @@
                         }
                     },
                     {
-                        "espeak": "l'o",
-                        "text": "lo",
-                        "filename": "l(pri)o"
-                    },
-                    {
-                        "espeak": "@",
-                        "text": "re",
-                        "filename": "@",
+                        "espeak": "l'o@",
+                        "text": "lore",
+                        "filename": "l(pri)o@",
                         "finished_word": {
                             "text": "lore.",
-                            "hyphenated": "lo-re",
+                            "hyphenated": "lore",
                             "ipa": "lˈɔː",
                             "espeak_phonemes": "l'o@"
                         }
@@ -10944,12 +10924,17 @@
                         }
                     },
                     {
-                        "espeak": "v'OIsIz",
-                        "text": "voices",
-                        "filename": "v(pri)^o^is^iz",
+                        "espeak": "v'OI",
+                        "text": "voi",
+                        "filename": "v(pri)^o^i"
+                    },
+                    {
+                        "espeak": "sIz",
+                        "text": "ces",
+                        "filename": "s^iz",
                         "finished_word": {
                             "text": "voices",
-                            "hyphenated": "voices",
+                            "hyphenated": "voi-ces",
                             "ipa": "vˈɔɪ.sɪz",
                             "espeak_phonemes": "v'OIsIz"
                         }

@@ -1,4 +1,4 @@
-from text_to_syllables import (
+from hymn_parser import (
     get_phoneme_symbols, get_phoneme_syllables, get_hyphenated,
     get_phonemes
 )
