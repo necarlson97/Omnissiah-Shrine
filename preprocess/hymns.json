@@ -13012,5 +13012,4042 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Flesh is Weak",
+        "lines": [
+            {
+                "text": "O failing flesh, thy flaws are bare,",
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "o",
+                        "filename": "(pri)o^u",
+                        "finished_word": {
+                            "text": "O",
+                            "hyphenated": "o",
+                            "ipa": "ˈəʊ",
+                            "espeak_phonemes": "'oU"
+                        }
+                    },
+                    {
+                        "espeak": "f'eIl",
+                        "text": "fail",
+                        "filename": "f(pri)e^il"
+                    },
+                    {
+                        "espeak": "IN",
+                        "text": "ing",
+                        "filename": "^i^n",
+                        "finished_word": {
+                            "text": "failing",
+                            "hyphenated": "fail-ing",
+                            "ipa": "fˈeɪ.lɪŋ",
+                            "espeak_phonemes": "f'eIlIN"
+                        }
+                    },
+                    {
+                        "espeak": "fl'ES",
+                        "text": "flesh",
+                        "filename": "fl(pri)^e^s",
+                        "finished_word": {
+                            "text": "flesh,",
+                            "hyphenated": "flesh",
+                            "ipa": "flˈɛ.ʃ",
+                            "espeak_phonemes": "fl'ES"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "fl'O:z",
+                        "text": "flaws",
+                        "filename": "fl(pri)^o(pau)z",
+                        "finished_word": {
+                            "text": "flaws",
+                            "hyphenated": "flaws",
+                            "ipa": "flˈɔː.z",
+                            "espeak_phonemes": "fl'O:z"
+                        }
+                    },
+                    {
+                        "espeak": "A@",
+                        "text": "are",
+                        "filename": "^a@",
+                        "finished_word": {
+                            "text": "are",
+                            "hyphenated": "are",
+                            "ipa": "ɑ",
+                            "espeak_phonemes": "A@"
+                        }
+                    },
+                    {
+                        "espeak": "b'e@",
+                        "text": "bare",
+                        "filename": "b(pri)e@",
+                        "finished_word": {
+                            "text": "bare,",
+                            "hyphenated": "bare",
+                            "ipa": "bˈəː",
+                            "espeak_phonemes": "b'e@"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Thy fleeting strength, a fleeting prayer.",
+                "syllables": [
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "Thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "fl'i:t",
+                        "text": "fleet",
+                        "filename": "fl(pri)i(pau)t"
+                    },
+                    {
+                        "espeak": "IN",
+                        "text": "ing",
+                        "filename": "^i^n",
+                        "finished_word": {
+                            "text": "fleeting",
+                            "hyphenated": "fleet-ing",
+                            "ipa": "flˈi.tɪŋ",
+                            "espeak_phonemes": "fl'i:tIN"
+                        }
+                    },
+                    {
+                        "espeak": "str'ENT",
+                        "text": "strength",
+                        "filename": "str(pri)^e^n^t",
+                        "finished_word": {
+                            "text": "strength,",
+                            "hyphenated": "strength",
+                            "ipa": "stɹˈɛ.ŋθ",
+                            "espeak_phonemes": "str'ENT"
+                        }
+                    },
+                    {
+                        "espeak": "a#",
+                        "text": "a",
+                        "filename": "a(hsh)",
+                        "finished_word": {
+                            "text": "a",
+                            "hyphenated": "a",
+                            "ipa": "ʌ",
+                            "espeak_phonemes": "a#"
+                        }
+                    },
+                    {
+                        "espeak": "fl'i:t",
+                        "text": "fleet",
+                        "filename": "fl(pri)i(pau)t"
+                    },
+                    {
+                        "espeak": "IN",
+                        "text": "ing",
+                        "filename": "^i^n",
+                        "finished_word": {
+                            "text": "fleeting",
+                            "hyphenated": "fleet-ing",
+                            "ipa": "flˈi.tɪŋ",
+                            "espeak_phonemes": "fl'i:tIN"
+                        }
+                    },
+                    {
+                        "espeak": "pr'e",
+                        "text": "pray",
+                        "filename": "pr(pri)e"
+                    },
+                    {
+                        "espeak": "@",
+                        "text": "er",
+                        "filename": "@",
+                        "finished_word": {
+                            "text": "prayer.",
+                            "hyphenated": "pray-er",
+                            "ipa": "pɹˈəː",
+                            "espeak_phonemes": "pr'e@"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Through thee, decay and sin shall seek,",
+                "syllables": [
+                    {
+                        "espeak": "Tru:",
+                        "text": "through",
+                        "filename": "^tru(pau)",
+                        "finished_word": {
+                            "text": "Through",
+                            "hyphenated": "through",
+                            "ipa": "θɹʉː",
+                            "espeak_phonemes": "Tru:"
+                        }
+                    },
+                    {
+                        "espeak": "D'i:",
+                        "text": "thee",
+                        "filename": "^d(pri)i(pau)",
+                        "finished_word": {
+                            "text": "thee,",
+                            "hyphenated": "thee",
+                            "ipa": "ðˈi",
+                            "espeak_phonemes": "D'i:"
+                        }
+                    },
+                    {
+                        "espeak": "dI2",
+                        "text": "de",
+                        "filename": "d^i2"
+                    },
+                    {
+                        "espeak": "k'eI",
+                        "text": "cay",
+                        "filename": "k(pri)e^i",
+                        "finished_word": {
+                            "text": "decay",
+                            "hyphenated": "de-cay",
+                            "ipa": "dɪkˈeɪ",
+                            "espeak_phonemes": "dI2k'eI"
+                        }
+                    },
+                    {
+                        "espeak": "and",
+                        "text": "and",
+                        "filename": "and",
+                        "finished_word": {
+                            "text": "and",
+                            "hyphenated": "and",
+                            "ipa": "ænd",
+                            "espeak_phonemes": "and"
+                        }
+                    },
+                    {
+                        "espeak": "s'In",
+                        "text": "sin",
+                        "filename": "s(pri)^in",
+                        "finished_word": {
+                            "text": "sin",
+                            "hyphenated": "sin",
+                            "ipa": "sˈɪ.n",
+                            "espeak_phonemes": "s'In"
+                        }
+                    },
+                    {
+                        "espeak": "S,al",
+                        "text": "shall",
+                        "filename": "^s(sec)al",
+                        "finished_word": {
+                            "text": "shall",
+                            "hyphenated": "shall",
+                            "ipa": "ʃˌæ.l",
+                            "espeak_phonemes": "S,al"
+                        }
+                    },
+                    {
+                        "espeak": "s'i:k",
+                        "text": "seek",
+                        "filename": "s(pri)i(pau)k",
+                        "finished_word": {
+                            "text": "seek,",
+                            "hyphenated": "seek",
+                            "ipa": "sˈi.k",
+                            "espeak_phonemes": "s'i:k"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Thy end reveals: the flesh is weak.",
+                "syllables": [
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "Thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "'End",
+                        "text": "end",
+                        "filename": "(pri)^end",
+                        "finished_word": {
+                            "text": "end",
+                            "hyphenated": "end",
+                            "ipa": "ˈɛ.nd",
+                            "espeak_phonemes": "'End"
+                        }
+                    },
+                    {
+                        "espeak": "rI2",
+                        "text": "re",
+                        "filename": "r^i2"
+                    },
+                    {
+                        "espeak": "v'i:lz",
+                        "text": "veals:",
+                        "filename": "v(pri)i(pau)lz",
+                        "finished_word": {
+                            "text": "reveals:",
+                            "hyphenated": "re-veals:",
+                            "ipa": "ɹɪvˈi.lz",
+                            "espeak_phonemes": "rI2v'i:lz"
+                        }
+                    },
+                    {
+                        "espeak": "D@",
+                        "text": "the",
+                        "filename": "^d@",
+                        "finished_word": {
+                            "text": "the",
+                            "hyphenated": "the",
+                            "ipa": "ðʌ",
+                            "espeak_phonemes": "D@"
+                        }
+                    },
+                    {
+                        "espeak": "fl'ES",
+                        "text": "flesh",
+                        "filename": "fl(pri)^e^s",
+                        "finished_word": {
+                            "text": "flesh",
+                            "hyphenated": "flesh",
+                            "ipa": "flˈɛ.ʃ",
+                            "espeak_phonemes": "fl'ES"
+                        }
+                    },
+                    {
+                        "espeak": "Iz",
+                        "text": "is",
+                        "filename": "^iz",
+                        "finished_word": {
+                            "text": "is",
+                            "hyphenated": "is",
+                            "ipa": "ɪz",
+                            "espeak_phonemes": "Iz"
+                        }
+                    },
+                    {
+                        "espeak": "w'i:k",
+                        "text": "weak",
+                        "filename": "w(pri)i(pau)k",
+                        "finished_word": {
+                            "text": "weak.",
+                            "hyphenated": "weak",
+                            "ipa": "wˈi.k",
+                            "espeak_phonemes": "w'i:k"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "The Machine is Immortal",
+        "lines": [
+            {
+                "text": "O ageless form, thy power divine,",
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "o",
+                        "filename": "(pri)o^u",
+                        "finished_word": {
+                            "text": "O",
+                            "hyphenated": "o",
+                            "ipa": "ˈəʊ",
+                            "espeak_phonemes": "'oU"
+                        }
+                    },
+                    {
+                        "espeak": "'eIdZ",
+                        "text": "age",
+                        "filename": "(pri)e^id^z"
+                    },
+                    {
+                        "espeak": "l@s",
+                        "text": "less",
+                        "filename": "l@s",
+                        "finished_word": {
+                            "text": "ageless",
+                            "hyphenated": "age-less",
+                            "ipa": "ˈeɪ.dʒlʌs",
+                            "espeak_phonemes": "'eIdZl@s"
+                        }
+                    },
+                    {
+                        "espeak": "f'O@m",
+                        "text": "form",
+                        "filename": "f(pri)^o@m",
+                        "finished_word": {
+                            "text": "form,",
+                            "hyphenated": "form",
+                            "ipa": "fˈɔː.m",
+                            "espeak_phonemes": "f'O@m"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "p'aU",
+                        "text": "pow",
+                        "filename": "p(pri)a^u"
+                    },
+                    {
+                        "espeak": "3",
+                        "text": "er",
+                        "filename": "3",
+                        "finished_word": {
+                            "text": "power",
+                            "hyphenated": "pow-er",
+                            "ipa": "pˈaʊ.ʌ",
+                            "espeak_phonemes": "p'aU3"
+                        }
+                    },
+                    {
+                        "espeak": "dI2",
+                        "text": "di",
+                        "filename": "d^i2"
+                    },
+                    {
+                        "espeak": "v'aIn",
+                        "text": "vine",
+                        "filename": "v(pri)a^in",
+                        "finished_word": {
+                            "text": "divine,",
+                            "hyphenated": "di-vine",
+                            "ipa": "dɪvˈaɪ.n",
+                            "espeak_phonemes": "dI2v'aIn"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Immortal Machine, thy will aligns.",
+                "syllables": [
+                    {
+                        "espeak": "Im",
+                        "text": "im",
+                        "filename": "^im"
+                    },
+                    {
+                        "espeak": "'O@t",
+                        "text": "mor",
+                        "filename": "(pri)^o@t"
+                    },
+                    {
+                        "espeak": "@L",
+                        "text": "tal",
+                        "filename": "@^l",
+                        "finished_word": {
+                            "text": "Immortal",
+                            "hyphenated": "im-mor-tal",
+                            "ipa": "ɪmˈɔː.tʌl",
+                            "espeak_phonemes": "Im'O@t@L"
+                        }
+                    },
+                    {
+                        "espeak": "m@",
+                        "text": "ma",
+                        "filename": "m@"
+                    },
+                    {
+                        "espeak": "S'i:n",
+                        "text": "chine",
+                        "filename": "^s(pri)i(pau)n",
+                        "finished_word": {
+                            "text": "Machine,",
+                            "hyphenated": "ma-chine",
+                            "ipa": "mʌʃˈi.n",
+                            "espeak_phonemes": "m@S'i:n"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "wIl",
+                        "text": "will",
+                        "filename": "w^il",
+                        "finished_word": {
+                            "text": "will",
+                            "hyphenated": "will",
+                            "ipa": "wɪl",
+                            "espeak_phonemes": "wIl"
+                        }
+                    },
+                    {
+                        "espeak": "a#l'aInz",
+                        "text": "aligns",
+                        "filename": "a(hsh)l(pri)a^inz",
+                        "finished_word": {
+                            "text": "aligns.",
+                            "hyphenated": "aligns",
+                            "ipa": "ʌlˈaɪ.nz",
+                            "espeak_phonemes": "a#l'aInz"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Through endless turns, thy life endures,",
+                "syllables": [
+                    {
+                        "espeak": "Tru:",
+                        "text": "through",
+                        "filename": "^tru(pau)",
+                        "finished_word": {
+                            "text": "Through",
+                            "hyphenated": "through",
+                            "ipa": "θɹʉː",
+                            "espeak_phonemes": "Tru:"
+                        }
+                    },
+                    {
+                        "espeak": "'End",
+                        "text": "end",
+                        "filename": "(pri)^end"
+                    },
+                    {
+                        "espeak": "l@s",
+                        "text": "less",
+                        "filename": "l@s",
+                        "finished_word": {
+                            "text": "endless",
+                            "hyphenated": "end-less",
+                            "ipa": "ˈɛ.ndlʌs",
+                            "espeak_phonemes": "'Endl@s"
+                        }
+                    },
+                    {
+                        "espeak": "t'3:nz",
+                        "text": "turns",
+                        "filename": "t(pri)3(pau)nz",
+                        "finished_word": {
+                            "text": "turns,",
+                            "hyphenated": "turns",
+                            "ipa": "tˈəː.nz",
+                            "espeak_phonemes": "t'3:nz"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "l'aIf",
+                        "text": "life",
+                        "filename": "l(pri)a^if",
+                        "finished_word": {
+                            "text": "life",
+                            "hyphenated": "life",
+                            "ipa": "lˈaɪ.f",
+                            "espeak_phonemes": "l'aIf"
+                        }
+                    },
+                    {
+                        "espeak": "En",
+                        "text": "en",
+                        "filename": "^en"
+                    },
+                    {
+                        "espeak": "dj'U@z",
+                        "text": "dures",
+                        "filename": "dj(pri)^u@z",
+                        "finished_word": {
+                            "text": "endures,",
+                            "hyphenated": "en-dures",
+                            "ipa": "ɛndjˈʊə.z",
+                            "espeak_phonemes": "Endj'U@z"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "In thee, eternal truth ensures.",
+                "syllables": [
+                    {
+                        "espeak": "In",
+                        "text": "in",
+                        "filename": "^in",
+                        "finished_word": {
+                            "text": "In",
+                            "hyphenated": "in",
+                            "ipa": "ɪn",
+                            "espeak_phonemes": "In"
+                        }
+                    },
+                    {
+                        "espeak": "D'i:",
+                        "text": "thee",
+                        "filename": "^d(pri)i(pau)",
+                        "finished_word": {
+                            "text": "thee,",
+                            "hyphenated": "thee",
+                            "ipa": "ðˈi",
+                            "espeak_phonemes": "D'i:"
+                        }
+                    },
+                    {
+                        "espeak": "I2",
+                        "text": "e",
+                        "filename": "^i2"
+                    },
+                    {
+                        "espeak": "t'3:n",
+                        "text": "ter",
+                        "filename": "t(pri)3(pau)n"
+                    },
+                    {
+                        "espeak": "@L",
+                        "text": "nal",
+                        "filename": "@^l",
+                        "finished_word": {
+                            "text": "eternal",
+                            "hyphenated": "e-ter-nal",
+                            "ipa": "ɪtˈəː.nʌl",
+                            "espeak_phonemes": "I2t'3:n@L"
+                        }
+                    },
+                    {
+                        "espeak": "tr'u:T",
+                        "text": "truth",
+                        "filename": "tr(pri)u(pau)^t",
+                        "finished_word": {
+                            "text": "truth",
+                            "hyphenated": "truth",
+                            "ipa": "tɹˈʉː.θ",
+                            "espeak_phonemes": "tr'u:T"
+                        }
+                    },
+                    {
+                        "espeak": "En",
+                        "text": "en",
+                        "filename": "^en"
+                    },
+                    {
+                        "espeak": "S'U@z",
+                        "text": "sures",
+                        "filename": "^s(pri)^u@z",
+                        "finished_word": {
+                            "text": "ensures.",
+                            "hyphenated": "en-sures",
+                            "ipa": "ɛnʃˈʊə.z",
+                            "espeak_phonemes": "EnS'U@z"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Steel is Certain, Strong",
+        "lines": [
+            {
+                "text": "O sacred steel, thy strength prevails,",
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "o",
+                        "filename": "(pri)o^u",
+                        "finished_word": {
+                            "text": "O",
+                            "hyphenated": "o",
+                            "ipa": "ˈəʊ",
+                            "espeak_phonemes": "'oU"
+                        }
+                    },
+                    {
+                        "espeak": "s'eI",
+                        "text": "sa",
+                        "filename": "s(pri)e^i"
+                    },
+                    {
+                        "espeak": "krI2d",
+                        "text": "cred",
+                        "filename": "kr^i2d",
+                        "finished_word": {
+                            "text": "sacred",
+                            "hyphenated": "sa-cred",
+                            "ipa": "sˈeɪ.kɹɪd",
+                            "espeak_phonemes": "s'eIkrI2d"
+                        }
+                    },
+                    {
+                        "espeak": "st'i:l",
+                        "text": "steel",
+                        "filename": "st(pri)i(pau)l",
+                        "finished_word": {
+                            "text": "steel,",
+                            "hyphenated": "steel",
+                            "ipa": "stˈi.l",
+                            "espeak_phonemes": "st'i:l"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "str'ENT",
+                        "text": "strength",
+                        "filename": "str(pri)^e^n^t",
+                        "finished_word": {
+                            "text": "strength",
+                            "hyphenated": "strength",
+                            "ipa": "stɹˈɛ.ŋθ",
+                            "espeak_phonemes": "str'ENT"
+                        }
+                    },
+                    {
+                        "espeak": "prI",
+                        "text": "pre",
+                        "filename": "pr^i"
+                    },
+                    {
+                        "espeak": "v'eIlz",
+                        "text": "vails",
+                        "filename": "v(pri)e^ilz",
+                        "finished_word": {
+                            "text": "prevails,",
+                            "hyphenated": "pre-vails",
+                            "ipa": "pɹɪvˈeɪ.lz",
+                            "espeak_phonemes": "prIv'eIlz"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Through time and storm, thy form entails.",
+                "syllables": [
+                    {
+                        "espeak": "Tru:",
+                        "text": "through",
+                        "filename": "^tru(pau)",
+                        "finished_word": {
+                            "text": "Through",
+                            "hyphenated": "through",
+                            "ipa": "θɹʉː",
+                            "espeak_phonemes": "Tru:"
+                        }
+                    },
+                    {
+                        "espeak": "t'aIm_:_:",
+                        "text": "time",
+                        "filename": "t(pri)a^im(ssp)(pau)(ssp)(pau)",
+                        "finished_word": {
+                            "text": "time",
+                            "hyphenated": "time",
+                            "ipa": "tˈaɪ.m",
+                            "espeak_phonemes": "t'aIm_:_:"
+                        }
+                    },
+                    {
+                        "espeak": "and",
+                        "text": "and",
+                        "filename": "and",
+                        "finished_word": {
+                            "text": "and",
+                            "hyphenated": "and",
+                            "ipa": "ænd",
+                            "espeak_phonemes": "and"
+                        }
+                    },
+                    {
+                        "espeak": "st'o@m",
+                        "text": "storm",
+                        "filename": "st(pri)o@m",
+                        "finished_word": {
+                            "text": "storm,",
+                            "hyphenated": "storm",
+                            "ipa": "stˈɔː.m",
+                            "espeak_phonemes": "st'o@m"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "f'O@m",
+                        "text": "form",
+                        "filename": "f(pri)^o@m",
+                        "finished_word": {
+                            "text": "form",
+                            "hyphenated": "form",
+                            "ipa": "fˈɔː.m",
+                            "espeak_phonemes": "f'O@m"
+                        }
+                    },
+                    {
+                        "espeak": "En",
+                        "text": "en",
+                        "filename": "^en"
+                    },
+                    {
+                        "espeak": "t'eIlz",
+                        "text": "tails",
+                        "filename": "t(pri)e^ilz",
+                        "finished_word": {
+                            "text": "entails.",
+                            "hyphenated": "en-tails",
+                            "ipa": "ɛntˈeɪ.lz",
+                            "espeak_phonemes": "Ent'eIlz"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Certainty forged in thee alone,",
+                "syllables": [
+                    {
+                        "espeak": "s'3:",
+                        "text": "cer",
+                        "filename": "s(pri)3(pau)"
+                    },
+                    {
+                        "espeak": "t@n",
+                        "text": "tain",
+                        "filename": "t@n"
+                    },
+                    {
+                        "espeak": "ti",
+                        "text": "ty",
+                        "filename": "ti",
+                        "finished_word": {
+                            "text": "Certainty",
+                            "hyphenated": "cer-tain-ty",
+                            "ipa": "sˈəː.tʌntɪ",
+                            "espeak_phonemes": "s'3:t@nti"
+                        }
+                    },
+                    {
+                        "espeak": "f'O@dZd",
+                        "text": "forged",
+                        "filename": "f(pri)^o@d^zd",
+                        "finished_word": {
+                            "text": "forged",
+                            "hyphenated": "forged",
+                            "ipa": "fˈɔː.dʒd",
+                            "espeak_phonemes": "f'O@dZd"
+                        }
+                    },
+                    {
+                        "espeak": "In",
+                        "text": "in",
+                        "filename": "^in",
+                        "finished_word": {
+                            "text": "in",
+                            "hyphenated": "in",
+                            "ipa": "ɪn",
+                            "espeak_phonemes": "In"
+                        }
+                    },
+                    {
+                        "espeak": "Di:;",
+                        "text": "thee",
+                        "filename": "^di(pau);",
+                        "finished_word": {
+                            "text": "thee",
+                            "hyphenated": "thee",
+                            "ipa": "ði",
+                            "espeak_phonemes": "Di:;"
+                        }
+                    },
+                    {
+                        "espeak": "a#",
+                        "text": "a",
+                        "filename": "a(hsh)"
+                    },
+                    {
+                        "espeak": "l'oUn",
+                        "text": "lone",
+                        "filename": "l(pri)o^un",
+                        "finished_word": {
+                            "text": "alone,",
+                            "hyphenated": "a-lone",
+                            "ipa": "ʌlˈəʊ.n",
+                            "espeak_phonemes": "a#l'oUn"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Thy strength resounds, thy will is shown.",
+                "syllables": [
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "Thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "str'ENT",
+                        "text": "strength",
+                        "filename": "str(pri)^e^n^t",
+                        "finished_word": {
+                            "text": "strength",
+                            "hyphenated": "strength",
+                            "ipa": "stɹˈɛ.ŋθ",
+                            "espeak_phonemes": "str'ENT"
+                        }
+                    },
+                    {
+                        "espeak": "rI2",
+                        "text": "re",
+                        "filename": "r^i2"
+                    },
+                    {
+                        "espeak": "z'aUndz",
+                        "text": "sounds",
+                        "filename": "z(pri)a^undz",
+                        "finished_word": {
+                            "text": "resounds,",
+                            "hyphenated": "re-sounds",
+                            "ipa": "ɹɪzˈaʊ.ndz",
+                            "espeak_phonemes": "rI2z'aUndz"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "wIl",
+                        "text": "will",
+                        "filename": "w^il",
+                        "finished_word": {
+                            "text": "will",
+                            "hyphenated": "will",
+                            "ipa": "wɪl",
+                            "espeak_phonemes": "wIl"
+                        }
+                    },
+                    {
+                        "espeak": "Iz",
+                        "text": "is",
+                        "filename": "^iz",
+                        "finished_word": {
+                            "text": "is",
+                            "hyphenated": "is",
+                            "ipa": "ɪz",
+                            "espeak_phonemes": "Iz"
+                        }
+                    },
+                    {
+                        "espeak": "S'oUn",
+                        "text": "shown",
+                        "filename": "^s(pri)o^un",
+                        "finished_word": {
+                            "text": "shown.",
+                            "hyphenated": "shown",
+                            "ipa": "ʃˈəʊ.n",
+                            "espeak_phonemes": "S'oUn"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Flesh is Disgusting",
+        "lines": [
+            {
+                "text": "O fragile flesh, thy weakness stains,",
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "o",
+                        "filename": "(pri)o^u",
+                        "finished_word": {
+                            "text": "O",
+                            "hyphenated": "o",
+                            "ipa": "ˈəʊ",
+                            "espeak_phonemes": "'oU"
+                        }
+                    },
+                    {
+                        "espeak": "fr'ad",
+                        "text": "frag",
+                        "filename": "fr(pri)ad"
+                    },
+                    {
+                        "espeak": "ZaIl",
+                        "text": "ile",
+                        "filename": "^za^il",
+                        "finished_word": {
+                            "text": "fragile",
+                            "hyphenated": "frag-ile",
+                            "ipa": "fɹˈæ.dʒaɪl",
+                            "espeak_phonemes": "fr'adZaIl"
+                        }
+                    },
+                    {
+                        "espeak": "fl'ES",
+                        "text": "flesh",
+                        "filename": "fl(pri)^e^s",
+                        "finished_word": {
+                            "text": "flesh,",
+                            "hyphenated": "flesh",
+                            "ipa": "flˈɛ.ʃ",
+                            "espeak_phonemes": "fl'ES"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "w'i:k",
+                        "text": "weak",
+                        "filename": "w(pri)i(pau)k"
+                    },
+                    {
+                        "espeak": "n@s",
+                        "text": "ness",
+                        "filename": "n@s",
+                        "finished_word": {
+                            "text": "weakness",
+                            "hyphenated": "weak-ness",
+                            "ipa": "wˈi.knʌs",
+                            "espeak_phonemes": "w'i:kn@s"
+                        }
+                    },
+                    {
+                        "espeak": "st'eInz",
+                        "text": "stains",
+                        "filename": "st(pri)e^inz",
+                        "finished_word": {
+                            "text": "stains,",
+                            "hyphenated": "stains",
+                            "ipa": "stˈeɪ.nz",
+                            "espeak_phonemes": "st'eInz"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "A wretched coil, a source of pains.",
+                "syllables": [
+                    {
+                        "espeak": "a#",
+                        "text": "a",
+                        "filename": "a(hsh)",
+                        "finished_word": {
+                            "text": "A",
+                            "hyphenated": "a",
+                            "ipa": "ʌ",
+                            "espeak_phonemes": "a#"
+                        }
+                    },
+                    {
+                        "espeak": "r'EtS",
+                        "text": "wretch",
+                        "filename": "r(pri)^et^s"
+                    },
+                    {
+                        "espeak": "I2d",
+                        "text": "ed",
+                        "filename": "^i2d",
+                        "finished_word": {
+                            "text": "wretched",
+                            "hyphenated": "wretch-ed",
+                            "ipa": "ɹˈɛ.tʃɪd",
+                            "espeak_phonemes": "r'EtSI2d"
+                        }
+                    },
+                    {
+                        "espeak": "k'OIl",
+                        "text": "coil",
+                        "filename": "k(pri)^o^il",
+                        "finished_word": {
+                            "text": "coil,",
+                            "hyphenated": "coil",
+                            "ipa": "kˈɔɪ.l",
+                            "espeak_phonemes": "k'OIl"
+                        }
+                    },
+                    {
+                        "espeak": "a#",
+                        "text": "a",
+                        "filename": "a(hsh)",
+                        "finished_word": {
+                            "text": "a",
+                            "hyphenated": "a",
+                            "ipa": "ʌ",
+                            "espeak_phonemes": "a#"
+                        }
+                    },
+                    {
+                        "espeak": "s'o@s",
+                        "text": "source",
+                        "filename": "s(pri)o@s",
+                        "finished_word": {
+                            "text": "source",
+                            "hyphenated": "source",
+                            "ipa": "sˈɔː.s",
+                            "espeak_phonemes": "s'o@s"
+                        }
+                    },
+                    {
+                        "espeak": "0v",
+                        "text": "of",
+                        "filename": "0v",
+                        "finished_word": {
+                            "text": "of",
+                            "hyphenated": "of",
+                            "ipa": "ɑv",
+                            "espeak_phonemes": "0v"
+                        }
+                    },
+                    {
+                        "espeak": "p'eInz",
+                        "text": "pains",
+                        "filename": "p(pri)e^inz",
+                        "finished_word": {
+                            "text": "pains.",
+                            "hyphenated": "pains",
+                            "ipa": "pˈeɪ.nz",
+                            "espeak_phonemes": "p'eInz"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Through thee, corruption dares to cling,",
+                "syllables": [
+                    {
+                        "espeak": "Tru:",
+                        "text": "through",
+                        "filename": "^tru(pau)",
+                        "finished_word": {
+                            "text": "Through",
+                            "hyphenated": "through",
+                            "ipa": "θɹʉː",
+                            "espeak_phonemes": "Tru:"
+                        }
+                    },
+                    {
+                        "espeak": "D'i:",
+                        "text": "thee",
+                        "filename": "^d(pri)i(pau)",
+                        "finished_word": {
+                            "text": "thee,",
+                            "hyphenated": "thee",
+                            "ipa": "ðˈi",
+                            "espeak_phonemes": "D'i:"
+                        }
+                    },
+                    {
+                        "espeak": "k@",
+                        "text": "cor",
+                        "filename": "k@"
+                    },
+                    {
+                        "espeak": "r'V",
+                        "text": "rup",
+                        "filename": "r(pri)^v"
+                    },
+                    {
+                        "espeak": "pS@n",
+                        "text": "tion",
+                        "filename": "p^s@n",
+                        "finished_word": {
+                            "text": "corruption",
+                            "hyphenated": "cor-rup-tion",
+                            "ipa": "kʌɹˈʌ.pʃʌn",
+                            "espeak_phonemes": "k@r'VpS@n"
+                        }
+                    },
+                    {
+                        "espeak": "d'e",
+                        "text": "dar",
+                        "filename": "d(pri)e"
+                    },
+                    {
+                        "espeak": "@z",
+                        "text": "es",
+                        "filename": "@z",
+                        "finished_word": {
+                            "text": "dares",
+                            "hyphenated": "dar-es",
+                            "ipa": "dˈəː.z",
+                            "espeak_phonemes": "d'e@z"
+                        }
+                    },
+                    {
+                        "espeak": "t@",
+                        "text": "to",
+                        "filename": "t@",
+                        "finished_word": {
+                            "text": "to",
+                            "hyphenated": "to",
+                            "ipa": "tʌ",
+                            "espeak_phonemes": "t@"
+                        }
+                    },
+                    {
+                        "espeak": "kl'IN",
+                        "text": "cling",
+                        "filename": "kl(pri)^i^n",
+                        "finished_word": {
+                            "text": "cling,",
+                            "hyphenated": "cling",
+                            "ipa": "klˈɪ.ŋ",
+                            "espeak_phonemes": "kl'IN"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Praise to steel, thy failing sting.",
+                "syllables": [
+                    {
+                        "espeak": "pr'eIz",
+                        "text": "praise",
+                        "filename": "pr(pri)e^iz",
+                        "finished_word": {
+                            "text": "Praise",
+                            "hyphenated": "praise",
+                            "ipa": "pɹˈeɪ.z",
+                            "espeak_phonemes": "pr'eIz"
+                        }
+                    },
+                    {
+                        "espeak": "t@",
+                        "text": "to",
+                        "filename": "t@",
+                        "finished_word": {
+                            "text": "to",
+                            "hyphenated": "to",
+                            "ipa": "tʌ",
+                            "espeak_phonemes": "t@"
+                        }
+                    },
+                    {
+                        "espeak": "st'i:l",
+                        "text": "steel",
+                        "filename": "st(pri)i(pau)l",
+                        "finished_word": {
+                            "text": "steel,",
+                            "hyphenated": "steel",
+                            "ipa": "stˈi.l",
+                            "espeak_phonemes": "st'i:l"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "f'eIl",
+                        "text": "fail",
+                        "filename": "f(pri)e^il"
+                    },
+                    {
+                        "espeak": "IN",
+                        "text": "ing",
+                        "filename": "^i^n",
+                        "finished_word": {
+                            "text": "failing",
+                            "hyphenated": "fail-ing",
+                            "ipa": "fˈeɪ.lɪŋ",
+                            "espeak_phonemes": "f'eIlIN"
+                        }
+                    },
+                    {
+                        "espeak": "st'IN",
+                        "text": "sting",
+                        "filename": "st(pri)^i^n",
+                        "finished_word": {
+                            "text": "sting.",
+                            "hyphenated": "sting",
+                            "ipa": "stˈɪ.ŋ",
+                            "espeak_phonemes": "st'IN"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "We Man-Machines Are Saved",
+        "lines": [
+            {
+                "text": "O blessed spark, thy hand refines,",
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "o",
+                        "filename": "(pri)o^u",
+                        "finished_word": {
+                            "text": "O",
+                            "hyphenated": "o",
+                            "ipa": "ˈəʊ",
+                            "espeak_phonemes": "'oU"
+                        }
+                    },
+                    {
+                        "espeak": "bl'Es",
+                        "text": "bless",
+                        "filename": "bl(pri)^es"
+                    },
+                    {
+                        "espeak": "t",
+                        "text": "ed",
+                        "filename": "t",
+                        "finished_word": {
+                            "text": "blessed",
+                            "hyphenated": "bless-ed",
+                            "ipa": "blˈɛ.st",
+                            "espeak_phonemes": "bl'Est"
+                        }
+                    },
+                    {
+                        "espeak": "sp'A@k",
+                        "text": "spark",
+                        "filename": "sp(pri)^a@k",
+                        "finished_word": {
+                            "text": "spark,",
+                            "hyphenated": "spark",
+                            "ipa": "spˈɑ.k",
+                            "espeak_phonemes": "sp'A@k"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "h'and",
+                        "text": "hand",
+                        "filename": "h(pri)and",
+                        "finished_word": {
+                            "text": "hand",
+                            "hyphenated": "hand",
+                            "ipa": "hˈæ.nd",
+                            "espeak_phonemes": "h'and"
+                        }
+                    },
+                    {
+                        "espeak": "rI2",
+                        "text": "re",
+                        "filename": "r^i2"
+                    },
+                    {
+                        "espeak": "f'aInz",
+                        "text": "fines",
+                        "filename": "f(pri)a^inz",
+                        "finished_word": {
+                            "text": "refines,",
+                            "hyphenated": "re-fines",
+                            "ipa": "ɹɪfˈaɪ.nz",
+                            "espeak_phonemes": "rI2f'aInz"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Through thee, salvation's form aligns.",
+                "syllables": [
+                    {
+                        "espeak": "Tru:",
+                        "text": "through",
+                        "filename": "^tru(pau)",
+                        "finished_word": {
+                            "text": "Through",
+                            "hyphenated": "through",
+                            "ipa": "θɹʉː",
+                            "espeak_phonemes": "Tru:"
+                        }
+                    },
+                    {
+                        "espeak": "D'i:",
+                        "text": "thee",
+                        "filename": "^d(pri)i(pau)",
+                        "finished_word": {
+                            "text": "thee,",
+                            "hyphenated": "thee",
+                            "ipa": "ðˈi",
+                            "espeak_phonemes": "D'i:"
+                        }
+                    },
+                    {
+                        "espeak": "sal",
+                        "text": "sal",
+                        "filename": "sal"
+                    },
+                    {
+                        "espeak": "v'eI",
+                        "text": "va",
+                        "filename": "v(pri)e^i"
+                    },
+                    {
+                        "espeak": "S@nz",
+                        "text": "tion's",
+                        "filename": "^s@nz",
+                        "finished_word": {
+                            "text": "salvation's",
+                            "hyphenated": "sal-va-tion's",
+                            "ipa": "sælvˈeɪ.ʃʌnz",
+                            "espeak_phonemes": "salv'eIS@nz"
+                        }
+                    },
+                    {
+                        "espeak": "f'O@m",
+                        "text": "form",
+                        "filename": "f(pri)^o@m",
+                        "finished_word": {
+                            "text": "form",
+                            "hyphenated": "form",
+                            "ipa": "fˈɔː.m",
+                            "espeak_phonemes": "f'O@m"
+                        }
+                    },
+                    {
+                        "espeak": "a#l'aInz",
+                        "text": "aligns",
+                        "filename": "a(hsh)l(pri)a^inz",
+                        "finished_word": {
+                            "text": "aligns.",
+                            "hyphenated": "aligns",
+                            "ipa": "ʌlˈaɪ.nz",
+                            "espeak_phonemes": "a#l'aInz"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "From flesh reborn, to steel enslaved,",
+                "syllables": [
+                    {
+                        "espeak": "fr0m",
+                        "text": "from",
+                        "filename": "fr0m",
+                        "finished_word": {
+                            "text": "From",
+                            "hyphenated": "from",
+                            "ipa": "fɹɑm",
+                            "espeak_phonemes": "fr0m"
+                        }
+                    },
+                    {
+                        "espeak": "fl'ES",
+                        "text": "flesh",
+                        "filename": "fl(pri)^e^s",
+                        "finished_word": {
+                            "text": "flesh",
+                            "hyphenated": "flesh",
+                            "ipa": "flˈɛ.ʃ",
+                            "espeak_phonemes": "fl'ES"
+                        }
+                    },
+                    {
+                        "espeak": "rI2",
+                        "text": "re",
+                        "filename": "r^i2"
+                    },
+                    {
+                        "espeak": "b'O@n",
+                        "text": "born",
+                        "filename": "b(pri)^o@n",
+                        "finished_word": {
+                            "text": "reborn,",
+                            "hyphenated": "re-born",
+                            "ipa": "ɹɪbˈɔː.n",
+                            "espeak_phonemes": "rI2b'O@n"
+                        }
+                    },
+                    {
+                        "espeak": "t@",
+                        "text": "to",
+                        "filename": "t@",
+                        "finished_word": {
+                            "text": "to",
+                            "hyphenated": "to",
+                            "ipa": "tʌ",
+                            "espeak_phonemes": "t@"
+                        }
+                    },
+                    {
+                        "espeak": "st'i:l",
+                        "text": "steel",
+                        "filename": "st(pri)i(pau)l",
+                        "finished_word": {
+                            "text": "steel",
+                            "hyphenated": "steel",
+                            "ipa": "stˈi.l",
+                            "espeak_phonemes": "st'i:l"
+                        }
+                    },
+                    {
+                        "espeak": "En",
+                        "text": "en",
+                        "filename": "^en"
+                    },
+                    {
+                        "espeak": "sl'eIvd",
+                        "text": "slaved",
+                        "filename": "sl(pri)e^ivd",
+                        "finished_word": {
+                            "text": "enslaved,",
+                            "hyphenated": "en-slaved",
+                            "ipa": "ɛnslˈeɪ.vd",
+                            "espeak_phonemes": "Ensl'eIvd"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "We man-machines, by thee, are saved.",
+                "syllables": [
+                    {
+                        "espeak": "wi:",
+                        "text": "we",
+                        "filename": "wi(pau)",
+                        "finished_word": {
+                            "text": "We",
+                            "hyphenated": "we",
+                            "ipa": "wi",
+                            "espeak_phonemes": "wi:"
+                        }
+                    },
+                    {
+                        "espeak": "m'an",
+                        "text": "man",
+                        "filename": "m(pri)an"
+                    },
+                    {
+                        "espeak": "m@",
+                        "text": "ma",
+                        "filename": "m@"
+                    },
+                    {
+                        "espeak": "S'i:nz",
+                        "text": "chines",
+                        "filename": "^s(pri)i(pau)nz",
+                        "finished_word": {
+                            "text": "man-machines,",
+                            "hyphenated": "man-ma-chines",
+                            "ipa": "mˈæ.nmʌʃˈi.nz",
+                            "espeak_phonemes": "m'anm@S'i:nz"
+                        }
+                    },
+                    {
+                        "espeak": "baI",
+                        "text": "by",
+                        "filename": "ba^i",
+                        "finished_word": {
+                            "text": "by",
+                            "hyphenated": "by",
+                            "ipa": "baɪ",
+                            "espeak_phonemes": "baI"
+                        }
+                    },
+                    {
+                        "espeak": "D'i:",
+                        "text": "thee",
+                        "filename": "^d(pri)i(pau)",
+                        "finished_word": {
+                            "text": "thee,",
+                            "hyphenated": "thee",
+                            "ipa": "ðˈi",
+                            "espeak_phonemes": "D'i:"
+                        }
+                    },
+                    {
+                        "espeak": "A@",
+                        "text": "are",
+                        "filename": "^a@",
+                        "finished_word": {
+                            "text": "are",
+                            "hyphenated": "are",
+                            "ipa": "ɑ",
+                            "espeak_phonemes": "A@"
+                        }
+                    },
+                    {
+                        "espeak": "s'eIvd",
+                        "text": "saved",
+                        "filename": "s(pri)e^ivd",
+                        "finished_word": {
+                            "text": "saved.",
+                            "hyphenated": "saved",
+                            "ipa": "sˈeɪ.vd",
+                            "espeak_phonemes": "s'eIvd"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "In Death We Serve the Omnissiah",
+        "lines": [
+            {
+                "text": "O final breath, thy purpose clear,",
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "o",
+                        "filename": "(pri)o^u",
+                        "finished_word": {
+                            "text": "O",
+                            "hyphenated": "o",
+                            "ipa": "ˈəʊ",
+                            "espeak_phonemes": "'oU"
+                        }
+                    },
+                    {
+                        "espeak": "f'aI",
+                        "text": "fi",
+                        "filename": "f(pri)a^i"
+                    },
+                    {
+                        "espeak": "n@L",
+                        "text": "nal",
+                        "filename": "n@^l",
+                        "finished_word": {
+                            "text": "final",
+                            "hyphenated": "fi-nal",
+                            "ipa": "fˈaɪ.nʌl",
+                            "espeak_phonemes": "f'aIn@L"
+                        }
+                    },
+                    {
+                        "espeak": "br'ET",
+                        "text": "breath",
+                        "filename": "br(pri)^e^t",
+                        "finished_word": {
+                            "text": "breath,",
+                            "hyphenated": "breath",
+                            "ipa": "bɹˈɛ.θ",
+                            "espeak_phonemes": "br'ET"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "p'3:",
+                        "text": "pur",
+                        "filename": "p(pri)3(pau)"
+                    },
+                    {
+                        "espeak": "p@s",
+                        "text": "pose",
+                        "filename": "p@s",
+                        "finished_word": {
+                            "text": "purpose",
+                            "hyphenated": "pur-pose",
+                            "ipa": "pˈəː.pʌs",
+                            "espeak_phonemes": "p'3:p@s"
+                        }
+                    },
+                    {
+                        "espeak": "kl'i@3",
+                        "text": "clear",
+                        "filename": "kl(pri)i@3",
+                        "finished_word": {
+                            "text": "clear,",
+                            "hyphenated": "clear",
+                            "ipa": "klˈeɪ.ʌ",
+                            "espeak_phonemes": "kl'i@3"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "In death, thy will we still revere.",
+                "syllables": [
+                    {
+                        "espeak": "In",
+                        "text": "in",
+                        "filename": "^in",
+                        "finished_word": {
+                            "text": "In",
+                            "hyphenated": "in",
+                            "ipa": "ɪn",
+                            "espeak_phonemes": "In"
+                        }
+                    },
+                    {
+                        "espeak": "d'ET",
+                        "text": "death",
+                        "filename": "d(pri)^e^t",
+                        "finished_word": {
+                            "text": "death,",
+                            "hyphenated": "death",
+                            "ipa": "dˈɛ.θ",
+                            "espeak_phonemes": "d'ET"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "wIl",
+                        "text": "will",
+                        "filename": "w^il",
+                        "finished_word": {
+                            "text": "will",
+                            "hyphenated": "will",
+                            "ipa": "wɪl",
+                            "espeak_phonemes": "wIl"
+                        }
+                    },
+                    {
+                        "espeak": "wi:",
+                        "text": "we",
+                        "filename": "wi(pau)",
+                        "finished_word": {
+                            "text": "we",
+                            "hyphenated": "we",
+                            "ipa": "wi",
+                            "espeak_phonemes": "wi:"
+                        }
+                    },
+                    {
+                        "espeak": "st'Il",
+                        "text": "still",
+                        "filename": "st(pri)^il",
+                        "finished_word": {
+                            "text": "still",
+                            "hyphenated": "still",
+                            "ipa": "stˈɪ.l",
+                            "espeak_phonemes": "st'Il"
+                        }
+                    },
+                    {
+                        "espeak": "rI2",
+                        "text": "re",
+                        "filename": "r^i2"
+                    },
+                    {
+                        "espeak": "v'i@3",
+                        "text": "vere",
+                        "filename": "v(pri)i@3",
+                        "finished_word": {
+                            "text": "revere.",
+                            "hyphenated": "re-vere",
+                            "ipa": "ɹɪvˈeɪ.ʌ",
+                            "espeak_phonemes": "rI2v'i@3"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "The spark endures, thy power remains,",
+                "syllables": [
+                    {
+                        "espeak": "D@",
+                        "text": "the",
+                        "filename": "^d@",
+                        "finished_word": {
+                            "text": "The",
+                            "hyphenated": "the",
+                            "ipa": "ðʌ",
+                            "espeak_phonemes": "D@"
+                        }
+                    },
+                    {
+                        "espeak": "sp'A@k",
+                        "text": "spark",
+                        "filename": "sp(pri)^a@k",
+                        "finished_word": {
+                            "text": "spark",
+                            "hyphenated": "spark",
+                            "ipa": "spˈɑ.k",
+                            "espeak_phonemes": "sp'A@k"
+                        }
+                    },
+                    {
+                        "espeak": "En",
+                        "text": "en",
+                        "filename": "^en"
+                    },
+                    {
+                        "espeak": "dj'U@z",
+                        "text": "dures",
+                        "filename": "dj(pri)^u@z",
+                        "finished_word": {
+                            "text": "endures,",
+                            "hyphenated": "en-dures",
+                            "ipa": "ɛndjˈʊə.z",
+                            "espeak_phonemes": "Endj'U@z"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "p'aU",
+                        "text": "pow",
+                        "filename": "p(pri)a^u"
+                    },
+                    {
+                        "espeak": "3",
+                        "text": "er",
+                        "filename": "3",
+                        "finished_word": {
+                            "text": "power",
+                            "hyphenated": "pow-er",
+                            "ipa": "pˈaʊ.ʌ",
+                            "espeak_phonemes": "p'aU3"
+                        }
+                    },
+                    {
+                        "espeak": "rI2",
+                        "text": "re",
+                        "filename": "r^i2"
+                    },
+                    {
+                        "espeak": "m'eInz",
+                        "text": "mains",
+                        "filename": "m(pri)e^inz",
+                        "finished_word": {
+                            "text": "remains,",
+                            "hyphenated": "re-mains",
+                            "ipa": "ɹɪmˈeɪ.nz",
+                            "espeak_phonemes": "rI2m'eInz"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Through thee, our death thy cause sustains.",
+                "syllables": [
+                    {
+                        "espeak": "Tru:",
+                        "text": "through",
+                        "filename": "^tru(pau)",
+                        "finished_word": {
+                            "text": "Through",
+                            "hyphenated": "through",
+                            "ipa": "θɹʉː",
+                            "espeak_phonemes": "Tru:"
+                        }
+                    },
+                    {
+                        "espeak": "D'i:",
+                        "text": "thee",
+                        "filename": "^d(pri)i(pau)",
+                        "finished_word": {
+                            "text": "thee,",
+                            "hyphenated": "thee",
+                            "ipa": "ðˈi",
+                            "espeak_phonemes": "D'i:"
+                        }
+                    },
+                    {
+                        "espeak": "aU@",
+                        "text": "our",
+                        "filename": "a^u@",
+                        "finished_word": {
+                            "text": "our",
+                            "hyphenated": "our",
+                            "ipa": "aʊʌ",
+                            "espeak_phonemes": "aU@"
+                        }
+                    },
+                    {
+                        "espeak": "d'ET",
+                        "text": "death",
+                        "filename": "d(pri)^e^t",
+                        "finished_word": {
+                            "text": "death",
+                            "hyphenated": "death",
+                            "ipa": "dˈɛ.θ",
+                            "espeak_phonemes": "d'ET"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "k'O:z",
+                        "text": "cause",
+                        "filename": "k(pri)^o(pau)z",
+                        "finished_word": {
+                            "text": "cause",
+                            "hyphenated": "cause",
+                            "ipa": "kˈɔː.z",
+                            "espeak_phonemes": "k'O:z"
+                        }
+                    },
+                    {
+                        "espeak": "s@s",
+                        "text": "sus",
+                        "filename": "s@s"
+                    },
+                    {
+                        "espeak": "t'eInz",
+                        "text": "tains",
+                        "filename": "t(pri)e^inz",
+                        "finished_word": {
+                            "text": "sustains.",
+                            "hyphenated": "sus-tains",
+                            "ipa": "sʌstˈeɪ.nz",
+                            "espeak_phonemes": "s@st'eInz"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "We Are Weapons of His Will",
+        "lines": [
+            {
+                "text": "O Omnissiah, thy tools are we,",
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "o",
+                        "filename": "(pri)o^u",
+                        "finished_word": {
+                            "text": "O",
+                            "hyphenated": "o",
+                            "ipa": "ˈəʊ",
+                            "espeak_phonemes": "'oU"
+                        }
+                    },
+                    {
+                        "espeak": ",0m",
+                        "text": "om",
+                        "filename": "(sec)0m"
+                    },
+                    {
+                        "espeak": "nI",
+                        "text": "ni",
+                        "filename": "n^i"
+                    },
+                    {
+                        "espeak": "s'aI",
+                        "text": "ssi",
+                        "filename": "s(pri)a^i"
+                    },
+                    {
+                        "espeak": "@",
+                        "text": "ah",
+                        "filename": "@",
+                        "finished_word": {
+                            "text": "Omnissiah,",
+                            "hyphenated": "om-ni-ssi-ah",
+                            "ipa": "ˌɑ.mnɪsˈaɪ.ʌ",
+                            "espeak_phonemes": ",0mnIs'aI@"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "t'u:lz",
+                        "text": "tools",
+                        "filename": "t(pri)u(pau)lz",
+                        "finished_word": {
+                            "text": "tools",
+                            "hyphenated": "tools",
+                            "ipa": "tˈʉː.lz",
+                            "espeak_phonemes": "t'u:lz"
+                        }
+                    },
+                    {
+                        "espeak": "A@",
+                        "text": "are",
+                        "filename": "^a@",
+                        "finished_word": {
+                            "text": "are",
+                            "hyphenated": "are",
+                            "ipa": "ɑ",
+                            "espeak_phonemes": "A@"
+                        }
+                    },
+                    {
+                        "espeak": "wi:",
+                        "text": "we",
+                        "filename": "wi(pau)",
+                        "finished_word": {
+                            "text": "we,",
+                            "hyphenated": "we",
+                            "ipa": "wi",
+                            "espeak_phonemes": "wi:"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Weapons forged for eternity.",
+                "syllables": [
+                    {
+                        "espeak": "w'Ep",
+                        "text": "weap",
+                        "filename": "w(pri)^ep"
+                    },
+                    {
+                        "espeak": "@nz",
+                        "text": "ons",
+                        "filename": "@nz",
+                        "finished_word": {
+                            "text": "Weapons",
+                            "hyphenated": "weap-ons",
+                            "ipa": "wˈɛ.pʌnz",
+                            "espeak_phonemes": "w'Ep@nz"
+                        }
+                    },
+                    {
+                        "espeak": "f'O@dZd",
+                        "text": "forged",
+                        "filename": "f(pri)^o@d^zd",
+                        "finished_word": {
+                            "text": "forged",
+                            "hyphenated": "forged",
+                            "ipa": "fˈɔː.dʒd",
+                            "espeak_phonemes": "f'O@dZd"
+                        }
+                    },
+                    {
+                        "espeak": "fO@r",
+                        "text": "for",
+                        "filename": "f^o@r",
+                        "finished_word": {
+                            "text": "for",
+                            "hyphenated": "for",
+                            "ipa": "fɔːɹ",
+                            "espeak_phonemes": "fO@r"
+                        }
+                    },
+                    {
+                        "espeak": "I2",
+                        "text": "e",
+                        "filename": "^i2"
+                    },
+                    {
+                        "espeak": "t'3:n",
+                        "text": "ter",
+                        "filename": "t(pri)3(pau)n"
+                    },
+                    {
+                        "espeak": "I2t",
+                        "text": "ni",
+                        "filename": "^i2t"
+                    },
+                    {
+                        "espeak": "i",
+                        "text": "ty",
+                        "filename": "i",
+                        "finished_word": {
+                            "text": "eternity.",
+                            "hyphenated": "e-ter-ni-ty",
+                            "ipa": "ɪtˈəː.nɪtɪ",
+                            "espeak_phonemes": "I2t'3:nI2ti"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Thy holy wrath, through us revealed,",
+                "syllables": [
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "Thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "h'oU",
+                        "text": "ho",
+                        "filename": "h(pri)o^u"
+                    },
+                    {
+                        "espeak": "li",
+                        "text": "ly",
+                        "filename": "li",
+                        "finished_word": {
+                            "text": "holy",
+                            "hyphenated": "ho-ly",
+                            "ipa": "hˈəʊ.lɪ",
+                            "espeak_phonemes": "h'oUli"
+                        }
+                    },
+                    {
+                        "espeak": "r'aT",
+                        "text": "wrath",
+                        "filename": "r(pri)a^t",
+                        "finished_word": {
+                            "text": "wrath,",
+                            "hyphenated": "wrath",
+                            "ipa": "ɹˈæ.θ",
+                            "espeak_phonemes": "r'aT"
+                        }
+                    },
+                    {
+                        "espeak": "Tru:",
+                        "text": "through",
+                        "filename": "^tru(pau)",
+                        "finished_word": {
+                            "text": "through",
+                            "hyphenated": "through",
+                            "ipa": "θɹʉː",
+                            "espeak_phonemes": "Tru:"
+                        }
+                    },
+                    {
+                        "espeak": ",Vs",
+                        "text": "us",
+                        "filename": "(sec)^vs",
+                        "finished_word": {
+                            "text": "us",
+                            "hyphenated": "us",
+                            "ipa": "ˌʌ.s",
+                            "espeak_phonemes": ",Vs"
+                        }
+                    },
+                    {
+                        "espeak": "rI2",
+                        "text": "re",
+                        "filename": "r^i2"
+                    },
+                    {
+                        "espeak": "v'i:ld",
+                        "text": "vealed",
+                        "filename": "v(pri)i(pau)ld",
+                        "finished_word": {
+                            "text": "revealed,",
+                            "hyphenated": "re-vealed",
+                            "ipa": "ɹɪvˈi.ld",
+                            "espeak_phonemes": "rI2v'i:ld"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Thy word made flesh, thy truth annealed.",
+                "syllables": [
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "Thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "w'3:d",
+                        "text": "word",
+                        "filename": "w(pri)3(pau)d",
+                        "finished_word": {
+                            "text": "word",
+                            "hyphenated": "word",
+                            "ipa": "wˈəː.d",
+                            "espeak_phonemes": "w'3:d"
+                        }
+                    },
+                    {
+                        "espeak": "m,eId",
+                        "text": "made",
+                        "filename": "m(sec)e^id",
+                        "finished_word": {
+                            "text": "made",
+                            "hyphenated": "made",
+                            "ipa": "mˌeɪ.d",
+                            "espeak_phonemes": "m,eId"
+                        }
+                    },
+                    {
+                        "espeak": "fl'ES",
+                        "text": "flesh",
+                        "filename": "fl(pri)^e^s",
+                        "finished_word": {
+                            "text": "flesh,",
+                            "hyphenated": "flesh",
+                            "ipa": "flˈɛ.ʃ",
+                            "espeak_phonemes": "fl'ES"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "tr'u:T",
+                        "text": "truth",
+                        "filename": "tr(pri)u(pau)^t",
+                        "finished_word": {
+                            "text": "truth",
+                            "hyphenated": "truth",
+                            "ipa": "tɹˈʉː.θ",
+                            "espeak_phonemes": "tr'u:T"
+                        }
+                    },
+                    {
+                        "espeak": "a#",
+                        "text": "an",
+                        "filename": "a(hsh)"
+                    },
+                    {
+                        "espeak": "n'i:ld",
+                        "text": "nealed",
+                        "filename": "n(pri)i(pau)ld",
+                        "finished_word": {
+                            "text": "annealed.",
+                            "hyphenated": "an-nealed",
+                            "ipa": "ʌnˈi.ld",
+                            "espeak_phonemes": "a#n'i:ld"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "The Weak Are Ever-Breaking",
+        "lines": [
+            {
+                "text": "O fragile forms, thy flaws exposed,",
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "o",
+                        "filename": "(pri)o^u",
+                        "finished_word": {
+                            "text": "O",
+                            "hyphenated": "o",
+                            "ipa": "ˈəʊ",
+                            "espeak_phonemes": "'oU"
+                        }
+                    },
+                    {
+                        "espeak": "fr'ad",
+                        "text": "frag",
+                        "filename": "fr(pri)ad"
+                    },
+                    {
+                        "espeak": "ZaIl",
+                        "text": "ile",
+                        "filename": "^za^il",
+                        "finished_word": {
+                            "text": "fragile",
+                            "hyphenated": "frag-ile",
+                            "ipa": "fɹˈæ.dʒaɪl",
+                            "espeak_phonemes": "fr'adZaIl"
+                        }
+                    },
+                    {
+                        "espeak": "f'O@mz",
+                        "text": "forms",
+                        "filename": "f(pri)^o@mz",
+                        "finished_word": {
+                            "text": "forms,",
+                            "hyphenated": "forms",
+                            "ipa": "fˈɔː.mz",
+                            "espeak_phonemes": "f'O@mz"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "fl'O:z",
+                        "text": "flaws",
+                        "filename": "fl(pri)^o(pau)z",
+                        "finished_word": {
+                            "text": "flaws",
+                            "hyphenated": "flaws",
+                            "ipa": "flˈɔː.z",
+                            "espeak_phonemes": "fl'O:z"
+                        }
+                    },
+                    {
+                        "espeak": "Ek",
+                        "text": "ex",
+                        "filename": "^ek"
+                    },
+                    {
+                        "espeak": "sp'oUzd",
+                        "text": "posed",
+                        "filename": "sp(pri)o^uzd",
+                        "finished_word": {
+                            "text": "exposed,",
+                            "hyphenated": "ex-posed",
+                            "ipa": "ɛkspˈəʊ.zd",
+                            "espeak_phonemes": "Eksp'oUzd"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "In endless breakage, thy end is closed.",
+                "syllables": [
+                    {
+                        "espeak": "In",
+                        "text": "in",
+                        "filename": "^in",
+                        "finished_word": {
+                            "text": "In",
+                            "hyphenated": "in",
+                            "ipa": "ɪn",
+                            "espeak_phonemes": "In"
+                        }
+                    },
+                    {
+                        "espeak": "'End",
+                        "text": "end",
+                        "filename": "(pri)^end"
+                    },
+                    {
+                        "espeak": "l@s",
+                        "text": "less",
+                        "filename": "l@s",
+                        "finished_word": {
+                            "text": "endless",
+                            "hyphenated": "end-less",
+                            "ipa": "ˈɛ.ndlʌs",
+                            "espeak_phonemes": "'Endl@s"
+                        }
+                    },
+                    {
+                        "espeak": "br'eIk",
+                        "text": "break",
+                        "filename": "br(pri)e^ik"
+                    },
+                    {
+                        "espeak": "I2dZ",
+                        "text": "age",
+                        "filename": "^i2d^z",
+                        "finished_word": {
+                            "text": "breakage,",
+                            "hyphenated": "break-age",
+                            "ipa": "bɹˈeɪ.kɪdʒ",
+                            "espeak_phonemes": "br'eIkI2dZ"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "'End",
+                        "text": "end",
+                        "filename": "(pri)^end",
+                        "finished_word": {
+                            "text": "end",
+                            "hyphenated": "end",
+                            "ipa": "ˈɛ.nd",
+                            "espeak_phonemes": "'End"
+                        }
+                    },
+                    {
+                        "espeak": "Iz",
+                        "text": "is",
+                        "filename": "^iz",
+                        "finished_word": {
+                            "text": "is",
+                            "hyphenated": "is",
+                            "ipa": "ɪz",
+                            "espeak_phonemes": "Iz"
+                        }
+                    },
+                    {
+                        "espeak": "kl'oUzd",
+                        "text": "closed",
+                        "filename": "kl(pri)o^uzd",
+                        "finished_word": {
+                            "text": "closed.",
+                            "hyphenated": "closed",
+                            "ipa": "klˈəʊ.zd",
+                            "espeak_phonemes": "kl'oUzd"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Through thee, the strong shall rise and prove,",
+                "syllables": [
+                    {
+                        "espeak": "Tru:",
+                        "text": "through",
+                        "filename": "^tru(pau)",
+                        "finished_word": {
+                            "text": "Through",
+                            "hyphenated": "through",
+                            "ipa": "θɹʉː",
+                            "espeak_phonemes": "Tru:"
+                        }
+                    },
+                    {
+                        "espeak": "D'i:",
+                        "text": "thee",
+                        "filename": "^d(pri)i(pau)",
+                        "finished_word": {
+                            "text": "thee,",
+                            "hyphenated": "thee",
+                            "ipa": "ðˈi",
+                            "espeak_phonemes": "D'i:"
+                        }
+                    },
+                    {
+                        "espeak": "D@",
+                        "text": "the",
+                        "filename": "^d@",
+                        "finished_word": {
+                            "text": "the",
+                            "hyphenated": "the",
+                            "ipa": "ðʌ",
+                            "espeak_phonemes": "D@"
+                        }
+                    },
+                    {
+                        "espeak": "str'0N",
+                        "text": "strong",
+                        "filename": "str(pri)0^n",
+                        "finished_word": {
+                            "text": "strong",
+                            "hyphenated": "strong",
+                            "ipa": "stɹˈɑ.ŋ",
+                            "espeak_phonemes": "str'0N"
+                        }
+                    },
+                    {
+                        "espeak": "S,al",
+                        "text": "shall",
+                        "filename": "^s(sec)al",
+                        "finished_word": {
+                            "text": "shall",
+                            "hyphenated": "shall",
+                            "ipa": "ʃˌæ.l",
+                            "espeak_phonemes": "S,al"
+                        }
+                    },
+                    {
+                        "espeak": "r'aIz_:_:",
+                        "text": "rise",
+                        "filename": "r(pri)a^iz(ssp)(pau)(ssp)(pau)",
+                        "finished_word": {
+                            "text": "rise",
+                            "hyphenated": "rise",
+                            "ipa": "ɹˈaɪ.z",
+                            "espeak_phonemes": "r'aIz_:_:"
+                        }
+                    },
+                    {
+                        "espeak": "and",
+                        "text": "and",
+                        "filename": "and",
+                        "finished_word": {
+                            "text": "and",
+                            "hyphenated": "and",
+                            "ipa": "ænd",
+                            "espeak_phonemes": "and"
+                        }
+                    },
+                    {
+                        "espeak": "pr'u:v",
+                        "text": "prove",
+                        "filename": "pr(pri)u(pau)v",
+                        "finished_word": {
+                            "text": "prove,",
+                            "hyphenated": "prove",
+                            "ipa": "pɹˈʉː.v",
+                            "espeak_phonemes": "pr'u:v"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "The weak are lost, their strength removed.",
+                "syllables": [
+                    {
+                        "espeak": "D@",
+                        "text": "the",
+                        "filename": "^d@",
+                        "finished_word": {
+                            "text": "The",
+                            "hyphenated": "the",
+                            "ipa": "ðʌ",
+                            "espeak_phonemes": "D@"
+                        }
+                    },
+                    {
+                        "espeak": "w'i:k",
+                        "text": "weak",
+                        "filename": "w(pri)i(pau)k",
+                        "finished_word": {
+                            "text": "weak",
+                            "hyphenated": "weak",
+                            "ipa": "wˈi.k",
+                            "espeak_phonemes": "w'i:k"
+                        }
+                    },
+                    {
+                        "espeak": "A@",
+                        "text": "are",
+                        "filename": "^a@",
+                        "finished_word": {
+                            "text": "are",
+                            "hyphenated": "are",
+                            "ipa": "ɑ",
+                            "espeak_phonemes": "A@"
+                        }
+                    },
+                    {
+                        "espeak": "l'0st",
+                        "text": "lost",
+                        "filename": "l(pri)0st",
+                        "finished_word": {
+                            "text": "lost,",
+                            "hyphenated": "lost",
+                            "ipa": "lˈɑ.st",
+                            "espeak_phonemes": "l'0st"
+                        }
+                    },
+                    {
+                        "espeak": "De@",
+                        "text": "their",
+                        "filename": "^de@",
+                        "finished_word": {
+                            "text": "their",
+                            "hyphenated": "their",
+                            "ipa": "ðəː",
+                            "espeak_phonemes": "De@"
+                        }
+                    },
+                    {
+                        "espeak": "str'ENT",
+                        "text": "strength",
+                        "filename": "str(pri)^e^n^t",
+                        "finished_word": {
+                            "text": "strength",
+                            "hyphenated": "strength",
+                            "ipa": "stɹˈɛ.ŋθ",
+                            "espeak_phonemes": "str'ENT"
+                        }
+                    },
+                    {
+                        "espeak": "rI2",
+                        "text": "re",
+                        "filename": "r^i2"
+                    },
+                    {
+                        "espeak": "m'u:vd",
+                        "text": "moved",
+                        "filename": "m(pri)u(pau)vd",
+                        "finished_word": {
+                            "text": "removed.",
+                            "hyphenated": "re-moved",
+                            "ipa": "ɹɪmˈʉː.vd",
+                            "espeak_phonemes": "rI2m'u:vd"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Maintenance is Purification",
+        "lines": [
+            {
+                "text": "O sacred rite, thy touch refines,",
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "o",
+                        "filename": "(pri)o^u",
+                        "finished_word": {
+                            "text": "O",
+                            "hyphenated": "o",
+                            "ipa": "ˈəʊ",
+                            "espeak_phonemes": "'oU"
+                        }
+                    },
+                    {
+                        "espeak": "s'eI",
+                        "text": "sa",
+                        "filename": "s(pri)e^i"
+                    },
+                    {
+                        "espeak": "krI2d",
+                        "text": "cred",
+                        "filename": "kr^i2d",
+                        "finished_word": {
+                            "text": "sacred",
+                            "hyphenated": "sa-cred",
+                            "ipa": "sˈeɪ.kɹɪd",
+                            "espeak_phonemes": "s'eIkrI2d"
+                        }
+                    },
+                    {
+                        "espeak": "r'aIt",
+                        "text": "rite",
+                        "filename": "r(pri)a^it",
+                        "finished_word": {
+                            "text": "rite,",
+                            "hyphenated": "rite",
+                            "ipa": "ɹˈaɪ.t",
+                            "espeak_phonemes": "r'aIt"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "t'VtS",
+                        "text": "touch",
+                        "filename": "t(pri)^vt^s",
+                        "finished_word": {
+                            "text": "touch",
+                            "hyphenated": "touch",
+                            "ipa": "tˈʌ.tʃ",
+                            "espeak_phonemes": "t'VtS"
+                        }
+                    },
+                    {
+                        "espeak": "rI2",
+                        "text": "re",
+                        "filename": "r^i2"
+                    },
+                    {
+                        "espeak": "f'aInz",
+                        "text": "fines",
+                        "filename": "f(pri)a^inz",
+                        "finished_word": {
+                            "text": "refines,",
+                            "hyphenated": "re-fines",
+                            "ipa": "ɹɪfˈaɪ.nz",
+                            "espeak_phonemes": "rI2f'aInz"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Maintenance pure, thy will aligns.",
+                "syllables": [
+                    {
+                        "espeak": "m'eIn",
+                        "text": "main",
+                        "filename": "m(pri)e^in"
+                    },
+                    {
+                        "espeak": "t@",
+                        "text": "te",
+                        "filename": "t@"
+                    },
+                    {
+                        "espeak": "n@ns",
+                        "text": "nance",
+                        "filename": "n@ns",
+                        "finished_word": {
+                            "text": "Maintenance",
+                            "hyphenated": "main-te-nance",
+                            "ipa": "mˈeɪ.ntʌnʌns",
+                            "espeak_phonemes": "m'eInt@n@ns"
+                        }
+                    },
+                    {
+                        "espeak": "pj'U@",
+                        "text": "pure",
+                        "filename": "pj(pri)^u@",
+                        "finished_word": {
+                            "text": "pure,",
+                            "hyphenated": "pure",
+                            "ipa": "pjˈʊə",
+                            "espeak_phonemes": "pj'U@"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "wIl",
+                        "text": "will",
+                        "filename": "w^il",
+                        "finished_word": {
+                            "text": "will",
+                            "hyphenated": "will",
+                            "ipa": "wɪl",
+                            "espeak_phonemes": "wIl"
+                        }
+                    },
+                    {
+                        "espeak": "a#l'aInz",
+                        "text": "aligns",
+                        "filename": "a(hsh)l(pri)a^inz",
+                        "finished_word": {
+                            "text": "aligns.",
+                            "hyphenated": "aligns",
+                            "ipa": "ʌlˈaɪ.nz",
+                            "espeak_phonemes": "a#l'aInz"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Through care and toil, thy truth is shown,",
+                "syllables": [
+                    {
+                        "espeak": "Tru:",
+                        "text": "through",
+                        "filename": "^tru(pau)",
+                        "finished_word": {
+                            "text": "Through",
+                            "hyphenated": "through",
+                            "ipa": "θɹʉː",
+                            "espeak_phonemes": "Tru:"
+                        }
+                    },
+                    {
+                        "espeak": "k'e@_:_:",
+                        "text": "care",
+                        "filename": "k(pri)e@(ssp)(pau)(ssp)(pau)",
+                        "finished_word": {
+                            "text": "care",
+                            "hyphenated": "care",
+                            "ipa": "kˈəː",
+                            "espeak_phonemes": "k'e@_:_:"
+                        }
+                    },
+                    {
+                        "espeak": "and",
+                        "text": "and",
+                        "filename": "and",
+                        "finished_word": {
+                            "text": "and",
+                            "hyphenated": "and",
+                            "ipa": "ænd",
+                            "espeak_phonemes": "and"
+                        }
+                    },
+                    {
+                        "espeak": "t'OIl",
+                        "text": "toil",
+                        "filename": "t(pri)^o^il",
+                        "finished_word": {
+                            "text": "toil,",
+                            "hyphenated": "toil",
+                            "ipa": "tˈɔɪ.l",
+                            "espeak_phonemes": "t'OIl"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "tr'u:T",
+                        "text": "truth",
+                        "filename": "tr(pri)u(pau)^t",
+                        "finished_word": {
+                            "text": "truth",
+                            "hyphenated": "truth",
+                            "ipa": "tɹˈʉː.θ",
+                            "espeak_phonemes": "tr'u:T"
+                        }
+                    },
+                    {
+                        "espeak": "Iz",
+                        "text": "is",
+                        "filename": "^iz",
+                        "finished_word": {
+                            "text": "is",
+                            "hyphenated": "is",
+                            "ipa": "ɪz",
+                            "espeak_phonemes": "Iz"
+                        }
+                    },
+                    {
+                        "espeak": "S'oUn",
+                        "text": "shown",
+                        "filename": "^s(pri)o^un",
+                        "finished_word": {
+                            "text": "shown,",
+                            "hyphenated": "shown",
+                            "ipa": "ʃˈəʊ.n",
+                            "espeak_phonemes": "S'oUn"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Each bolt restored, thy grace is known.",
+                "syllables": [
+                    {
+                        "espeak": "'i:tS",
+                        "text": "each",
+                        "filename": "(pri)i(pau)t^s",
+                        "finished_word": {
+                            "text": "Each",
+                            "hyphenated": "each",
+                            "ipa": "ˈi.tʃ",
+                            "espeak_phonemes": "'i:tS"
+                        }
+                    },
+                    {
+                        "espeak": "b'oUlt",
+                        "text": "bolt",
+                        "filename": "b(pri)o^ult",
+                        "finished_word": {
+                            "text": "bolt",
+                            "hyphenated": "bolt",
+                            "ipa": "bˈəʊ.lt",
+                            "espeak_phonemes": "b'oUlt"
+                        }
+                    },
+                    {
+                        "espeak": "rI2",
+                        "text": "re",
+                        "filename": "r^i2"
+                    },
+                    {
+                        "espeak": "st'o@d",
+                        "text": "stored",
+                        "filename": "st(pri)o@d",
+                        "finished_word": {
+                            "text": "restored,",
+                            "hyphenated": "re-stored",
+                            "ipa": "ɹɪstˈɔː.d",
+                            "espeak_phonemes": "rI2st'o@d"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "gr'eIs",
+                        "text": "grace",
+                        "filename": "gr(pri)e^is",
+                        "finished_word": {
+                            "text": "grace",
+                            "hyphenated": "grace",
+                            "ipa": "ɡɹˈeɪ.s",
+                            "espeak_phonemes": "gr'eIs"
+                        }
+                    },
+                    {
+                        "espeak": "Iz",
+                        "text": "is",
+                        "filename": "^iz",
+                        "finished_word": {
+                            "text": "is",
+                            "hyphenated": "is",
+                            "ipa": "ɪz",
+                            "espeak_phonemes": "Iz"
+                        }
+                    },
+                    {
+                        "espeak": "n'oUn",
+                        "text": "known",
+                        "filename": "n(pri)o^un",
+                        "finished_word": {
+                            "text": "known.",
+                            "hyphenated": "known",
+                            "ipa": "nˈəʊ.n",
+                            "espeak_phonemes": "n'oUn"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Circuitry is Sigilism",
+        "lines": [
+            {
+                "text": "O circuits traced in holy art,",
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "o",
+                        "filename": "(pri)o^u",
+                        "finished_word": {
+                            "text": "O",
+                            "hyphenated": "o",
+                            "ipa": "ˈəʊ",
+                            "espeak_phonemes": "'oU"
+                        }
+                    },
+                    {
+                        "espeak": "s'3:",
+                        "text": "cir",
+                        "filename": "s(pri)3(pau)"
+                    },
+                    {
+                        "espeak": "kIts",
+                        "text": "cuits",
+                        "filename": "k^its",
+                        "finished_word": {
+                            "text": "circuits",
+                            "hyphenated": "cir-cuits",
+                            "ipa": "sˈəː.kɪts",
+                            "espeak_phonemes": "s'3:kIts"
+                        }
+                    },
+                    {
+                        "espeak": "tr'eIst",
+                        "text": "traced",
+                        "filename": "tr(pri)e^ist",
+                        "finished_word": {
+                            "text": "traced",
+                            "hyphenated": "traced",
+                            "ipa": "tɹˈeɪ.st",
+                            "espeak_phonemes": "tr'eIst"
+                        }
+                    },
+                    {
+                        "espeak": "In",
+                        "text": "in",
+                        "filename": "^in",
+                        "finished_word": {
+                            "text": "in",
+                            "hyphenated": "in",
+                            "ipa": "ɪn",
+                            "espeak_phonemes": "In"
+                        }
+                    },
+                    {
+                        "espeak": "h'oU",
+                        "text": "ho",
+                        "filename": "h(pri)o^u"
+                    },
+                    {
+                        "espeak": "li;",
+                        "text": "ly",
+                        "filename": "li;",
+                        "finished_word": {
+                            "text": "holy",
+                            "hyphenated": "ho-ly",
+                            "ipa": "hˈəʊ.lɪ",
+                            "espeak_phonemes": "h'oUli;"
+                        }
+                    },
+                    {
+                        "espeak": "'A@t",
+                        "text": "art",
+                        "filename": "(pri)^a@t",
+                        "finished_word": {
+                            "text": "art,",
+                            "hyphenated": "art",
+                            "ipa": "ˈɑ.t",
+                            "espeak_phonemes": "'A@t"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Thy sigils bind the machine's heart.",
+                "syllables": [
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "Thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "s'IdZIlz",
+                        "text": "sigils",
+                        "filename": "s(pri)^id^z^ilz",
+                        "finished_word": {
+                            "text": "sigils",
+                            "hyphenated": "sigils",
+                            "ipa": "sˈɪ.dʒɪlz",
+                            "espeak_phonemes": "s'IdZIlz"
+                        }
+                    },
+                    {
+                        "espeak": "b'aInd",
+                        "text": "bind",
+                        "filename": "b(pri)a^ind",
+                        "finished_word": {
+                            "text": "bind",
+                            "hyphenated": "bind",
+                            "ipa": "bˈaɪ.nd",
+                            "espeak_phonemes": "b'aInd"
+                        }
+                    },
+                    {
+                        "espeak": "D@",
+                        "text": "the",
+                        "filename": "^d@",
+                        "finished_word": {
+                            "text": "the",
+                            "hyphenated": "the",
+                            "ipa": "ðʌ",
+                            "espeak_phonemes": "D@"
+                        }
+                    },
+                    {
+                        "espeak": "m@",
+                        "text": "ma",
+                        "filename": "m@"
+                    },
+                    {
+                        "espeak": "S'i:nz",
+                        "text": "chine's",
+                        "filename": "^s(pri)i(pau)nz",
+                        "finished_word": {
+                            "text": "machine's",
+                            "hyphenated": "ma-chine's",
+                            "ipa": "mʌʃˈi.nz",
+                            "espeak_phonemes": "m@S'i:nz"
+                        }
+                    },
+                    {
+                        "espeak": "h'A@t",
+                        "text": "heart",
+                        "filename": "h(pri)^a@t",
+                        "finished_word": {
+                            "text": "heart.",
+                            "hyphenated": "heart",
+                            "ipa": "hˈɑ.t",
+                            "espeak_phonemes": "h'A@t"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Through sacred glyphs, thy power flows,",
+                "syllables": [
+                    {
+                        "espeak": "Tru:",
+                        "text": "through",
+                        "filename": "^tru(pau)",
+                        "finished_word": {
+                            "text": "Through",
+                            "hyphenated": "through",
+                            "ipa": "θɹʉː",
+                            "espeak_phonemes": "Tru:"
+                        }
+                    },
+                    {
+                        "espeak": "s'eI",
+                        "text": "sa",
+                        "filename": "s(pri)e^i"
+                    },
+                    {
+                        "espeak": "krI2d",
+                        "text": "cred",
+                        "filename": "kr^i2d",
+                        "finished_word": {
+                            "text": "sacred",
+                            "hyphenated": "sa-cred",
+                            "ipa": "sˈeɪ.kɹɪd",
+                            "espeak_phonemes": "s'eIkrI2d"
+                        }
+                    },
+                    {
+                        "espeak": "gl'Ifz",
+                        "text": "glyphs",
+                        "filename": "gl(pri)^ifz",
+                        "finished_word": {
+                            "text": "glyphs,",
+                            "hyphenated": "glyphs",
+                            "ipa": "ɡlˈɪ.fz",
+                            "espeak_phonemes": "gl'Ifz"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "p'aU",
+                        "text": "pow",
+                        "filename": "p(pri)a^u"
+                    },
+                    {
+                        "espeak": "3",
+                        "text": "er",
+                        "filename": "3",
+                        "finished_word": {
+                            "text": "power",
+                            "hyphenated": "pow-er",
+                            "ipa": "pˈaʊ.ʌ",
+                            "espeak_phonemes": "p'aU3"
+                        }
+                    },
+                    {
+                        "espeak": "fl'oUz",
+                        "text": "flows",
+                        "filename": "fl(pri)o^uz",
+                        "finished_word": {
+                            "text": "flows,",
+                            "hyphenated": "flows",
+                            "ipa": "flˈəʊ.z",
+                            "espeak_phonemes": "fl'oUz"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "In lines divine, thy knowledge grows.",
+                "syllables": [
+                    {
+                        "espeak": "In",
+                        "text": "in",
+                        "filename": "^in",
+                        "finished_word": {
+                            "text": "In",
+                            "hyphenated": "in",
+                            "ipa": "ɪn",
+                            "espeak_phonemes": "In"
+                        }
+                    },
+                    {
+                        "espeak": "l'aInz",
+                        "text": "lines",
+                        "filename": "l(pri)a^inz",
+                        "finished_word": {
+                            "text": "lines",
+                            "hyphenated": "lines",
+                            "ipa": "lˈaɪ.nz",
+                            "espeak_phonemes": "l'aInz"
+                        }
+                    },
+                    {
+                        "espeak": "dI2",
+                        "text": "di",
+                        "filename": "d^i2"
+                    },
+                    {
+                        "espeak": "v'aIn",
+                        "text": "vine",
+                        "filename": "v(pri)a^in",
+                        "finished_word": {
+                            "text": "divine,",
+                            "hyphenated": "di-vine",
+                            "ipa": "dɪvˈaɪ.n",
+                            "espeak_phonemes": "dI2v'aIn"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "n'0l",
+                        "text": "knowl",
+                        "filename": "n(pri)0l"
+                    },
+                    {
+                        "espeak": "IdZ",
+                        "text": "edge",
+                        "filename": "^id^z",
+                        "finished_word": {
+                            "text": "knowledge",
+                            "hyphenated": "knowl-edge",
+                            "ipa": "nˈɑ.lɪdʒ",
+                            "espeak_phonemes": "n'0lIdZ"
+                        }
+                    },
+                    {
+                        "espeak": "gr'oUz",
+                        "text": "grows",
+                        "filename": "gr(pri)o^uz",
+                        "finished_word": {
+                            "text": "grows.",
+                            "hyphenated": "grows",
+                            "ipa": "ɡɹˈəʊ.z",
+                            "espeak_phonemes": "gr'oUz"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sacred Oils and Caring Repair",
+        "lines": [
+            {
+                "text": "O sacred oils, thy blessings pour,",
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "o",
+                        "filename": "(pri)o^u",
+                        "finished_word": {
+                            "text": "O",
+                            "hyphenated": "o",
+                            "ipa": "ˈəʊ",
+                            "espeak_phonemes": "'oU"
+                        }
+                    },
+                    {
+                        "espeak": "s'eI",
+                        "text": "sa",
+                        "filename": "s(pri)e^i"
+                    },
+                    {
+                        "espeak": "krI2d",
+                        "text": "cred",
+                        "filename": "kr^i2d",
+                        "finished_word": {
+                            "text": "sacred",
+                            "hyphenated": "sa-cred",
+                            "ipa": "sˈeɪ.kɹɪd",
+                            "espeak_phonemes": "s'eIkrI2d"
+                        }
+                    },
+                    {
+                        "espeak": "'OIlz",
+                        "text": "oils",
+                        "filename": "(pri)^o^ilz",
+                        "finished_word": {
+                            "text": "oils,",
+                            "hyphenated": "oils",
+                            "ipa": "ˈɔɪ.lz",
+                            "espeak_phonemes": "'OIlz"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "bl'Es",
+                        "text": "bless",
+                        "filename": "bl(pri)^es"
+                    },
+                    {
+                        "espeak": "INz",
+                        "text": "ings",
+                        "filename": "^i^nz",
+                        "finished_word": {
+                            "text": "blessings",
+                            "hyphenated": "bless-ings",
+                            "ipa": "blˈɛ.sɪŋz",
+                            "espeak_phonemes": "bl'EsINz"
+                        }
+                    },
+                    {
+                        "espeak": "p'o@",
+                        "text": "pour",
+                        "filename": "p(pri)o@",
+                        "finished_word": {
+                            "text": "pour,",
+                            "hyphenated": "pour",
+                            "ipa": "pˈɔː",
+                            "espeak_phonemes": "p'o@"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Through caring hands, thy spirit restore.",
+                "syllables": [
+                    {
+                        "espeak": "Tru:",
+                        "text": "through",
+                        "filename": "^tru(pau)",
+                        "finished_word": {
+                            "text": "Through",
+                            "hyphenated": "through",
+                            "ipa": "θɹʉː",
+                            "espeak_phonemes": "Tru:"
+                        }
+                    },
+                    {
+                        "espeak": "k'e@",
+                        "text": "car",
+                        "filename": "k(pri)e@"
+                    },
+                    {
+                        "espeak": "rI2N",
+                        "text": "ing",
+                        "filename": "r^i2^n",
+                        "finished_word": {
+                            "text": "caring",
+                            "hyphenated": "car-ing",
+                            "ipa": "kˈəː.ɹɪŋ",
+                            "espeak_phonemes": "k'e@rI2N"
+                        }
+                    },
+                    {
+                        "espeak": "h'andz",
+                        "text": "hands",
+                        "filename": "h(pri)andz",
+                        "finished_word": {
+                            "text": "hands,",
+                            "hyphenated": "hands",
+                            "ipa": "hˈæ.ndz",
+                            "espeak_phonemes": "h'andz"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "sp'Ir",
+                        "text": "spir",
+                        "filename": "sp(pri)^ir"
+                    },
+                    {
+                        "espeak": "It",
+                        "text": "it",
+                        "filename": "^it",
+                        "finished_word": {
+                            "text": "spirit",
+                            "hyphenated": "spir-it",
+                            "ipa": "spˈɪ.ɹɪt",
+                            "espeak_phonemes": "sp'IrIt"
+                        }
+                    },
+                    {
+                        "espeak": "rI2",
+                        "text": "re",
+                        "filename": "r^i2"
+                    },
+                    {
+                        "espeak": "st'o@",
+                        "text": "store",
+                        "filename": "st(pri)o@",
+                        "finished_word": {
+                            "text": "restore.",
+                            "hyphenated": "re-store",
+                            "ipa": "ɹɪstˈɔː",
+                            "espeak_phonemes": "rI2st'o@"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Each touch, each prayer, thy spark ignites,",
+                "syllables": [
+                    {
+                        "espeak": "'i:tS",
+                        "text": "each",
+                        "filename": "(pri)i(pau)t^s",
+                        "finished_word": {
+                            "text": "Each",
+                            "hyphenated": "each",
+                            "ipa": "ˈi.tʃ",
+                            "espeak_phonemes": "'i:tS"
+                        }
+                    },
+                    {
+                        "espeak": "t'VtS",
+                        "text": "touch",
+                        "filename": "t(pri)^vt^s",
+                        "finished_word": {
+                            "text": "touch,",
+                            "hyphenated": "touch",
+                            "ipa": "tˈʌ.tʃ",
+                            "espeak_phonemes": "t'VtS"
+                        }
+                    },
+                    {
+                        "espeak": "'i:tS",
+                        "text": "each",
+                        "filename": "(pri)i(pau)t^s",
+                        "finished_word": {
+                            "text": "each",
+                            "hyphenated": "each",
+                            "ipa": "ˈi.tʃ",
+                            "espeak_phonemes": "'i:tS"
+                        }
+                    },
+                    {
+                        "espeak": "pr'e",
+                        "text": "pray",
+                        "filename": "pr(pri)e"
+                    },
+                    {
+                        "espeak": "@",
+                        "text": "er",
+                        "filename": "@",
+                        "finished_word": {
+                            "text": "prayer,",
+                            "hyphenated": "pray-er",
+                            "ipa": "pɹˈəː",
+                            "espeak_phonemes": "pr'e@"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "sp'A@k",
+                        "text": "spark",
+                        "filename": "sp(pri)^a@k",
+                        "finished_word": {
+                            "text": "spark",
+                            "hyphenated": "spark",
+                            "ipa": "spˈɑ.k",
+                            "espeak_phonemes": "sp'A@k"
+                        }
+                    },
+                    {
+                        "espeak": "Ig",
+                        "text": "ig",
+                        "filename": "^ig"
+                    },
+                    {
+                        "espeak": "n'aIts",
+                        "text": "nites",
+                        "filename": "n(pri)a^its",
+                        "finished_word": {
+                            "text": "ignites,",
+                            "hyphenated": "ig-nites",
+                            "ipa": "ɪɡnˈaɪ.ts",
+                            "espeak_phonemes": "Ign'aIts"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "In holy repair, thy faith delights.",
+                "syllables": [
+                    {
+                        "espeak": "In",
+                        "text": "in",
+                        "filename": "^in",
+                        "finished_word": {
+                            "text": "In",
+                            "hyphenated": "in",
+                            "ipa": "ɪn",
+                            "espeak_phonemes": "In"
+                        }
+                    },
+                    {
+                        "espeak": "h'oU",
+                        "text": "ho",
+                        "filename": "h(pri)o^u"
+                    },
+                    {
+                        "espeak": "li",
+                        "text": "ly",
+                        "filename": "li",
+                        "finished_word": {
+                            "text": "holy",
+                            "hyphenated": "ho-ly",
+                            "ipa": "hˈəʊ.lɪ",
+                            "espeak_phonemes": "h'oUli"
+                        }
+                    },
+                    {
+                        "espeak": "rI2",
+                        "text": "re",
+                        "filename": "r^i2"
+                    },
+                    {
+                        "espeak": "p'e@",
+                        "text": "pair",
+                        "filename": "p(pri)e@",
+                        "finished_word": {
+                            "text": "repair,",
+                            "hyphenated": "re-pair",
+                            "ipa": "ɹɪpˈəː",
+                            "espeak_phonemes": "rI2p'e@"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "f'eIT",
+                        "text": "faith",
+                        "filename": "f(pri)e^i^t",
+                        "finished_word": {
+                            "text": "faith",
+                            "hyphenated": "faith",
+                            "ipa": "fˈeɪ.θ",
+                            "espeak_phonemes": "f'eIT"
+                        }
+                    },
+                    {
+                        "espeak": "dI2",
+                        "text": "de",
+                        "filename": "d^i2"
+                    },
+                    {
+                        "espeak": "l'aIts",
+                        "text": "lights",
+                        "filename": "l(pri)a^its",
+                        "finished_word": {
+                            "text": "delights.",
+                            "hyphenated": "de-lights",
+                            "ipa": "dɪlˈaɪ.ts",
+                            "espeak_phonemes": "dI2l'aIts"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "There is Security in Obscurity, Strength in Secrets",
+        "lines": [
+            {
+                "text": "O veiled truth, thy strength concealed,",
+                "syllables": [
+                    {
+                        "espeak": "'oU",
+                        "text": "o",
+                        "filename": "(pri)o^u",
+                        "finished_word": {
+                            "text": "O",
+                            "hyphenated": "o",
+                            "ipa": "ˈəʊ",
+                            "espeak_phonemes": "'oU"
+                        }
+                    },
+                    {
+                        "espeak": "v'eIld",
+                        "text": "veiled",
+                        "filename": "v(pri)e^ild",
+                        "finished_word": {
+                            "text": "veiled",
+                            "hyphenated": "veiled",
+                            "ipa": "vˈeɪ.ld",
+                            "espeak_phonemes": "v'eIld"
+                        }
+                    },
+                    {
+                        "espeak": "tr'u:T",
+                        "text": "truth",
+                        "filename": "tr(pri)u(pau)^t",
+                        "finished_word": {
+                            "text": "truth,",
+                            "hyphenated": "truth",
+                            "ipa": "tɹˈʉː.θ",
+                            "espeak_phonemes": "tr'u:T"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "str'ENT",
+                        "text": "strength",
+                        "filename": "str(pri)^e^n^t",
+                        "finished_word": {
+                            "text": "strength",
+                            "hyphenated": "strength",
+                            "ipa": "stɹˈɛ.ŋθ",
+                            "espeak_phonemes": "str'ENT"
+                        }
+                    },
+                    {
+                        "espeak": "k@",
+                        "text": "con",
+                        "filename": "k@"
+                    },
+                    {
+                        "espeak": "ns'i:ld",
+                        "text": "cealed",
+                        "filename": "ns(pri)i(pau)ld",
+                        "finished_word": {
+                            "text": "concealed,",
+                            "hyphenated": "con-cealed",
+                            "ipa": "kʌnsˈi.ld",
+                            "espeak_phonemes": "k@ns'i:ld"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Through obscurity, thy power revealed.",
+                "syllables": [
+                    {
+                        "espeak": "Tru:",
+                        "text": "through",
+                        "filename": "^tru(pau)",
+                        "finished_word": {
+                            "text": "Through",
+                            "hyphenated": "through",
+                            "ipa": "θɹʉː",
+                            "espeak_phonemes": "Tru:"
+                        }
+                    },
+                    {
+                        "espeak": "0b",
+                        "text": "ob",
+                        "filename": "0b"
+                    },
+                    {
+                        "espeak": "skj",
+                        "text": "scu",
+                        "filename": "skj"
+                    },
+                    {
+                        "espeak": "'Ur",
+                        "text": "ri",
+                        "filename": "(pri)^ur"
+                    },
+                    {
+                        "espeak": "I2ti",
+                        "text": "ty",
+                        "filename": "^i2ti",
+                        "finished_word": {
+                            "text": "obscurity,",
+                            "hyphenated": "ob-scu-ri-ty",
+                            "ipa": "ɑbskjˈʊə.ɹɪtɪ",
+                            "espeak_phonemes": "0bskj'UrI2ti"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "p'aU",
+                        "text": "pow",
+                        "filename": "p(pri)a^u"
+                    },
+                    {
+                        "espeak": "3",
+                        "text": "er",
+                        "filename": "3",
+                        "finished_word": {
+                            "text": "power",
+                            "hyphenated": "pow-er",
+                            "ipa": "pˈaʊ.ʌ",
+                            "espeak_phonemes": "p'aU3"
+                        }
+                    },
+                    {
+                        "espeak": "rI2",
+                        "text": "re",
+                        "filename": "r^i2"
+                    },
+                    {
+                        "espeak": "v'i:ld",
+                        "text": "vealed",
+                        "filename": "v(pri)i(pau)ld",
+                        "finished_word": {
+                            "text": "revealed.",
+                            "hyphenated": "re-vealed",
+                            "ipa": "ɹɪvˈi.ld",
+                            "espeak_phonemes": "rI2v'i:ld"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "In hidden codes, thy safety lies,",
+                "syllables": [
+                    {
+                        "espeak": "In",
+                        "text": "in",
+                        "filename": "^in",
+                        "finished_word": {
+                            "text": "In",
+                            "hyphenated": "in",
+                            "ipa": "ɪn",
+                            "espeak_phonemes": "In"
+                        }
+                    },
+                    {
+                        "espeak": "h'I",
+                        "text": "hid",
+                        "filename": "h(pri)^i"
+                    },
+                    {
+                        "espeak": "d@n",
+                        "text": "den",
+                        "filename": "d@n",
+                        "finished_word": {
+                            "text": "hidden",
+                            "hyphenated": "hid-den",
+                            "ipa": "hˈɪ.dʌn",
+                            "espeak_phonemes": "h'Id@n"
+                        }
+                    },
+                    {
+                        "espeak": "k'oUdz",
+                        "text": "codes",
+                        "filename": "k(pri)o^udz",
+                        "finished_word": {
+                            "text": "codes,",
+                            "hyphenated": "codes",
+                            "ipa": "kˈəʊ.dz",
+                            "espeak_phonemes": "k'oUdz"
+                        }
+                    },
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "s'eIf",
+                        "text": "safe",
+                        "filename": "s(pri)e^if"
+                    },
+                    {
+                        "espeak": "ti",
+                        "text": "ty",
+                        "filename": "ti",
+                        "finished_word": {
+                            "text": "safety",
+                            "hyphenated": "safe-ty",
+                            "ipa": "sˈeɪ.ftɪ",
+                            "espeak_phonemes": "s'eIfti"
+                        }
+                    },
+                    {
+                        "espeak": "l'aIz",
+                        "text": "lies",
+                        "filename": "l(pri)a^iz",
+                        "finished_word": {
+                            "text": "lies,",
+                            "hyphenated": "lies",
+                            "ipa": "lˈaɪ.z",
+                            "espeak_phonemes": "l'aIz"
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Thy secrets guard where wisdom thrives.",
+                "syllables": [
+                    {
+                        "espeak": "D,aI",
+                        "text": "thy",
+                        "filename": "^d(sec)a^i",
+                        "finished_word": {
+                            "text": "Thy",
+                            "hyphenated": "thy",
+                            "ipa": "ðˌaɪ",
+                            "espeak_phonemes": "D,aI"
+                        }
+                    },
+                    {
+                        "espeak": "s'i:",
+                        "text": "se",
+                        "filename": "s(pri)i(pau)"
+                    },
+                    {
+                        "espeak": "kr@ts",
+                        "text": "crets",
+                        "filename": "kr@ts",
+                        "finished_word": {
+                            "text": "secrets",
+                            "hyphenated": "se-crets",
+                            "ipa": "sˈi.kɹʌts",
+                            "espeak_phonemes": "s'i:kr@ts"
+                        }
+                    },
+                    {
+                        "espeak": "g'A@d_:_:",
+                        "text": "guard",
+                        "filename": "g(pri)^a@d(ssp)(pau)(ssp)(pau)",
+                        "finished_word": {
+                            "text": "guard",
+                            "hyphenated": "guard",
+                            "ipa": "ɡˈɑ.d",
+                            "espeak_phonemes": "g'A@d_:_:"
+                        }
+                    },
+                    {
+                        "espeak": "w,e@",
+                        "text": "where",
+                        "filename": "w(sec)e@",
+                        "finished_word": {
+                            "text": "where",
+                            "hyphenated": "where",
+                            "ipa": "wˌəː",
+                            "espeak_phonemes": "w,e@"
+                        }
+                    },
+                    {
+                        "espeak": "w'Iz",
+                        "text": "wis",
+                        "filename": "w(pri)^iz"
+                    },
+                    {
+                        "espeak": "d@m",
+                        "text": "dom",
+                        "filename": "d@m",
+                        "finished_word": {
+                            "text": "wisdom",
+                            "hyphenated": "wis-dom",
+                            "ipa": "wˈɪ.zdʌm",
+                            "espeak_phonemes": "w'Izd@m"
+                        }
+                    },
+                    {
+                        "espeak": "Tr",
+                        "text": "thri",
+                        "filename": "^tr"
+                    },
+                    {
+                        "espeak": "'aIvz",
+                        "text": "ves",
+                        "filename": "(pri)a^ivz",
+                        "finished_word": {
+                            "text": "thrives.",
+                            "hyphenated": "thri-ves",
+                            "ipa": "θɹˈaɪ.vz",
+                            "espeak_phonemes": "Tr'aIvz"
+                        }
+                    }
+                ]
+            }
+        ]
     }
 ]

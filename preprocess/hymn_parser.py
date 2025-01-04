@@ -311,8 +311,9 @@ def get_syllable_dict(espeak_s, str_s, output_dir="./raw_tts"):
     # Sanity check
     expected_long_syllables = [
         "through", "thought", "breathes", "wreaths", "streams", "strikes",
-        "steel's",
-        "ation's", "science",  # from longer words like con(science)
+        "steel's", "strength",
+        # from longer words like con(science)
+        "ation's", "science", "cients'", "chine's"
     ]
     if len(str_s) > 6 and str_s not in expected_long_syllables:
         print(f"Long syllable? : {str_s} ({espeak_s})")
