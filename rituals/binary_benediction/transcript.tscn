@@ -1,0 +1,45 @@
+[gd_scene load_steps=2 format=3 uid="uid://cu1qml5j5wmwo"]
+
+[ext_resource type="Script" path="res://rituals/binary_benediction/transcript.gd" id="1_3uqg3"]
+
+[node name="Transcript" type="Node2D"]
+script = ExtResource("1_3uqg3")
+
+[node name="Text" type="Label" parent="."]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = 1096.0
+offset_right = 1152.0
+offset_bottom = 92.0
+grow_horizontal = 0
+theme_type_variation = &"MutedLabel"
+theme_override_font_sizes/font_size = 0
+text = "testing
+testing
+testing
+testing
+testing"
+horizontal_alignment = 2
+
+[node name="PhoneticsHBox" type="HBoxContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Espeak" type="Label" parent="PhoneticsHBox"]
+layout_mode = 2
+theme_type_variation = &"MutedLabel"
+text = "testing
+testing
+testing
+testing
+testing"
+
+[node name="IPA" type="Label" parent="PhoneticsHBox"]
+layout_mode = 2
+theme_type_variation = &"MutedLabel"
+text = "testing
+testing
+testing
+testing
+testing"

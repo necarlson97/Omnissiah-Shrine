@@ -12,8 +12,11 @@ func _ready() -> void:
 func _input(event: InputEvent) -> void:
 	# Keep track of the note plays 
 	if BinaryBenediction.get_note_key(event) > -1:
-		# Record the current time in seconds
-		input_times.append(Time.get_ticks_msec() / 1000.0)
+		key_pressed()
+
+func key_pressed():
+	# Record the current time in seconds
+	input_times.append(Time.get_ticks_msec() / 1000.0)
 
 func _process(delta: float) -> void:
 	var current_time = Time.get_ticks_msec() / 1000.0

@@ -1,38 +1,13 @@
-[gd_scene load_steps=13 format=3 uid="uid://c61riv2sy78v2"]
+[gd_scene load_steps=9 format=3 uid="uid://c61riv2sy78v2"]
 
 [ext_resource type="Script" path="res://rituals/binary_benediction/binary_benediction.gd" id="1_qf34k"]
 [ext_resource type="AudioStream" uid="uid://dca2dyjmn3x8a" path="res://assets/Omnissiah_Drone.mp3" id="2_cksuw"]
-[ext_resource type="Script" path="res://rituals/binary_benediction/transcript.gd" id="2_emcjy"]
 [ext_resource type="Texture2D" uid="uid://d1wndb774ahv5" path="res://assets/pointer.png" id="3_roh52"]
+[ext_resource type="PackedScene" uid="uid://bsqhwuw0rfd07" path="res://rituals/binary_benediction/gears.tscn" id="4_6ws13"]
 [ext_resource type="Script" path="res://rituals/binary_benediction/pointer.gd" id="4_sdrll"]
-[ext_resource type="SpriteFrames" uid="uid://mmtm43q5x81u" path="res://assets/gears.tres" id="6_21qwv"]
-[ext_resource type="Script" path="res://rituals/binary_benediction/gears.gd" id="6_674xt"]
-
-[sub_resource type="Gradient" id="Gradient_ojwy8"]
-offsets = PackedFloat32Array(0, 0.0576132, 0.707819, 1)
-colors = PackedColorArray(0, 0, 0, 1, 0.980125, 0.716056, 0.342229, 1, 0.431373, 0.796078, 0.388235, 1, 0, 0, 0, 0)
-
-[sub_resource type="GradientTexture1D" id="GradientTexture1D_1k1hp"]
-gradient = SubResource("Gradient_ojwy8")
-
-[sub_resource type="Curve" id="Curve_dymg2"]
-_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.302583, 1), 0.0, 0.0, 0, 0, Vector2(0.867159, 0.960546), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
-point_count = 4
-
-[sub_resource type="CurveTexture" id="CurveTexture_7hjku"]
-curve = SubResource("Curve_dymg2")
-
-[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_xkwvm"]
-particle_flag_disable_z = true
-direction = Vector3(-1, 1, 0)
-initial_velocity_max = 218.59
-angular_velocity_min = -1.60933e-05
-angular_velocity_max = 720.0
-gravity = Vector3(0, 98, 0)
-scale_min = 3.55
-scale_max = 3.55
-scale_curve = SubResource("CurveTexture_7hjku")
-color_ramp = SubResource("GradientTexture1D_1k1hp")
+[ext_resource type="PackedScene" uid="uid://cu1qml5j5wmwo" path="res://rituals/binary_benediction/transcript.tscn" id="5_5ntg7"]
+[ext_resource type="Theme" uid="uid://do823bsq283g2" path="res://assets/theme.tres" id="7_7ag34"]
+[ext_resource type="Script" path="res://rituals/binary_benediction/read_along.gd" id="7_k3ol4"]
 
 [node name="BinaryBenediction" type="Node2D"]
 script = ExtResource("1_qf34k")
@@ -45,65 +20,9 @@ scale = Vector2(0.2, 0.2)
 texture = ExtResource("3_roh52")
 script = ExtResource("4_sdrll")
 
-[node name="Gears" type="AnimatedSprite2D" parent="."]
-position = Vector2(1150, 0)
-scale = Vector2(0.1, 0.1)
-sprite_frames = ExtResource("6_21qwv")
-animation = &"gear spin"
-frame_progress = 0.02128
-speed_scale = 20.0
-centered = false
-offset = Vector2(-920, 0)
-script = ExtResource("6_674xt")
+[node name="Gears" parent="." instance=ExtResource("4_6ws13")]
 
-[node name="SparkParticles2D" type="GPUParticles2D" parent="Gears"]
-position = Vector2(-430, 620)
-amount = 20
-process_material = SubResource("ParticleProcessMaterial_xkwvm")
-explosiveness = 0.53
-randomness = 1.0
-
-[node name="Transcript" type="Node2D" parent="."]
-script = ExtResource("2_emcjy")
-
-[node name="Text" type="Label" parent="Transcript"]
-anchors_preset = 1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = 1096.0
-offset_right = 1152.0
-offset_bottom = 92.0
-grow_horizontal = 0
-theme_type_variation = &"MutedLabel"
-theme_override_font_sizes/font_size = 0
-text = "testing
-testing
-testing
-testing
-testing"
-horizontal_alignment = 2
-
-[node name="PhoneticsHBox" type="HBoxContainer" parent="Transcript"]
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Espeak" type="Label" parent="Transcript/PhoneticsHBox"]
-layout_mode = 2
-theme_type_variation = &"MutedLabel"
-text = "testing
-testing
-testing
-testing
-testing"
-
-[node name="IPA" type="Label" parent="Transcript/PhoneticsHBox"]
-layout_mode = 2
-theme_type_variation = &"MutedLabel"
-text = "testing
-testing
-testing
-testing
-testing"
+[node name="Transcript" parent="." instance=ExtResource("5_5ntg7")]
 
 [node name="CamHolder" type="Node2D" parent="."]
 
@@ -115,3 +34,54 @@ position = Vector2(575, 325)
 [node name="DronePlayer" type="AudioStreamPlayer2D" parent="CamHolder"]
 stream = ExtResource("2_cksuw")
 autoplay = true
+
+[node name="ReadAlong" type="CanvasLayer" parent="."]
+script = ExtResource("7_k3ol4")
+
+[node name="Control" type="Control" parent="ReadAlong"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="ReadAlong/Control"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -316.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="Panel" type="Panel" parent="ReadAlong/Control/MarginContainer"]
+layout_mode = 2
+theme = ExtResource("7_7ag34")
+
+[node name="MarginContainer" type="MarginContainer" parent="ReadAlong/Control/MarginContainer/Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ReadAlong/Control/MarginContainer/Panel/MarginContainer"]
+layout_mode = 2
+theme_override_font_sizes/normal_font_size = 38
+text = "testing testing one two three
+testing testing one two three
+testing testing one two three
+testing testing one two three
+testing testing one two three
+testing testing one two three"
+fit_content = true

@@ -1,0 +1,48 @@
+[gd_scene load_steps=8 format=3 uid="uid://bsqhwuw0rfd07"]
+
+[ext_resource type="SpriteFrames" uid="uid://mmtm43q5x81u" path="res://assets/gears.tres" id="1_1k5e6"]
+[ext_resource type="Script" path="res://rituals/binary_benediction/gears.gd" id="2_5ubk0"]
+
+[sub_resource type="Gradient" id="Gradient_ojwy8"]
+offsets = PackedFloat32Array(0, 0.0576132, 0.707819, 1)
+colors = PackedColorArray(0, 0, 0, 1, 0.980125, 0.716056, 0.342229, 1, 0.431373, 0.796078, 0.388235, 1, 0, 0, 0, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_1k1hp"]
+gradient = SubResource("Gradient_ojwy8")
+
+[sub_resource type="Curve" id="Curve_dymg2"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.302583, 1), 0.0, 0.0, 0, 0, Vector2(0.867159, 0.960546), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="CurveTexture" id="CurveTexture_7hjku"]
+curve = SubResource("Curve_dymg2")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_xkwvm"]
+particle_flag_disable_z = true
+direction = Vector3(-1, 1, 0)
+initial_velocity_max = 218.59
+angular_velocity_min = -1.60933e-05
+angular_velocity_max = 720.0
+gravity = Vector3(0, 98, 0)
+scale_min = 3.55
+scale_max = 3.55
+scale_curve = SubResource("CurveTexture_7hjku")
+color_ramp = SubResource("GradientTexture1D_1k1hp")
+
+[node name="Gears" type="AnimatedSprite2D"]
+position = Vector2(1150, 0)
+scale = Vector2(0.1, 0.1)
+sprite_frames = ExtResource("1_1k5e6")
+animation = &"gear spin"
+frame_progress = 0.42848
+speed_scale = 20.0
+centered = false
+offset = Vector2(-920, 0)
+script = ExtResource("2_5ubk0")
+
+[node name="SparkParticles2D" type="GPUParticles2D" parent="."]
+position = Vector2(-430, 620)
+amount = 20
+process_material = SubResource("ParticleProcessMaterial_xkwvm")
+explosiveness = 0.53
+randomness = 1.0

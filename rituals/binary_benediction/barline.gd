@@ -15,7 +15,7 @@ var wave_timer: Timer
 var velocities = range(wave_resolution).map(func(_i): return 0.0)
 var displacements = range(wave_resolution).map(func(_i): return 0.0)
 
-var rest_color = Color.DIM_GRAY
+var rest_color = ThemeDB.get_project_theme().get_color("darker", "CSS")
 
 static func create(index: int, height: float) -> Barline:
 	var new = preload("res://rituals/binary_benediction/barline.tscn").instantiate() as Barline
@@ -26,9 +26,13 @@ static func create(index: int, height: float) -> Barline:
 	
 func _ready():
 	setup_line()
+	set_color(rest_color)
+
+func _process(delta: float) -> void:
+	# Lerp color back towards rest color
+	default_color = default_color.lerp(rest_color, 0.01)
 
 func setup_line():
-	default_color = rest_color
 	width = 5
 	var margin = BinaryBenediction.margin
 	var max_width = get_viewport().size.x - 2 * margin
@@ -108,14 +112,16 @@ func _update_wave():
 		var p = points[i]
 		# Vertical displacement only
 		points[i] = Vector2(p.x, displacements[i])
-		
-	# Lerp color back towards rest color
-	default_color = default_color.lerp(rest_color, 0.01)
 
 	# Once wave is set to rest at 0, we can stop timer and reset color fully
 	if _is_wave_at_rest():
 		default_color = rest_color
 		wave_timer.stop()
+
+func set_color(color: Color):
+	# Snap to a specific color
+	rest_color = color
+	default_color = color
 
 func _is_wave_at_rest() -> bool:
 	var threshold = 0.1

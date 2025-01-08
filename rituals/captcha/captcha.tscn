@@ -1,0 +1,135 @@
+[gd_scene load_steps=20 format=3 uid="uid://4nc1atpwmchw"]
+
+[ext_resource type="Script" path="res://rituals/captcha/captcha.gd" id="1_0w0ua"]
+[ext_resource type="Texture2D" uid="uid://d34g8dvcfwhm6" path="res://assets/symbols/symbol ahi.png" id="1_ju8l7"]
+[ext_resource type="PackedScene" uid="uid://bsqhwuw0rfd07" path="res://rituals/binary_benediction/gears.tscn" id="2_5ajqb"]
+[ext_resource type="Texture2D" uid="uid://b4lqp2pn5eqv2" path="res://assets/symbols/symbol 3y.png" id="2_kv7hl"]
+[ext_resource type="Texture2D" uid="uid://cwin34gcxufrc" path="res://assets/symbols/symbol aia.png" id="2_pwdok"]
+[ext_resource type="Texture2D" uid="uid://uwtvyiskl0ah" path="res://assets/symbols/symbol aui.png" id="3_0hsnu"]
+[ext_resource type="Texture2D" uid="uid://iyeh5b6vsnsc" path="res://assets/symbols/symbol ez.png" id="4_n2ni7"]
+[ext_resource type="Texture2D" uid="uid://d2wu1liu04r7a" path="res://assets/symbols/symbol ic.png" id="5_u1o2m"]
+[ext_resource type="Texture2D" uid="uid://bmmd5pc6ftxul" path="res://assets/symbols/symbol iio.png" id="6_tq5g1"]
+[ext_resource type="Texture2D" uid="uid://c7jaauhkx5em5" path="res://assets/symbols/symbol io.png" id="7_u2kx0"]
+[ext_resource type="Texture2D" uid="uid://s6fa7bdek4dx" path="res://assets/symbols/symbol ioo.png" id="8_pnpqd"]
+[ext_resource type="Texture2D" uid="uid://vaqmy4g12gqi" path="res://assets/symbols/symbol itn.png" id="9_2t86b"]
+[ext_resource type="Texture2D" uid="uid://c5ilhikg8m3qv" path="res://assets/symbols/symbol ly.png" id="10_wg3c8"]
+[ext_resource type="Texture2D" uid="uid://duhunbv4wnbq" path="res://assets/symbols/symbol mmt.png" id="11_sxriw"]
+[ext_resource type="Texture2D" uid="uid://b11fmar8qb56y" path="res://assets/symbols/symbol ny.png" id="14_cj70i"]
+[ext_resource type="Texture2D" uid="uid://c1rnf1t04dtra" path="res://assets/symbols/symbol oil.png" id="15_yis25"]
+[ext_resource type="Texture2D" uid="uid://bt77f46f2mj5b" path="res://assets/symbols/symbol tz.png" id="16_gnc24"]
+[ext_resource type="Texture2D" uid="uid://d1wndb774ahv5" path="res://assets/pointer.png" id="17_djvje"]
+[ext_resource type="Script" path="res://rituals/binary_benediction/pointer.gd" id="18_qbpbr"]
+
+[node name="captcha" type="Node2D"]
+script = ExtResource("1_0w0ua")
+all_symbols = Array[Texture2D]([ExtResource("2_kv7hl"), ExtResource("1_ju8l7"), ExtResource("2_pwdok"), ExtResource("3_0hsnu"), ExtResource("4_n2ni7"), ExtResource("5_u1o2m"), ExtResource("6_tq5g1"), ExtResource("7_u2kx0"), ExtResource("8_pnpqd"), ExtResource("9_2t86b"), ExtResource("10_wg3c8"), ExtResource("11_sxriw"), ExtResource("14_cj70i"), ExtResource("15_yis25"), ExtResource("16_gnc24")])
+
+[node name="Pointer" type="Sprite2D" parent="."]
+position = Vector2(699, 248)
+scale = Vector2(0.6, -0.6)
+texture = ExtResource("17_djvje")
+script = ExtResource("18_qbpbr")
+
+[node name="Label" type="Label" parent="."]
+modulate = Color(0.168627, 0.431373, 0.2, 1)
+offset_left = 21.0
+offset_top = 7.0
+offset_right = 781.0
+offset_bottom = 87.0
+theme_override_font_sizes/font_size = 80
+text = "PROVE YOUR HUMANITY"
+
+[node name="Gears" parent="." instance=ExtResource("2_5ajqb")]
+position = Vector2(1150, 432)
+scale = Vector2(0.229565, 0.229565)
+
+[node name="Numpad" type="GridContainer" parent="."]
+anchors_preset = -1
+anchor_left = 0.057
+anchor_top = 0.157
+anchor_right = 0.057
+anchor_bottom = 0.157
+offset_left = 46.0
+offset_top = 100.0
+offset_right = 654.0
+offset_bottom = 912.0
+scale = Vector2(0.6, 0.6)
+size_flags_horizontal = 0
+columns = 3
+
+[node name="blank" type="TextureRect" parent="Numpad"]
+layout_mode = 2
+
+[node name="slash" type="TextureRect" parent="Numpad"]
+layout_mode = 2
+texture = ExtResource("1_ju8l7")
+
+[node name="*" type="TextureRect" parent="Numpad"]
+layout_mode = 2
+texture = ExtResource("2_pwdok")
+
+[node name="7" type="TextureRect" parent="Numpad"]
+layout_mode = 2
+texture = ExtResource("3_0hsnu")
+
+[node name="8" type="TextureRect" parent="Numpad"]
+layout_mode = 2
+texture = ExtResource("4_n2ni7")
+
+[node name="9" type="TextureRect" parent="Numpad"]
+layout_mode = 2
+texture = ExtResource("5_u1o2m")
+
+[node name="4" type="TextureRect" parent="Numpad"]
+layout_mode = 2
+texture = ExtResource("6_tq5g1")
+
+[node name="5" type="TextureRect" parent="Numpad"]
+layout_mode = 2
+texture = ExtResource("7_u2kx0")
+
+[node name="6" type="TextureRect" parent="Numpad"]
+layout_mode = 2
+texture = ExtResource("8_pnpqd")
+
+[node name="1" type="TextureRect" parent="Numpad"]
+layout_mode = 2
+texture = ExtResource("9_2t86b")
+
+[node name="2" type="TextureRect" parent="Numpad"]
+layout_mode = 2
+texture = ExtResource("10_wg3c8")
+
+[node name="3" type="TextureRect" parent="Numpad"]
+layout_mode = 2
+texture = ExtResource("11_sxriw")
+
+[node name="Entry" type="GridContainer" parent="."]
+anchors_preset = -1
+anchor_left = 0.057
+anchor_top = 0.157
+anchor_right = 0.057
+anchor_bottom = 0.157
+offset_left = 641.0
+offset_top = 100.0
+offset_right = 1453.0
+offset_bottom = 300.0
+scale = Vector2(0.6, 0.6)
+size_flags_horizontal = 0
+columns = 4
+
+[node name="0" type="TextureRect" parent="Entry"]
+layout_mode = 2
+texture = ExtResource("11_sxriw")
+
+[node name="1" type="TextureRect" parent="Entry"]
+layout_mode = 2
+texture = ExtResource("9_2t86b")
+
+[node name="2" type="TextureRect" parent="Entry"]
+layout_mode = 2
+texture = ExtResource("10_wg3c8")
+
+[node name="3" type="TextureRect" parent="Entry"]
+layout_mode = 2
+texture = ExtResource("11_sxriw")

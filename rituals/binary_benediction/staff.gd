@@ -17,6 +17,7 @@ static func create(note_data: Dictionary) -> Staff:
 func _ready():
 	create_staff_lines(line_count)
 	generate_notes(note_data)
+	$Cursor.modulate = ThemeDB.get_project_theme().get_color("darker", "CSS")
 	
 func create_staff_lines(line_count: int):
 	for i in range(line_count):
@@ -41,6 +42,19 @@ func generate_notes(note_data: Dictionary):
 		x_position += note_spacing
 
 		notes_to_play.append(note)
+
+var _active = false
+func activate():
+	# When this staff becomes the next-in-line, brigten up it's colors
+	if _active:
+		return
+	_active = true
+	var lighter_gray = ThemeDB.get_project_theme().get_color("dark", "CSS")
+	$Cursor.modulate = lighter_gray
+	for line in $Lines.get_children():
+		line.set_color(lighter_gray)
+	for note in notes_to_play:
+		note.set_color(lighter_gray)
 
 func play_note(pressed_line: int) -> bool:
 	# Play a given note, returning true if the note was correct

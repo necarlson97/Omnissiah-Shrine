@@ -3,6 +3,8 @@ class_name Note
 
 @onready var audio_player: AudioStreamPlayer2D = get_tree().get_root().find_child("AudioStreamPlayer2D", true, false)
 
+var syllable = ""
+var phoneme = ""
 # What pitch line does this note rest on?
 var pitch_int: int = -1
 # Do we play the whole word file, or just part?
@@ -12,7 +14,7 @@ var syllable_data: Dictionary
 var line: Barline
 
 # Sometimes we change color suddenly, other times we lerp
-var target_color = Color.WEB_GRAY
+var target_color = ThemeDB.get_project_theme().get_color("darker", "CSS")
 
 static func create(syllable_data: Dictionary, lines: Array) -> Note:
 	var note = preload("res://rituals/binary_benediction/note.tscn").instantiate() as Note
@@ -26,16 +28,18 @@ static func create(syllable_data: Dictionary, lines: Array) -> Note:
 		note.pitch_int = int(syllable_data['text'])
 	note.line = lines[lines.size() - 1 - note.pitch_int]
 	
-	(func(): note._setup(syllable_data['text'], syllable_data['espeak'])).call_deferred()
 	var audio_path = "res://preprocess/audio/%s.wav" % syllable_data['filename']
 	var audio_stream = load(audio_path) as AudioStream
 	note.audio_stream = audio_stream
+	
+	note.syllable = syllable_data["text"]
+	note.phoneme = syllable_data["espeak"]
 	return note
 
-func _setup(syllable: String, phonemes: String):
-	$Phoneme.text = phonemes
+func _ready() -> void:
+	$Phoneme.text = phoneme
 	$Text.text = syllable
-	$Sprite2D.modulate = target_color
+	set_color(target_color)
 
 func voice_word(pitch_pressed: int):
 	# Set the pitch shift effect on the 'chant' audio bus
@@ -81,11 +85,15 @@ func fail():
 	$Sprite2D.modulate = ThemeDB.get_project_theme().get_color("bad", "CSS")
 
 func comming_next():
-	target_color = Color.WHITE
-	$Sprite2D.modulate = Color.WHITE
+	set_color(Color.WHITE)
 	
 func _process(delta: float) -> void:
 	$Sprite2D.modulate = $Sprite2D.modulate.lerp(target_color, 0.04)
+	
+func set_color(color: Color):
+	# Snap to a specific color
+	$Sprite2D.modulate = color
+	target_color = color
 	
 func _to_string() -> String:
 	return "%s (%s)"%[syllable_data["text"], pitch_int]
