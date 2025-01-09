@@ -120,6 +120,8 @@ columns = 4
 
 [node name="0" type="TextureRect" parent="Entry"]
 layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
 texture = ExtResource("11_sxriw")
 
 [node name="1" type="TextureRect" parent="Entry"]

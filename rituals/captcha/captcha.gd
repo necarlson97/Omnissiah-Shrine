@@ -28,29 +28,19 @@ func _input(event: InputEvent):
 	if not (event is InputEventKey and event.is_pressed()):
 		return
 		
-	var keys_to_names = {
-		KEY_KP_1: "1",
-		KEY_KP_2: "2",
-		KEY_KP_3: "3",
-		KEY_KP_4: "4",
-		KEY_KP_5: "5",
-		KEY_KP_6: "6",
-		KEY_KP_7: "7",
-		KEY_KP_8: "8",
-		KEY_KP_9: "9",
-		KEY_SLASH: "slash",
-		KEY_ASTERISK: "*",
-	}
+	var keys = [
+		"1", "2", "3",
+		"4", "5", "6",
+		"7", "8", "9",
+		"slash", "*"
+	]
 	
-	print(event.keycode)
-	print(keys_to_names)
-	print(keys_to_names[event.keycode])
-		
-	if event.keycode in keys_to_names:
-		var texture = $Numpad.get_node(keys_to_names[event.keycode]).texture
-		var current_entry = $Entry.get_node("%s"%pointer_index) as TextureRect
-		current_entry.texture = texture
-		pointer_index += 1
+	for key in keys:
+		if event.is_action_pressed(key):
+			var texture = $Numpad.get_node(key).texture
+			var current_entry = $Entry.get_node("%s"%pointer_index) as TextureRect
+			current_entry.texture = texture
+			pointer_index += 1
 	
 	if event.is_action_pressed("ui_text_backspace"):
 		pointer_index -= 1
@@ -58,4 +48,4 @@ func _input(event: InputEvent):
 		
 func _process(delta: float) -> void:
 	var current_entry = $Entry.get_node("%s"%pointer_index) as TextureRect
-	$Pointer.global_position.x = current_entry.global_position.x
+	$Pointer.global_position.x = current_entry.get_global_rect().get_center().x
