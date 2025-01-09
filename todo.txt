@@ -1,3 +1,8 @@
+Capthca juice:
+	* Plug in thing animation that creates spartks when finished. Lerps farward/backward with correct/total
+	* Pulse (White lerp to gray) the nupad key that is pressed
+	* X or ? or w/e for not-yet-set icons
+
 Binary benediction juice:
 	# Make the zero and one for binary lower - probs easiest to do in python hand have like a (low) wav for each.
 	# Anchor to bottom? So that keys can be 'lined up' with screen? Move edge of screen with the cursor as it presses along? Flip vertically?

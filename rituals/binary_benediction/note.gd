@@ -67,8 +67,6 @@ func get_pitch_scale(pitch_pressed: int) -> float:
 	# to match the pressed note
 	
 	# Assume the input is at C#(3)
-
-	
 	var semitone_shifts = [0, +2, +3]  # Semitone shifts
 	var semitone_shift = semitone_shifts[pitch_pressed]
 	var pitch_scale = pow(2.0, semitone_shift / 12.0)

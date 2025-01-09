@@ -7,14 +7,14 @@
 offsets = PackedFloat32Array(0, 0.0576132, 0.707819, 1)
 colors = PackedColorArray(0, 0, 0, 1, 0.980125, 0.716056, 0.342229, 1, 0.431373, 0.796078, 0.388235, 1, 0, 0, 0, 0)
 
-[sub_resource type="GradientTexture1D" id="GradientTexture1D_1k1hp"]
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_1khs5"]
 gradient = SubResource("Gradient_ojwy8")
 
 [sub_resource type="Curve" id="Curve_dymg2"]
 _data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.302583, 1), 0.0, 0.0, 0, 0, Vector2(0.867159, 0.960546), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
 point_count = 4
 
-[sub_resource type="CurveTexture" id="CurveTexture_7hjku"]
+[sub_resource type="CurveTexture" id="CurveTexture_nrg87"]
 curve = SubResource("Curve_dymg2")
 
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_xkwvm"]
@@ -26,8 +26,8 @@ angular_velocity_max = 720.0
 gravity = Vector3(0, 98, 0)
 scale_min = 3.55
 scale_max = 3.55
-scale_curve = SubResource("CurveTexture_7hjku")
-color_ramp = SubResource("GradientTexture1D_1k1hp")
+scale_curve = SubResource("CurveTexture_nrg87")
+color_ramp = SubResource("GradientTexture1D_1khs5")
 
 [node name="Gears" type="AnimatedSprite2D"]
 position = Vector2(1150, 0)

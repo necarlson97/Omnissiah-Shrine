@@ -10,8 +10,7 @@ func _ready() -> void:
 	speed_scale = 0.0
 
 func _input(event: InputEvent) -> void:
-	# Keep track of the note plays 
-	if BinaryBenediction.get_note_key(event) > -1:
+	if event is InputEventKey and event.is_pressed():
 		key_pressed()
 
 func key_pressed():
