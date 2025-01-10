@@ -4,7 +4,12 @@ extends Node2D
 var correct_symbols: Array[Texture2D]
 var pointer_index = 0
 
+var next_scene_path = "res://rituals/binary_benediction/binary_benediction.tscn"
+
 func _ready() -> void:
+	# Start load on next scene
+	ResourceLoader.load_threaded_request(next_scene_path)
+	
 	var numpad_keys = $Numpad.get_children().filter(func(c): return c.name != "blank")
 	var entries = $Entry.get_children()
 	
@@ -33,7 +38,7 @@ func _input(event: InputEvent):
 		
 	# If we are already done here, move on
 	if get_correct_ratio() >= 1:
-		get_tree().change_scene_to_file("res://rituals/binary_benediction/binary_benediction.tscn")
+		next_scene_is_ready()
 	
 	var keys = [
 		"1", "2", "3",
@@ -49,6 +54,8 @@ func _input(event: InputEvent):
 				numpad_key.was_pressed()
 				var texture = numpad_key.texture
 				var current_entry = $Entry.get_node("%s"%pointer_index) as EntryChar
+				
+				voice_omnissiah()
 				if current_entry.check_texture(texture):
 					pointer_index += 1
 				check_complete()
@@ -73,7 +80,33 @@ func check_complete():
 	# TODO flash text
 	# TODO anything for reveal text? Turn green and lock in?
 	$Numpad/blank.lock_in()
+	$BinaryBabble.done()
+	var good_color = ThemeDB.get_project_theme().get_color("good", "CSS")
+	$Pointer.stop(good_color)
 		
 func _process(delta: float) -> void:
 	var current_entry = $Entry.get_node("%s"%pointer_index) as EntryChar
 	$Pointer.global_position.x = current_entry.get_global_rect().get_center().x
+
+func voice_omnissiah():
+	# have each keypress read out his name,
+	# one syllable at a time
+	var syllable_filenames = ["(sec)0m", "n^i", "s(pri)a^i", "@"]
+	var audio = Note.get_syllable_audio_stream(syllable_filenames[pointer_index])
+	$AudioStreamPlayer2D.stream = audio
+	$AudioStreamPlayer2D.play()
+
+func next_scene_is_ready():
+	var progress : Array[float]
+	var loading_status = ResourceLoader.load_threaded_get_status(next_scene_path, progress)
+	
+	# Check the loading status:
+	match loading_status:
+		ResourceLoader.THREAD_LOAD_IN_PROGRESS:
+			print("Loading: %s"%progress[0])
+		ResourceLoader.THREAD_LOAD_LOADED:
+			# When done loading, change to the target scene:
+			get_tree().change_scene_to_packed(ResourceLoader.load_threaded_get(next_scene_path))
+		ResourceLoader.THREAD_LOAD_FAILED:
+			# Well some error happend:
+			print("Error. Could not load Resource")

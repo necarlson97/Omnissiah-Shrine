@@ -70,6 +70,9 @@ func play_note(pressed_line: int) -> bool:
 	$Cursor.global_position.x = note.global_position.x
 	return was_correct
 
+func get_text() -> String:
+	return note_data.get("text", "")
+
 func is_done() -> bool:
 	return notes_to_play.size() == 0
 	

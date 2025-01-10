@@ -27,14 +27,15 @@ static func create(syllable_data: Dictionary, lines: Array) -> Note:
 	if syllable_data['text'] == "0" or syllable_data['text'] == "1":
 		note.pitch_int = int(syllable_data['text'])
 	note.line = lines[lines.size() - 1 - note.pitch_int]
-	
-	var audio_path = "res://preprocess/audio/%s.wav" % syllable_data['filename']
-	var audio_stream = load(audio_path) as AudioStream
-	note.audio_stream = audio_stream
+	note.audio_stream = get_syllable_audio_stream(syllable_data['filename'])
 	
 	note.syllable = syllable_data["text"]
 	note.phoneme = syllable_data["espeak"]
 	return note
+
+static func get_syllable_audio_stream(filename: String) -> AudioStream:
+	var audio_path = "res://preprocess/audio/%s.wav" % filename
+	return load(audio_path) as AudioStream
 
 func _ready() -> void:
 	$Phoneme.text = phoneme
@@ -71,7 +72,8 @@ func get_pitch_scale(pitch_pressed: int) -> float:
 	var semitone_shift = semitone_shifts[pitch_pressed]
 	var pitch_scale = pow(2.0, semitone_shift / 12.0)
 	# Add a little randomness
-	pitch_scale += randf_range(-0.01, 0.01)
+	var variation = 0.02
+	pitch_scale += randf_range(-variation, variation)
 	return pitch_scale
 
 func success():

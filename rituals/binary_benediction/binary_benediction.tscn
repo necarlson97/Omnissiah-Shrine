@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://c61riv2sy78v2"]
+[gd_scene load_steps=11 format=3 uid="uid://c61riv2sy78v2"]
 
 [ext_resource type="Script" path="res://rituals/binary_benediction/binary_benediction.gd" id="1_qf34k"]
 [ext_resource type="AudioStream" uid="uid://dca2dyjmn3x8a" path="res://assets/Omnissiah_Drone.mp3" id="2_cksuw"]
@@ -7,7 +7,9 @@
 [ext_resource type="Script" path="res://rituals/binary_benediction/pointer.gd" id="4_sdrll"]
 [ext_resource type="PackedScene" uid="uid://cu1qml5j5wmwo" path="res://rituals/binary_benediction/transcript.tscn" id="5_5ntg7"]
 [ext_resource type="Theme" uid="uid://do823bsq283g2" path="res://assets/theme.tres" id="7_7ag34"]
+[ext_resource type="PackedScene" uid="uid://ds0fsygy2jb3x" path="res://rituals/binary_benediction/click_player.tscn" id="7_gtcaf"]
 [ext_resource type="Script" path="res://rituals/binary_benediction/read_along.gd" id="7_k3ol4"]
+[ext_resource type="Script" path="res://rituals/captcha/imperial_date.gd" id="8_8a6ux"]
 
 [node name="BinaryBenediction" type="Node2D"]
 script = ExtResource("1_qf34k")
@@ -35,6 +37,9 @@ position = Vector2(575, 325)
 stream = ExtResource("2_cksuw")
 autoplay = true
 
+[node name="ClickPlayer" parent="CamHolder" instance=ExtResource("7_gtcaf")]
+volume_db = -30.0
+
 [node name="ReadAlong" type="CanvasLayer" parent="."]
 script = ExtResource("7_k3ol4")
 
@@ -45,6 +50,19 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="ImperialDate" type="Label" parent="ReadAlong/Control"]
+modulate = Color(0.184314, 0.184314, 0.184314, 1)
+z_index = 1
+layout_mode = 2
+offset_left = 811.0
+offset_top = 293.0
+offset_right = 1051.0
+offset_bottom = 333.0
+theme_override_font_sizes/font_size = 40
+text = "0.123.123.M0"
+horizontal_alignment = 2
+script = ExtResource("8_8a6ux")
 
 [node name="MarginContainer" type="MarginContainer" parent="ReadAlong/Control"]
 layout_mode = 1

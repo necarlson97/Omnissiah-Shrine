@@ -30,3 +30,4 @@ func done():
 		return
 	is_done = true
 	$SparkParticles2D.emitting = true
+	$DataFlowParticles.emitting = true

@@ -41,7 +41,7 @@ func _ready():
 
 	current_hymn_index = randi_range(0, all_hymn_data.size()-1)
 	create_hymn(all_hymn_data[current_hymn_index])
-	staffs_to_play[0].activate()
+	activate_staff()
 	advance_pointer()
 
 func create_hymn(hymn_data: Dictionary):
@@ -81,6 +81,8 @@ static func get_note_key(event) -> int:
 	return -1
 
 func note_pressed(pressed_line: int):
+	if not staffs_to_play:
+		return
 	var current_note = staffs_to_play[0].notes_to_play[0]
 	var was_correct = staffs_to_play[0].play_note(pressed_line)
 	$ReadAlong.advance(current_note, was_correct)
@@ -88,12 +90,16 @@ func note_pressed(pressed_line: int):
 	if staffs_to_play[0].is_done():
 		staffs_to_play.pop_front()
 		if staffs_to_play.is_empty():
-			current_hymn_index = (current_hymn_index + 1) % all_hymn_data.size()
-			create_hymn(all_hymn_data[current_hymn_index])
-		staffs_to_play[0].activate()
+			done()
+			return
+		activate_staff()
 		
 	advance_pointer()
-	
+
+func activate_staff():
+	staffs_to_play[0].activate()
+	$CamHolder/ClickPlayer.set_binary_score(staffs_to_play[0].get_text())
+
 func advance_pointer():
 	var next_note = staffs_to_play[0].notes_to_play[0] as Note
 	next_note.comming_next()
@@ -102,6 +108,13 @@ func advance_pointer():
 
 var cam_speed = 10
 func _process(delta: float) -> void:
-	var current_staff = staffs_to_play[0]
-	if current_staff:
-		$Staffs.position = $Staffs.position.lerp(-current_staff.position, cam_speed * delta)
+	if staffs_to_play:
+		$Staffs.position = $Staffs.position.lerp(
+			-staffs_to_play[0].position, cam_speed * delta)
+
+func done(next_hymn=false):
+	if next_hymn:
+		current_hymn_index = (current_hymn_index - 1) % all_hymn_data.size()
+		create_hymn(all_hymn_data[current_hymn_index])
+		return
+	print("Done")

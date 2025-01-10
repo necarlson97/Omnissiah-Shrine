@@ -1,4 +1,4 @@
-[gd_scene load_steps=235 format=3 uid="uid://4nc1atpwmchw"]
+[gd_scene load_steps=234 format=3 uid="uid://4nc1atpwmchw"]
 
 [ext_resource type="Script" path="res://rituals/captcha/captcha.gd" id="1_0w0ua"]
 [ext_resource type="Texture2D" uid="uid://d34g8dvcfwhm6" path="res://assets/symbols/symbol ahi.png" id="1_ju8l7"]
@@ -228,6 +228,7 @@
 [ext_resource type="Script" path="res://rituals/captcha/cable.gd" id="225_7ueha"]
 [ext_resource type="Texture2D" uid="uid://dfnx8nqb1i4w1" path="res://assets/imperial-eagle.png" id="225_p8uho"]
 [ext_resource type="Texture2D" uid="uid://dbh46ey5r1q6m" path="res://assets/cult-mechanicus-symbol.png" id="226_b05uk"]
+[ext_resource type="Script" path="res://rituals/captcha/imperial_date.gd" id="229_g80a1"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_jul0k"]
 animations = [{
@@ -838,33 +839,22 @@ animations = [{
 }]
 
 [sub_resource type="Gradient" id="Gradient_rtdmx"]
-offsets = PackedFloat32Array(0, 0.0576132, 0.707819, 1)
-colors = PackedColorArray(0, 0, 0, 1, 0.980125, 0.716056, 0.342229, 1, 0.431373, 0.796078, 0.388235, 1, 0, 0, 0, 0)
+offsets = PackedFloat32Array(0.0576132, 0.707819)
+colors = PackedColorArray(0.980125, 0.716056, 0.342229, 1, 0.431373, 0.796078, 0.388235, 1)
 
 [sub_resource type="GradientTexture1D" id="GradientTexture1D_1k1hp"]
 gradient = SubResource("Gradient_rtdmx")
 
-[sub_resource type="Curve" id="Curve_ie8e1"]
-_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.302583, 1), 0.0, 0.0, 0, 0, Vector2(0.867159, 0.960546), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
-point_count = 4
-
-[sub_resource type="CurveTexture" id="CurveTexture_7hjku"]
-curve = SubResource("Curve_ie8e1")
-
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_0dmd4"]
 particle_flag_disable_z = true
 emission_shape = 3
-emission_box_extents = Vector3(1, 100, 1)
-direction = Vector3(0, 1, 0)
-spread = 20.0
-initial_velocity_min = 92.95
-initial_velocity_max = 314.9
-angular_velocity_min = -1.60933e-05
-angular_velocity_max = 909.55
-gravity = Vector3(0, 98, 0)
-scale_min = 3.55
-scale_max = 3.55
-scale_curve = SubResource("CurveTexture_7hjku")
+emission_box_extents = Vector3(1, 80, 1)
+spread = 0.0
+initial_velocity_min = 1540.0
+initial_velocity_max = 1560.0
+gravity = Vector3(0, 0, 0)
+scale_min = 16.75
+scale_max = 16.85
 color_ramp = SubResource("GradientTexture1D_1k1hp")
 
 [node name="captcha" type="Node2D"]
@@ -899,8 +889,9 @@ columns = 3
 modulate = Color(0.101961, 0.101961, 0.101961, 1)
 layout_mode = 2
 theme_override_font_sizes/normal_font_size = 33
-text = "012345678912101234567891201234567891301234567891401234567891501234567891"
+text = "chcksm lockd01234567891201234567891301234567891401234567891501234567891"
 scroll_active = false
+autowrap_mode = 1
 script = ExtResource("20_o2up5")
 metadata/_edit_group_ = true
 
@@ -1082,6 +1073,7 @@ script = ExtResource("24_get5p")
 position = Vector2(899, 66.5)
 scale = Vector2(0.543478, 0.543478)
 sprite_frames = SubResource("SpriteFrames_jul0k")
+frame = 199
 script = ExtResource("225_7ueha")
 
 [node name="SparkParticles2D" type="GPUParticles2D" parent="Cable"]
@@ -1092,6 +1084,15 @@ process_material = SubResource("ParticleProcessMaterial_0dmd4")
 one_shot = true
 explosiveness = 0.99
 randomness = 1.0
+
+[node name="DataFlowParticles" type="GPUParticles2D" parent="Cable"]
+z_index = -1
+position = Vector2(-393.76, -2.76)
+emitting = false
+amount = 50
+process_material = SubResource("ParticleProcessMaterial_0dmd4")
+lifetime = 0.5
+explosiveness = 0.82
 
 [node name="Cult-mechanicus-symbol" type="Sprite2D" parent="Cable"]
 modulate = Color(0.393086, 0.393085, 0.393085, 1)
@@ -1113,6 +1114,17 @@ offset_right = 776.0
 offset_bottom = 86.0
 theme_override_font_sizes/font_size = 65
 text = "PROVE YOUR HUMANITY"
+
+[node name="ImperialDate" type="Label" parent="."]
+modulate = Color(0.431373, 0.796078, 0.388235, 1)
+offset_left = 171.0
+offset_top = 505.0
+offset_right = 485.0
+offset_bottom = 550.0
+theme_override_font_sizes/font_size = 40
+text = "0.123.123.M0"
+horizontal_alignment = 1
+script = ExtResource("229_g80a1")
 
 [node name="Label2" type="Label" parent="."]
 modulate = Color(0.168627, 0.431373, 0.2, 1)
@@ -1181,3 +1193,5 @@ text = "THEY SEE YOU"
 horizontal_alignment = 1
 justification_flags = 160
 metadata/_edit_use_anchors_ = true
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
