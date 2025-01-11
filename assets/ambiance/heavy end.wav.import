@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dp2m31fjkkaj"
+path="res://.godot/imported/heavy end.wav-b7297c49a548f61d6e3475d8e8b1e9eb.sample"
+
+[deps]
+
+source_file="res://assets/ambiance/heavy end.wav"
+dest_files=["res://.godot/imported/heavy end.wav-b7297c49a548f61d6e3475d8e8b1e9eb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

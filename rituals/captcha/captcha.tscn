@@ -1,4 +1,4 @@
-[gd_scene load_steps=234 format=3 uid="uid://4nc1atpwmchw"]
+[gd_scene load_steps=243 format=3 uid="uid://4nc1atpwmchw"]
 
 [ext_resource type="Script" path="res://rituals/captcha/captcha.gd" id="1_0w0ua"]
 [ext_resource type="Texture2D" uid="uid://d34g8dvcfwhm6" path="res://assets/symbols/symbol ahi.png" id="1_ju8l7"]
@@ -229,6 +229,13 @@
 [ext_resource type="Texture2D" uid="uid://dfnx8nqb1i4w1" path="res://assets/imperial-eagle.png" id="225_p8uho"]
 [ext_resource type="Texture2D" uid="uid://dbh46ey5r1q6m" path="res://assets/cult-mechanicus-symbol.png" id="226_b05uk"]
 [ext_resource type="Script" path="res://rituals/captcha/imperial_date.gd" id="229_g80a1"]
+[ext_resource type="Script" path="res://ambiance_contoller.gd" id="230_fb8l6"]
+[ext_resource type="AudioStream" uid="uid://dp2m31fjkkaj" path="res://assets/ambiance/heavy end.wav" id="231_n4fn7"]
+[ext_resource type="AudioStream" uid="uid://bw5mii3arqnjx" path="res://assets/ambiance/heavy middle.wav" id="232_3d58p"]
+[ext_resource type="Script" path="res://ambiance_setting.gd" id="233_640pu"]
+[ext_resource type="AudioStream" uid="uid://dedqde57li0ct" path="res://assets/ambiance/heavy start.wav" id="234_a38nw"]
+[ext_resource type="AudioStream" uid="uid://b8y4usl17fdbr" path="res://assets/ambiance/light middle.wav" id="235_3jmbn"]
+[ext_resource type="AudioStream" uid="uid://b0disw6h1bt3n" path="res://assets/ambiance/light start.wav" id="236_vpw83"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_jul0k"]
 animations = [{
@@ -857,6 +864,19 @@ scale_min = 16.75
 scale_max = 16.85
 color_ramp = SubResource("GradientTexture1D_1k1hp")
 
+[sub_resource type="Resource" id="Resource_ri0ss"]
+script = ExtResource("233_640pu")
+name = "light"
+start = ExtResource("236_vpw83")
+middle = ExtResource("235_3jmbn")
+
+[sub_resource type="Resource" id="Resource_kq7jk"]
+script = ExtResource("233_640pu")
+name = "heavy"
+start = ExtResource("234_a38nw")
+middle = ExtResource("232_3d58p")
+exit = ExtResource("231_n4fn7")
+
 [node name="captcha" type="Node2D"]
 script = ExtResource("1_0w0ua")
 all_symbols = Array[Texture2D]([ExtResource("2_kv7hl"), ExtResource("1_ju8l7"), ExtResource("2_pwdok"), ExtResource("3_0hsnu"), ExtResource("4_n2ni7"), ExtResource("5_u1o2m"), ExtResource("6_tq5g1"), ExtResource("7_u2kx0"), ExtResource("8_pnpqd"), ExtResource("9_2t86b"), ExtResource("10_wg3c8"), ExtResource("11_sxriw"), ExtResource("14_cj70i"), ExtResource("15_yis25"), ExtResource("16_gnc24")])
@@ -1195,3 +1215,8 @@ justification_flags = 160
 metadata/_edit_use_anchors_ = true
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+
+[node name="AmbianceContoller" type="AudioStreamPlayer2D" parent="."]
+volume_db = -10.0
+script = ExtResource("230_fb8l6")
+ambiances = Array[ExtResource("233_640pu")]([SubResource("Resource_ri0ss"), SubResource("Resource_kq7jk")])

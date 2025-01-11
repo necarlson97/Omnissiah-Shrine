@@ -76,6 +76,9 @@ func check_complete():
 	$Cable.ratio = ratio
 	if ratio < 1:
 		return
+	done()
+
+func done():
 	$Label.text = "PRESS ANY TO CONT."
 	# TODO flash text
 	# TODO anything for reveal text? Turn green and lock in?
@@ -83,6 +86,7 @@ func check_complete():
 	$BinaryBabble.done()
 	var good_color = ThemeDB.get_project_theme().get_color("good", "CSS")
 	$Pointer.stop(good_color)
+	$AmbianceContoller.set_ambiance_by_name("heavy")
 		
 func _process(delta: float) -> void:
 	var current_entry = $Entry.get_node("%s"%pointer_index) as EntryChar

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dedqde57li0ct"
+path="res://.godot/imported/heavy start.wav-c84647d04a811307318d5a828eef2646.sample"
+
+[deps]
+
+source_file="res://assets/ambiance/heavy start.wav"
+dest_files=["res://.godot/imported/heavy start.wav-c84647d04a811307318d5a828eef2646.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
