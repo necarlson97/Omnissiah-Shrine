@@ -39,7 +39,7 @@ func _ready():
 		print("Hymns empty: %s" % all_hymn_data)
 		return
 
-	current_hymn_index = randi_range(0, all_hymn_data.size()-1)
+	current_hymn_index = Kronos.get_day_of_year() % all_hymn_data.size()
 	create_hymn(all_hymn_data[current_hymn_index])
 	activate_staff()
 	advance_pointer()
@@ -74,8 +74,8 @@ static func get_note_key(event) -> int:
 	if not (event is InputEventKey and event.is_pressed()):
 		return -1
 		
-	if event.keycode in [KEY_KP_1, KEY_KP_2, KEY_KP_3]:
-		return event.keycode - KEY_KP_1
+	if event.keycode in range(KEY_KP_1, KEY_KP_9+1):
+		return (event.keycode - KEY_KP_1) % 3
 	if event.keycode in [KEY_1, KEY_2, KEY_3]:
 		return event.keycode - KEY_1
 	return -1
@@ -117,4 +117,16 @@ func done(next_hymn=false):
 		current_hymn_index = (current_hymn_index - 1) % all_hymn_data.size()
 		create_hymn(all_hymn_data[current_hymn_index])
 		return
-	print("Done")
+	var all_notes: Array[Note]
+	for s in $Staffs.get_children():
+		var note_holder = s.get_node_or_null("Notes")
+		if note_holder:
+			for n in s.get_node("Notes").get_children():
+				all_notes.append(n)
+	
+	var correct_notes = all_notes.filter(func(n): return n.was_correct())
+	Archivist.save_day_info({
+		"correct count": correct_notes.size(),
+		"note count": all_notes.size(),
+		"correct ratio": float(correct_notes.size()) / all_notes.size(),
+	})

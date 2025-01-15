@@ -30,5 +30,12 @@ func lock_in():
 	locked_in = true
 	reveal_speed *= 3
 	curr_speed *= 3
+	var binary_str = text
 	text = "chcksm lockd" + text.substr(12, -1)
 	modulate = ThemeDB.get_project_theme().get_color("good_dark", "CSS")
+	
+	# Just for fun, use this to set eye blink in this scene
+	var eye = get_parent().get_parent().get_node_or_null("CultEye") as CultEye
+	if eye:
+		eye.binary_string = binary_str
+		eye.faster()

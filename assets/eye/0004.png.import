@@ -2,27 +2,26 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dbh46ey5r1q6m"
-path.s3tc="res://.godot/imported/cult-mechanicus-symbol.png-4356f651e50324cec42c2d00fbe3d6b4.s3tc.ctex"
+uid="uid://cl1lyr83pdccl"
+path="res://.godot/imported/0004.png-5102bd7352b6d2427fd4695995e0c221.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/cult-mechanicus-symbol.png"
-dest_files=["res://.godot/imported/cult-mechanicus-symbol.png-4356f651e50324cec42c2d00fbe3d6b4.s3tc.ctex"]
+source_file="res://assets/eye/0004.png"
+dest_files=["res://.godot/imported/0004.png-5102bd7352b6d2427fd4695995e0c221.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=true
+mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
@@ -32,4 +31,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=0
+detect_3d/compress_to=1

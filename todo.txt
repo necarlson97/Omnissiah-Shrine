@@ -1,4 +1,5 @@
 Could do an artificial terminal boot 'loading screen'
+Oooh! Take the gear icon into blender and do an eye 'blinking'
 
 Capthca juice:
 	* Plug in thing animation that creates spartks when finished. Lerps farward/backward with correct/total

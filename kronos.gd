@@ -24,7 +24,7 @@ static func get_imperial_date() -> String:
 	var second_of_minute = datetime.second
 	
 	# Calculate the year fraction
-	var days_in_year = 366 if is_leap_year(year) else 365
+	var days_in_year = get_days_in_year(datetime)
 	var total_seconds_in_year = days_in_year * 24 * 3600
 	var seconds_per_fraction = total_seconds_in_year / 1000
 	
@@ -54,6 +54,11 @@ static func get_day_of_year(datetime=null) -> int:
 	day_of_year += datetime.day
 	
 	return day_of_year
+
+static func get_days_in_year(datetime=null):
+	if datetime == null:
+		datetime = Time.get_datetime_dict_from_system()
+	return 366 if is_leap_year(datetime.year) else 365
 
 static func is_leap_year(year: int) -> bool:
 	# Checks if a year is a leap year

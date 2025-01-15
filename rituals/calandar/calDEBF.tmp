@@ -1,0 +1,83 @@
+[gd_scene load_steps=13 format=3 uid="uid://hue7uwgfql0x"]
+
+[ext_resource type="Script" path="res://rituals/calandar/calandar.gd" id="1_68x3y"]
+[ext_resource type="Script" path="res://ambiance_contoller.gd" id="2_fau8v"]
+[ext_resource type="Script" path="res://ambiance_setting.gd" id="3_fjefr"]
+[ext_resource type="AudioStream" uid="uid://b8y4usl17fdbr" path="res://assets/ambiance/light middle.wav" id="4_rtofn"]
+[ext_resource type="AudioStream" uid="uid://b0disw6h1bt3n" path="res://assets/ambiance/light start.wav" id="5_bccig"]
+[ext_resource type="AudioStream" uid="uid://dp2m31fjkkaj" path="res://assets/ambiance/heavy end.wav" id="6_sfrl2"]
+[ext_resource type="AudioStream" uid="uid://bw5mii3arqnjx" path="res://assets/ambiance/heavy middle.wav" id="7_unnep"]
+[ext_resource type="AudioStream" uid="uid://dedqde57li0ct" path="res://assets/ambiance/heavy start.wav" id="8_ecjmv"]
+[ext_resource type="Script" path="res://rituals/captcha/imperial_date.gd" id="9_4yjlm"]
+[ext_resource type="Script" path="res://rituals/calandar/day_in_year.gd" id="9_pp66f"]
+
+[sub_resource type="Resource" id="Resource_ri0ss"]
+script = ExtResource("3_fjefr")
+name = "light"
+start = ExtResource("5_bccig")
+middle = ExtResource("4_rtofn")
+
+[sub_resource type="Resource" id="Resource_kq7jk"]
+script = ExtResource("3_fjefr")
+name = "heavy"
+start = ExtResource("8_ecjmv")
+middle = ExtResource("7_unnep")
+exit = ExtResource("6_sfrl2")
+
+[node name="Calandar" type="Node2D"]
+script = ExtResource("1_68x3y")
+
+[node name="AmbianceContoller" type="AudioStreamPlayer2D" parent="."]
+volume_db = -10.0
+script = ExtResource("2_fau8v")
+ambiances = Array[ExtResource("3_fjefr")]([SubResource("Resource_ri0ss"), SubResource("Resource_kq7jk")])
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 157.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="GridContainer" type="GridContainer" parent="CanvasLayer/Control/MarginContainer"]
+layout_mode = 2
+columns = 31
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="DayInYear" type="Label" parent="CanvasLayer/HBoxContainer"]
+modulate = Color(0.168627, 0.431373, 0.2, 1)
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+theme_override_font_sizes/font_size = 40
+text = "000/000  "
+horizontal_alignment = 2
+justification_flags = 160
+script = ExtResource("9_pp66f")
+
+[node name="ImperialDate" type="Label" parent="CanvasLayer/HBoxContainer"]
+modulate = Color(0.184314, 0.184314, 0.184314, 1)
+z_index = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "0.123.123.M0"
+script = ExtResource("9_4yjlm")

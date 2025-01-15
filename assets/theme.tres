@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=4 format=3 uid="uid://do823bsq283g2"]
+[gd_resource type="Theme" load_steps=6 format=3 uid="uid://do823bsq283g2"]
 
 [ext_resource type="FontFile" uid="uid://73f7sjamwkgf" path="res://assets/unifont.ttf" id="1_8yipg"]
 
@@ -27,6 +27,12 @@ corner_radius_top_right = 5
 corner_radius_bottom_right = 5
 corner_radius_bottom_left = 5
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ab4kf"]
+bg_color = Color(0.505882, 0.164706, 0.164706, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_41lrw"]
+bg_color = Color(0.431373, 0.796078, 0.388235, 1)
+
 [resource]
 default_font = ExtResource("1_8yipg")
 CSS/colors/bad = Color(0.901961, 0.223529, 0.27451, 1)
@@ -36,7 +42,10 @@ CSS/colors/darker = Color(0.18359, 0.18359, 0.18359, 1)
 CSS/colors/darkest = Color(0.103744, 0.103744, 0.103744, 1)
 CSS/colors/good = Color(0.431373, 0.796078, 0.388235, 1)
 CSS/colors/good_dark = Color(0.168627, 0.431373, 0.2, 1)
+CSS/colors/highlight = Color(0.942702, 0.746718, 0.334111, 1)
 CSS/styles/panel = SubResource("StyleBoxFlat_medue")
 MutedLabel/base_type = &"Label"
 MutedLabel/colors/font_color = Color(0.485703, 0.485704, 0.485703, 1)
 Panel/styles/panel = SubResource("StyleBoxFlat_fatnq")
+ProgressBar/styles/background = SubResource("StyleBoxFlat_ab4kf")
+ProgressBar/styles/fill = SubResource("StyleBoxFlat_41lrw")

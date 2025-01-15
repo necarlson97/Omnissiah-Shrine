@@ -7,6 +7,7 @@ var syllable = ""
 var phoneme = ""
 # What pitch line does this note rest on?
 var pitch_int: int = -1
+var pitch_pressed: int = -2
 # Do we play the whole word file, or just part?
 var audio_stream: AudioStream
 var syllable_data: Dictionary
@@ -57,11 +58,15 @@ func voice_word(pitch_pressed: int):
 		var transcript = Utils.static_get_matching_node(get_tree().root, Transcript) as Transcript
 		transcript.finished_word(syllable_data["finished_word"])
 	
-func pitch_pressed(pitch_pressed: int) -> bool:
+func pitch_was_pressed(pressed: int) -> bool:
+	pitch_pressed = pressed
 	voice_word(pitch_pressed)
-	if pitch_int == pitch_pressed: success()
+	if was_correct(): success()
 	else: fail()
-	return pitch_int == pitch_pressed
+	return was_correct()
+	
+func was_correct() -> bool:
+	return pitch_pressed == pitch_int
 	
 func get_pitch_scale(pitch_pressed: int) -> float:
 	# Returns the 'pitch scale' needed to shift the audio clip

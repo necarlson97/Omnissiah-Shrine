@@ -63,7 +63,7 @@ func play_note(pressed_line: int) -> bool:
 		return true
 
 	var note = notes_to_play.pop_front()
-	var was_correct = note.pitch_pressed(pressed_line)
+	var was_correct = note.pitch_was_pressed(pressed_line)
 	var last_idx = $Lines.get_children().size()-1
 	var line = $Lines.get_children()[last_idx-pressed_line]
 	line.trigger_wave(note.global_position.x, was_correct)
