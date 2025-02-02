@@ -17,6 +17,7 @@ config/icon="res://icon.svg"
 
 [audio]
 
+general/default_playback_type.web=0
 general/text_to_speech=true
 
 [dotnet]
