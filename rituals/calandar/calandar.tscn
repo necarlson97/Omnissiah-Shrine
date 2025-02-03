@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://hue7uwgfql0x"]
+[gd_scene load_steps=15 format=3 uid="uid://hue7uwgfql0x"]
 
 [ext_resource type="Script" path="res://rituals/calandar/calandar.gd" id="1_68x3y"]
 [ext_resource type="Script" path="res://ambiance_contoller.gd" id="2_fau8v"]
@@ -11,6 +11,7 @@
 [ext_resource type="Script" path="res://rituals/captcha/imperial_date.gd" id="9_4yjlm"]
 [ext_resource type="Texture2D" uid="uid://dbh46ey5r1q6m" path="res://assets/cult-mechanicus-symbol.png" id="9_nuwuy"]
 [ext_resource type="Script" path="res://rituals/calandar/day_in_year.gd" id="9_pp66f"]
+[ext_resource type="Script" path="res://scene_swapper.gd" id="12_s4nh0"]
 
 [sub_resource type="Resource" id="Resource_ri0ss"]
 script = ExtResource("3_fjefr")
@@ -92,3 +93,7 @@ stretch_mode = 4
 layout_mode = 2
 size_flags_vertical = 3
 columns = 31
+
+[node name="SceneSwapper" type="Node2D" parent="."]
+script = ExtResource("12_s4nh0")
+next_scene_path = "res://rituals/captcha/captcha.tscn"

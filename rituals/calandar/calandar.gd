@@ -30,3 +30,8 @@ func set_bg_color(pb: ProgressBar, color:Color):
 	var bg_box: StyleBoxFlat = pb.get_theme_stylebox("background").duplicate()
 	bg_box.bg_color = color
 	pb.add_theme_stylebox_override("background", bg_box)
+
+func _input(event: InputEvent):
+	if not (event is InputEventKey and event.is_pressed()):
+		return
+	$SceneSwapper.next()

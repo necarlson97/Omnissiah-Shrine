@@ -22,14 +22,12 @@ func _play_next():
 func _play_animation():
 	speed_scale = speed_multiplier
 	play()
-	print("Playing animation for %s"%get_duration())
 	await get_tree().create_timer(get_duration()).timeout
 	_play_next()
 
 # Wait for the duration of the animation and then call _play_next
 func _wait_for_animation_duration():
 	speed_scale = 0
-	print("Doing nothing for %s"%get_duration())
 	await get_tree().create_timer(get_duration()).timeout
 	_play_next()
 

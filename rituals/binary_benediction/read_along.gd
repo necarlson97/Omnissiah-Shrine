@@ -1,6 +1,6 @@
 extends CanvasLayer
 
-@onready var display: RichTextLabel = $Control/MarginContainer/Panel/MarginContainer/RichTextLabel
+@onready var display: RichTextLabel = $Control/MarginContainer/VBoxContainer/Panel/MarginContainer/RichTextLabel
 
 var title: String = "" # The 'header'
 var hymn_text: String = ""  # Full hymn text

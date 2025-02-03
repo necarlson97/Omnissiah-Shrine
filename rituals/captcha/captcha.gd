@@ -4,12 +4,7 @@ extends Node2D
 var correct_symbols: Array[Texture2D]
 var pointer_index = 0
 
-var next_scene_path = "res://rituals/binary_benediction/binary_benediction.tscn"
-
 func _ready() -> void:
-	# Start load on next scene
-	ResourceLoader.load_threaded_request(next_scene_path)
-	
 	var numpad_keys = $Numpad.get_children().filter(func(c): return c.name != "blank")
 	var entries = $Entry.get_children()
 	
@@ -38,7 +33,7 @@ func _input(event: InputEvent):
 		
 	# If we are already done here, move on
 	if get_correct_ratio() >= 1:
-		next_scene_is_ready()
+		$SceneSwapper.next()
 	
 	var keys = [
 		"1", "2", "3",
@@ -99,18 +94,3 @@ func voice_omnissiah():
 	var audio = Note.get_syllable_audio_stream(syllable_filenames[pointer_index])
 	$AudioStreamPlayer2D.stream = audio
 	$AudioStreamPlayer2D.play()
-
-func next_scene_is_ready():
-	var progress : Array[float]
-	var loading_status = ResourceLoader.load_threaded_get_status(next_scene_path, progress)
-	
-	# Check the loading status:
-	match loading_status:
-		ResourceLoader.THREAD_LOAD_IN_PROGRESS:
-			print("Loading: %s"%progress[0])
-		ResourceLoader.THREAD_LOAD_LOADED:
-			# When done loading, change to the target scene:
-			get_tree().change_scene_to_packed(ResourceLoader.load_threaded_get(next_scene_path))
-		ResourceLoader.THREAD_LOAD_FAILED:
-			# Well some error happend:
-			print("Error. Could not load Resource")

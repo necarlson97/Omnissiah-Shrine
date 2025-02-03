@@ -20,6 +20,12 @@ config/icon="res://icon.svg"
 general/default_playback_type.web=0
 general/text_to_speech=true
 
+[display]
+
+window/size/viewport_width=800
+window/size/viewport_height=480
+window/size/resizable=false
+
 [dotnet]
 
 project/assembly_name="Omnissiah Shrine"

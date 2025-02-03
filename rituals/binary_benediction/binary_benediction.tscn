@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://c61riv2sy78v2"]
+[gd_scene load_steps=12 format=3 uid="uid://c61riv2sy78v2"]
 
 [ext_resource type="Script" path="res://rituals/binary_benediction/binary_benediction.gd" id="1_qf34k"]
 [ext_resource type="AudioStream" uid="uid://dca2dyjmn3x8a" path="res://assets/Omnissiah_Drone.mp3" id="2_cksuw"]
@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://ds0fsygy2jb3x" path="res://rituals/binary_benediction/click_player.tscn" id="7_gtcaf"]
 [ext_resource type="Script" path="res://rituals/binary_benediction/read_along.gd" id="7_k3ol4"]
 [ext_resource type="Script" path="res://rituals/captcha/imperial_date.gd" id="8_8a6ux"]
+[ext_resource type="Script" path="res://scene_swapper.gd" id="11_iqr7o"]
 
 [node name="BinaryBenediction" type="Node2D"]
 script = ExtResource("1_qf34k")
@@ -23,13 +24,14 @@ texture = ExtResource("3_roh52")
 script = ExtResource("4_sdrll")
 
 [node name="Gears" parent="." instance=ExtResource("4_6ws13")]
+position = Vector2(798, 0)
 
 [node name="Transcript" parent="." instance=ExtResource("5_5ntg7")]
 
 [node name="CamHolder" type="Node2D" parent="."]
 
 [node name="Camera2D" type="Camera2D" parent="CamHolder"]
-position = Vector2(575, 325)
+anchor_mode = 0
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="CamHolder"]
 
@@ -48,21 +50,9 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_top = 194.0
 grow_horizontal = 2
 grow_vertical = 2
-
-[node name="ImperialDate" type="Label" parent="ReadAlong/Control"]
-modulate = Color(0.184314, 0.184314, 0.184314, 1)
-z_index = 1
-layout_mode = 2
-offset_left = 811.0
-offset_top = 293.0
-offset_right = 1051.0
-offset_bottom = 333.0
-theme_override_font_sizes/font_size = 40
-text = "0.123.123.M0"
-horizontal_alignment = 2
-script = ExtResource("8_8a6ux")
 
 [node name="MarginContainer" type="MarginContainer" parent="ReadAlong/Control"]
 layout_mode = 1
@@ -70,18 +60,31 @@ anchors_preset = 12
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_top = -316.0
+offset_top = -240.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_right = 20
 theme_override_constants/margin_bottom = 20
 
-[node name="Panel" type="Panel" parent="ReadAlong/Control/MarginContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="ReadAlong/Control/MarginContainer"]
 layout_mode = 2
+
+[node name="ImperialDate" type="Label" parent="ReadAlong/Control/MarginContainer/VBoxContainer"]
+modulate = Color(0.184314, 0.184314, 0.184314, 1)
+z_index = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "0.123.123.M0"
+horizontal_alignment = 2
+script = ExtResource("8_8a6ux")
+
+[node name="Panel" type="Panel" parent="ReadAlong/Control/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
 theme = ExtResource("7_7ag34")
 
-[node name="MarginContainer" type="MarginContainer" parent="ReadAlong/Control/MarginContainer/Panel"]
+[node name="MarginContainer" type="MarginContainer" parent="ReadAlong/Control/MarginContainer/VBoxContainer/Panel"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -93,9 +96,9 @@ theme_override_constants/margin_top = 10
 theme_override_constants/margin_right = 10
 theme_override_constants/margin_bottom = 10
 
-[node name="RichTextLabel" type="RichTextLabel" parent="ReadAlong/Control/MarginContainer/Panel/MarginContainer"]
+[node name="RichTextLabel" type="RichTextLabel" parent="ReadAlong/Control/MarginContainer/VBoxContainer/Panel/MarginContainer"]
 layout_mode = 2
-theme_override_font_sizes/normal_font_size = 38
+theme_override_font_sizes/normal_font_size = 24
 text = "testing testing one two three
 testing testing one two three
 testing testing one two three
@@ -103,3 +106,7 @@ testing testing one two three
 testing testing one two three
 testing testing one two three"
 fit_content = true
+
+[node name="SceneSwapper" type="Node2D" parent="."]
+script = ExtResource("11_iqr7o")
+next_scene_path = "res://rituals/calandar/calandar.tscn"

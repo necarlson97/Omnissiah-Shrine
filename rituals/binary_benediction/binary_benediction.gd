@@ -117,6 +117,7 @@ func done(next_hymn=false):
 		current_hymn_index = (current_hymn_index - 1) % all_hymn_data.size()
 		create_hymn(all_hymn_data[current_hymn_index])
 		return
+		
 	var all_notes: Array[Note]
 	for s in $Staffs.get_children():
 		var note_holder = s.get_node_or_null("Notes")
@@ -130,3 +131,5 @@ func done(next_hymn=false):
 		"note count": all_notes.size(),
 		"correct ratio": float(correct_notes.size()) / all_notes.size(),
 	})
+	
+	$SceneSwapper.next()

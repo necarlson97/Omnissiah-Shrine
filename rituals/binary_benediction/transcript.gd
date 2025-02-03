@@ -1,4 +1,4 @@
-extends Node2D
+extends CanvasLayer
 class_name Transcript
 # Handles the transcrips in the corner that keep track of what the player has said
 
