@@ -1,6 +1,13 @@
 Could do an artificial terminal boot 'loading screen'
 Oooh! Take the gear icon into blender and do an eye 'blinking'
 
+Utility:
+	* Need way to exit
+	* Handle music key input like (so we don't need numpad lock)
+	* arrow around on calandar to select other poems
+	* How best to handle loading?
+	* Volume?
+
 Capthca juice:
 	* Plug in thing animation that creates spartks when finished. Lerps farward/backward with correct/total
 	* Pulse (White lerp to gray) the nupad key that is pressed
@@ -41,5 +48,6 @@ Binary benediction juice:
 Add to readme:
 fbcon=rotate:2
 (also steps about wifi and whatnot)
+raspi-config to add wifi (WLAN then type wifi name then password)
 
 # Scratchpad:
