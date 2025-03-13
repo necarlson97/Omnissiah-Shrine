@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=3 uid="uid://bsqhwuw0rfd07"]
 
 [ext_resource type="SpriteFrames" uid="uid://mmtm43q5x81u" path="res://assets/gears.tres" id="1_1k5e6"]
-[ext_resource type="Script" path="res://rituals/binary_benediction/gears.gd" id="2_5ubk0"]
+[ext_resource type="Script" uid="uid://b0o08q1xj31t7" path="res://rituals/binary_benediction/gears.gd" id="2_5ubk0"]
 
 [sub_resource type="Gradient" id="Gradient_ojwy8"]
 offsets = PackedFloat32Array(0, 0.0576132, 0.707819, 1)

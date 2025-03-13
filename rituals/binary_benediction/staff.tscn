@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://1xrn1xwjadqb"]
 
-[ext_resource type="Script" path="res://rituals/binary_benediction/staff.gd" id="1_d2xo2"]
+[ext_resource type="Script" uid="uid://b4qorv3vt31pw" path="res://rituals/binary_benediction/staff.gd" id="1_d2xo2"]
 [ext_resource type="Texture2D" uid="uid://fyfcftgdlolu" path="res://assets/1x1.png" id="2_dak32"]
 
 [node name="Staff" type="Node2D"]

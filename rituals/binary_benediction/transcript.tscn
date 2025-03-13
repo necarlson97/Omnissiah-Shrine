@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://cu1qml5j5wmwo"]
 
-[ext_resource type="Script" path="res://rituals/binary_benediction/transcript.gd" id="1_3uqg3"]
+[ext_resource type="Script" uid="uid://c202c8u1ppmo4" path="res://rituals/binary_benediction/transcript.gd" id="1_3uqg3"]
 
 [node name="Transcript" type="CanvasLayer"]
 script = ExtResource("1_3uqg3")

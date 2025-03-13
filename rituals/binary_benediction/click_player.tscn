@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://ds0fsygy2jb3x"]
 
 [ext_resource type="AudioStream" uid="uid://b5ncjoerki53n" path="res://assets/192273__lebaston100__click.wav" id="1_sr15j"]
-[ext_resource type="Script" path="res://rituals/binary_benediction/click_player.gd" id="2_3jvxb"]
+[ext_resource type="Script" uid="uid://caluoox4g6vqo" path="res://rituals/binary_benediction/click_player.gd" id="2_3jvxb"]
 
 [node name="ClickPlayer" type="AudioStreamPlayer2D"]
 stream = ExtResource("1_sr15j")

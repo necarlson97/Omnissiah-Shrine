@@ -1,17 +1,17 @@
 [gd_scene load_steps=15 format=3 uid="uid://hue7uwgfql0x"]
 
-[ext_resource type="Script" path="res://rituals/calandar/calandar.gd" id="1_68x3y"]
-[ext_resource type="Script" path="res://ambiance_contoller.gd" id="2_fau8v"]
-[ext_resource type="Script" path="res://ambiance_setting.gd" id="3_fjefr"]
+[ext_resource type="Script" uid="uid://bkon1fk1c2uk3" path="res://rituals/calandar/calandar.gd" id="1_68x3y"]
+[ext_resource type="Script" uid="uid://qwqclmy2df7o" path="res://ambiance_contoller.gd" id="2_fau8v"]
+[ext_resource type="Script" uid="uid://cbq8rxj31dfou" path="res://ambiance_setting.gd" id="3_fjefr"]
 [ext_resource type="AudioStream" uid="uid://b8y4usl17fdbr" path="res://assets/ambiance/light middle.wav" id="4_rtofn"]
 [ext_resource type="AudioStream" uid="uid://b0disw6h1bt3n" path="res://assets/ambiance/light start.wav" id="5_bccig"]
 [ext_resource type="AudioStream" uid="uid://dp2m31fjkkaj" path="res://assets/ambiance/heavy end.wav" id="6_sfrl2"]
 [ext_resource type="AudioStream" uid="uid://bw5mii3arqnjx" path="res://assets/ambiance/heavy middle.wav" id="7_unnep"]
 [ext_resource type="AudioStream" uid="uid://dedqde57li0ct" path="res://assets/ambiance/heavy start.wav" id="8_ecjmv"]
-[ext_resource type="Script" path="res://rituals/captcha/imperial_date.gd" id="9_4yjlm"]
+[ext_resource type="Script" uid="uid://7iy2ieso3fen" path="res://rituals/captcha/imperial_date.gd" id="9_4yjlm"]
 [ext_resource type="Texture2D" uid="uid://dbh46ey5r1q6m" path="res://assets/cult-mechanicus-symbol.png" id="9_nuwuy"]
-[ext_resource type="Script" path="res://rituals/calandar/day_in_year.gd" id="9_pp66f"]
-[ext_resource type="Script" path="res://scene_swapper.gd" id="12_s4nh0"]
+[ext_resource type="Script" uid="uid://bmmeybk7ktejx" path="res://rituals/calandar/day_in_year.gd" id="9_pp66f"]
+[ext_resource type="Script" uid="uid://cra0qnn5f7xeb" path="res://scene_swapper.gd" id="12_s4nh0"]
 
 [sub_resource type="Resource" id="Resource_ri0ss"]
 script = ExtResource("3_fjefr")

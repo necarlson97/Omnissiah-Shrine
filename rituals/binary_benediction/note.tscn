@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://c7rocffm1ix7r"]
 
-[ext_resource type="Script" path="res://rituals/binary_benediction/note.gd" id="1_lfy4h"]
+[ext_resource type="Script" uid="uid://b0lktobrohajl" path="res://rituals/binary_benediction/note.gd" id="1_lfy4h"]
 [ext_resource type="Texture2D" uid="uid://fyfcftgdlolu" path="res://assets/1x1.png" id="2_jva0n"]
 [ext_resource type="Theme" uid="uid://do823bsq283g2" path="res://assets/theme.tres" id="3_v6ctf"]
 

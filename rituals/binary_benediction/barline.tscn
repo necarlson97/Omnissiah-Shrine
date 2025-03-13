@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://biisq4tdi2sp"]
 
-[ext_resource type="Script" path="res://rituals/binary_benediction/barline.gd" id="1_mfok6"]
+[ext_resource type="Script" uid="uid://ko7lqi802sfg" path="res://rituals/binary_benediction/barline.gd" id="1_mfok6"]
 
 [sub_resource type="Gradient" id="Gradient_7yep5"]
 offsets = PackedFloat32Array(0, 0.711934, 1)

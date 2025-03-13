@@ -1,16 +1,16 @@
 [gd_scene load_steps=12 format=3 uid="uid://c61riv2sy78v2"]
 
-[ext_resource type="Script" path="res://rituals/binary_benediction/binary_benediction.gd" id="1_qf34k"]
+[ext_resource type="Script" uid="uid://bnurxsbnsieuy" path="res://rituals/binary_benediction/binary_benediction.gd" id="1_qf34k"]
 [ext_resource type="AudioStream" uid="uid://dca2dyjmn3x8a" path="res://assets/Omnissiah_Drone.mp3" id="2_cksuw"]
 [ext_resource type="Texture2D" uid="uid://d1wndb774ahv5" path="res://assets/pointer.png" id="3_roh52"]
 [ext_resource type="PackedScene" uid="uid://bsqhwuw0rfd07" path="res://rituals/binary_benediction/gears.tscn" id="4_6ws13"]
-[ext_resource type="Script" path="res://rituals/binary_benediction/pointer.gd" id="4_sdrll"]
+[ext_resource type="Script" uid="uid://ciykf1fmaqkgd" path="res://rituals/binary_benediction/pointer.gd" id="4_sdrll"]
 [ext_resource type="PackedScene" uid="uid://cu1qml5j5wmwo" path="res://rituals/binary_benediction/transcript.tscn" id="5_5ntg7"]
 [ext_resource type="Theme" uid="uid://do823bsq283g2" path="res://assets/theme.tres" id="7_7ag34"]
 [ext_resource type="PackedScene" uid="uid://ds0fsygy2jb3x" path="res://rituals/binary_benediction/click_player.tscn" id="7_gtcaf"]
-[ext_resource type="Script" path="res://rituals/binary_benediction/read_along.gd" id="7_k3ol4"]
-[ext_resource type="Script" path="res://rituals/captcha/imperial_date.gd" id="8_8a6ux"]
-[ext_resource type="Script" path="res://scene_swapper.gd" id="11_iqr7o"]
+[ext_resource type="Script" uid="uid://dhl137342vtdr" path="res://rituals/binary_benediction/read_along.gd" id="7_k3ol4"]
+[ext_resource type="Script" uid="uid://7iy2ieso3fen" path="res://rituals/captcha/imperial_date.gd" id="8_8a6ux"]
+[ext_resource type="Script" uid="uid://cra0qnn5f7xeb" path="res://scene_swapper.gd" id="11_iqr7o"]
 
 [node name="BinaryBenediction" type="Node2D"]
 script = ExtResource("1_qf34k")
