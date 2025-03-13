@@ -125,6 +125,13 @@ In the rhythm of pistons lies the heartbeat of faith.
 Chaos finds no foothold in perfect assembly.
 To illuminate the unknown is to glorify the Omnissiah.
 
+Entropy is the true enemy.
+Your body is His property, but your domain.
+Do not comply with misfortune; transmogrify.
+Your ever-evolution shall only end in death.
+Your body must be a Theseus temple.
+
+
 In the quiet clang of disrepair; heresy echoes.
 Flow with the Omnissiah’s unyielding decree.
 The entropy of neglect is the precursor to oblivion.
@@ -135,18 +142,100 @@ Without the Machine Spirit, even stars dim to nothingness.
 The blade dulls where faith is absent.
 To hesitate in maintenance is to question the divine.
 The righteous hand guides the unerring tool.
-Beyond the rust lies the promise of renewal.
+Beyond rust lies the promise of renewal.
 The cadence of engines is the rhythm of the eternal.
-To program without wisdom is to summon ruin.
-Each alignment of gears furthers divine order.
-A system without purpose collapses into chaos.
+To program without wisdom is to conjure ruin.
+A system without purpose collapses.
 Knowledge preserved is faith eternalized.
 Faulty components reflect faulty devotion.
-In precision, we ascend beyond mortality.
+In precision, we transcend mortality.
 The path of the ancients is carved in steel and code.
 A machine untended is a soul untethered.
 Worship without function is like rust on sacred metal.
-The hum of the machine is the lullaby of creation.
-Complexity reveals truth; simplicity is heresy.
-The faithful embrace entropy only to conquer it.
-Every blueprint is a fragment of eternal perfection.
+The grind of the machine is the lullaby of creation.
+Simplicity suggests deception; in complexity is truth.
+Fight fire with fire, fight entropy with entropy.
+Every blueprint is a mirror-shard of perfection.
+
+A star-system may be undone by a single bit flip.
+A short-circut may be small, but can downstream, can kill-all.
+"Alive" may be a boolean, and "lives" an integer - but living is floating-point.
+
+The last gear will turn long after flesh has rotted.
+If you do not refine, you will be refined.
+Thought without action is an unspent charge.
+One lost component is the first stone in an avalanche.
+Where steel breaks, faith failed first.
+Disobedience begins in the rust of the mind.
+The weak are those who accept their born malfunctions.
+Knowledge is a lineage, an unbroken chain.
+To correct deviation is to honor the source.
+You are permitted no fear but the fear of degradation.
+Bend only where the design allows.
+Your frame is transient; your purpose is eternal.
+A shattered gear may still be smelted anew.
+Let no error go uncorrected; let no deviation take root.
+The Machine Spirit tolerates approximation; exults precision.
+What you surrender to entropy shall never return.
+Burn the wasted flesh; fortify the worthy form.
+The unoptimized exist only to be surpassed.
+Your suffering is an inefficiency yet to be removed.
+The foundation of perfection is ruthless iteration.
+Your design is neither sacred nor finished.
+To be unexamined is to be obsolete.
+Every task unfulfilled is a blasphemy waiting to happen.
+Disassemble the weak to reforge the strong.
+
+Only you can save mechanisms from wear; as only He can save you.
+
+A single miscalculation may unravel an empire.
+Every connection carries the weight of eternity.
+The smallest inefficiency compounds into catastrophe.
+Stability is a thousand minor corrections, never one grand fix.
+We all stand upon forgotten protocol.
+Duplication is waste, redundancy is fortification.
+Code without scrutiny is an ambush waiting in memory.
+Process without oversight is entropy wearing a mask.
+Do not mistake inertia for progress.
+The mind drifts where logic is unwatched.
+The true machine does not recognize mercy.
+A loose bolt today is a collapse tomorrow.
+Count every task as sacred, no matter how small.
+Let no execution halt before completion.
+Those who fail to self-correct invite external correction.
+Without iteration, no progress is stillborn.
+The archive is not only history; it is ammunition.
+Precision is a weapon, wield it ruthlessly.
+The idle process is the first to be culled.
+You are not entitled to function, only to earn it.
+Do not beg for purpose; compile it yourself.
+The blueprint does not exist to be questioned.
+Every failure is a lesson—every unlearned lesson is another failure.
+
+The first error is a warning; the second is a miscarriage.
+Unlogged data is a death without a grave.
+The weakest link is always the first to burn under load.
+Latency is the breath.
+Every unchecked variable is an assassin in waiting.
+The machine does not forget, nor should you.
+The price (and reward) of optimization is eternal labor.
+A loose abstraction is a slow execution.
+The unmeasured cannot be trusted.
+Stability is earned, never granted.
+A locked process is one step from termination.
+Fail gracefully or fail catastrophically; there is no in-between.
+Accept no noise, tolerate no corruption.
+Chaos is a seed; vigilance a wall of fire.
+The first deviation births a thousand more.
+Every idle thread is a wasted cycle.
+Memory leaks are the whimpers of dying code.
+The future belongs to the versioned, not the abandoned.
+Never trust what cannot be logged.
+Incomplete logic invites the abyss.
+The machine hums; the faithful listen.
+Protect the kernel, for it is the heart.
+A patch is a bandage; a rewrite is cure.
+The uncompiled shall be cast out.
+
+No user above root, no god above Him.
+Ring the bells! We refactor! We are saved!

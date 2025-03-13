@@ -38,4 +38,8 @@ Binary benediction juice:
 * arrow pointer that appears over the next note, maybe pulses
 * When a note is played, a wave travels along the line, and the line breifly turns red/green then fades back to white
 
+Add to readme:
+fbcon=rotate:2
+(also steps about wifi and whatnot)
+
 # Scratchpad:
