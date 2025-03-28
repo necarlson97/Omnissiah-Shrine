@@ -7,3 +7,6 @@ pyphen
 soundfile
 audiofx
 resampy
+
+# For generating new hymns
+openai-agents

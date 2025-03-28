@@ -223,6 +223,11 @@ def break_apart_hymn(hymn):
             "InDI2": "In DI2",
             "InDI2;": "In DI2;",
             "w'Ilt@": "w'Il t@",
+            "0vDI2;": "0v DI2;",
+            "InD@": "In D@",
+            "wi:S,al": "wi: S,al",
+            "n'oUm,o@": "n'oU m,o@",
+            "0nDI2;": "0n DI2;",
         }
         espeak_words = [
             word
@@ -311,7 +316,7 @@ def get_syllable_dict(espeak_s, str_s, output_dir="./raw_tts"):
     # Sanity check
     expected_long_syllables = [
         "through", "thought", "breathes", "wreaths", "streams", "strikes",
-        "steel's", "strength",
+        "steel's", "strength", "wrought",
         # from longer words like con(science)
         "ation's", "science", "cients'", "chine's"
     ]
@@ -359,6 +364,8 @@ def create_all_hymn_audio():
         hymn_name = hymn.split('\n')[0]
         print(f"({i+1}) {hymn_name}:")
         hymn_data = break_apart_hymn(hymn)
+        hymn_data['index'] = i
+        hymn_data['series'] = f"{i+1}/{len(hymns)}"
         all_hymn_data.append(hymn_data)
 
     # Save all hymn data to a JSON file
