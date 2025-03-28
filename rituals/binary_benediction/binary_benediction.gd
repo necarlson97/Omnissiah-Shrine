@@ -73,7 +73,17 @@ static func get_note_key(event) -> int:
 	# -1 if it is not a note key
 	if not (event is InputEventKey and event.is_pressed()):
 		return -1
-		
+
+	var keys = [
+		"1", "2", "3",
+		"4", "5", "6",
+		"7", "8", "9",
+		"slash", "*"
+	]
+	for key in keys:
+		if event.is_action_pressed(key):
+			return keys.find(key) % 3
+			
 	if event.keycode in range(KEY_KP_1, KEY_KP_9+1):
 		return (event.keycode - KEY_KP_1) % 3
 	if event.keycode in [KEY_1, KEY_2, KEY_3]:

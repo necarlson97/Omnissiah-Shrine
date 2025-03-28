@@ -1260,20 +1260,20 @@ script = ExtResource("225_7ueha")
 position = Vector2(391.92, -2.76)
 emitting = false
 amount = 20
-process_material = SubResource("ParticleProcessMaterial_4ahvf")
 lifetime = 0.5
 one_shot = true
 explosiveness = 0.99
 randomness = 1.0
+process_material = SubResource("ParticleProcessMaterial_4ahvf")
 
 [node name="DataFlowParticles" type="GPUParticles2D" parent="Cable"]
 z_index = -1
 position = Vector2(-393.76, -2.76)
 emitting = false
 amount = 20
-process_material = SubResource("ParticleProcessMaterial_0dmd4")
 lifetime = 0.5
 explosiveness = 0.82
+process_material = SubResource("ParticleProcessMaterial_0dmd4")
 
 [node name="Imperial-eagle" type="Sprite2D" parent="."]
 modulate = Color(0.184314, 0.184314, 0.184314, 1)
