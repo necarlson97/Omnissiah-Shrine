@@ -4,6 +4,7 @@ extends Node
 
 func _ready() -> void:
 	# Start load on next scene asap
+	print("Loading "+next_scene_path)
 	ResourceLoader.load_threaded_request(next_scene_path)
 	
 func next() -> bool:

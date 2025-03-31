@@ -13,6 +13,9 @@ config_version=5
 config/name="Omnissiah Shrine"
 run/main_scene="res://rituals/captcha/captcha.tscn"
 config/features=PackedStringArray("4.4", "GL Compatibility")
+boot_splash/bg_color=Color(0, 0, 0, 1)
+boot_splash/fullsize=false
+boot_splash/image="uid://dbh46ey5r1q6m"
 config/icon="res://icon.svg"
 
 [audio]

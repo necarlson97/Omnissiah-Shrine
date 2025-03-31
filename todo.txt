@@ -2,8 +2,6 @@ Could do an artificial terminal boot 'loading screen'
 Oooh! Take the gear icon into blender and do an eye 'blinking'
 
 Utility:
-	* Need way to exit
-	* Handle music key input like (so we don't need numpad lock)
 	* arrow around on calandar to select other poems
 	* How best to handle loading?
 	* Volume?
@@ -44,6 +42,8 @@ Binary benediction juice:
 # Done:
 * arrow pointer that appears over the next note, maybe pulses
 * When a note is played, a wave travels along the line, and the line breifly turns red/green then fades back to white
+* Need way to exit (minus)
+* Handle music key input like (so we don't need numpad lock)
 
 Add to readme:
 fbcon=rotate:2
