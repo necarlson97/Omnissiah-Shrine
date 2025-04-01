@@ -1,0 +1,27 @@
+# sudo nano /etc/systemd/system/omnissiah-shrine.service
+[Unit]
+Description=Run Godot Omnissiah Project in Kiosk Mode
+After=getty.target
+
+[Service]
+# Replace 'pi' with your username if different
+User=pi
+Group=pi
+
+# Adjust paths as needed
+WorkingDirectory=/Omnissiah-Shrine
+ExecStart=/Omnissiah-Shrine/go.sh
+
+# If you want the service to auto-restart on crash:
+Restart=always
+RestartSec=2
+
+# Make sure the standard input is TTY so the console session doesn't end
+StandardInput=tty
+
+[Install]
+WantedBy=multi-user.target
+
+# Then:
+# sudo systemctl daemon-reload
+# sudo systemctl enable omnissiah-shrine.service
