@@ -5,7 +5,7 @@ A collection of 365 hymns, a daily devotional, a rythm 'game', to clear your min
 [3d print files](https://www.thingiverse.com/thing:7012881)  
 [Onshape CAD](https://cad.onshape.com/documents/659d613a31c910682f5ee4a8/w/fc705ad7665c5428c51ab083/e/6ec99b81671a3527c7672965?renderMode=0&uiState=68012a7131cfdc328f87c6ec)  
 
-![photo of shrine](shrine.jpg)
-![screenshot](captcha.jpg)
-![screenshot](ritual.jpg)
-![screenshot](calander.jpg)
+![photo of shrine](shrine.jpg)  
+![screenshot](captcha.png)  
+![screenshot](ritual.png)  
+![screenshot](calander.png)  
