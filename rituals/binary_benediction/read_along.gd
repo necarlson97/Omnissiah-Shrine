@@ -47,7 +47,7 @@ func update_text(read: String, unread: String):
 	var read_color = Color.WHITE
 	var unread_color = theme.get_color("darkest", "CSS")
 	display.bbcode_text = (
-		"[b][color=#%s][font_size=50]%s[/font_size][/color][/b]\n"%[title_color.to_html(), title]
+		"[b][color=#%s][font_size=30]%s[/font_size][/color][/b]\n"%[title_color.to_html(), title]
 		+ "[color=#%s]%s[/color]"%[read_color.to_html(), read]
 		+ "[color=#%s]%s[/color]"%[unread_color.to_html(), unread]
 	)
