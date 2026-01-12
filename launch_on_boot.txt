@@ -1,0 +1,7 @@
+# Add the following to the bottom of your ~/.bashrc
+# nano ~/.bashrc
+
+# Start shrine godot proj on boot
+if [[ -z $DISPLAY ]] && [[ $(tty) == /dev/tty1 ]]; then
+    startx /home/pi/Omnissiah-Shrine/launch_gui.sh
+fi

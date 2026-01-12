@@ -1,4 +1,7 @@
+# ssh pi@192.168.0.what-ever-local-ip
 # sudo nano /etc/systemd/system/omnissiah-shrine.service
+# or
+# sudo cp omnissiah-shrine.service.example /etc/systemd/system/omnissiah-shrine.service
 [Unit]
 Description=Run Godot Omnissiah Project in Kiosk Mode
 After=getty.target
