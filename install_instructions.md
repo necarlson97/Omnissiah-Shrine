@@ -330,29 +330,6 @@ The screen will enter an idle state after a min or so, allowing the screen to da
 
 ---
 
-## Managing the Service
-
-Check status:
-
-```bash
-systemctl status omnissiah-shrine
-```
-
-View logs:
-
-```bash
-journalctl -u omnissiah-shrine -f
-```
-
-Disable auto‑start (for troubleshooting):
-
-```bash
-sudo systemctl disable omnissiah-shrine
-sudo systemctl stop omnissiah-shrine
-```
-
----
-
 ## Troubleshooting (Quick Notes)
 
 - If the screen is black, HDMI output name may differ (`HDMI-0` vs `HDMI-1`)
