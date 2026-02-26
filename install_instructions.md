@@ -34,6 +34,7 @@ On your regular computer (Windows, macOS, or Linux), download the :
 
 Insert SD card, open Imager, and follow the steps to install:
 **Raspberry Pi OS (64‑bit) — Lite**
+(Tested on Bookworm / Trixie)
 (Don't need the desktop version - this project runs without a desktop environment.)
 
 ---
@@ -49,6 +50,20 @@ Before clicking *Write*, open **Advanced Options** (gear icon):
 - Set locale and keyboard
 
 Save and write the image.
+
+For the purposes of this guide, the default Raspberry Pi OS username is assumed to be:
+
+```
+pi
+```
+
+If your username is different, later on, you'll need to replace `pi` with your username in all paths and commands (especially `/home/pi/...`).
+
+You can later verify your current username with:
+
+```
+whoami
+```
 
 ---
 
@@ -80,7 +95,18 @@ Navigate to:
 
 - **System Options** → **Boot / Auto Login** → **Console Autologin**
 
-Exit and reboot when prompted.
+If you are using an HDMI screen with audio (as I am), you'll also need:
+
+- **System Options** → **Audio** → **HDMI 0**
+
+Exit and reboot when if prompted.
+
+You can also verify volume levels with:
+
+```
+alsamixer
+```
+
 
 ---
 
@@ -102,7 +128,8 @@ sudo apt install --no-install-recommends \
   x11-xserver-utils \
   openbox \
   unclutter \
-  alsa-utils
+  alsa-utils \
+  git
 ```
 
 ### What These Are For (Briefly)
@@ -210,11 +237,21 @@ Omnissiah Shrine.sh
 
 ---
 
-## 7. Test Manually
+## 7. Test Manually (From SSH)
 
-Before enabling auto‑start:
+If you are connected via SSH, you cannot run `./go.sh` directly because `startx` requires a real virtual terminal.
 
-```bash
+Instead, run:
+
+```
+sudo openvt -c 1 -s -f -- bash -lc 'cd /home/pi/Omnissiah-Shrine && ./go.sh'
+```
+
+This launches the shrine on virtual terminal 1.
+
+If you are physically at the Raspberry Pi with keyboard + monitor attached, you can instead run:
+
+```
 cd /home/pi/Omnissiah-Shrine
 ./go.sh
 ```
@@ -228,55 +265,57 @@ You should see:
 
 ---
 
-## 8. Enable Auto‑Start on Boot
+## 8. Enable Auto-Start on Boot (Modern Raspberry Pi OS)
 
-(you can also view this example service setup [here](https://github.com/necarlson97/Omnissiah-Shrine/blob/master/omnissiah-shrine.service.example))
+Modern Raspberry Pi OS (Bookworm / Trixie) requires X to run inside a real login session.
+We accomplish this by auto-logging into `tty1` and launching the shrine from `.bash_profile`.
 
-Create the system service:
+### Step 1 — Enable Autologin on tty1
 
-```bash
-sudo nano /etc/systemd/system/omnissiah-shrine.service
+```
+sudo systemctl edit getty@tty1.service
 ```
 
 Paste:
 
-```ini
-# sudo nano /etc/systemd/system/omnissiah-shrine.service
-[Unit]
-Description=Run Godot Omnissiah Project in Kiosk Mode
-After=getty.target
-
+```
 [Service]
-# Replace 'pi' with your username if different
-User=pi
-Group=pi
-
-# Adjust paths as needed
-WorkingDirectory=/Omnissiah-Shrine
-ExecStart=/Omnissiah-Shrine/go.sh
-
-# If you want the service to auto-restart on crash:
-Restart=always
-RestartSec=2
-
-# Make sure the standard input is TTY so the console session doesn't end
-StandardInput=tty
-
-[Install]
-WantedBy=multi-user.target
-
-# Then:
-# sudo systemctl daemon-reload
-# sudo systemctl enable omnissiah-shrine.service
+ExecStart=
+ExecStart=-/sbin/agetty --autologin pi --noclear %I $TERM
+Type=idle
 ```
 
-Enable it:
+Then reload:
 
-```bash
+```
 sudo systemctl daemon-reload
-sudo systemctl enable omnissiah-shrine.service
 ```
 
+---
+
+### Step 2 — Create `.bash_profile`
+
+```
+nano /home/pi/.bash_profile
+```
+
+Add:
+
+```
+# Auto-start Omnissiah Shrine on tty1 only
+if [ "$(tty)" = "/dev/tty1" ] && [ -z "$DISPLAY" ]; then
+  cd /home/pi/Omnissiah-Shrine
+  exec ./go.sh
+fi
+```
+
+Save and reboot:
+
+```
+sudo reboot
+```
+
+The shrine should now start automatically on boot.
 ---
 
 ## 9. Reboot and Verify
